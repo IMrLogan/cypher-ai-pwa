@@ -1,0 +1,1542 @@
+{
+  "updated_at": "2026-11-19 03:51 CST",
+  "fecha_operativa": "2026-11-19",
+  "kpis": {
+    "ganados": 537,
+    "perdidos": 389,
+    "total_auditados": 926,
+    "win_rate": 58.0,
+    "unidades_netas": -198.38,
+    "roi_global": -21.4,
+    "picks_hoy": 6,
+    "aperturas_activas": 38
+  },
+  "motores": [
+    {
+      "deporte": "NBA",
+      "version": "V13.0",
+      "horario": "09:30 Apertura • 17:00 CST",
+      "modulo": "60/40 SOS + Four Factors + Zonas de Tiro + Árbitros + RLM"
+    },
+    {
+      "deporte": "NFL",
+      "version": "V10.0",
+      "horario": "Mié 10:00 Ap • Inactives CST",
+      "modulo": "EPA Filtrado + Clima Vivo + Árbitros + Key# + RLM"
+    },
+    {
+      "deporte": "SOCCER",
+      "version": "V10.0",
+      "horario": "06:00 Apertura • 07:30 CST",
+      "modulo": "Dixon-Coles + XGBoost Universal + Pinnacle Sharp + RLM"
+    },
+    {
+      "deporte": "TENNIS",
+      "version": "V10.0",
+      "horario": "23:30 Apertura • 05:30 CST",
+      "modulo": "Markov Bo3/Bo5 + 4 Superficies + Fatiga 10D + RLM"
+    },
+    {
+      "deporte": "MLB",
+      "version": "V13.0",
+      "horario": "Mar-Nov • 08:30 Ap • 11:30 CST",
+      "modulo": "FIP + Platoon Splits + 30 Parques + Umpires + Real XGB"
+    }
+  ],
+  "resumen_deportes": {
+    "NBA": {
+      "ganados": 156,
+      "perdidos": 72,
+      "total": 228,
+      "win_rate": 68.4,
+      "unidades": -69.8,
+      "roi": -30.6
+    },
+    "NFL": {
+      "ganados": 83,
+      "perdidos": 75,
+      "total": 158,
+      "win_rate": 52.5,
+      "unidades": 0.53,
+      "roi": 0.3
+    },
+    "SOCCER": {
+      "ganados": 226,
+      "perdidos": 162,
+      "total": 388,
+      "win_rate": 58.2,
+      "unidades": -109.54,
+      "roi": -28.2
+    },
+    "TENNIS": {
+      "ganados": 0,
+      "perdidos": 0,
+      "total": 0,
+      "win_rate": 0.0,
+      "unidades": 0,
+      "roi": 0.0
+    },
+    "MLB": {
+      "ganados": 72,
+      "perdidos": 80,
+      "total": 152,
+      "win_rate": 47.4,
+      "unidades": -19.57,
+      "roi": -12.9
+    }
+  },
+  "curva_banca": [
+    {
+      "fecha": "2026-10-20",
+      "unidades": -3.0
+    },
+    {
+      "fecha": "2026-10-21",
+      "unidades": -7.9
+    },
+    {
+      "fecha": "2026-10-22",
+      "unidades": -6.96
+    },
+    {
+      "fecha": "2026-10-23",
+      "unidades": -10.84
+    },
+    {
+      "fecha": "2026-10-24",
+      "unidades": -14.79
+    },
+    {
+      "fecha": "2026-10-25",
+      "unidades": -25.8
+    },
+    {
+      "fecha": "2026-10-26",
+      "unidades": -29.82
+    },
+    {
+      "fecha": "2026-10-27",
+      "unidades": -30.78
+    },
+    {
+      "fecha": "2026-10-28",
+      "unidades": -34.69
+    },
+    {
+      "fecha": "2026-10-29",
+      "unidades": -34.73
+    },
+    {
+      "fecha": "2026-10-30",
+      "unidades": -37.64
+    },
+    {
+      "fecha": "2026-10-31",
+      "unidades": -47.92
+    },
+    {
+      "fecha": "2026-11-01",
+      "unidades": -45.02
+    },
+    {
+      "fecha": "2026-11-02",
+      "unidades": -47.55
+    },
+    {
+      "fecha": "2026-11-03",
+      "unidades": -47.66
+    },
+    {
+      "fecha": "2026-11-04",
+      "unidades": -55.28
+    },
+    {
+      "fecha": "2026-11-05",
+      "unidades": -54.13
+    },
+    {
+      "fecha": "2026-11-06",
+      "unidades": -56.56
+    },
+    {
+      "fecha": "2026-11-07",
+      "unidades": -58.92
+    },
+    {
+      "fecha": "2026-11-08",
+      "unidades": -57.37
+    },
+    {
+      "fecha": "2026-11-09",
+      "unidades": -61.32
+    },
+    {
+      "fecha": "2026-11-10",
+      "unidades": -63.02
+    },
+    {
+      "fecha": "2026-11-11",
+      "unidades": -67.82
+    },
+    {
+      "fecha": "2026-11-12",
+      "unidades": -70.23
+    },
+    {
+      "fecha": "2026-11-13",
+      "unidades": -73.29
+    },
+    {
+      "fecha": "2026-11-14",
+      "unidades": -127.5
+    },
+    {
+      "fecha": "2026-11-15",
+      "unidades": -154.22
+    },
+    {
+      "fecha": "2026-11-16",
+      "unidades": -158.52
+    },
+    {
+      "fecha": "2026-11-17",
+      "unidades": -170.21
+    },
+    {
+      "fecha": "2026-11-18",
+      "unidades": -171.37
+    }
+  ],
+  "picks_hoy": [
+    {
+      "deporte": "SOCCER",
+      "liga": "Major League Soccer",
+      "fecha": "2026-11-19",
+      "duelo": "Seattle Sounders vs Real Salt Lake",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -16.0%",
+      "cuota": 1.17,
+      "estado": "Pendiente",
+      "ganancia": 0.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Major League Soccer",
+      "fecha": "2026-11-19",
+      "duelo": "Orlando City SC vs FC Cincinnati",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -23.2%",
+      "cuota": 1.07,
+      "estado": "Pendiente",
+      "ganancia": 0.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-19",
+      "duelo": "Sao Paulo vs Fluminense",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -2.4%",
+      "cuota": 1.36,
+      "estado": "Pendiente",
+      "ganancia": 0.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-19",
+      "duelo": "Vitoria vs RB Bragantino",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Pendiente",
+      "ganancia": 0.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-19",
+      "duelo": "Vasco DA Gama vs Internacional",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -12.4%",
+      "cuota": 1.22,
+      "estado": "Pendiente",
+      "ganancia": 0.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-19",
+      "duelo": "Switzerland U17 vs Czechia U17",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Pendiente",
+      "ganancia": 0.0
+    }
+  ],
+  "aperturas": [
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-19",
+      "duelo": "Golden State Warriors @ Memphis Grizzlies",
+      "linea_1": "Spread Memphis Grizzlies: -8.5",
+      "linea_2": "Total: 225.5",
+      "casino": "LowVig.ag",
+      "captura": "2026-11-19 00:32:07"
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-19",
+      "duelo": "Los Angeles Clippers @ San Antonio Spurs",
+      "linea_1": "Spread San Antonio Spurs: -16.0",
+      "linea_2": "Total: 227.0",
+      "casino": "Pinnacle",
+      "captura": "2026-11-19 00:32:07"
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-19",
+      "duelo": "Portland Trail Blazers @ Milwaukee Bucks",
+      "linea_1": "Spread Milwaukee Bucks: +9.5",
+      "linea_2": "Total: 226.5",
+      "casino": "LowVig.ag",
+      "captura": "2026-11-19 00:32:07"
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-19",
+      "duelo": "New York Knicks @ Minnesota Timberwolves",
+      "linea_1": "Spread Minnesota Timberwolves: +1.5",
+      "linea_2": "Total: 216.5",
+      "casino": "LowVig.ag",
+      "captura": "2026-11-19 00:32:07"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-19",
+      "duelo": "IND @ HOU",
+      "linea_1": "Spread HOU: -13.0",
+      "linea_2": "Total: 44.0",
+      "casino": "Pinnacle",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "ARI @ KC",
+      "linea_1": "Spread KC: -16.0",
+      "linea_2": "Total: 41.0",
+      "casino": "Pinnacle",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "BAL @ CAR",
+      "linea_1": "Spread CAR: -2.5",
+      "linea_2": "Total: 43.5",
+      "casino": "Pinnacle",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "MIA @ BUF",
+      "linea_1": "Spread BUF: -17.0",
+      "linea_2": "Total: 45.5",
+      "casino": "Pinnacle",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "NO @ CHI",
+      "linea_1": "Spread CHI: -11.5",
+      "linea_2": "Total: 48.5",
+      "casino": "Pinnacle",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "TEN @ DAL",
+      "linea_1": "Spread DAL: -8.0",
+      "linea_2": "Total: 55.5",
+      "casino": "Pinnacle",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "TB @ DET",
+      "linea_1": "Spread DET: -7.0",
+      "linea_2": "Total: 44.0",
+      "casino": "Pinnacle",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "PIT @ PHI",
+      "linea_1": "Spread PHI: +4.5",
+      "linea_2": "Total: 38.5",
+      "casino": "Pinnacle",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "NYJ @ LAC",
+      "linea_1": "Spread LAC: -3.0",
+      "linea_2": "Total: 41.5",
+      "casino": "Pinnacle",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "LV @ DEN",
+      "linea_1": "Spread DEN: -10.5",
+      "linea_2": "Total: 40.0",
+      "casino": "Pinnacle",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "JAX @ NYG",
+      "linea_1": "Spread NYG: +6.0",
+      "linea_2": "Total: 46.5",
+      "casino": "Pinnacle",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "MIN @ SF",
+      "linea_1": "Spread SF: -3.0",
+      "linea_2": "Total: 46.0",
+      "casino": "Pinnacle",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-23",
+      "duelo": "CIN @ WAS",
+      "linea_1": "Spread WAS: +6.5",
+      "linea_2": "Total: 54.5",
+      "casino": "Pinnacle",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-25",
+      "duelo": "GB @ LA",
+      "linea_1": "Spread LA: -3.5",
+      "linea_2": "Total: 45.0",
+      "casino": "BetOnline.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-26",
+      "duelo": "CHI @ DET",
+      "linea_1": "Spread DET: +2.5",
+      "linea_2": "Total: 54.5",
+      "casino": "LowVig.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-26",
+      "duelo": "PHI @ DAL",
+      "linea_1": "Spread DAL: -8.0",
+      "linea_2": "Total: 47.5",
+      "casino": "LowVig.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-26",
+      "duelo": "KC @ BUF",
+      "linea_1": "Spread BUF: -3.0",
+      "linea_2": "Total: 50.5",
+      "casino": "LowVig.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-27",
+      "duelo": "DEN @ PIT",
+      "linea_1": "Spread PIT: +1.5",
+      "linea_2": "Total: 40.0",
+      "casino": "LowVig.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-29",
+      "duelo": "ATL @ MIN",
+      "linea_1": "Spread MIN: -7.0",
+      "linea_2": "Total: 42.5",
+      "casino": "BetOnline.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-29",
+      "duelo": "BAL @ HOU",
+      "linea_1": "Spread HOU: -6.0",
+      "linea_2": "Total: 44.5",
+      "casino": "BetOnline.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-29",
+      "duelo": "NO @ CIN",
+      "linea_1": "Spread CIN: -10.0",
+      "linea_2": "Total: 52.5",
+      "casino": "BetOnline.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-29",
+      "duelo": "NYG @ IND",
+      "linea_1": "Spread IND: +4.0",
+      "linea_2": "Total: 44.0",
+      "casino": "BetOnline.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-29",
+      "duelo": "TEN @ JAX",
+      "linea_1": "Spread JAX: -14.5",
+      "linea_2": "Total: 47.5",
+      "casino": "LowVig.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-29",
+      "duelo": "NYJ @ MIA",
+      "linea_1": "Spread MIA: +3.0",
+      "linea_2": "Total: 41.5",
+      "casino": "BetOnline.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-29",
+      "duelo": "NE @ LAC",
+      "linea_1": "Spread LAC: -5.0",
+      "linea_2": "Total: 40.0",
+      "casino": "BetOnline.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-29",
+      "duelo": "WAS @ ARI",
+      "linea_1": "Spread ARI: +6.0",
+      "linea_2": "Total: 42.0",
+      "casino": "BetOnline.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-29",
+      "duelo": "SEA @ SF",
+      "linea_1": "Spread SF: -2.5",
+      "linea_2": "Total: 46.5",
+      "casino": "BetOnline.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-29",
+      "duelo": "LV @ CLE",
+      "linea_1": "Spread CLE: -4.0",
+      "linea_2": "Total: 41.0",
+      "casino": "LowVig.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-30",
+      "duelo": "CAR @ TB",
+      "linea_1": "Spread TB: -2.0",
+      "linea_2": "Total: 43.5",
+      "casino": "BetOnline.ag",
+      "captura": "2026-11-19 01:03:56"
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-19",
+      "duelo": "Vasco DA Gama vs Internacional",
+      "linea_1": "1X2: 1.70 / 4.18 / 5.33",
+      "linea_2": "O/U 2.5: 1.83 / 2.12",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-19 02:13:54"
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-19",
+      "duelo": "Vitoria vs RB Bragantino",
+      "linea_1": "1X2: 2.80 / 3.50 / 2.63",
+      "linea_2": "O/U 2.5: 1.83 / 2.04",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-19 02:14:00"
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-19",
+      "duelo": "Sao Paulo vs Fluminense",
+      "linea_1": "1X2: 2.45 / 3.30 / 3.22",
+      "linea_2": "O/U 2.5: 2.20 / 1.75",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-19 02:14:07"
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Major League Soccer",
+      "fecha": "2026-11-19",
+      "duelo": "Orlando City SC vs FC Cincinnati",
+      "linea_1": "1X2: 2.51 / 4.20 / 2.57",
+      "linea_2": "O/U 2.5: 1.32 / 3.50",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-19 02:14:13"
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Major League Soccer",
+      "fecha": "2026-11-19",
+      "duelo": "Seattle Sounders vs Real Salt Lake",
+      "linea_1": "1X2: 2.03 / 4.01 / 3.60",
+      "linea_2": "O/U 2.5: 1.55 / 2.55",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-19 02:14:19"
+    }
+  ],
+  "historial": [
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-18",
+      "duelo": "Gremio vs Bahia",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -12.4%",
+      "cuota": 1.22,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-18",
+      "duelo": "Corinthians vs Botafogo",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -8.1%",
+      "cuota": 1.28,
+      "estado": "Ganado",
+      "ganancia": 0.28
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-18",
+      "duelo": "Flamengo vs Atletico Paranaense",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -18.2%",
+      "cuota": 1.14,
+      "estado": "Ganado",
+      "ganancia": 0.14
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-18",
+      "duelo": "Cruzeiro vs Palmeiras",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -10.3%",
+      "cuota": 1.25,
+      "estado": "Ganado",
+      "ganancia": 0.25
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-18",
+      "duelo": "Remo vs Chapecoense-sc",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -16.0%",
+      "cuota": 1.17,
+      "estado": "Ganado",
+      "ganancia": 0.17
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-18",
+      "duelo": "Coritiba vs Santos",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -12.4%",
+      "cuota": 1.22,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-17",
+      "duelo": "Charlotte Hornets @ Los Angeles Lakers",
+      "pick_principal": "ML: Los Angeles Lakers",
+      "mercados_extra": "Spread: Charlotte Hornets +7.5 | Total: MÁS DE (Over)",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-17",
+      "duelo": "Portland Trail Blazers @ Minnesota Timberwolves",
+      "pick_principal": "ML: Minnesota Timberwolves",
+      "mercados_extra": "Spread: Minnesota Timberwolves -2.5 | Total: MENOS DE (Under)",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-17",
+      "duelo": "Detroit Pistons @ San Antonio Spurs",
+      "pick_principal": "ML: San Antonio Spurs",
+      "mercados_extra": "Spread: San Antonio Spurs -9.5 | Total: MÁS DE (Over)",
+      "cuota": 1.01,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-17",
+      "duelo": "New York Knicks @ Toronto Raptors",
+      "pick_principal": "ML: New York Knicks",
+      "mercados_extra": "Spread: New York Knicks -3.5 | Total: MENOS DE (Under)",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Uruguay vs Dominican Republic",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -21.1%",
+      "cuota": 1.1,
+      "estado": "Ganado",
+      "ganancia": 0.1
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Ecuador vs Bolivia",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -15.3%",
+      "cuota": 1.18,
+      "estado": "Ganado",
+      "ganancia": 0.18
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Argentina vs Costa Rica",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -19.6%",
+      "cuota": 1.12,
+      "estado": "Ganado",
+      "ganancia": 0.12
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Chile vs Colombia",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: +0.5%",
+      "cuota": 1.4,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Albania U21 vs Spain U21",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -13.9%",
+      "cuota": 1.2,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Portugal U21 vs Norway U21",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -16.0%",
+      "cuota": 1.17,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Poland U21 vs Serbia U21",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -15.3%",
+      "cuota": 1.18,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Switzerland U17 vs Czechia U17",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Croatia U21 vs Germany U21",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -15.3%",
+      "cuota": 1.18,
+      "estado": "Ganado",
+      "ganancia": 0.18
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Kuwait vs Honduras",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -4.6%",
+      "cuota": 1.33,
+      "estado": "Ganado",
+      "ganancia": 0.33
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Iraq vs Iran",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: +3.3%",
+      "cuota": 1.44,
+      "estado": "Ganado",
+      "ganancia": 0.44
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Egypt U21 vs Japan U21",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -8.1%",
+      "cuota": 1.28,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Russia vs Venezuela",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Jordan vs Australia",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -6.7%",
+      "cuota": 1.3,
+      "estado": "Ganado",
+      "ganancia": 0.3
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Saudi Arabia vs Uzbekistan",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -2.4%",
+      "cuota": 1.36,
+      "estado": "Ganado",
+      "ganancia": 0.36
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "United Arab Emirates vs Syria",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -8.1%",
+      "cuota": 1.28,
+      "estado": "Ganado",
+      "ganancia": 0.28
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Turkey U18 vs Germany U18",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Qatar vs South Korea",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -10.3%",
+      "cuota": 1.25,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Japan vs Paraguay",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -8.1%",
+      "cuota": 1.28,
+      "estado": "Ganado",
+      "ganancia": 0.28
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Ukraine U21 vs USA U21",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "China vs Bahrain",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -2.4%",
+      "cuota": 1.36,
+      "estado": "Ganado",
+      "ganancia": 0.36
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Kyrgyzstan vs Vietnam",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -4.6%",
+      "cuota": 1.33,
+      "estado": "Ganado",
+      "ganancia": 0.33
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Norway U19 vs Netherlands U18",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Korea Republic U21 vs Mexico U23",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Singapore vs Brazil",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-17",
+      "duelo": "Yemen vs Malaysia",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-16",
+      "duelo": "Phoenix Suns @ Denver Nuggets",
+      "pick_principal": "ML: Denver Nuggets",
+      "mercados_extra": "Spread: Denver Nuggets -10.5 | Total: MENOS DE (Under)",
+      "cuota": 1.01,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-16",
+      "duelo": "Portland Trail Blazers @ Minnesota Timberwolves",
+      "pick_principal": "ML: Minnesota Timberwolves",
+      "mercados_extra": "Spread: Minnesota Timberwolves -2.5 | Total: MENOS DE (Under)",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-16",
+      "duelo": "Golden State Warriors @ New Orleans Pelicans",
+      "pick_principal": "ML: New Orleans Pelicans",
+      "mercados_extra": "Spread: New Orleans Pelicans +2.5 | Total: MENOS DE (Under)",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-16",
+      "duelo": "Houston Rockets @ Miami Heat",
+      "pick_principal": "ML: Miami Heat",
+      "mercados_extra": "Spread: Miami Heat +2.5 | Total: MÁS DE (Over)",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-16",
+      "duelo": "Philadelphia 76ers @ Brooklyn Nets",
+      "pick_principal": "ML: Brooklyn Nets",
+      "mercados_extra": "Spread: Brooklyn Nets +6.5 | Total: MÁS DE (Over)",
+      "cuota": 1.03,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-16",
+      "duelo": "Memphis Grizzlies @ Washington Wizards",
+      "pick_principal": "ML: Memphis Grizzlies",
+      "mercados_extra": "Spread: Memphis Grizzlies -3.5 | Total: MÁS DE (Over)",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-16",
+      "duelo": "Chicago Bulls @ Cleveland Cavaliers",
+      "pick_principal": "ML: Cleveland Cavaliers",
+      "mercados_extra": "Spread: Cleveland Cavaliers -9.5 | Total: MENOS DE (Under)",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-16",
+      "duelo": "Orlando Magic @ Boston Celtics",
+      "pick_principal": "ML: Boston Celtics",
+      "mercados_extra": "Spread: Boston Celtics -9.5 | Total: MÁS DE (Over)",
+      "cuota": 1.01,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-16",
+      "duelo": "LAC @ BAL",
+      "pick_principal": "ML: BAL",
+      "mercados_extra": "Spread: BAL -4.5 | Total: MENOS DE (Under)",
+      "cuota": 1.91,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-16",
+      "duelo": "Brazil U20 vs Peru U20",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -20.3%",
+      "cuota": 1.11,
+      "estado": "Ganado",
+      "ganancia": 0.11
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-16",
+      "duelo": "England U21 vs France U21",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -12.4%",
+      "cuota": 1.22,
+      "estado": "Ganado",
+      "ganancia": 0.22
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-16",
+      "duelo": "Andorra vs Azerbaijan",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: +9.8%",
+      "cuota": 1.53,
+      "estado": "Ganado",
+      "ganancia": 0.53
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-16",
+      "duelo": "Italy U21 vs Belgium U21",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -10.3%",
+      "cuota": 1.25,
+      "estado": "Ganado",
+      "ganancia": 0.25
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-16",
+      "duelo": "Kosovo U21 vs Luxembourg U21",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -8.1%",
+      "cuota": 1.28,
+      "estado": "Ganado",
+      "ganancia": 0.28
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-16",
+      "duelo": "Switzerland U18 vs England U18",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-16",
+      "duelo": "Chile U20 vs Mexico U20",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -12.4%",
+      "cuota": 1.22,
+      "estado": "Ganado",
+      "ganancia": 0.22
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-16",
+      "duelo": "Poland U18 vs Czechia U18",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-15",
+      "duelo": "Oklahoma City Thunder @ Sacramento Kings",
+      "pick_principal": "ML: Oklahoma City Thunder",
+      "mercados_extra": "Spread: Sacramento Kings +10.5 | Total: MENOS DE (Under)",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-15",
+      "duelo": "Atlanta Hawks @ Milwaukee Bucks",
+      "pick_principal": "ML: Atlanta Hawks",
+      "mercados_extra": "Spread: Atlanta Hawks -7.5 | Total: MENOS DE (Under)",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-15",
+      "duelo": "Houston Rockets @ Washington Wizards",
+      "pick_principal": "ML: Houston Rockets",
+      "mercados_extra": "Spread: Washington Wizards +9.5 | Total: MÁS DE (Over)",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-15",
+      "duelo": "New York Knicks @ Toronto Raptors",
+      "pick_principal": "ML: New York Knicks",
+      "mercados_extra": "Spread: New York Knicks -4.5 | Total: MENOS DE (Under)",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-15",
+      "duelo": "Dallas Mavericks @ Boston Celtics",
+      "pick_principal": "ML: Boston Celtics",
+      "mercados_extra": "Spread: Boston Celtics -13.5 | Total: MENOS DE (Under)",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-15",
+      "duelo": "San Antonio Spurs @ Utah Jazz",
+      "pick_principal": "ML: San Antonio Spurs",
+      "mercados_extra": "Spread: Utah Jazz +16.5 | Total: MÁS DE (Over)",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-15",
+      "duelo": "Los Angeles Lakers @ Phoenix Suns",
+      "pick_principal": "ML: Los Angeles Lakers",
+      "mercados_extra": "Spread: Phoenix Suns +2.5 | Total: MENOS DE (Under)",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-15",
+      "duelo": "Indiana Pacers @ Philadelphia 76ers",
+      "pick_principal": "ML: Philadelphia 76ers",
+      "mercados_extra": "Spread: Indiana Pacers +7.5 | Total: MÁS DE (Over)",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-15",
+      "duelo": "PIT @ CIN",
+      "pick_principal": "ML: CIN",
+      "mercados_extra": "Spread: CIN -3.5 | Total: MENOS DE (Under)",
+      "cuota": 1.91,
+      "estado": "Ganado",
+      "ganancia": 0.91
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-15",
+      "duelo": "SF @ DAL",
+      "pick_principal": "ML: DAL",
+      "mercados_extra": "Spread: SF +7.5 | Total: MENOS DE (Under)",
+      "cuota": 1.91,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-15",
+      "duelo": "SEA @ LV",
+      "pick_principal": "ML: LV",
+      "mercados_extra": "Spread: LV +6.5 | Total: MENOS DE (Under)",
+      "cuota": 1.91,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-15",
+      "duelo": "LA @ ARI",
+      "pick_principal": "ML: LA",
+      "mercados_extra": "Spread: ARI +9.5 | Total: MÁS DE (Over)",
+      "cuota": 1.91,
+      "estado": "Ganado",
+      "ganancia": 0.91
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-15",
+      "duelo": "JAX @ TEN",
+      "pick_principal": "ML: JAX",
+      "mercados_extra": "Spread: TEN +10.5 | Total: MENOS DE (Under)",
+      "cuota": 1.91,
+      "estado": "Ganado",
+      "ganancia": 0.91
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-15",
+      "duelo": "BUF @ NYJ",
+      "pick_principal": "ML: BUF",
+      "mercados_extra": "Spread: NYJ +7.5 | Total: MENOS DE (Under)",
+      "cuota": 1.91,
+      "estado": "Ganado",
+      "ganancia": 0.91
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-15",
+      "duelo": "CAR @ NO",
+      "pick_principal": "ML: NO",
+      "mercados_extra": "Spread: CAR +1.5 | Total: MENOS DE (Under)",
+      "cuota": 1.91,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-15",
+      "duelo": "MIA @ IND",
+      "pick_principal": "ML: IND",
+      "mercados_extra": "Spread: MIA +4.5 | Total: MENOS DE (Under)",
+      "cuota": 1.91,
+      "estado": "Ganado",
+      "ganancia": 0.91
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-15",
+      "duelo": "MIN @ GB",
+      "pick_principal": "ML: GB",
+      "mercados_extra": "Spread: GB -2.5 | Total: MENOS DE (Under)",
+      "cuota": 1.91,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-15",
+      "duelo": "HOU @ CLE",
+      "pick_principal": "ML: HOU",
+      "mercados_extra": "Spread: CLE +4.5 | Total: MÁS DE (Over)",
+      "cuota": 1.91,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-15",
+      "duelo": "KC @ ATL",
+      "pick_principal": "ML: KC",
+      "mercados_extra": "Spread: ATL +3.0 | Total: MENOS DE (Under)",
+      "cuota": 1.91,
+      "estado": "Ganado",
+      "ganancia": 0.91
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-15",
+      "duelo": "NE @ DET",
+      "pick_principal": "ML: DET",
+      "mercados_extra": "Spread: DET -3.5 | Total: MENOS DE (Under)",
+      "cuota": 1.91,
+      "estado": "Ganado",
+      "ganancia": 0.91
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Coupe de France",
+      "fecha": "2026-11-15",
+      "duelo": "Rumilly Vallières vs Saint Etienne",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -18.2%",
+      "cuota": 1.14,
+      "estado": "Ganado",
+      "ganancia": 0.14
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Coupe de France",
+      "fecha": "2026-11-15",
+      "duelo": "Atlas Paillade vs Cannes",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -16.0%",
+      "cuota": 1.17,
+      "estado": "Ganado",
+      "ganancia": 0.17
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Coupe de France",
+      "fecha": "2026-11-15",
+      "duelo": "Saint-Pauloise vs La Tamponnaise",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Coupe de France",
+      "fecha": "2026-11-15",
+      "duelo": "Sottevillais vs Fecamp",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Coupe de France",
+      "fecha": "2026-11-15",
+      "duelo": "Perros-Louannec vs Vannes",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-15",
+      "duelo": "France U20 vs Denmark U20",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "mercados_extra": "Prob IA: 71.8% | EV: -16.0%",
+      "cuota": 1.17,
+      "estado": "Ganado",
+      "ganancia": 0.17
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Coupe de France",
+      "fecha": "2026-11-15",
+      "duelo": "Tatinghem vs Racing Colombes 92",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    }
+  ]
+}

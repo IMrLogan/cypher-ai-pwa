@@ -1,0 +1,19 @@
+{
+  "name": "Cypher AI — Apex Syndicate Terminal",
+  "short_name": "Cypher AI",
+  "description": "Terminal institucional de pronósticos cuantitativos, líneas de apertura RLM y auditoría ROI.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#070b14",
+  "theme_color": "#070b14",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
