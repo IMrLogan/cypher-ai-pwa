@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19 18:10 CST",
+  "updated_at": "2026-11-19 22:26 CST",
   "fecha_operativa": "2026-11-19",
   "kpis": {
     "ganados": 552,
@@ -15,31 +15,31 @@
     {
       "deporte": "NBA",
       "version": "V13.0",
-      "horario": "09:30 Apertura • 17:00 CST",
+      "horario": "09:30 Ap • 17:00 CST",
       "modulo": "60/40 SOS + Four Factors + Zonas de Tiro + Árbitros + RLM"
     },
     {
       "deporte": "NFL",
       "version": "V10.0",
-      "horario": "Mié 10:00 Ap • Inactives CST",
+      "horario": "Mié 10:00 Ap • Inactives",
       "modulo": "EPA Filtrado + Clima Vivo + Árbitros + Key# + RLM"
     },
     {
       "deporte": "SOCCER",
       "version": "V10.0",
-      "horario": "06:00 Apertura • 07:30 CST",
+      "horario": "06:00 Ap • 07:30 CST",
       "modulo": "Dixon-Coles + XGBoost Universal + Pinnacle Sharp + RLM"
     },
     {
       "deporte": "TENNIS",
       "version": "V10.0",
-      "horario": "23:30 Apertura • 05:30 CST",
+      "horario": "23:30 Ap • 05:30 CST",
       "modulo": "Markov Bo3/Bo5 + 4 Superficies + Fatiga 10D + RLM"
     },
     {
       "deporte": "MLB",
       "version": "V13.0",
-      "horario": "Mar-Nov • 08:30 Ap • 11:30 CST",
+      "horario": "Mar-Nov • 08:30 / 11:30",
       "modulo": "FIP + Platoon Splits + 30 Parques + Umpires + Real XGB"
     }
   ],
@@ -207,6 +207,10 @@
       "unidades": -192.22
     }
   ],
+  "diamantes": [],
+  "props": [],
+  "props_resumenes": [],
+  "guiones": [],
   "picks_hoy": [
     {
       "deporte": "NBA",
@@ -217,7 +221,12 @@
       "mercados_extra": "Spread: Minnesota Timberwolves +1.0 | Total: MENOS DE (Under)",
       "cuota": 1.02,
       "estado": "Pendiente",
-      "ganancia": 0.0
+      "ganancia": 0.0,
+      "equipo_a": "New York Knicks",
+      "equipo_b": "Minnesota Timberwolves",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
     },
     {
       "deporte": "NBA",
@@ -228,7 +237,12 @@
       "mercados_extra": "Spread: Milwaukee Bucks +11.5 | Total: MENOS DE (Under)",
       "cuota": 1.01,
       "estado": "Pendiente",
-      "ganancia": 0.0
+      "ganancia": 0.0,
+      "equipo_a": "Portland Trail Blazers",
+      "equipo_b": "Milwaukee Bucks",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
     },
     {
       "deporte": "NBA",
@@ -239,7 +253,12 @@
       "mercados_extra": "Spread: Los Angeles Clippers +15.5 | Total: MÁS DE (Over)",
       "cuota": 1.01,
       "estado": "Pendiente",
-      "ganancia": 0.0
+      "ganancia": 0.0,
+      "equipo_a": "Los Angeles Clippers",
+      "equipo_b": "San Antonio Spurs",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
     },
     {
       "deporte": "NBA",
@@ -250,7 +269,12 @@
       "mercados_extra": "Spread: Memphis Grizzlies -5.5 | Total: MENOS DE (Under)",
       "cuota": 1.02,
       "estado": "Pendiente",
-      "ganancia": 0.0
+      "ganancia": 0.0,
+      "equipo_a": "Golden State Warriors",
+      "equipo_b": "Memphis Grizzlies",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
     },
     {
       "deporte": "NFL",
@@ -261,7 +285,12 @@
       "mercados_extra": "Spread: IND +13.0 | Total: MENOS DE (Under)",
       "cuota": 1.01,
       "estado": "Pendiente",
-      "ganancia": 0.0
+      "ganancia": 0.0,
+      "equipo_a": "IND",
+      "equipo_b": "HOU",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png"
     },
     {
       "deporte": "SOCCER",
@@ -272,7 +301,12 @@
       "mercados_extra": "Prob IA: 73.8% | EV: -1.1%",
       "cuota": 1.34,
       "estado": "Pendiente",
-      "ganancia": 0.0
+      "ganancia": 0.0,
+      "equipo_a": "Seattle Sounders",
+      "equipo_b": "Real Salt Lake",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png"
     },
     {
       "deporte": "SOCCER",
@@ -283,7 +317,12 @@
       "mercados_extra": "Prob IA: 72.1% | EV: -9.8%",
       "cuota": 1.25,
       "estado": "Pendiente",
-      "ganancia": 0.0
+      "ganancia": 0.0,
+      "equipo_a": "Orlando City SC",
+      "equipo_b": "FC Cincinnati",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png"
     },
     {
       "deporte": "SOCCER",
@@ -294,7 +333,12 @@
       "mercados_extra": "Prob IA: 71.8% | EV: +0.5%",
       "cuota": 1.4,
       "estado": "Pendiente",
-      "ganancia": 0.0
+      "ganancia": 0.0,
+      "equipo_a": "Sao Paulo",
+      "equipo_b": "Fluminense",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
     },
     {
       "deporte": "SOCCER",
@@ -305,7 +349,12 @@
       "mercados_extra": "Prob IA: 71.8% | EV: -8.9%",
       "cuota": 1.27,
       "estado": "Pendiente",
-      "ganancia": 0.0
+      "ganancia": 0.0,
+      "equipo_a": "Vitoria",
+      "equipo_b": "RB Bragantino",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+      "logo_b": ""
     },
     {
       "deporte": "SOCCER",
@@ -316,7 +365,12 @@
       "mercados_extra": "Prob IA: 77.0% | EV: -9.1%",
       "cuota": 1.18,
       "estado": "Pendiente",
-      "ganancia": 0.0
+      "ganancia": 0.0,
+      "equipo_a": "Vasco DA Gama",
+      "equipo_b": "Internacional",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
     },
     {
       "deporte": "SOCCER",
@@ -327,7 +381,12 @@
       "mercados_extra": "Prob IA: 0.0% | EV: +0.0%",
       "cuota": 1.0,
       "estado": "Pendiente",
-      "ganancia": 0.0
+      "ganancia": 0.0,
+      "equipo_a": "Switzerland U17",
+      "equipo_b": "Czechia U17",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "logo_b": ""
     }
   ],
   "aperturas": [
@@ -339,7 +398,12 @@
       "linea_1": "Spread Memphis Grizzlies: -8.5",
       "linea_2": "Total: 225.5",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 00:32:07"
+      "captura": "2026-11-19 00:32:07",
+      "equipo_a": "Golden State Warriors",
+      "equipo_b": "Memphis Grizzlies",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
     },
     {
       "deporte": "NBA",
@@ -349,7 +413,12 @@
       "linea_1": "Spread San Antonio Spurs: -16.0",
       "linea_2": "Total: 227.0",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 00:32:07"
+      "captura": "2026-11-19 00:32:07",
+      "equipo_a": "Los Angeles Clippers",
+      "equipo_b": "San Antonio Spurs",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
     },
     {
       "deporte": "NBA",
@@ -359,7 +428,12 @@
       "linea_1": "Spread Milwaukee Bucks: +9.5",
       "linea_2": "Total: 226.5",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 00:32:07"
+      "captura": "2026-11-19 00:32:07",
+      "equipo_a": "Portland Trail Blazers",
+      "equipo_b": "Milwaukee Bucks",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
     },
     {
       "deporte": "NBA",
@@ -369,7 +443,12 @@
       "linea_1": "Spread Minnesota Timberwolves: +1.5",
       "linea_2": "Total: 216.5",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 00:32:07"
+      "captura": "2026-11-19 00:32:07",
+      "equipo_a": "New York Knicks",
+      "equipo_b": "Minnesota Timberwolves",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
     },
     {
       "deporte": "NFL",
@@ -379,7 +458,12 @@
       "linea_1": "Spread HOU: -13.0",
       "linea_2": "Total: 44.0",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "IND",
+      "equipo_b": "HOU",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png"
     },
     {
       "deporte": "NFL",
@@ -389,7 +473,12 @@
       "linea_1": "Spread KC: -16.0",
       "linea_2": "Total: 41.0",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "ARI",
+      "equipo_b": "KC",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+      "logo_b": ""
     },
     {
       "deporte": "NFL",
@@ -399,7 +488,12 @@
       "linea_1": "Spread CAR: -2.5",
       "linea_2": "Total: 43.5",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "BAL",
+      "equipo_b": "CAR",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png"
     },
     {
       "deporte": "NFL",
@@ -409,7 +503,12 @@
       "linea_1": "Spread BUF: -17.0",
       "linea_2": "Total: 45.5",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "MIA",
+      "equipo_b": "BUF",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png"
     },
     {
       "deporte": "NFL",
@@ -419,7 +518,12 @@
       "linea_1": "Spread CHI: -11.5",
       "linea_2": "Total: 48.5",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "NO",
+      "equipo_b": "CHI",
+      "separador": "@",
+      "logo_a": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png"
     },
     {
       "deporte": "NFL",
@@ -429,7 +533,12 @@
       "linea_1": "Spread DAL: -8.0",
       "linea_2": "Total: 55.5",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "TEN",
+      "equipo_b": "DAL",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png"
     },
     {
       "deporte": "NFL",
@@ -439,7 +548,12 @@
       "linea_1": "Spread DET: -7.0",
       "linea_2": "Total: 44.0",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "TB",
+      "equipo_b": "DET",
+      "separador": "@",
+      "logo_a": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png"
     },
     {
       "deporte": "NFL",
@@ -449,7 +563,12 @@
       "linea_1": "Spread PHI: +4.5",
       "linea_2": "Total: 38.5",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "PIT",
+      "equipo_b": "PHI",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png"
     },
     {
       "deporte": "NFL",
@@ -459,7 +578,12 @@
       "linea_1": "Spread LAC: -3.0",
       "linea_2": "Total: 41.5",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "NYJ",
+      "equipo_b": "LAC",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png"
     },
     {
       "deporte": "NFL",
@@ -469,7 +593,12 @@
       "linea_1": "Spread DEN: -10.5",
       "linea_2": "Total: 40.0",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "LV",
+      "equipo_b": "DEN",
+      "separador": "@",
+      "logo_a": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png"
     },
     {
       "deporte": "NFL",
@@ -479,7 +608,12 @@
       "linea_1": "Spread NYG: +6.0",
       "linea_2": "Total: 46.5",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "JAX",
+      "equipo_b": "NYG",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png"
     },
     {
       "deporte": "NFL",
@@ -489,7 +623,12 @@
       "linea_1": "Spread SF: -3.0",
       "linea_2": "Total: 46.0",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "MIN",
+      "equipo_b": "SF",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+      "logo_b": ""
     },
     {
       "deporte": "NFL",
@@ -499,7 +638,12 @@
       "linea_1": "Spread WAS: +6.5",
       "linea_2": "Total: 54.5",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "CIN",
+      "equipo_b": "WAS",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"
     },
     {
       "deporte": "NFL",
@@ -509,7 +653,12 @@
       "linea_1": "Spread LA: -3.5",
       "linea_2": "Total: 45.0",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "GB",
+      "equipo_b": "LA",
+      "separador": "@",
+      "logo_a": "",
+      "logo_b": ""
     },
     {
       "deporte": "NFL",
@@ -519,7 +668,12 @@
       "linea_1": "Spread DET: +2.5",
       "linea_2": "Total: 54.5",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "CHI",
+      "equipo_b": "DET",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png"
     },
     {
       "deporte": "NFL",
@@ -529,7 +683,12 @@
       "linea_1": "Spread DAL: -8.0",
       "linea_2": "Total: 47.5",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "PHI",
+      "equipo_b": "DAL",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png"
     },
     {
       "deporte": "NFL",
@@ -539,7 +698,12 @@
       "linea_1": "Spread BUF: -3.0",
       "linea_2": "Total: 50.5",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "KC",
+      "equipo_b": "BUF",
+      "separador": "@",
+      "logo_a": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png"
     },
     {
       "deporte": "NFL",
@@ -549,7 +713,12 @@
       "linea_1": "Spread PIT: +1.5",
       "linea_2": "Total: 40.0",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "DEN",
+      "equipo_b": "PIT",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png"
     },
     {
       "deporte": "NFL",
@@ -559,7 +728,12 @@
       "linea_1": "Spread MIN: -7.0",
       "linea_2": "Total: 42.5",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "ATL",
+      "equipo_b": "MIN",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png"
     },
     {
       "deporte": "NFL",
@@ -569,7 +743,12 @@
       "linea_1": "Spread HOU: -6.0",
       "linea_2": "Total: 44.5",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "BAL",
+      "equipo_b": "HOU",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png"
     },
     {
       "deporte": "NFL",
@@ -579,7 +758,12 @@
       "linea_1": "Spread CIN: -10.0",
       "linea_2": "Total: 52.5",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "NO",
+      "equipo_b": "CIN",
+      "separador": "@",
+      "logo_a": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png"
     },
     {
       "deporte": "NFL",
@@ -589,7 +773,12 @@
       "linea_1": "Spread IND: +4.0",
       "linea_2": "Total: 44.0",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "NYG",
+      "equipo_b": "IND",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png"
     },
     {
       "deporte": "NFL",
@@ -599,7 +788,12 @@
       "linea_1": "Spread JAX: -14.5",
       "linea_2": "Total: 47.5",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "TEN",
+      "equipo_b": "JAX",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png"
     },
     {
       "deporte": "NFL",
@@ -609,7 +803,12 @@
       "linea_1": "Spread MIA: +3.0",
       "linea_2": "Total: 41.5",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "NYJ",
+      "equipo_b": "MIA",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png"
     },
     {
       "deporte": "NFL",
@@ -619,7 +818,12 @@
       "linea_1": "Spread LAC: -5.0",
       "linea_2": "Total: 40.0",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "NE",
+      "equipo_b": "LAC",
+      "separador": "@",
+      "logo_a": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png"
     },
     {
       "deporte": "NFL",
@@ -629,7 +833,12 @@
       "linea_1": "Spread ARI: +6.0",
       "linea_2": "Total: 42.0",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "WAS",
+      "equipo_b": "ARI",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png"
     },
     {
       "deporte": "NFL",
@@ -639,7 +848,12 @@
       "linea_1": "Spread SF: -2.5",
       "linea_2": "Total: 46.5",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "SEA",
+      "equipo_b": "SF",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+      "logo_b": ""
     },
     {
       "deporte": "NFL",
@@ -649,7 +863,12 @@
       "linea_1": "Spread CLE: -4.0",
       "linea_2": "Total: 41.0",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "LV",
+      "equipo_b": "CLE",
+      "separador": "@",
+      "logo_a": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png"
     },
     {
       "deporte": "NFL",
@@ -659,7 +878,12 @@
       "linea_1": "Spread TB: -2.0",
       "linea_2": "Total: 43.5",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "equipo_a": "CAR",
+      "equipo_b": "TB",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+      "logo_b": ""
     },
     {
       "deporte": "SOCCER",
@@ -669,7 +893,12 @@
       "linea_1": "1X2: 1.70 / 4.18 / 5.33",
       "linea_2": "O/U 2.5: 1.83 / 2.12",
       "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-19 02:13:54"
+      "captura": "2026-11-19 02:13:54",
+      "equipo_a": "Vasco DA Gama",
+      "equipo_b": "Internacional",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
     },
     {
       "deporte": "SOCCER",
@@ -679,7 +908,12 @@
       "linea_1": "1X2: 2.80 / 3.50 / 2.63",
       "linea_2": "O/U 2.5: 1.83 / 2.04",
       "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-19 02:14:00"
+      "captura": "2026-11-19 02:14:00",
+      "equipo_a": "Vitoria",
+      "equipo_b": "RB Bragantino",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+      "logo_b": ""
     },
     {
       "deporte": "SOCCER",
@@ -689,7 +923,12 @@
       "linea_1": "1X2: 2.45 / 3.30 / 3.22",
       "linea_2": "O/U 2.5: 2.20 / 1.75",
       "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-19 02:14:07"
+      "captura": "2026-11-19 02:14:07",
+      "equipo_a": "Sao Paulo",
+      "equipo_b": "Fluminense",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
     },
     {
       "deporte": "SOCCER",
@@ -699,7 +938,12 @@
       "linea_1": "1X2: 2.51 / 4.20 / 2.57",
       "linea_2": "O/U 2.5: 1.32 / 3.50",
       "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-19 02:14:13"
+      "captura": "2026-11-19 02:14:13",
+      "equipo_a": "Orlando City SC",
+      "equipo_b": "FC Cincinnati",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png"
     },
     {
       "deporte": "SOCCER",
@@ -709,7 +953,12 @@
       "linea_1": "1X2: 2.03 / 4.01 / 3.60",
       "linea_2": "O/U 2.5: 1.55 / 2.55",
       "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-19 02:14:19"
+      "captura": "2026-11-19 02:14:19",
+      "equipo_a": "Seattle Sounders",
+      "equipo_b": "Real Salt Lake",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png"
     },
     {
       "deporte": "SOCCER",
@@ -719,7 +968,12 @@
       "linea_1": "1X2: 1.00 / 1.00 / 1.00",
       "linea_2": "O/U 2.5: 1.00 / 1.00",
       "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-19 07:30:56"
+      "captura": "2026-11-19 07:30:56",
+      "equipo_a": "Switzerland U17",
+      "equipo_b": "Czechia U17",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "logo_b": ""
     }
   ],
   "historial": [

@@ -13,11 +13,12 @@
     :root {
       --bg: #070b14;
       --panel: #0f172a;
-      --panel-2: #162035;
+      --panel-2: #151f36;
       --border: rgba(148, 163, 184, 0.14);
       --text: #f1f5f9;
       --muted: #94a3b8;
       --cyan: #00e5ff;
+      --purple: #a855f7;
       --green: #10b981;
       --red: #f43f5e;
       --amber: #f59e0b;
@@ -26,246 +27,334 @@
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      background: radial-gradient(circle at top right, #0e1d36 0%, var(--bg) 52%);
+      background: radial-gradient(circle at top right, #121c38 0%, var(--bg) 52%);
       color: var(--text);
       font-family: var(--sans);
       min-height: 100vh;
       padding-bottom: 84px;
     }
+
+    /* CABECERA CON BOTONES DE MOTORES */
     header {
       position: sticky; top: 0; z-index: 40;
-      backdrop-filter: blur(14px);
-      background: rgba(7, 11, 20, 0.85);
+      backdrop-filter: blur(16px);
+      background: rgba(7, 11, 20, 0.90);
       border-bottom: 1px solid var(--border);
-      padding: 14px 18px;
-      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      padding: 10px 14px 8px;
     }
-    .brand { display: flex; align-items: center; gap: 10px; }
-    .brand img { width: 34px; height: 34px; border-radius: 8px; }
-    .brand h1 { font-size: 1.05rem; letter-spacing: 0.4px; font-weight: 800; }
-    .brand span { display: block; font-size: 0.7rem; color: var(--cyan); text-transform: uppercase; letter-spacing: 1.2px; }
-    .header-actions { display: flex; align-items: center; gap: 8px; }
+    .header-top {
+      max-width: 1120px; margin: 0 auto 8px;
+      display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    }
+    .brand { display: flex; align-items: center; gap: 9px; }
+    .brand img { width: 30px; height: 30px; border-radius: 7px; }
+    .brand h1 { font-size: 0.96rem; letter-spacing: 0.5px; font-weight: 800; line-height: 1.1; }
+    .brand span { display: block; font-size: 0.64rem; color: var(--cyan); text-transform: uppercase; letter-spacing: 1.1px; }
+    .header-actions { display: flex; align-items: center; gap: 7px; }
     .sync-pill {
-      font-family: var(--mono); font-size: 0.72rem; color: var(--muted);
+      font-family: var(--mono); font-size: 0.68rem; color: var(--muted);
       background: var(--panel); border: 1px solid var(--border);
-      padding: 6px 10px; border-radius: 999px; display: flex; align-items: center; gap: 6px;
+      padding: 5px 9px; border-radius: 999px; display: flex; align-items: center; gap: 5px;
     }
-    .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); box-shadow: 0 0 8px var(--green); }
+    .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); box-shadow: 0 0 8px var(--green); }
     .btn {
       background: linear-gradient(135deg, var(--cyan), var(--green));
       color: #03131b; border: none; border-radius: 8px;
-      padding: 7px 12px; font-weight: 700; font-size: 0.78rem; cursor: pointer;
+      padding: 6px 11px; font-weight: 700; font-size: 0.74rem; cursor: pointer;
     }
     .btn-ghost {
       background: var(--panel); color: var(--text); border: 1px solid var(--border);
-      border-radius: 8px; padding: 7px 10px; font-size: 0.78rem; cursor: pointer;
+      border-radius: 8px; padding: 5px 9px; font-size: 0.78rem; cursor: pointer;
     }
-    main { max-width: 1120px; margin: 0 auto; padding: 18px 16px; }
-    .kpi-grid {
-      display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 18px;
-    }
-    @media (max-width: 720px) {
-      .kpi-grid { grid-template-columns: repeat(2, 1fr); }
-      .sync-pill span.ts-text { display: none; }
-    }
-    .kpi-card {
-      background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
-      padding: 14px 16px;
-    }
-    .kpi-label { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; }
-    .kpi-value { font-family: var(--mono); font-size: 1.45rem; font-weight: 800; margin-top: 6px; }
-    .kpi-sub { font-size: 0.72rem; color: var(--muted); margin-top: 4px; }
-    .pos { color: var(--green); }
-    .neg { color: var(--red); }
-    .cyan { color: var(--cyan); }
 
-    .desktop-tabs {
-      display: flex; gap: 8px; margin-bottom: 16px; overflow-x: auto; padding-bottom: 4px;
+    .header-sports {
+      max-width: 1120px; margin: 0 auto;
+      display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px;
     }
+    .header-sports::-webkit-scrollbar { display: none; }
+    .sport-pill {
+      background: var(--panel); color: var(--muted); border: 1px solid var(--border);
+      padding: 6px 12px; border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+      cursor: pointer; white-space: nowrap; transition: 0.16s; flex-shrink: 0;
+    }
+    .sport-pill.active {
+      background: linear-gradient(135deg, var(--cyan), var(--purple));
+      color: #050a14; border-color: transparent; box-shadow: 0 0 12px rgba(0, 229, 255, 0.25);
+    }
+
+    main { max-width: 1120px; margin: 0 auto; padding: 14px 14px 20px; }
+
+    .toolbar {
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+      gap: 10px; margin-bottom: 14px;
+    }
+    .desktop-tabs { display: flex; gap: 6px; overflow-x: auto; }
     .tab-btn {
       background: var(--panel); color: var(--muted); border: 1px solid var(--border);
-      padding: 9px 15px; border-radius: 10px; font-size: 0.84rem; font-weight: 600;
-      cursor: pointer; white-space: nowrap; transition: 0.18s;
+      padding: 8px 13px; border-radius: 10px; font-size: 0.8rem; font-weight: 600;
+      cursor: pointer; white-space: nowrap; transition: 0.16s;
     }
     .tab-btn.active {
       background: rgba(0, 229, 255, 0.12); color: var(--cyan); border-color: rgba(0, 229, 255, 0.45);
     }
-
-    .filters {
-      display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between;
-      margin-bottom: 14px;
-    }
-    .pill-group { display: flex; gap: 6px; flex-wrap: wrap; }
-    .pill {
-      background: var(--panel); color: var(--muted); border: 1px solid var(--border);
-      padding: 6px 12px; border-radius: 999px; font-size: 0.76rem; font-weight: 600; cursor: pointer;
-    }
-    .pill.active { background: var(--cyan); color: #04131c; border-color: var(--cyan); }
     .search-input {
       background: var(--panel); color: var(--text); border: 1px solid var(--border);
-      border-radius: 10px; padding: 7px 12px; font-size: 0.82rem; min-width: 210px;
+      border-radius: 10px; padding: 7px 12px; font-size: 0.8rem; min-width: 210px; flex: 0 1 260px;
+    }
+    @media (max-width: 720px) {
+      .desktop-tabs { display: none; }
+      .search-input { width: 100%; flex: 1 1 100%; }
+      .sync-pill .ts-text { display: none; }
     }
 
+    /* TARJETAS DE PARTIDO (ESCUDO VS ESCUDO) */
     .cards-grid {
       display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 12px;
     }
     .card {
       background: linear-gradient(180deg, var(--panel) 0%, #0b1222 100%);
-      border: 1px solid var(--border); border-radius: 14px; padding: 15px;
+      border: 1px solid var(--border); border-radius: 14px; padding: 14px;
       display: flex; flex-direction: column; gap: 10px;
     }
     .card-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
     .badge {
-      font-family: var(--mono); font-size: 0.68rem; font-weight: 700;
+      font-family: var(--mono); font-size: 0.66rem; font-weight: 700;
       padding: 3px 8px; border-radius: 6px; text-transform: uppercase;
       background: rgba(0, 229, 255, 0.12); color: var(--cyan);
     }
     .badge.green { background: rgba(16, 185, 129, 0.14); color: var(--green); }
     .badge.red { background: rgba(244, 63, 94, 0.14); color: var(--red); }
     .badge.amber { background: rgba(245, 158, 11, 0.15); color: var(--amber); }
-    .match-title { font-size: 0.98rem; font-weight: 700; line-height: 1.3; }
+    .badge.purple { background: rgba(168, 85, 247, 0.16); color: #d8b4fe; }
+
+    .matchup-banner {
+      display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px;
+      background: rgba(15, 23, 42, 0.55); border: 1px solid rgba(148, 163, 184, 0.09);
+      border-radius: 12px; padding: 11px 8px;
+    }
+    .team-col {
+      display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px;
+    }
+    .team-logo {
+      width: 46px; height: 46px; object-fit: contain;
+      filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.55));
+    }
+    .team-logo.round {
+      border-radius: 50%; object-fit: cover; background: var(--panel-2);
+      border: 2px solid rgba(0, 229, 255, 0.35);
+    }
+    .team-name { font-size: 0.82rem; font-weight: 700; line-height: 1.2; }
+    .vs-pill {
+      font-family: var(--mono); font-size: 0.68rem; font-weight: 800; color: var(--cyan);
+      background: rgba(0, 229, 255, 0.10); border: 1px solid rgba(0, 229, 255, 0.25);
+      padding: 4px 8px; border-radius: 999px; text-transform: uppercase;
+    }
+
     .pick-box {
       background: var(--panel-2); border-left: 3px solid var(--cyan);
-      padding: 10px 12px; border-radius: 8px; font-family: var(--mono); font-size: 0.83rem;
+      padding: 9px 11px; border-radius: 8px; font-family: var(--mono); font-size: 0.8rem; line-height: 1.4;
     }
-    .meta-row { font-size: 0.76rem; color: var(--muted); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; }
+    .meta-row { font-size: 0.74rem; color: var(--muted); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; }
 
+    /* BLOQUE DIAMANTE */
+    .diamond-wrap { display: grid; gap: 10px; margin-bottom: 16px; }
+    .diamond-card {
+      background: linear-gradient(135deg, rgba(0, 229, 255, 0.08), rgba(168, 85, 247, 0.08));
+      border: 1px solid rgba(0, 229, 255, 0.35); border-radius: 14px; padding: 14px;
+    }
+    .diamond-card.nobet {
+      background: rgba(148, 163, 184, 0.06); border-color: rgba(148, 163, 184, 0.28);
+    }
+    .diamond-title { font-size: 0.92rem; font-weight: 800; color: var(--cyan); margin-bottom: 6px; }
+    .diamond-card.nobet .diamond-title { color: #cbd5e1; }
+    .rich-text { font-size: 0.8rem; color: #dbe5f4; line-height: 1.48; white-space: pre-line; }
+    .rich-field {
+      margin-top: 8px; background: rgba(7, 11, 20, 0.55); border: 1px solid var(--border);
+      border-radius: 9px; padding: 9px 11px;
+    }
+    .rich-field-title { font-size: 0.74rem; font-weight: 800; color: var(--amber); margin-bottom: 4px; }
+
+    /* TARJETAS DE PLAYER PROPS CON FOTO */
+    .prop-card {
+      background: linear-gradient(180deg, var(--panel) 0%, #0b1222 100%);
+      border: 1px solid var(--border); border-radius: 14px; padding: 12px 13px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .player-avatar {
+      width: 54px; height: 54px; border-radius: 50%; flex-shrink: 0;
+      object-fit: cover; object-position: top center;
+      background: radial-gradient(circle, #1e293b 0%, #090f1d 100%);
+      border: 2px solid rgba(168, 85, 247, 0.55);
+      box-shadow: 0 0 12px rgba(168, 85, 247, 0.22);
+    }
+    .player-avatar.logo-mode { object-fit: contain; padding: 5px; border-color: rgba(0, 229, 255, 0.45); }
+    .prop-body { flex: 1; min-width: 0; }
+    .prop-head { display: flex; justify-content: space-between; align-items: center; gap: 6px; margin-bottom: 4px; }
+    .prop-player { font-size: 0.86rem; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .prop-pick {
+      font-family: var(--mono); font-size: 0.78rem; color: var(--cyan);
+      background: var(--panel-2); padding: 5px 8px; border-radius: 7px; margin-bottom: 5px;
+    }
+    .prop-foot { display: flex; justify-content: space-between; align-items: center; gap: 6px; font-size: 0.72rem; color: var(--muted); }
+
+    /* TABLAS Y SECCIONES */
     .section-box {
       background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
-      padding: 16px; margin-bottom: 16px; overflow-x: auto;
+      padding: 14px; margin-bottom: 14px; overflow-x: auto;
     }
-    .section-title { font-size: 0.9rem; font-weight: 700; margin-bottom: 12px; display: flex; justify-content: space-between; }
-    table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
-    th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--border); }
-    th { color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.6px; }
+    .section-title { font-size: 0.86rem; font-weight: 700; margin-bottom: 10px; display: flex; justify-content: space-between; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+    th, td { text-align: left; padding: 9px 7px; border-bottom: 1px solid var(--border); }
+    th { color: var(--muted); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.6px; }
     td.mono { font-family: var(--mono); }
+    .pos { color: var(--green); }
+    .neg { color: var(--red); }
+    .cyan { color: var(--cyan); }
 
     .empty-state {
       background: var(--panel); border: 1px dashed var(--border); border-radius: 14px;
-      padding: 34px 20px; text-align: center; color: var(--muted); font-size: 0.88rem;
+      padding: 28px 18px; text-align: center; color: var(--muted); font-size: 0.84rem;
     }
     .view { display: none; }
     .view.active { display: block; }
 
+    /* BARRA COMPACTA DE KPIs HASTA LA PARTE MÁS BAJA */
+    .kpi-footer {
+      max-width: 1120px; margin: 18px auto 0; padding: 0 14px;
+    }
+    .kpi-strip {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px;
+      background: rgba(15, 23, 42, 0.72); border: 1px solid var(--border);
+      border-radius: 12px; padding: 8px 10px;
+    }
+    @media (max-width: 640px) {
+      .kpi-strip { grid-template-columns: repeat(2, 1fr); gap: 6px; padding: 7px 8px; }
+    }
+    .kpi-mini {
+      display: flex; align-items: baseline; justify-content: space-between; gap: 6px;
+      background: rgba(7, 11, 20, 0.55); border: 1px solid rgba(148, 163, 184, 0.08);
+      border-radius: 8px; padding: 6px 9px;
+    }
+    .kpi-mini-lbl { font-size: 0.64rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+    .kpi-mini-val { font-family: var(--mono); font-size: 0.88rem; font-weight: 800; }
+
+    /* NAV INFERIOR MÓVIL */
     .mobile-nav {
       display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 50;
-      background: rgba(7, 11, 20, 0.95); backdrop-filter: blur(14px);
-      border-top: 1px solid var(--border); padding: 8px 6px calc(8px + env(safe-area-inset-bottom));
-      grid-template-columns: repeat(4, 1fr); gap: 4px;
+      background: rgba(7, 11, 20, 0.96); backdrop-filter: blur(14px);
+      border-top: 1px solid var(--border); padding: 7px 4px calc(7px + env(safe-area-inset-bottom));
+      grid-template-columns: repeat(5, 1fr); gap: 2px;
     }
     .m-btn {
-      background: none; border: none; color: var(--muted); font-size: 0.7rem; font-weight: 600;
-      display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 4px; cursor: pointer;
+      background: none; border: none; color: var(--muted); font-size: 0.66rem; font-weight: 600;
+      display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 4px; cursor: pointer;
     }
     .m-btn.active { color: var(--cyan); }
-    @media (max-width: 720px) {
-      .desktop-tabs { display: none; }
-      .mobile-nav { display: grid; }
-    }
+    @media (max-width: 720px) { .mobile-nav { display: grid; } }
   </style>
 </head>
 <body>
   <header>
-    <div class="brand">
-      <img src="./assets/icon.svg" alt="Cypher AI" />
-      <div>
-        <h1>CYPHER AI</h1>
-        <span>Apex Syndicate Terminal</span>
+    <div class="header-top">
+      <div class="brand">
+        <img src="./assets/icon.svg" alt="Cypher AI" />
+        <div>
+          <h1>CYPHER AI</h1>
+          <span>Apex Syndicate V2</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="sync-pill"><span class="dot"></span><span class="ts-text" id="updatedAt">Sincronizando...</span></div>
+        <button class="btn-ghost" id="btnRefresh" title="Actualizar">↻</button>
+        <button class="btn" id="btnInstall" style="display:none;">Instalar</button>
       </div>
     </div>
-    <div class="header-actions">
-      <div class="sync-pill"><span class="dot"></span><span class="ts-text" id="updatedAt">Sincronizando...</span></div>
-      <button class="btn-ghost" id="btnRefresh" title="Actualizar datos">↻</button>
-      <button class="btn" id="btnInstall" style="display:none;">Instalar</button>
+
+    <!-- BOTONES DE MOTORES EN CABECERA -->
+    <div class="header-sports" id="sportPills">
+      <button class="sport-pill active" data-sport="ALL">⚡ Todos</button>
+      <button class="sport-pill" data-sport="NBA">🏀 NBA</button>
+      <button class="sport-pill" data-sport="NFL">🏈 NFL</button>
+      <button class="sport-pill" data-sport="SOCCER">⚽ Soccer</button>
+      <button class="sport-pill" data-sport="TENNIS">🎾 Tenis</button>
+      <button class="sport-pill" data-sport="MLB">⚾ MLB</button>
     </div>
   </header>
 
   <main>
-    <section class="kpi-grid">
-      <div class="kpi-card">
-        <div class="kpi-label">ROI Global</div>
-        <div class="kpi-value cyan" id="kpiRoi">0.0%</div>
-        <div class="kpi-sub" id="kpiRecord">0G - 0P auditados</div>
+    <div class="toolbar">
+      <div class="desktop-tabs">
+        <button class="tab-btn active" data-view="picks">🎯 Cartelera & Diamante</button>
+        <button class="tab-btn" data-view="props">🌟 Player Props</button>
+        <button class="tab-btn" data-view="guiones">🎬 Guiones SGP</button>
+        <button class="tab-btn" data-view="aperturas">📸 Aperturas RLM</button>
+        <button class="tab-btn" data-view="roi">📈 ROI & Motores</button>
       </div>
-      <div class="kpi-card">
-        <div class="kpi-label">Unidades Netas</div>
-        <div class="kpi-value" id="kpiUnits">+0.00 U</div>
-        <div class="kpi-sub" id="kpiWinRate">Acierto: 0.0%</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-label">Picks Activos Hoy</div>
-        <div class="kpi-value cyan" id="kpiPicksHoy">0</div>
-        <div class="kpi-sub" id="kpiFecha">-</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-label">Aperturas RLM</div>
-        <div class="kpi-value pos" id="kpiAperturas">0</div>
-        <div class="kpi-sub">Pinnacle / Sharp Books</div>
-      </div>
-    </section>
-
-    <div class="desktop-tabs">
-      <button class="tab-btn active" data-view="picks">🎯 Cartelera & Picks</button>
-      <button class="tab-btn" data-view="aperturas">📸 Radar Aperturas (RLM)</button>
-      <button class="tab-btn" data-view="roi">📈 Cierre de Caja & ROI</button>
-      <button class="tab-btn" data-view="sistema">⚙️ Estado de Motores</button>
+      <input class="search-input" id="searchInput" type="search" placeholder="Buscar equipo, jugador o pick..." />
     </div>
 
-    <div class="filters" id="filterBar">
-      <div class="pill-group" id="sportPills">
-        <button class="pill active" data-sport="ALL">Todos</button>
-        <button class="pill" data-sport="NBA">🏀 NBA</button>
-        <button class="pill" data-sport="NFL">🏈 NFL</button>
-        <button class="pill" data-sport="SOCCER">⚽ Soccer</button>
-        <button class="pill" data-sport="TENNIS">🎾 Tennis</button>
-        <button class="pill" data-sport="MLB">⚾ MLB</button>
-      </div>
-      <input class="search-input" id="searchInput" type="search" placeholder="Buscar equipo, liga o pick..." />
-    </div>
-
-    <!-- VISTA 1: PICKS HOY -->
+    <!-- VISTA 1: DIAMANTE + CARTELERA CON ESCUDOS -->
     <section id="view-picks" class="view active">
+      <div id="diamanteContainer" class="diamond-wrap"></div>
       <div id="picksContainer" class="cards-grid"></div>
     </section>
 
-    <!-- VISTA 2: APERTURAS RLM -->
+    <!-- VISTA 2: PLAYER PROPS CON FOTOS -->
+    <section id="view-props" class="view">
+      <div id="propsResumenContainer" class="diamond-wrap"></div>
+      <div id="propsContainer" class="cards-grid"></div>
+    </section>
+
+    <!-- VISTA 3: GUIONES SGP -->
+    <section id="view-guiones" class="view">
+      <div id="guionesContainer" class="cards-grid"></div>
+    </section>
+
+    <!-- VISTA 4: APERTURAS RLM CON ESCUDOS -->
     <section id="view-aperturas" class="view">
       <div id="aperturasContainer" class="cards-grid"></div>
     </section>
 
-    <!-- VISTA 3: CIERRE DE CAJA & ROI -->
+    <!-- VISTA 5: ROI, AUDITORÍA Y MOTORES -->
     <section id="view-roi" class="view">
       <div class="section-box">
         <div class="section-title"><span>Curva de Banca Acumulada (Unidades)</span><span class="mono cyan" id="chartMax"></span></div>
         <div id="equityChart"></div>
       </div>
       <div class="section-box">
-        <div class="section-title"><span>Rendimiento por Motor Deportivo</span></div>
+        <div class="section-title"><span>Rendimiento por Motor</span></div>
         <table>
           <thead><tr><th>Deporte</th><th>G - P</th><th>Acierto</th><th>Unidades</th><th>ROI</th></tr></thead>
           <tbody id="sportSummaryBody"></tbody>
         </table>
       </div>
       <div class="section-box">
-        <div class="section-title"><span>Libro Mayor de Auditoría (Últimos 80 Picks)</span></div>
+        <div class="section-title"><span>Libro Mayor de Auditoría (Últimos 80)</span></div>
         <table>
-          <thead><tr><th>Fecha</th><th>Deporte</th><th>Partido</th><th>Pick</th><th>Cuota</th><th>Resultado</th></tr></thead>
+          <thead><tr><th>Fecha</th><th>Dep</th><th>Partido</th><th>Pick</th><th>Cuota</th><th>Estado</th></tr></thead>
           <tbody id="historyBody"></tbody>
         </table>
       </div>
-    </section>
-
-    <!-- VISTA 4: ESTADO DE MOTORES -->
-    <section id="view-sistema" class="view">
       <div id="enginesContainer" class="cards-grid"></div>
     </section>
   </main>
 
+  <!-- BARRA COMPACTA DE KPIs HASTA LA PARTE MÁS BAJA -->
+  <footer class="kpi-footer">
+    <div class="kpi-strip">
+      <div class="kpi-mini"><span class="kpi-mini-lbl">ROI Global</span><span class="kpi-mini-val cyan" id="kpiRoi">0.0%</span></div>
+      <div class="kpi-mini"><span class="kpi-mini-lbl">Unidades</span><span class="kpi-mini-val" id="kpiUnits">+0.00 U</span></div>
+      <div class="kpi-mini"><span class="kpi-mini-lbl">Picks Hoy</span><span class="kpi-mini-val cyan" id="kpiPicksHoy">0</span></div>
+      <div class="kpi-mini"><span class="kpi-mini-lbl">Aperturas RLM</span><span class="kpi-mini-val pos" id="kpiAperturas">0</span></div>
+    </div>
+  </footer>
+
   <nav class="mobile-nav">
     <button class="m-btn active" data-view="picks"><span>🎯</span><span>Picks</span></button>
+    <button class="m-btn" data-view="props"><span>🌟</span><span>Props</span></button>
+    <button class="m-btn" data-view="guiones"><span>🎬</span><span>SGP</span></button>
     <button class="m-btn" data-view="aperturas"><span>📸</span><span>RLM</span></button>
     <button class="m-btn" data-view="roi"><span>📈</span><span>ROI</span></button>
-    <button class="m-btn" data-view="sistema"><span>⚙️</span><span>Motores</span></button>
   </nav>
 
   <script>
@@ -275,43 +364,54 @@
     let searchTerm = '';
     let deferredPrompt = null;
 
-    const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (m) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
     const icons = { NBA: '🏀', NFL: '🏈', SOCCER: '⚽', TENNIS: '🎾', MLB: '⚾' };
+    const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (m) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+    const cleanMd = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/`([^`]+)`/g, '<code style="color:#00e5ff;font-family:var(--mono)">$1</code>');
+
+    function iniciales(nombre) {
+      const p = String(nombre || '?').trim().split(/\s+/).filter(Boolean);
+      return ((p[0]?.[0] || '') + (p[p.length - 1]?.[0] || '')).toUpperCase().slice(0, 2) || 'AI';
+    }
+
+    function fallbackSvg(nombre, redondo = false) {
+      const ini = iniciales(nombre);
+      const svg = redondo
+        ? `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="32" fill="#162035"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="#00e5ff" font-family="sans-serif" font-weight="800" font-size="22">${ini}</text></svg>`
+        : `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M32 4 L56 14 V32 C56 47 45 56 32 61 C19 56 8 47 8 32 V14 Z" fill="#162035" stroke="#00e5ff" stroke-width="3"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="#f1f5f9" font-family="sans-serif" font-weight="800" font-size="20">${ini}</text></svg>`;
+      return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+    }
+
+    function imgTag(url, nombre, clase, redondo = false) {
+      const fb = fallbackSvg(nombre, redondo);
+      const src = url || fb;
+      return `<img class="${clase}" src="${esc(src)}" alt="${esc(nombre)}" loading="lazy" onerror="this.onerror=null;this.src='${fb}'" />`;
+    }
 
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./sw.js').catch(() => {});
     }
-
     window.addEventListener('beforeinstallprompt', (e) => {
-      e.preventDefault();
-      deferredPrompt = e;
+      e.preventDefault(); deferredPrompt = e;
       document.getElementById('btnInstall').style.display = 'inline-block';
     });
-
     document.getElementById('btnInstall').addEventListener('click', async () => {
       if (!deferredPrompt) return;
-      deferredPrompt.prompt();
-      await deferredPrompt.userChoice;
-      deferredPrompt = null;
-      document.getElementById('btnInstall').style.display = 'none';
+      deferredPrompt.prompt(); await deferredPrompt.userChoice;
+      deferredPrompt = null; document.getElementById('btnInstall').style.display = 'none';
     });
 
     function switchView(v) {
       activeView = v;
       document.querySelectorAll('.view').forEach((el) => el.classList.toggle('active', el.id === `view-${v}`));
       document.querySelectorAll('[data-view]').forEach((b) => b.classList.toggle('active', b.dataset.view === v));
-      document.getElementById('filterBar').style.display = (v === 'picks' || v === 'aperturas' || v === 'roi') ? 'flex' : 'none';
       renderAll();
     }
+    document.querySelectorAll('[data-view]').forEach((b) => b.addEventListener('click', () => switchView(b.dataset.view)));
 
-    document.querySelectorAll('[data-view]').forEach((btn) =>
-      btn.addEventListener('click', () => switchView(btn.dataset.view))
-    );
-
-    document.querySelectorAll('#sportPills .pill').forEach((p) =>
+    document.querySelectorAll('#sportPills .sport-pill').forEach((p) =>
       p.addEventListener('click', () => {
         activeSport = p.dataset.sport;
-        document.querySelectorAll('#sportPills .pill').forEach((x) => x.classList.toggle('active', x === p));
+        document.querySelectorAll('#sportPills .sport-pill').forEach((x) => x.classList.toggle('active', x === p));
         renderAll();
       })
     );
@@ -320,24 +420,37 @@
       searchTerm = e.target.value.trim().toLowerCase();
       renderAll();
     });
-
     document.getElementById('btnRefresh').addEventListener('click', () => cargarDatos(true));
 
-    function filtrarLista(lista) {
-      return (lista || []).filter((item) => {
-        if (activeSport !== 'ALL' && item.deporte !== activeSport) return false;
+    function filtrar(lista) {
+      return (lista || []).filter((it) => {
+        if (activeSport !== 'ALL' && it.deporte !== activeSport) return false;
         if (!searchTerm) return true;
-        return JSON.stringify(item).toLowerCase().includes(searchTerm);
+        return JSON.stringify(it).toLowerCase().includes(searchTerm);
       });
+    }
+
+    function matchupHTML(item) {
+      const a = item.equipo_a || (item.duelo || '').split(/\s+(?:@|vs)\s+/i)[0] || 'Equipo A';
+      const b = item.equipo_b || (item.duelo || '').split(/\s+(?:@|vs)\s+/i)[1] || 'Equipo B';
+      const sep = item.separador || (item.deporte === 'SOCCER' || item.deporte === 'TENNIS' ? 'vs' : '@');
+      const esTenis = item.deporte === 'TENNIS';
+      const cls = esTenis ? 'team-logo round' : 'team-logo';
+      return `
+        <div class="matchup-banner">
+          <div class="team-col">${imgTag(item.logo_a, a, cls, esTenis)}<div class="team-name">${esc(a)}</div></div>
+          <div class="vs-pill">${esc(sep)}</div>
+          <div class="team-col">${imgTag(item.logo_b, b, cls, esTenis)}<div class="team-name">${esc(b)}</div></div>
+        </div>`;
     }
 
     function renderEquityChart(curva) {
       const box = document.getElementById('equityChart');
       if (!curva || curva.length < 2) {
-        box.innerHTML = '<div class="empty-state">La curva de banca se dibujará automáticamente al acumular al menos 2 jornadas auditadas.</div>';
+        box.innerHTML = '<div class="empty-state">La curva de banca aparecerá al acumular al menos 2 jornadas auditadas.</div>';
         return;
       }
-      const w = 800, h = 190, pad = 24;
+      const w = 800, h = 175, pad = 22;
       const vals = curva.map((d) => d.unidades);
       const minV = Math.min(0, ...vals), maxV = Math.max(1, ...vals);
       const span = Math.max(0.5, maxV - minV);
@@ -347,73 +460,110 @@
         return `${x.toFixed(1)},${y.toFixed(1)}`;
       }).join(' ');
       const yZero = h - pad - ((0 - minV) / span) * (h - pad * 2);
-      const ultimo = vals[vals.length - 1];
-      const stroke = ultimo >= 0 ? '#10b981' : '#f43f5e';
-      document.getElementById('chartMax').textContent = `Actual: ${ultimo >= 0 ? '+' : ''}${ultimo.toFixed(2)} U`;
-      box.innerHTML = `
-        <svg viewBox="0 0 ${w} ${h}" style="width:100%;height:auto;display:block;">
-          <line x1="${pad}" y1="${yZero}" x2="${w - pad}" y2="${yZero}" stroke="rgba(148,163,184,0.25)" stroke-dasharray="4 4"/>
-          <polyline fill="none" stroke="${stroke}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="${pts}"/>
-        </svg>`;
+      const ult = vals[vals.length - 1];
+      document.getElementById('chartMax').textContent = `${ult >= 0 ? '+' : ''}${ult.toFixed(2)} U`;
+      box.innerHTML = `<svg viewBox="0 0 ${w} ${h}" style="width:100%;height:auto;display:block;">
+        <line x1="${pad}" y1="${yZero}" x2="${w - pad}" y2="${yZero}" stroke="rgba(148,163,184,0.25)" stroke-dasharray="4 4"/>
+        <polyline fill="none" stroke="${ult >= 0 ? '#10b981' : '#f43f5e'}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="${pts}"/>
+      </svg>`;
     }
 
     function renderAll() {
       if (!DATA) return;
       const k = DATA.kpis;
       document.getElementById('updatedAt').textContent = DATA.updated_at || '-';
+
+      // KPIs compactos en el footer
       const roiEl = document.getElementById('kpiRoi');
       roiEl.textContent = `${k.roi_global >= 0 ? '+' : ''}${k.roi_global.toFixed(1)}%`;
-      roiEl.className = `kpi-value ${k.roi_global >= 0 ? 'pos' : 'neg'}`;
-      document.getElementById('kpiRecord').textContent = `${k.ganados}G - ${k.perdidos}P auditados`;
-
+      roiEl.className = `kpi-mini-val ${k.roi_global >= 0 ? 'pos' : 'neg'}`;
       const uEl = document.getElementById('kpiUnits');
       uEl.textContent = `${k.unidades_netas >= 0 ? '+' : ''}${k.unidades_netas.toFixed(2)} U`;
-      uEl.className = `kpi-value ${k.unidades_netas >= 0 ? 'pos' : 'neg'}`;
-      document.getElementById('kpiWinRate').textContent = `Acierto: ${k.win_rate.toFixed(1)}%`;
+      uEl.className = `kpi-mini-val ${k.unidades_netas >= 0 ? 'pos' : 'neg'}`;
       document.getElementById('kpiPicksHoy').textContent = k.picks_hoy;
-      document.getElementById('kpiFecha').textContent = `Jornada ${DATA.fecha_operativa}`;
       document.getElementById('kpiAperturas').textContent = k.aperturas_activas;
 
-      // 1. Picks Hoy
-      const picks = filtrarLista(DATA.picks_hoy);
-      const pBox = document.getElementById('picksContainer');
-      pBox.innerHTML = picks.length ? picks.map((p) => `
+      // 1. Picks Diamante + Cartelera con Escudos
+      const diams = filtrar(DATA.diamantes);
+      document.getElementById('diamanteContainer').innerHTML = diams.map((d) => `
+        <div class="diamond-card ${d.es_no_bet ? 'nobet' : ''}">
+          <div class="diamond-title">${icons[d.deporte] || '💎'} ${esc(d.titulo)}</div>
+          <div class="rich-text">${cleanMd(d.descripcion)}</div>
+          ${(d.campos || []).map((c) => `
+            <div class="rich-field">
+              <div class="rich-field-title">${esc(c.titulo)}</div>
+              <div class="rich-text">${cleanMd(c.valor)}</div>
+            </div>`).join('')}
+        </div>`).join('');
+
+      const picks = filtrar(DATA.picks_hoy);
+      document.getElementById('picksContainer').innerHTML = picks.length ? picks.map((p) => `
         <article class="card">
           <div class="card-top">
             <span class="badge">${icons[p.deporte] || ''} ${esc(p.liga)}</span>
             <span class="badge amber">Cuota ${Number(p.cuota).toFixed(2)}</span>
           </div>
-          <div class="match-title">${esc(p.duelo)}</div>
+          ${matchupHTML(p)}
           <div class="pick-box">${esc(p.pick_principal)}</div>
-          <div class="meta-row">
-            <span>${esc(p.mercados_extra)}</span>
-            <span>${esc(p.fecha)}</span>
+          <div class="meta-row"><span>${esc(p.mercados_extra)}</span><span>${esc(p.fecha)}</span></div>
+        </article>`).join('') :
+        `<div class="empty-state" style="grid-column:1/-1;">Sin picks finales disparados todavía para este filtro. Revisa <b>📸 RLM</b> para ver los duelos con apertura capturada.</div>`;
+
+      // 2. Player Props con Fotos
+      const pRes = filtrar(DATA.props_resumenes);
+      document.getElementById('propsResumenContainer').innerHTML = pRes.map((r) => `
+        <div class="diamond-card">
+          <div class="diamond-title">💎 Top Props Blindados — ${icons[r.deporte] || ''} ${esc(r.deporte)}</div>
+          <div class="rich-text">${cleanMd(r.texto)}</div>
+        </div>`).join('');
+
+      const props = filtrar(DATA.props);
+      document.getElementById('propsContainer').innerHTML = props.length ? props.map((pr) => `
+        <article class="prop-card">
+          ${imgTag(pr.foto, pr.jugador, pr.es_equipo ? 'player-avatar logo-mode' : 'player-avatar', !pr.es_equipo)}
+          <div class="prop-body">
+            <div class="prop-head">
+              <div class="prop-player">${esc(pr.jugador)}</div>
+              <span class="badge purple">${pr.probabilidad ? pr.probabilidad.toFixed(1) + '%' : pr.deporte}</span>
+            </div>
+            <div class="prop-pick">${esc(pr.pick)}</div>
+            <div class="prop-foot">
+              <span>${icons[pr.deporte] || ''} ${esc(pr.partido)}</span>
+              <span>${esc(pr.racha_l5 || '')}</span>
+            </div>
           </div>
         </article>`).join('') :
-        `<div class="empty-state" style="grid-column:1/-1;">Aún no se han disparado los análisis finales de hoy para este filtro. Revisa la pestaña <b>📸 Radar Aperturas (RLM)</b> para ver los juegos ya fotografiados.</div>`;
+        `<div class="empty-state" style="grid-column:1/-1;">Los Player Props con foto aparecerán aquí automáticamente en cuanto corra el siguiente motor con cartelera hoy.</div>`;
 
-      // 2. Aperturas RLM
-      const aps = filtrarLista(DATA.aperturas);
-      const aBox = document.getElementById('aperturasContainer');
-      aBox.innerHTML = aps.length ? aps.map((a) => `
+      // 3. Guiones SGP
+      const guiones = filtrar(DATA.guiones);
+      document.getElementById('guionesContainer').innerHTML = guiones.length ? guiones.map((g) => `
+        <article class="card">
+          <div class="card-top">
+            <span class="badge purple">${icons[g.deporte] || '🎬'} ${esc(g.deporte)} SGP</span>
+          </div>
+          <div class="diamond-title" style="font-size:0.86rem;margin:0;">${esc(g.titulo)}</div>
+          <div class="rich-text">${cleanMd(g.valor)}</div>
+        </article>`).join('') :
+        `<div class="empty-state" style="grid-column:1/-1;">Sin Guiones de Partido SGP publicados aún para este filtro hoy.</div>`;
+
+      // 4. Aperturas RLM con Escudos
+      const aps = filtrar(DATA.aperturas);
+      document.getElementById('aperturasContainer').innerHTML = aps.length ? aps.map((a) => `
         <article class="card">
           <div class="card-top">
             <span class="badge">${icons[a.deporte] || ''} ${esc(a.liga)}</span>
             <span class="badge green">${esc(a.casino)}</span>
           </div>
-          <div class="match-title">${esc(a.duelo)}</div>
+          ${matchupHTML(a)}
           <div class="pick-box">${esc(a.linea_1)}<br/>${esc(a.linea_2)}</div>
-          <div class="meta-row">
-            <span>Juego: ${esc(a.fecha)}</span>
-            <span>Captura: ${esc(a.captura.slice(0, 16))}</span>
-          </div>
+          <div class="meta-row"><span>Juego: ${esc(a.fecha)}</span><span>Captura: ${esc((a.captura || '').slice(0, 16))}</span></div>
         </article>`).join('') :
         `<div class="empty-state" style="grid-column:1/-1;">No hay líneas de apertura registradas para este filtro.</div>`;
 
-      // 3. ROI & Auditoría
+      // 5. ROI & Motores
       renderEquityChart(DATA.curva_banca);
-      const sBody = document.getElementById('sportSummaryBody');
-      sBody.innerHTML = Object.entries(DATA.resumen_deportes || {}).map(([dep, v]) => `
+      document.getElementById('sportSummaryBody').innerHTML = Object.entries(DATA.resumen_deportes || {}).map(([dep, v]) => `
         <tr>
           <td><b>${icons[dep] || ''} ${dep}</b></td>
           <td class="mono">${v.ganados} - ${v.perdidos}</td>
@@ -422,12 +572,11 @@
           <td class="mono ${v.roi >= 0 ? 'pos' : 'neg'}">${v.roi >= 0 ? '+' : ''}${v.roi.toFixed(1)}%</td>
         </tr>`).join('');
 
-      const hist = filtrarLista(DATA.historial);
-      const hBody = document.getElementById('historyBody');
-      hBody.innerHTML = hist.length ? hist.map((h) => `
+      const hist = filtrar(DATA.historial);
+      document.getElementById('historyBody').innerHTML = hist.length ? hist.map((h) => `
         <tr>
           <td class="mono">${esc(h.fecha)}</td>
-          <td>${icons[h.deporte] || ''} ${esc(h.deporte)}</td>
+          <td>${icons[h.deporte] || ''}</td>
           <td>${esc(h.duelo)}</td>
           <td class="mono">${esc(h.pick_principal)}</td>
           <td class="mono">${Number(h.cuota).toFixed(2)}</td>
@@ -435,14 +584,10 @@
         </tr>`).join('') :
         `<tr><td colspan="6" style="text-align:center;color:var(--muted);">Sin resultados auditados para este filtro.</td></tr>`;
 
-      // 4. Estado de Motores
       document.getElementById('enginesContainer').innerHTML = (DATA.motores || []).map((m) => `
         <article class="card">
-          <div class="card-top">
-            <span class="badge">${icons[m.deporte] || ''} ${esc(m.deporte)} ${esc(m.version)}</span>
-            <span class="badge green">ONLINE</span>
-          </div>
-          <div class="match-title">${esc(m.horario)}</div>
+          <div class="card-top"><span class="badge">${icons[m.deporte] || ''} ${esc(m.deporte)} ${esc(m.version)}</span><span class="badge green">ONLINE</span></div>
+          <div style="font-size:0.86rem;font-weight:700;">${esc(m.horario)}</div>
           <div class="meta-row"><span>${esc(m.modulo)}</span></div>
         </article>`).join('');
     }
