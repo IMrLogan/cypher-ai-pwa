@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19 17:10 CST",
+  "updated_at": "2026-11-19 18:10 CST",
   "fecha_operativa": "2026-11-19",
   "kpis": {
     "ganados": 552,
@@ -8,7 +8,7 @@
     "win_rate": 57.4,
     "unidades_netas": -219.23,
     "roi_global": -22.8,
-    "picks_hoy": 10,
+    "picks_hoy": 11,
     "aperturas_activas": 39
   },
   "motores": [
@@ -249,6 +249,17 @@
       "pick_principal": "ML: Memphis Grizzlies",
       "mercados_extra": "Spread: Memphis Grizzlies -5.5 | Total: MENOS DE (Under)",
       "cuota": 1.02,
+      "estado": "Pendiente",
+      "ganancia": 0.0
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-19",
+      "duelo": "IND @ HOU",
+      "pick_principal": "ML: HOU",
+      "mercados_extra": "Spread: IND +13.0 | Total: MENOS DE (Under)",
+      "cuota": 1.01,
       "estado": "Pendiente",
       "ganancia": 0.0
     },
