@@ -214,6 +214,46 @@
     .mini-chip.hi { border-color: rgba(168, 85, 247, 0.4); color: #e9d5ff; }
     .cta-link { color: var(--cyan); font-weight: 700; white-space: nowrap; }
 
+    
+    /* CAMPANITA DE ALERTAS Y SWITCHES POR MOTOR */
+    .btn-bell { position: relative; display: inline-flex; align-items: center; justify-content: center; }
+    .bell-dot {
+      display: none; position: absolute; top: 3px; right: 3px;
+      width: 7px; height: 7px; border-radius: 50%;
+      background: var(--green); box-shadow: 0 0 8px var(--green);
+    }
+    .bell-dot.on { display: block; }
+    .notify-hero {
+      background: linear-gradient(135deg, rgba(0, 229, 255, 0.10), rgba(168, 85, 247, 0.10));
+      border: 1px solid rgba(0, 229, 255, 0.30); border-radius: 13px; padding: 13px;
+      display: flex; flex-direction: column; gap: 9px;
+    }
+    .notify-status { font-size: 0.8rem; color: #dbe5f4; line-height: 1.45; }
+    .notify-list { display: flex; flex-direction: column; gap: 8px; }
+    .notify-row {
+      display: flex; align-items: center; justify-content: space-between; gap: 10px;
+      background: var(--panel-2); border: 1px solid var(--border);
+      border-radius: 12px; padding: 11px 13px;
+    }
+    .notify-row-info { display: flex; flex-direction: column; gap: 2px; }
+    .notify-row-name { font-size: 0.86rem; font-weight: 800; }
+    .notify-row-sub { font-size: 0.7rem; color: var(--muted); }
+    .switch { position: relative; display: inline-block; width: 44px; height: 24px; flex-shrink: 0; }
+    .switch input { opacity: 0; width: 0; height: 0; }
+    .slider {
+      position: absolute; cursor: pointer; inset: 0; border-radius: 999px;
+      background: #1e293b; border: 1px solid var(--border); transition: 0.2s;
+    }
+    .slider:before {
+      content: ""; position: absolute; height: 18px; width: 18px; left: 2px; bottom: 2px;
+      border-radius: 50%; background: #94a3b8; transition: 0.2s;
+    }
+    .switch input:checked + .slider {
+      background: linear-gradient(135deg, var(--cyan), var(--green)); border-color: transparent;
+    }
+    .switch input:checked + .slider:before { transform: translateX(20px); background: #03131b; }
+    .notify-note { font-size: 0.72rem; color: var(--muted); line-height: 1.45; }
+
     /* PANEL DESLIZABLE / MODAL RADIOGRAFÍA DEL PARTIDO */
     .modal-backdrop {
       position: fixed; inset: 0; z-index: 90;
@@ -393,6 +433,7 @@
     .m-btn.active { color: var(--cyan); }
     @media (max-width: 720px) { .mobile-nav { display: grid; } }
   </style>
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 </head>
 <body>
   <header>
@@ -406,6 +447,7 @@
       </div>
       <div class="header-actions">
         <div class="sync-pill"><span class="dot"></span><span class="ts-text" id="updatedAt">Actualizando...</span></div>
+        <button class="btn-ghost btn-bell" id="btnNotify" title="Alertas por motor">🔔<span class="bell-dot" id="bellDot"></span></button>
         <button class="btn-ghost" id="btnRefresh" title="Actualizar datos">↻</button>
         <button class="btn" id="btnInstall" style="display:none;">Instalar</button>
       </div>
@@ -496,6 +538,37 @@
         <button class="modal-close" id="btnCloseModal" aria-label="Cerrar">✕</button>
       </div>
       <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  
+  <!-- MODAL DE ALERTAS PUSH POR MOTOR -->
+  <div class="modal-backdrop" id="notifyModal" role="dialog" aria-modal="true">
+    <div class="modal-sheet">
+      <div class="modal-handle"></div>
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <div class="modal-kicker">Alertas en Tiempo Real</div>
+          <div class="modal-title">🔔 Notificaciones por Motor</div>
+        </div>
+        <button class="modal-close" id="btnCloseNotify" aria-label="Cerrar">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="notify-hero">
+          <div class="notify-status" id="notifyStatus">Activa las alertas para recibir un aviso en cuanto tus motores publiquen nuevos pronósticos.</div>
+          <button class="btn" id="btnEnablePush" style="align-self:flex-start;padding:8px 14px;">Activar notificaciones</button>
+        </div>
+        <div>
+          <div class="modal-sec-head">
+            <span class="modal-sec-title">Elige qué motores quieres seguir</span>
+            <span class="modal-sec-sub" id="notifySaveMsg">Sincronizado</span>
+          </div>
+          <div class="notify-list" id="notifySportList"></div>
+        </div>
+        <div class="notify-note">
+          Al tocar cualquier aviso, Cypher AI abrirá automáticamente filtrado en ese deporte. En iPhone/iPad, primero agrega la app a tu pantalla de inicio desde Compartir.
+        </div>
+      </div>
     </div>
   </div>
 
@@ -1010,6 +1083,178 @@
         document.getElementById('updatedAt').textContent = 'Sin conexión';
       }
     }
+
+    
+    // ==========================================
+    // 🔔 DEEP-LINK (?sport=) + NOTIFICACIONES PUSH ONESIGNAL V16
+    // ==========================================
+    const ONESIGNAL_APP_ID = "d1621b22-f495-4dfa-84ac-df592f2b4280";
+    const PUSH_SPORTS = [
+      { id: 'NBA',    tag: 'sport_nba',    label: '🏀 NBA',    sub: 'Partidos, Diamante, Props y SGP' },
+      { id: 'NFL',    tag: 'sport_nfl',    label: '🏈 NFL',    sub: 'Ventanas oficiales y días especiales' },
+      { id: 'SOCCER', tag: 'sport_soccer', label: '⚽ Soccer', sub: 'Premier, Serie A, LaLiga y ligas top' },
+      { id: 'TENNIS', tag: 'sport_tennis', label: '🎾 Tenis',  sub: 'ATP, WTA y torneos internacionales' },
+      { id: 'MLB',    tag: 'sport_mlb',    label: '⚾ MLB',    sub: 'Temporada regular y playoffs (Mar–Nov)' }
+    ];
+    let OS_INSTANCE = null;
+    let PUSH_ENABLED = false;
+
+    function cargarPrefsPush() {
+      try {
+        const raw = localStorage.getItem('cypher_push_prefs');
+        if (raw) return JSON.parse(raw);
+      } catch (e) {}
+      return { sport_nba: '1', sport_nfl: '1', sport_soccer: '1', sport_tennis: '1', sport_mlb: '1' };
+    }
+
+    function guardarPrefsPush(prefs) {
+      try { localStorage.setItem('cypher_push_prefs', JSON.stringify(prefs)); } catch (e) {}
+    }
+
+    function aplicarParametrosURL() {
+      const params = new URLSearchParams(window.location.search);
+      const sp = (params.get('sport') || '').toUpperCase();
+      const vw = (params.get('view') || '').toLowerCase();
+      if (['ALL', 'NBA', 'NFL', 'SOCCER', 'TENNIS', 'MLB'].includes(sp)) {
+        activeSport = sp;
+        document.querySelectorAll('#sportPills .sport-pill').forEach((x) => {
+          const on = x.dataset.sport === sp;
+          x.classList.toggle('active', on);
+          if (on) x.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+        });
+      }
+      if (['picks', 'props', 'guiones', 'aperturas', 'roi'].includes(vw)) {
+        activeView = vw;
+        document.querySelectorAll('.view').forEach((el) => el.classList.toggle('active', el.id === `view-${vw}`));
+        document.querySelectorAll('[data-view]').forEach((b) => b.classList.toggle('active', b.dataset.view === vw));
+      }
+    }
+
+    function renderNotifyModal() {
+      const prefs = cargarPrefsPush();
+      const dot = document.getElementById('bellDot');
+      const statusEl = document.getElementById('notifyStatus');
+      const btn = document.getElementById('btnEnablePush');
+      dot.classList.toggle('on', PUSH_ENABLED);
+
+      if (!ONESIGNAL_APP_ID || ONESIGNAL_APP_ID.includes('PEGA_AQUI')) {
+        statusEl.textContent = 'Pendiente de configurar el App ID de OneSignal en index.html.';
+        btn.style.display = 'none';
+      } else if (PUSH_ENABLED) {
+        statusEl.innerHTML = '<b style="color:var(--green);">✅ Alertas activas en este dispositivo.</b> Activa o apaga cada motor abajo.';
+        btn.textContent = 'Pausar alertas en este equipo';
+        btn.className = 'btn-ghost';
+        btn.style.display = 'inline-block';
+      } else {
+        statusEl.textContent = 'Toca el botón para recibir avisos automáticos cuando tus motores publiquen nuevos picks.';
+        btn.textContent = '🔔 Activar notificaciones';
+        btn.className = 'btn';
+        btn.style.display = 'inline-block';
+      }
+
+      document.getElementById('notifySportList').innerHTML = PUSH_SPORTS.map((s) => `
+        <div class="notify-row">
+          <div class="notify-row-info">
+            <div class="notify-row-name">${s.label}</div>
+            <div class="notify-row-sub">${s.sub}</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox" data-push-tag="${s.tag}" ${prefs[s.tag] === '1' ? 'checked' : ''} />
+            <span class="slider"></span>
+          </label>
+        </div>`).join('');
+    }
+
+    function abrirNotifyModal() {
+      renderNotifyModal();
+      document.getElementById('notifyModal').classList.add('open');
+      document.body.classList.add('modal-open');
+    }
+
+    function cerrarNotifyModal() {
+      document.getElementById('notifyModal').classList.remove('open');
+      document.body.classList.remove('modal-open');
+    }
+
+    document.getElementById('btnNotify').addEventListener('click', abrirNotifyModal);
+    document.getElementById('btnCloseNotify').addEventListener('click', cerrarNotifyModal);
+    document.getElementById('notifyModal').addEventListener('click', (e) => {
+      if (e.target.id === 'notifyModal') cerrarNotifyModal();
+    });
+
+    document.getElementById('notifySportList').addEventListener('change', async (e) => {
+      const cb = e.target.closest('[data-push-tag]');
+      if (!cb) return;
+      const tag = cb.dataset.pushTag;
+      const val = cb.checked ? '1' : '0';
+      const prefs = cargarPrefsPush();
+      prefs[tag] = val;
+      guardarPrefsPush(prefs);
+      const msg = document.getElementById('notifySaveMsg');
+      msg.textContent = 'Guardando...';
+      try {
+        if (OS_INSTANCE && PUSH_ENABLED) {
+          await OS_INSTANCE.User.addTag(tag, val);
+        }
+        msg.textContent = 'Guardado ✓';
+      } catch (err) {
+        msg.textContent = 'Guardado local';
+      }
+    });
+
+    document.getElementById('btnEnablePush').addEventListener('click', async () => {
+      if (!OS_INSTANCE) return;
+      const msg = document.getElementById('notifySaveMsg');
+      try {
+        if (PUSH_ENABLED) {
+          await OS_INSTANCE.User.PushSubscription.optOut();
+          PUSH_ENABLED = false;
+        } else {
+          await OS_INSTANCE.Notifications.requestPermission();
+          await OS_INSTANCE.User.PushSubscription.optIn();
+          PUSH_ENABLED = Boolean(OS_INSTANCE.User.PushSubscription.optedIn);
+          if (PUSH_ENABLED) {
+            await OS_INSTANCE.User.addTags(cargarPrefsPush());
+          }
+        }
+        msg.textContent = PUSH_ENABLED ? 'Suscrito ✓' : 'Pausado';
+        renderNotifyModal();
+      } catch (err) {
+        msg.textContent = 'Permiso bloqueado en navegador';
+      }
+    });
+
+    if (ONESIGNAL_APP_ID && !ONESIGNAL_APP_ID.includes('PEGA_AQUI')) {
+      window.OneSignalDeferred = window.OneSignalDeferred || [];
+      window.OneSignalDeferred.push(async function(OneSignal) {
+        try {
+          await OneSignal.init({
+            appId: ONESIGNAL_APP_ID,
+            serviceWorkerParam: { scope: '/cypher-ai-pwa/push/onesignal/' },
+            serviceWorkerPath: 'cypher-ai-pwa/push/onesignal/OneSignalSDKWorker.js'
+          });
+          OS_INSTANCE = OneSignal;
+          PUSH_ENABLED = Boolean(OneSignal.User.PushSubscription.optedIn);
+          if (PUSH_ENABLED) {
+            const remoteTags = await OneSignal.User.getTags();
+            if (remoteTags && Object.keys(remoteTags).length) {
+              guardarPrefsPush({ ...cargarPrefsPush(), ...remoteTags });
+            } else {
+              await OneSignal.User.addTags(cargarPrefsPush());
+            }
+          }
+          OneSignal.User.PushSubscription.addEventListener('change', (ev) => {
+            PUSH_ENABLED = Boolean(ev.current.optedIn);
+            renderNotifyModal();
+          });
+          renderNotifyModal();
+        } catch (e) {
+          console.warn('OneSignal init:', e);
+        }
+      });
+    }
+
+    aplicarParametrosURL();
 
     cargarDatos();
   </script>

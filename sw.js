@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cypher-ai-pwa-v4';
+const CACHE_NAME = 'cypher-ai-pwa-v5';
 const SHELL_ASSETS = ['./', './index.html', './manifest.json', './assets/icon.svg'];
 
 self.addEventListener('install', (e) => {
@@ -17,6 +17,9 @@ self.addEventListener('activate', (e) => {
 
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
+  if (url.hostname.includes('onesignal.com') || url.pathname.includes('/push/onesignal/')) {
+    return;
+  }
   if (url.pathname.includes('dashboard.json')) {
     e.respondWith(
       fetch(e.request)
