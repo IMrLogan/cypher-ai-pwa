@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-20 03:46 CST",
+  "updated_at": "2026-11-20 04:45 CST",
   "fecha_operativa": "2026-11-20",
   "kpis": {
-    "ganados": 504,
-    "perdidos": 358,
+    "ganados": 505,
+    "perdidos": 357,
     "total_auditados": 862,
-    "win_rate": 58.5,
-    "unidades_netas": -192.99,
-    "roi_global": -22.4,
+    "win_rate": 58.6,
+    "unidades_netas": -191.65,
+    "roi_global": -22.2,
     "picks_hoy": 11,
-    "aperturas_activas": 28
+    "aperturas_activas": 35
   },
   "motores": [
     {
@@ -61,12 +61,12 @@
       "roi": -0.0
     },
     "SOCCER": {
-      "ganados": 226,
-      "perdidos": 162,
+      "ganados": 227,
+      "perdidos": 161,
       "total": 388,
-      "win_rate": 58.2,
-      "unidades": -109.54,
-      "roi": -28.2
+      "win_rate": 58.5,
+      "unidades": -108.2,
+      "roi": -27.9
     },
     "TENNIS": {
       "ganados": 0,
@@ -87,129 +87,600 @@
   },
   "curva_banca": [
     {
-      "fecha": "2026-10-20",
-      "unidades": -3.0
-    },
-    {
       "fecha": "2026-10-21",
-      "unidades": -7.9
+      "unidades": -4.9
     },
     {
       "fecha": "2026-10-22",
-      "unidades": -6.96
+      "unidades": -3.96
     },
     {
       "fecha": "2026-10-23",
-      "unidades": -10.84
+      "unidades": -7.84
     },
     {
       "fecha": "2026-10-24",
-      "unidades": -14.79
+      "unidades": -11.79
     },
     {
       "fecha": "2026-10-25",
-      "unidades": -25.8
+      "unidades": -22.8
     },
     {
       "fecha": "2026-10-26",
-      "unidades": -29.82
+      "unidades": -26.82
     },
     {
       "fecha": "2026-10-27",
-      "unidades": -30.78
+      "unidades": -27.78
     },
     {
       "fecha": "2026-10-28",
-      "unidades": -34.69
+      "unidades": -31.69
     },
     {
       "fecha": "2026-10-29",
-      "unidades": -34.73
+      "unidades": -31.73
     },
     {
       "fecha": "2026-10-30",
-      "unidades": -37.64
+      "unidades": -34.64
     },
     {
       "fecha": "2026-10-31",
-      "unidades": -47.92
+      "unidades": -42.62
     },
     {
       "fecha": "2026-11-01",
-      "unidades": -45.02
+      "unidades": -39.72
     },
     {
       "fecha": "2026-11-02",
-      "unidades": -47.55
+      "unidades": -42.25
     },
     {
       "fecha": "2026-11-03",
-      "unidades": -47.66
+      "unidades": -42.36
     },
     {
       "fecha": "2026-11-04",
-      "unidades": -55.28
+      "unidades": -49.98
     },
     {
       "fecha": "2026-11-05",
-      "unidades": -54.13
+      "unidades": -48.83
     },
     {
       "fecha": "2026-11-06",
-      "unidades": -56.56
+      "unidades": -51.26
     },
     {
       "fecha": "2026-11-07",
-      "unidades": -58.92
+      "unidades": -53.62
     },
     {
       "fecha": "2026-11-08",
-      "unidades": -57.37
+      "unidades": -52.07
     },
     {
       "fecha": "2026-11-09",
-      "unidades": -58.38
+      "unidades": -53.08
     },
     {
       "fecha": "2026-11-10",
-      "unidades": -60.08
+      "unidades": -54.78
     },
     {
       "fecha": "2026-11-11",
-      "unidades": -64.88
+      "unidades": -59.58
     },
     {
       "fecha": "2026-11-12",
-      "unidades": -69.15
+      "unidades": -63.85
     },
     {
       "fecha": "2026-11-13",
-      "unidades": -72.21
+      "unidades": -66.91
     },
     {
       "fecha": "2026-11-14",
-      "unidades": -126.42
+      "unidades": -121.12
     },
     {
       "fecha": "2026-11-15",
-      "unidades": -153.14
+      "unidades": -147.84
     },
     {
       "fecha": "2026-11-16",
-      "unidades": -157.44
+      "unidades": -152.14
     },
     {
       "fecha": "2026-11-17",
-      "unidades": -169.13
+      "unidades": -163.83
     },
     {
       "fecha": "2026-11-18",
-      "unidades": -177.24
+      "unidades": -171.94
+    },
+    {
+      "fecha": "2026-11-19",
+      "unidades": -172.9
     }
   ],
-  "diamantes": [],
-  "props": [],
-  "props_resumenes": [],
+  "diamantes": [
+    {
+      "deporte": "SOCCER",
+      "titulo": "💎 CYPHER AI SOCCER: FILTRO MAESTRO 'PICKS DIAMANTE' (2026-11-20)",
+      "descripcion": "Selección institucional de **Francotirador (Cero Relleno)**. Solo aparecen partidos que superaron **Dixon-Coles + XGBoost Universal, Pinnacle Sharp Steam, Consistencia L10 y Escudo RLM**.",
+      "es_no_bet": false,
+      "campos": [
+        {
+          "titulo": "💎 BOLETO INSIGNIA: PARLAY DIAMANTE VIP (3 SELECCIONES BLINDADAS)",
+          "valor": "**1. Club Tijuana vs Atlante FC** (Liga MX) — `💎💎💎 DIAMANTE PURO (Grado A+)`\n> 🎯 **Pick Diamante:** `🛡️ 1X (Local o Empate)` (`77.5%` Prob IA | Cuota: `1.19` | 🔒 Piso Seguro)\n> 🛡️ **Auditoría 3 Compuertas:** Ensemble V10 `77.5%` | Piernas Frescas + Ataque Estable\n> ⭐ **Prop Ancla del Juego:** `Club Tijuana OVER 0.5 Goles (Anota Gol) (Proy: 1.4 | Prob: 91.0%)`\n\n**2. Velez Sarsfield vs Belgrano Cordoba** (Liga Profesional Argentina) — `💎💎💎 DIAMANTE PURO (Grado A+)`\n> 🎯 **Pick Diamante:** `⚽ Más de 1.5 Goles` (`71.8%` Prob IA | Cuota: `1.44` | 🔥 +3.3% EV)\n> 🛡️ **Auditoría 3 Compuertas:** Dixon-Coles `71.8%` | L10 `68%`\n> ⭐ **Prop Ancla del Juego:** `Velez Sarsfield OVER 0.5 Goles (Anota Gol) (Proy: 1.4 | Prob: 91.0%)`\n\n**3. Puebla vs Atletico San Luis** (Liga MX) — `💎💎💎 DIAMANTE PURO (Grado A+)`\n> 🎯 **Pick Diamante:** `⚽ Más de 1.5 Goles` (`71.8%` Prob IA | Cuota: `1.25` | 🔒 Piso Seguro)\n> 🛡️ **Auditoría 3 Compuertas:** Dixon-Coles `71.8%` | L10 `68%`\n> ⭐ **Prop Ancla del Juego:** `Puebla OVER 0.5 Goles (Anota Gol) (Proy: 1.4 | Prob: 91.0%)`"
+        },
+        {
+          "titulo": "💰 Matemática del Boleto Diamante",
+          "valor": "> **Cuota Total:** `2.14x`\n> **Probabilidad Conjunta Real:** `39.9%`\n> **Stake Institucional Sugerido:** `1.2%` del Bankroll *(Se recomienda jugar también cada Bala de Plata en derecho)*"
+        },
+        {
+          "titulo": "📌 Radar Rápido de Mercados Especiales (Líderes del Día)",
+          "valor": "• **Mejor Ambos Anotan:** `Velez Sarsfield vs Belgrano Cordoba` ➡️ **SÍ** (`54.8%`)\n• **Mejor Línea de Goles:** `Velez Sarsfield vs Belgrano Cordoba` ➡️ **Más de 1.5 Goles** (`71.8%`)\n• **Mejor Pick Córners:** `Bayern München vs 1. FC Köln` ➡️ **Córners Menos de 9.5** (`53.0%`)\n• **Mejor Pick Tarjetas:** `Bayern München vs 1. FC Köln` ➡️ **Tarjetas Más de 4.5** (`59.4%`)"
+        }
+      ]
+    }
+  ],
+  "props": [
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #1: Bayern München vs 1. FC Köln (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Bayern München",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Bayern München OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Bayern München Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #1: Bayern München vs 1. FC Köln (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Bayern München",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Bayern München OVER 4.5 Córners del Equipo",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Bayern München Más de 4.5 Córners del Equipo"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #1: Bayern München vs 1. FC Köln (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "1. FC Köln",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "1. FC Köln OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "1. FC Köln Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Estac Troyes",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Estac Troyes OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Estac Troyes Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Estac Troyes",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Estac Troyes OVER 1.5 Tarjetas del Equipo",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Estac Troyes Más de 1.5 Tarjetas del Equipo"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Le Havre",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Le Havre OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Le Havre Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Athletic Club",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Athletic Club OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Athletic Club Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Espanyol",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Espanyol OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Espanyol Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Velez Sarsfield",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Velez Sarsfield OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Velez Sarsfield Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Velez Sarsfield",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Velez Sarsfield OVER 4.5 Córners del Equipo",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Velez Sarsfield Más de 4.5 Córners del Equipo"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Belgrano Cordoba",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Belgrano Cordoba OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Belgrano Cordoba Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Belgrano Cordoba",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Belgrano Cordoba OVER 2.5 Remates a Puerta",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Belgrano Cordoba Más de 2.5 Remates a Puerta"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Puebla",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Puebla OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Puebla Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Puebla",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Puebla OVER 4.5 Córners del Equipo",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Puebla Más de 4.5 Córners del Equipo"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Atletico San Luis",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Atletico San Luis OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Atletico San Luis Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Atletico San Luis",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Atletico San Luis OVER 2.5 Remates a Puerta",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Atletico San Luis Más de 2.5 Remates a Puerta"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "FC Juarez",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "FC Juarez OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "FC Juarez Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "FC Juarez",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "FC Juarez OVER 4.5 Córners del Equipo",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "FC Juarez Más de 4.5 Córners del Equipo"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Atlas",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Atlas OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Atlas Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Atlas",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Atlas OVER 2.5 Remates a Puerta",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Atlas Más de 2.5 Remates a Puerta"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Club Tijuana",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Club Tijuana OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Club Tijuana Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Club Tijuana",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Club Tijuana OVER 4.5 Córners del Equipo",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Club Tijuana Más de 4.5 Córners del Equipo"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Atlante FC",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Atlante FC OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Atlante FC Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Atlante FC",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Atlante FC OVER 2.5 Remates a Puerta",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Atlante FC Más de 2.5 Remates a Puerta"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Resumen Matemático Sábana Completa (28 Props Soccer)",
+      "equipo": "",
+      "jugador": "1410.63x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "1410.63x",
+      "probabilidad": 90.1,
+      "racha_l5": "",
+      "pick_amigable": "1410.63x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Athletic Club",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Athletic Club OVER 4.5 Córners del Equipo",
+      "probabilidad": 89.8,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Athletic Club Más de 4.5 Córners del Equipo"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Espanyol",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Espanyol OVER 2.5 Remates a Puerta",
+      "probabilidad": 88.6,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Espanyol Más de 2.5 Remates a Puerta"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #1: Bayern München vs 1. FC Köln (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "1. FC Köln",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "1. FC Köln UNDER 1.5 Goles Recibidos (Muro)",
+      "probabilidad": 81.6,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "1. FC Köln Menos de 1.5 Goles Recibidos (Muro)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Le Havre",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Le Havre UNDER 4.5 Córners del Equipo",
+      "probabilidad": 77.8,
+      "racha_l5": "🟢🟢🔴🟢🟢",
+      "pick_amigable": "Le Havre Menos de 4.5 Córners del Equipo"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 65.9,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #1: Bayern München vs 1. FC Köln (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 61.5,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 58.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Resumen Matemático Sábana Completa (28 Props Soccer)",
+      "equipo": "",
+      "jugador": "2",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "2 por equipo",
+      "probabilidad": 0.0,
+      "racha_l5": "",
+      "pick_amigable": "2 por equipo"
+    }
+  ],
+  "props_resumenes": [
+    {
+      "deporte": "SOCCER",
+      "texto": "**1. [Bayern München vs 1. FC Köln]** `Bayern München OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.2` | L5: `100%` 🟢🟢🟢🟢🟢)\n**2. [Bayern München vs 1. FC Köln]** `Bayern München OVER 4.5 Córners del Equipo` ➡️ **Prob IA: `91.0%`** (Proy: `5.7` | L5: `100%` 🟢🟢🟢🟢🟢)\n**3. [Bayern München vs 1. FC Köln]** `1. FC Köln OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.0` | L5: `100%` 🟢🟢🟢🟢🟢)\n**4. [Estac Troyes vs Le Havre]** `Estac Troyes OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.3` | L5: `100%` 🟢🟢🟢🟢🟢)\n\n> 💰 **Cuota Combinada (Top 4):** `11.22` | **Prob. Conjunta:** `68.6%` | **Stake:** `5.0%`"
+    }
+  ],
   "guiones": [],
   "picks_hoy": [
     {
@@ -394,24 +865,333 @@
     },
     {
       "deporte": "SOCCER",
-      "liga": "Major League Soccer",
-      "fecha": "2026-11-19",
-      "duelo": "Seattle Sounders vs Real Salt Lake",
+      "liga": "Liga MX",
+      "fecha": "2026-11-20",
+      "duelo": "Club Tijuana vs Atlante FC",
       "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.34,
+      "cuota": 1.19,
       "estado": "Pendiente",
       "ganancia": 0.0,
-      "id": "3a1055322274",
-      "equipo_a": "Seattle Sounders",
-      "equipo_b": "Real Salt Lake",
+      "id": "bfea828a54f8",
+      "equipo_a": "Club Tijuana",
+      "equipo_b": "Atlante FC",
       "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
+      "logo_a": "",
+      "logo_b": "",
       "contexto": [],
       "pick_1": {
         "etiqueta": "Pronóstico Principal",
         "texto": "🛡️ 1X (Local o Empate)",
-        "prob": 73.8
+        "prob": 77.5
+      },
+      "pick_2": {
+        "etiqueta": "Ventaja Detectada",
+        "texto": "Valor sobre casino: -7.8%",
+        "prob": null
+      },
+      "pick_3": null,
+      "rankeado_real": false,
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Club Tijuana",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Club Tijuana OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Club Tijuana Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Club Tijuana",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Club Tijuana OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Club Tijuana Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atlante FC",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atlante FC OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atlante FC Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atlante FC",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atlante FC OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atlante FC Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 1.60 / 4.62 / 5.50",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.67 / 2.31",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-20 04:33:51"
+      }
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Liga MX",
+      "fecha": "2026-11-20",
+      "duelo": "FC Juarez vs Atlas",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.3,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "d2ce30e051da",
+      "equipo_a": "FC Juarez",
+      "equipo_b": "Atlas",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/17851.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
+      "contexto": [],
+      "pick_1": {
+        "etiqueta": "Pronóstico Principal",
+        "texto": "🛡️ 12 (Local o Visita)",
+        "prob": 74.8
+      },
+      "pick_2": {
+        "etiqueta": "Ventaja Detectada",
+        "texto": "Valor sobre casino: -2.8%",
+        "prob": null
+      },
+      "pick_3": null,
+      "rankeado_real": false,
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "FC Juarez",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "FC Juarez OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "FC Juarez Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "FC Juarez",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "FC Juarez OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "FC Juarez Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atlas",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atlas OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atlas Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atlas",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atlas OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atlas Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 3.65 / 3.70 / 2.10",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.72 / 2.20",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-20 04:33:26"
+      }
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Liga MX",
+      "fecha": "2026-11-20",
+      "duelo": "Puebla vs Atletico San Luis",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.25,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "197c7ef2c825",
+      "equipo_a": "Puebla",
+      "equipo_b": "Atletico San Luis",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/231.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
+      "contexto": [],
+      "pick_1": {
+        "etiqueta": "Pronóstico Principal",
+        "texto": "⚽ Más de 1.5 Goles",
+        "prob": 71.8
+      },
+      "pick_2": {
+        "etiqueta": "Ventaja Detectada",
+        "texto": "Valor sobre casino: -10.3%",
+        "prob": null
+      },
+      "pick_3": null,
+      "rankeado_real": false,
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Puebla",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Puebla OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Puebla Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Puebla",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Puebla OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Puebla Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atletico San Luis",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atletico San Luis OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atletico San Luis Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atletico San Luis",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atletico San Luis OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atletico San Luis Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 2.58 / 3.60 / 2.88",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.83 / 2.18",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-20 04:33:00"
+      }
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Liga Profesional Argentina",
+      "fecha": "2026-11-20",
+      "duelo": "Velez Sarsfield vs Belgrano Cordoba",
+      "pick_principal": "🛡️ 1X (Local o Empate)",
+      "cuota": 1.33,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "4247b24d84f8",
+      "equipo_a": "Velez Sarsfield",
+      "equipo_b": "Belgrano Cordoba",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/4.png",
+      "contexto": [],
+      "pick_1": {
+        "etiqueta": "Pronóstico Principal",
+        "texto": "🛡️ 1X (Local o Empate)",
+        "prob": 74.4
       },
       "pick_2": {
         "etiqueta": "Ventaja Detectada",
@@ -420,169 +1200,286 @@
       },
       "pick_3": null,
       "rankeado_real": false,
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Velez Sarsfield",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Velez Sarsfield OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Velez Sarsfield Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Velez Sarsfield",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Velez Sarsfield OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Velez Sarsfield Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Belgrano Cordoba",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Belgrano Cordoba OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Belgrano Cordoba Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Belgrano Cordoba",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Belgrano Cordoba OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Belgrano Cordoba Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 2.25 / 3.30 / 3.62",
+        "linea_2": "Altas / Bajas 2.5 goles: 2.30 / 1.67",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-20 04:32:29"
+      }
     },
     {
       "deporte": "SOCCER",
-      "liga": "Major League Soccer",
-      "fecha": "2026-11-19",
-      "duelo": "Orlando City SC vs FC Cincinnati",
-      "pick_principal": "🛡️ 12 (Local o Visita)",
-      "cuota": 1.25,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "eda276452a68",
-      "equipo_a": "Orlando City SC",
-      "equipo_b": "FC Cincinnati",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Pronóstico Principal",
-        "texto": "🛡️ 12 (Local o Visita)",
-        "prob": 72.1
-      },
-      "pick_2": {
-        "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -9.8%",
-        "prob": null
-      },
-      "pick_3": null,
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-19",
-      "duelo": "Sao Paulo vs Fluminense",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.4,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "8e588db14c94",
-      "equipo_a": "Sao Paulo",
-      "equipo_b": "Fluminense",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Pronóstico Principal",
-        "texto": "⚽ Más de 1.5 Goles",
-        "prob": 71.8
-      },
-      "pick_2": {
-        "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: +0.5%",
-        "prob": null
-      },
-      "pick_3": null,
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-19",
-      "duelo": "Vitoria vs RB Bragantino",
+      "liga": "La Liga",
+      "fecha": "2026-11-20",
+      "duelo": "Athletic Club vs Espanyol",
       "pick_principal": "⚽ Más de 1.5 Goles",
       "cuota": 1.27,
       "estado": "Pendiente",
       "ganancia": 0.0,
-      "id": "1976a543c16c",
-      "equipo_a": "Vitoria",
-      "equipo_b": "RB Bragantino",
+      "id": "fae4fafb1cd3",
+      "equipo_a": "Athletic Club",
+      "equipo_b": "Espanyol",
       "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
-      "logo_b": "",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
       "contexto": [],
       "pick_1": {
         "etiqueta": "Pronóstico Principal",
         "texto": "⚽ Más de 1.5 Goles",
-        "prob": 71.8
+        "prob": 68.6
       },
       "pick_2": {
         "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -8.9%",
+        "texto": "Valor sobre casino: -12.8%",
         "prob": null
       },
       "pick_3": null,
       "rankeado_real": false,
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Athletic Club",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Athletic Club OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Athletic Club Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Espanyol",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Espanyol OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Espanyol Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Athletic Club",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Athletic Club OVER 4.5 Córners del Equipo",
+          "probabilidad": 89.8,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Athletic Club Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Espanyol",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Espanyol OVER 2.5 Remates a Puerta",
+          "probabilidad": 88.6,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Espanyol Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 65.9,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 1.54 / 4.60 / 7.01",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.92 / 2.06",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-20 04:31:57"
+      }
     },
     {
       "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-19",
-      "duelo": "Vasco DA Gama vs Internacional",
+      "liga": "Ligue 1",
+      "fecha": "2026-11-20",
+      "duelo": "Estac Troyes vs Le Havre",
       "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.18,
+      "cuota": 1.38,
       "estado": "Pendiente",
       "ganancia": 0.0,
-      "id": "fd8d183621b5",
-      "equipo_a": "Vasco DA Gama",
-      "equipo_b": "Internacional",
+      "id": "55ed99804abc",
+      "equipo_a": "Estac Troyes",
+      "equipo_b": "Le Havre",
       "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+      "logo_a": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
       "contexto": [],
       "pick_1": {
         "etiqueta": "Pronóstico Principal",
         "texto": "🛡️ 1X (Local o Empate)",
-        "prob": 77.0
+        "prob": 73.2
       },
       "pick_2": {
         "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -9.1%",
+        "texto": "Valor sobre casino: +1.0%",
         "prob": null
       },
       "pick_3": null,
       "rankeado_real": false,
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Estac Troyes",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Estac Troyes OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Estac Troyes Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Estac Troyes",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Estac Troyes OVER 1.5 Tarjetas del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Estac Troyes Más de 1.5 Tarjetas del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Le Havre",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Le Havre OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Le Havre Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Le Havre",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Le Havre UNDER 4.5 Córners del Equipo",
+          "probabilidad": 77.8,
+          "racha_l5": "🟢🟢🔴🟢🟢",
+          "pick_amigable": "Le Havre Menos de 4.5 Córners del Equipo",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 58.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Friendlies",
-      "fecha": "2026-11-19",
-      "duelo": "Switzerland U17 vs Czechia U17",
-      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
-      "cuota": 1.0,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "087f5f3a3c10",
-      "equipo_a": "Switzerland U17",
-      "equipo_b": "Czechia U17",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "logo_b": "",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Pronóstico Principal",
-        "texto": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: +0.0%",
-        "prob": null
-      },
-      "pick_3": null,
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 2.26 / 3.68 / 3.38",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.96 / 1.98",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-20 04:31:26"
+      }
     }
   ],
   "aperturas": [
@@ -1117,9 +2014,664 @@
       "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
+    },
+    {
+      "id": "7321db5e97da",
+      "deporte": "SOCCER",
+      "liga": "Bundesliga",
+      "fecha": "2026-11-20",
+      "duelo": "Bayern München vs 1. FC Köln",
+      "equipo_a": "Bayern München",
+      "equipo_b": "1. FC Köln",
+      "separador": "vs",
+      "logo_a": "",
+      "logo_b": "",
+      "linea_1": "Ganador (Local / Empate / Visita): 1.08 / 15.40 / 28.00",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.14 / 5.50",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-20 04:30:54",
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #1: Bayern München vs 1. FC Köln (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Bayern München",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Bayern München OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Bayern München Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #1: Bayern München vs 1. FC Köln (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Bayern München",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Bayern München OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Bayern München Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #1: Bayern München vs 1. FC Köln (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "1. FC Köln",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "1. FC Köln OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "1. FC Köln Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #1: Bayern München vs 1. FC Köln (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "1. FC Köln",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "1. FC Köln UNDER 1.5 Goles Recibidos (Muro)",
+          "probabilidad": 81.6,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "1. FC Köln Menos de 1.5 Goles Recibidos (Muro)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #1: Bayern München vs 1. FC Köln (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 61.5,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": null
+    },
+    {
+      "id": "8b8e909b2abf",
+      "deporte": "SOCCER",
+      "liga": "Ligue 1",
+      "fecha": "2026-11-20",
+      "duelo": "Estac Troyes vs Le Havre",
+      "equipo_a": "Estac Troyes",
+      "equipo_b": "Le Havre",
+      "separador": "vs",
+      "logo_a": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+      "linea_1": "Ganador (Local / Empate / Visita): 2.26 / 3.68 / 3.38",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.96 / 1.98",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-20 04:31:26",
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Estac Troyes",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Estac Troyes OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Estac Troyes Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Estac Troyes",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Estac Troyes OVER 1.5 Tarjetas del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Estac Troyes Más de 1.5 Tarjetas del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Le Havre",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Le Havre OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Le Havre Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Le Havre",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Le Havre UNDER 4.5 Córners del Equipo",
+          "probabilidad": 77.8,
+          "racha_l5": "🟢🟢🔴🟢🟢",
+          "pick_amigable": "Le Havre Menos de 4.5 Córners del Equipo",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Estac Troyes vs Le Havre (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 58.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": null
+    },
+    {
+      "id": "446aa5ec4d4e",
+      "deporte": "SOCCER",
+      "liga": "La Liga",
+      "fecha": "2026-11-20",
+      "duelo": "Athletic Club vs Espanyol",
+      "equipo_a": "Athletic Club",
+      "equipo_b": "Espanyol",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+      "linea_1": "Ganador (Local / Empate / Visita): 1.54 / 4.60 / 7.01",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.92 / 2.06",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-20 04:31:57",
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Athletic Club",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Athletic Club OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Athletic Club Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Espanyol",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Espanyol OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Espanyol Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Athletic Club",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Athletic Club OVER 4.5 Córners del Equipo",
+          "probabilidad": 89.8,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Athletic Club Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Espanyol",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Espanyol OVER 2.5 Remates a Puerta",
+          "probabilidad": 88.6,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Espanyol Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Athletic Club vs Espanyol (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 65.9,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": null
+    },
+    {
+      "id": "33ff75c335df",
+      "deporte": "SOCCER",
+      "liga": "Liga Profesional Argentina",
+      "fecha": "2026-11-20",
+      "duelo": "Velez Sarsfield vs Belgrano Cordoba",
+      "equipo_a": "Velez Sarsfield",
+      "equipo_b": "Belgrano Cordoba",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/4.png",
+      "linea_1": "Ganador (Local / Empate / Visita): 2.25 / 3.30 / 3.62",
+      "linea_2": "Altas / Bajas 2.5 goles: 2.30 / 1.67",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-20 04:32:29",
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Velez Sarsfield",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Velez Sarsfield OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Velez Sarsfield Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Velez Sarsfield",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Velez Sarsfield OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Velez Sarsfield Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Belgrano Cordoba",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Belgrano Cordoba OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Belgrano Cordoba Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Belgrano Cordoba",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Belgrano Cordoba OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Belgrano Cordoba Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Velez Sarsfield vs Belgrano Cordoba (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": null
+    },
+    {
+      "id": "da701725cb67",
+      "deporte": "SOCCER",
+      "liga": "Liga MX",
+      "fecha": "2026-11-20",
+      "duelo": "Puebla vs Atletico San Luis",
+      "equipo_a": "Puebla",
+      "equipo_b": "Atletico San Luis",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/231.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
+      "linea_1": "Ganador (Local / Empate / Visita): 2.58 / 3.60 / 2.88",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.83 / 2.18",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-20 04:33:00",
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Puebla",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Puebla OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Puebla Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Puebla",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Puebla OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Puebla Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atletico San Luis",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atletico San Luis OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atletico San Luis Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atletico San Luis",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atletico San Luis OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atletico San Luis Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Puebla vs Atletico San Luis (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": null
+    },
+    {
+      "id": "80e23348ebad",
+      "deporte": "SOCCER",
+      "liga": "Liga MX",
+      "fecha": "2026-11-20",
+      "duelo": "FC Juarez vs Atlas",
+      "equipo_a": "FC Juarez",
+      "equipo_b": "Atlas",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/17851.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
+      "linea_1": "Ganador (Local / Empate / Visita): 3.65 / 3.70 / 2.10",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.72 / 2.20",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-20 04:33:26",
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "FC Juarez",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "FC Juarez OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "FC Juarez Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "FC Juarez",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "FC Juarez OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "FC Juarez Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atlas",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atlas OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atlas Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atlas",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atlas OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atlas Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: FC Juarez vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": null
+    },
+    {
+      "id": "f6e1903a5912",
+      "deporte": "SOCCER",
+      "liga": "Liga MX",
+      "fecha": "2026-11-20",
+      "duelo": "Club Tijuana vs Atlante FC",
+      "equipo_a": "Club Tijuana",
+      "equipo_b": "Atlante FC",
+      "separador": "vs",
+      "logo_a": "",
+      "logo_b": "",
+      "linea_1": "Ganador (Local / Empate / Visita): 1.60 / 4.62 / 5.50",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.67 / 2.31",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-20 04:33:51",
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Club Tijuana",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Club Tijuana OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Club Tijuana Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Club Tijuana",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Club Tijuana OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Club Tijuana Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atlante FC",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atlante FC OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atlante FC Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atlante FC",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atlante FC OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atlante FC Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Club Tijuana vs Atlante FC (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": null
     }
   ],
   "historial": [
+    {
+      "deporte": "SOCCER",
+      "liga": "Major League Soccer",
+      "fecha": "2026-11-19",
+      "duelo": "Seattle Sounders vs Real Salt Lake",
+      "pick_principal": "🛡️ 1X (Local o Empate)",
+      "cuota": 1.34,
+      "estado": "Ganado",
+      "ganancia": 0.34
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Major League Soccer",
+      "fecha": "2026-11-19",
+      "duelo": "Orlando City SC vs FC Cincinnati",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.25,
+      "estado": "Ganado",
+      "ganancia": 0.25
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-19",
+      "duelo": "Sao Paulo vs Fluminense",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.4,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-19",
+      "duelo": "Vitoria vs RB Bragantino",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.27,
+      "estado": "Ganado",
+      "ganancia": 0.27
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-19",
+      "duelo": "Vasco DA Gama vs Internacional",
+      "pick_principal": "🛡️ 1X (Local o Empate)",
+      "cuota": 1.18,
+      "estado": "Ganado",
+      "ganancia": 0.18
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Friendlies",
+      "fecha": "2026-11-19",
+      "duelo": "Switzerland U17 vs Czechia U17",
+      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
+      "cuota": 1.0,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
     {
       "deporte": "NBA",
       "liga": "NBA",
@@ -1859,66 +3411,6 @@
       "cuota": 1.91,
       "estado": "Ganado",
       "ganancia": 0.91
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-15",
-      "duelo": "SF @ DAL",
-      "pick_principal": "Ganador: DAL",
-      "cuota": 1.91,
-      "estado": "Perdido",
-      "ganancia": -1.0
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-15",
-      "duelo": "SEA @ LV",
-      "pick_principal": "Ganador: LV",
-      "cuota": 1.91,
-      "estado": "Perdido",
-      "ganancia": -1.0
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-15",
-      "duelo": "LA @ ARI",
-      "pick_principal": "Ganador: LA",
-      "cuota": 1.91,
-      "estado": "Ganado",
-      "ganancia": 0.91
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-15",
-      "duelo": "JAX @ TEN",
-      "pick_principal": "Ganador: JAX",
-      "cuota": 1.91,
-      "estado": "Ganado",
-      "ganancia": 0.91
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-15",
-      "duelo": "BUF @ NYJ",
-      "pick_principal": "Ganador: BUF",
-      "cuota": 1.91,
-      "estado": "Ganado",
-      "ganancia": 0.91
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-15",
-      "duelo": "CAR @ NO",
-      "pick_principal": "Ganador: NO",
-      "cuota": 1.91,
-      "estado": "Perdido",
-      "ganancia": -1.0
     }
   ]
 }
