@@ -33,6 +33,7 @@
       min-height: 100vh;
       padding-bottom: 86px;
     }
+    body.modal-open { overflow: hidden; }
 
     /* CABECERA FIJA CON BOTONES DE DEPORTES */
     header {
@@ -107,7 +108,7 @@
       .sync-pill .ts-text { display: none; }
     }
 
-    /* TARJETAS DE PARTIDOS */
+    /* TARJETAS DE PARTIDOS INTERACTIVAS */
     .cards-grid {
       display: grid; grid-template-columns: repeat(auto-fill, minmax(316px, 1fr)); gap: 13px;
     }
@@ -116,6 +117,13 @@
       border: 1px solid var(--border); border-radius: 16px; padding: 14px;
       display: flex; flex-direction: column; gap: 10px;
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+      transition: transform 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease;
+    }
+    .card.clickable { cursor: pointer; }
+    .card.clickable:hover {
+      transform: translateY(-2px);
+      border-color: rgba(0, 229, 255, 0.42);
+      box-shadow: 0 12px 28px rgba(0, 229, 255, 0.10);
     }
     .card-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
     .badge {
@@ -128,14 +136,19 @@
     .badge.amber { background: rgba(245, 158, 11, 0.15); color: var(--amber); }
     .badge.purple { background: rgba(168, 85, 247, 0.16); color: #d8b4fe; }
 
-    /* BLOQUE ESCUDO VS ESCUDO */
+    /* BLOQUE ESCUDO VS ESCUDO (CLIC POR EQUIPO) */
     .matchup-banner {
       display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px;
       background: rgba(15, 23, 42, 0.60); border: 1px solid rgba(148, 163, 184, 0.10);
-      border-radius: 12px; padding: 12px 8px;
+      border-radius: 12px; padding: 10px 6px;
     }
     .team-col {
-      display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px;
+      display: flex; flex-direction: column; align-items: center; text-align: center; gap: 5px;
+      padding: 6px 4px; border-radius: 10px; transition: background 0.15s ease, transform 0.15s ease;
+    }
+    .team-col.team-tap:hover {
+      background: rgba(0, 229, 255, 0.10);
+      transform: scale(1.03);
     }
     .team-logo {
       width: 48px; height: 48px; object-fit: contain;
@@ -169,12 +182,18 @@
       border: 1px solid rgba(168, 85, 247, 0.25);
       border-left: 3.5px solid var(--purple);
     }
+    .pick-tier.tertiary {
+      background: rgba(148, 163, 184, 0.07);
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      border-left: 3.5px solid var(--amber);
+    }
     .tier-head {
       display: flex; justify-content: space-between; align-items: center; gap: 6px;
       font-size: 0.67rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;
     }
     .pick-tier.primary .tier-head { color: var(--cyan); }
     .pick-tier.secondary .tier-head { color: #d8b4fe; }
+    .pick-tier.tertiary .tier-head { color: var(--amber); }
     .prob-chip {
       font-family: var(--mono); font-size: 0.68rem; font-weight: 800;
       padding: 2px 7px; border-radius: 999px;
@@ -182,14 +201,89 @@
     }
     .tier-val { font-size: 0.9rem; font-weight: 800; color: var(--text); line-height: 1.25; }
 
-    .pick-extra-row {
-      display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap;
-      font-size: 0.73rem; color: var(--muted); padding-top: 2px;
+    .card-cta-bar {
+      display: flex; justify-content: space-between; align-items: center; gap: 8px;
+      border-top: 1px solid rgba(148, 163, 184, 0.10);
+      padding-top: 8px; margin-top: 2px; font-size: 0.72rem;
     }
-    .extra-pill {
+    .cta-chips { display: flex; gap: 5px; flex-wrap: wrap; align-items: center; }
+    .mini-chip {
       background: var(--panel-2); border: 1px solid var(--border);
-      padding: 3px 8px; border-radius: 7px; color: #cbd5e1; font-size: 0.72rem;
+      padding: 2px 7px; border-radius: 999px; color: #cbd5e1; font-size: 0.68rem; font-weight: 600;
     }
+    .mini-chip.hi { border-color: rgba(168, 85, 247, 0.4); color: #e9d5ff; }
+    .cta-link { color: var(--cyan); font-weight: 700; white-space: nowrap; }
+
+    /* PANEL DESLIZABLE / MODAL RADIOGRAFÍA DEL PARTIDO */
+    .modal-backdrop {
+      position: fixed; inset: 0; z-index: 90;
+      background: rgba(3, 7, 18, 0.78);
+      backdrop-filter: blur(8px);
+      display: none; align-items: flex-end; justify-content: center;
+      padding: 0;
+    }
+    .modal-backdrop.open { display: flex; animation: fadeIn 0.18s ease; }
+    @media (min-width: 721px) {
+      .modal-backdrop { align-items: center; padding: 20px; }
+    }
+    .modal-sheet {
+      width: 100%; max-width: 680px; max-height: 90vh;
+      background: linear-gradient(180deg, #0f172a 0%, #070b14 100%);
+      border: 1px solid rgba(0, 229, 255, 0.25);
+      border-radius: 22px 22px 0 0;
+      display: flex; flex-direction: column; overflow: hidden;
+      box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.65);
+      animation: slideUp 0.22s ease;
+    }
+    @media (min-width: 721px) {
+      .modal-sheet { border-radius: 20px; max-height: 86vh; }
+    }
+    .modal-handle {
+      width: 42px; height: 4px; border-radius: 999px;
+      background: rgba(148, 163, 184, 0.35); margin: 9px auto 2px;
+    }
+    @media (min-width: 721px) { .modal-handle { display: none; } }
+    .modal-header {
+      padding: 12px 16px; border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between; gap: 10px;
+      background: rgba(7, 11, 20, 0.65);
+    }
+    .modal-title-wrap { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+    .modal-kicker { font-size: 0.68rem; color: var(--cyan); font-weight: 800; text-transform: uppercase; letter-spacing: 0.8px; }
+    .modal-title { font-size: 1rem; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .modal-close {
+      background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
+      width: 34px; height: 34px; border-radius: 50%; font-size: 1rem; cursor: pointer; flex-shrink: 0;
+    }
+    .modal-body {
+      padding: 14px 16px 24px; overflow-y: auto; display: flex; flex-direction: column; gap: 16px;
+    }
+
+    .team-switcher {
+      display: grid; grid-template-columns: auto 1fr 1fr; gap: 7px;
+    }
+    .tsw-btn {
+      background: var(--panel-2); color: var(--muted); border: 1px solid var(--border);
+      border-radius: 11px; padding: 8px 10px; font-size: 0.76rem; font-weight: 700;
+      display: flex; align-items: center; justify-content: center; gap: 6px;
+      cursor: pointer; transition: 0.15s; min-width: 0;
+    }
+    .tsw-btn img { width: 20px; height: 20px; object-fit: contain; flex-shrink: 0; }
+    .tsw-btn span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .tsw-btn.active {
+      background: rgba(0, 229, 255, 0.14); color: var(--cyan); border-color: rgba(0, 229, 255, 0.5);
+    }
+
+    .modal-sec-head {
+      display: flex; justify-content: space-between; align-items: center; gap: 8px;
+      margin-bottom: 8px;
+    }
+    .modal-sec-title { font-size: 0.82rem; font-weight: 800; color: var(--text); letter-spacing: 0.3px; }
+    .modal-sec-sub { font-size: 0.7rem; color: var(--muted); }
+    .modal-list { display: flex; flex-direction: column; gap: 9px; }
+
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes slideUp { from { transform: translateY(24px); opacity: 0.7; } to { transform: translateY(0); opacity: 1; } }
 
     /* BLOQUE DIAMANTE */
     .diamond-wrap { display: grid; gap: 10px; margin-bottom: 14px; }
@@ -216,7 +310,7 @@
       display: flex; align-items: center; gap: 12px;
     }
     .player-avatar {
-      width: 54px; height: 54px; border-radius: 50%; flex-shrink: 0;
+      width: 52px; height: 52px; border-radius: 50%; flex-shrink: 0;
       object-fit: cover; object-position: top center;
       background: radial-gradient(circle, #1e293b 0%, #090f1d 100%);
       border: 2px solid rgba(168, 85, 247, 0.55);
@@ -227,17 +321,22 @@
     .prop-head { display: flex; justify-content: space-between; align-items: center; gap: 6px; margin-bottom: 4px; }
     .prop-player { font-size: 0.88rem; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .prop-pick {
-      font-size: 0.82rem; font-weight: 700; color: var(--cyan);
+      font-size: 0.81rem; font-weight: 700; color: var(--cyan);
       background: var(--panel-2); padding: 6px 9px; border-radius: 8px; margin-bottom: 5px;
     }
     .prop-foot { display: flex; justify-content: space-between; align-items: center; gap: 6px; font-size: 0.72rem; color: var(--muted); }
+
+    .props-bar {
+      display: flex; justify-content: space-between; align-items: center; gap: 10px;
+      margin-bottom: 12px; flex-wrap: wrap;
+    }
+    .props-bar-title { font-size: 0.85rem; font-weight: 800; color: #e2e8f0; }
 
     /* LÍNEAS INICIALES */
     .line-box {
       background: var(--panel-2); border-radius: 10px; padding: 9px 11px;
       display: flex; flex-direction: column; gap: 4px; font-size: 0.8rem;
     }
-    .line-box b { color: var(--cyan); }
 
     /* TABLAS Y SECCIONES */
     .section-box {
@@ -254,8 +353,8 @@
     .cyan { color: var(--cyan); }
 
     .empty-state {
-      background: var(--panel); border: 1px dashed var(--border); border-radius: 14px;
-      padding: 28px 18px; text-align: center; color: var(--muted); font-size: 0.84rem; line-height: 1.5;
+      background: rgba(15, 23, 42, 0.65); border: 1px dashed var(--border); border-radius: 14px;
+      padding: 22px 16px; text-align: center; color: var(--muted); font-size: 0.82rem; line-height: 1.5;
     }
     .view { display: none; }
     .view.active { display: block; }
@@ -327,7 +426,7 @@
     <div class="toolbar">
       <div class="desktop-tabs">
         <button class="tab-btn active" data-view="picks">🎯 Pronósticos</button>
-        <button class="tab-btn" data-view="props">🌟 Jugadores</button>
+        <button class="tab-btn" data-view="props">🌟 Top Jugadores</button>
         <button class="tab-btn" data-view="guiones">🎬 Combinadas</button>
         <button class="tab-btn" data-view="aperturas">📸 Líneas Iniciales</button>
         <button class="tab-btn" data-view="roi">📈 Resultados</button>
@@ -335,15 +434,19 @@
       <input class="search-input" id="searchInput" type="search" placeholder="Buscar equipo, jugador o liga..." />
     </div>
 
-    <!-- VISTA 1: DIAMANTE + PRONÓSTICOS (#1 Y #2 MÁS PROBABLE) -->
+    <!-- VISTA 1: DIAMANTE + PRONÓSTICOS -->
     <section id="view-picks" class="view active">
       <div id="diamanteContainer" class="diamond-wrap"></div>
       <div id="picksContainer" class="cards-grid"></div>
     </section>
 
-    <!-- VISTA 2: JUGADORES (PROPS CON FOTO) -->
+    <!-- VISTA 2: TOP JUGADORES (PISO SEGURO DEL DÍA) -->
     <section id="view-props" class="view">
       <div id="propsResumenContainer" class="diamond-wrap"></div>
+      <div class="props-bar" id="propsBar" style="display:none;">
+        <span class="props-bar-title" id="propsBarTitle">🛡️ Top Piso Seguro del Día</span>
+        <button class="btn-ghost" id="btnToggleAllProps">Ver todos</button>
+      </div>
       <div id="propsContainer" class="cards-grid"></div>
     </section>
 
@@ -352,12 +455,12 @@
       <div id="guionesContainer" class="cards-grid"></div>
     </section>
 
-    <!-- VISTA 4: LÍNEAS INICIALES (APERTURAS RLM) -->
+    <!-- VISTA 4: LÍNEAS INICIALES -->
     <section id="view-aperturas" class="view">
       <div id="aperturasContainer" class="cards-grid"></div>
     </section>
 
-    <!-- VISTA 5: RESULTADOS, GANANCIAS Y MOTORES -->
+    <!-- VISTA 5: RESULTADOS Y MOTORES -->
     <section id="view-roi" class="view">
       <div class="section-box">
         <div class="section-title"><span>Evolución de Ganancias (Unidades)</span><span class="mono cyan" id="chartMax"></span></div>
@@ -381,6 +484,21 @@
     </section>
   </main>
 
+  <!-- PANEL DESLIZABLE: RADIOGRAFÍA DEL PARTIDO -->
+  <div class="modal-backdrop" id="matchModal" role="dialog" aria-modal="true">
+    <div class="modal-sheet">
+      <div class="modal-handle"></div>
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <div class="modal-kicker" id="modalKicker">Radiografía del Partido</div>
+          <div class="modal-title" id="modalTitle">Partido</div>
+        </div>
+        <button class="modal-close" id="btnCloseModal" aria-label="Cerrar">✕</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
   <!-- BARRA COMPACTA DE KPIs HASTA LA PARTE MÁS BAJA -->
   <footer class="kpi-footer">
     <div class="kpi-strip">
@@ -393,7 +511,7 @@
 
   <nav class="mobile-nav">
     <button class="m-btn active" data-view="picks"><span>🎯</span><span>Picks</span></button>
-    <button class="m-btn" data-view="props"><span>🌟</span><span>Jugadores</span></button>
+    <button class="m-btn" data-view="props"><span>🌟</span><span>Top Props</span></button>
     <button class="m-btn" data-view="guiones"><span>🎬</span><span>Combos</span></button>
     <button class="m-btn" data-view="aperturas"><span>📸</span><span>Líneas</span></button>
     <button class="m-btn" data-view="roi"><span>📈</span><span>Balance</span></button>
@@ -404,7 +522,11 @@
     let activeView = 'picks';
     let activeSport = 'ALL';
     let searchTerm = '';
+    let showAllProps = false;
     let deferredPrompt = null;
+    const MATCH_LOOKUP = new Map();
+    let currentModalMatch = null;
+    let currentModalTeam = 'ALL';
 
     const icons = { NBA: '🏀', NFL: '🏈', SOCCER: '⚽', TENNIS: '🎾', MLB: '⚾' };
     const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (m) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
@@ -462,6 +584,10 @@
       renderAll();
     });
     document.getElementById('btnRefresh').addEventListener('click', () => cargarDatos(true));
+    document.getElementById('btnToggleAllProps').addEventListener('click', () => {
+      showAllProps = !showAllProps;
+      renderAll();
+    });
 
     function filtrar(lista) {
       return (lista || []).filter((it) => {
@@ -471,7 +597,25 @@
       });
     }
 
-    function matchupHTML(item) {
+    function renderPropCard(pr) {
+      return `
+        <article class="prop-card">
+          ${imgTag(pr.foto, pr.jugador, pr.es_equipo ? 'player-avatar logo-mode' : 'player-avatar', !pr.es_equipo)}
+          <div class="prop-body">
+            <div class="prop-head">
+              <div class="prop-player">${esc(pr.jugador)}</div>
+              <span class="badge purple">${pr.probabilidad ? Number(pr.probabilidad).toFixed(1) + '% prob.' : pr.deporte}</span>
+            </div>
+            <div class="prop-pick">${esc(pr.pick_amigable || pr.pick)}</div>
+            <div class="prop-foot">
+              <span>${pr.equipo ? esc(pr.equipo) : (icons[pr.deporte] || '') + ' ' + esc(pr.partido)}</span>
+              <span>Últimos 5: ${esc(pr.racha_l5 || '—')}</span>
+            </div>
+          </div>
+        </article>`;
+    }
+
+    function matchupHTML(item, interactive = true) {
       const a = item.equipo_a || (item.duelo || '').split(/\s+(?:@|vs)\s+/i)[0] || 'Equipo A';
       const b = item.equipo_b || (item.duelo || '').split(/\s+(?:@|vs)\s+/i)[1] || 'Equipo B';
       const sep = item.separador || (item.deporte === 'SOCCER' || item.deporte === 'TENNIS' ? 'vs' : '@');
@@ -479,15 +623,18 @@
       const cls = esTenis ? 'team-logo round' : 'team-logo';
       const rolA = sep === '@' ? 'Visita' : (esTenis ? 'Jugador A' : 'Local');
       const rolB = sep === '@' ? 'Local' : (esTenis ? 'Jugador B' : 'Visita');
+      const idAttr = interactive ? `data-open-match="${esc(item.id)}"` : '';
+      const tapCls = interactive ? 'team-tap' : '';
+
       return `
         <div class="matchup-banner">
-          <div class="team-col">
+          <div class="team-col ${tapCls}" ${idAttr} data-team-filter="A" title="Ver props de ${esc(a)}">
             ${imgTag(item.logo_a, a, cls, esTenis)}
             <div class="team-name">${esc(a)}</div>
             <div class="team-role">${rolA}</div>
           </div>
           <div class="vs-pill">VS</div>
-          <div class="team-col">
+          <div class="team-col ${tapCls}" ${idAttr} data-team-filter="B" title="Ver props de ${esc(b)}">
             ${imgTag(item.logo_b, b, cls, esTenis)}
             <div class="team-name">${esc(b)}</div>
             <div class="team-role">${rolB}</div>
@@ -496,19 +643,21 @@
     }
 
     function renderPickCard(p) {
+      MATCH_LOOKUP.set(p.id, p);
       const p1 = p.pick_1 || { etiqueta: 'Ganador', texto: p.pick_principal || '-', prob: null };
       const p2 = p.pick_2 || null;
-      const p3 = p.pick_3 || null;
       const prob1 = p1.prob ? `<span class="prob-chip">${Number(p1.prob).toFixed(1)}% prob.</span>` : '';
       const prob2 = p2 && p2.prob ? `<span class="prob-chip">${Number(p2.prob).toFixed(1)}% prob.</span>` : '';
+      const nProps = (p.props_partido || []).length;
+      const nSgp = (p.guiones_partido || []).length;
 
       return `
-        <article class="card">
+        <article class="card clickable" data-open-match="${esc(p.id)}" data-team-filter="ALL">
           <div class="card-top">
             <span class="badge">${icons[p.deporte] || ''} ${esc(p.liga)}</span>
             <span class="badge amber">Cuota ${Number(p.cuota).toFixed(2)}</span>
           </div>
-          ${matchupHTML(p)}
+          ${matchupHTML(p, true)}
           <div class="picks-stack">
             <div class="pick-tier primary">
               <div class="tier-head">
@@ -526,12 +675,184 @@
               <div class="tier-val">${esc(p2.texto)}</div>
             </div>` : ''}
           </div>
-          <div class="pick-extra-row">
-            ${p3 ? `<span class="extra-pill"><b>${esc(p3.etiqueta)}:</b> ${esc(p3.texto)}${p3.prob ? ` (${Number(p3.prob).toFixed(0)}%)` : ''}</span>` : '<span></span>'}
-            <span>${esc(p.fecha)}</span>
+          <div class="card-cta-bar">
+            <div class="cta-chips">
+              ${nProps ? `<span class="mini-chip hi">🌟 ${nProps} Props</span>` : ''}
+              ${nSgp ? `<span class="mini-chip hi">🎬 ${nSgp} SGP</span>` : ''}
+              ${!nProps && !nSgp ? `<span class="mini-chip">${esc(p.fecha)}</span>` : ''}
+            </div>
+            <span class="cta-link">Ver detalle →</span>
           </div>
         </article>`;
     }
+
+    /* MODAL / RADIOGRAFÍA DEL PARTIDO */
+    function abrirModalPartido(matchId, teamFilter = 'ALL') {
+      const m = MATCH_LOOKUP.get(matchId);
+      if (!m) return;
+      currentModalMatch = m;
+      currentModalTeam = teamFilter;
+      renderModalContent();
+      document.getElementById('matchModal').classList.add('open');
+      document.body.classList.add('modal-open');
+    }
+
+    function cerrarModal() {
+      document.getElementById('matchModal').classList.remove('open');
+      document.body.classList.remove('modal-open');
+      currentModalMatch = null;
+    }
+
+    function renderModalContent() {
+      const m = currentModalMatch;
+      if (!m) return;
+
+      document.getElementById('modalKicker').textContent = `${icons[m.deporte] || ''} ${m.liga} • Radiografía del Partido`;
+      document.getElementById('modalTitle').textContent = m.duelo;
+
+      const propsAll = m.props_partido || [];
+      let propsFiltrados = propsAll;
+      let avisoEquipo = '';
+      if (currentModalTeam !== 'ALL') {
+        const exactos = propsAll.filter((pr) => pr.lado === currentModalTeam);
+        if (exactos.length) {
+          propsFiltrados = exactos;
+        } else if (propsAll.length) {
+          propsFiltrados = propsAll;
+          const nomEq = currentModalTeam === 'A' ? m.equipo_a : m.equipo_b;
+          avisoEquipo = `<div style="font-size:0.73rem;color:var(--muted);margin-bottom:6px;">Mostrando todos los props del partido (aún sin etiqueta individual para ${esc(nomEq)}).</div>`;
+        }
+      }
+
+      const guiones = m.guiones_partido || [];
+      const contexto = m.contexto || [];
+      const apRef = m.apertura_ref || (m.linea_1 ? m : null);
+
+      const p1 = m.pick_1, p2 = m.pick_2, p3 = m.pick_3;
+      const bloqueMercados = p1 ? `
+        <div>
+          <div class="modal-sec-head">
+            <span class="modal-sec-title">🎯 Pronósticos del Partido</span>
+            <span class="modal-sec-sub">${m.cuota ? 'Cuota principal ' + Number(m.cuota).toFixed(2) : ''}</span>
+          </div>
+          <div class="picks-stack">
+            <div class="pick-tier primary">
+              <div class="tier-head"><span>🥇 Pick #1 • ${esc(p1.etiqueta)}</span>${p1.prob ? `<span class="prob-chip">${Number(p1.prob).toFixed(1)}% prob.</span>` : ''}</div>
+              <div class="tier-val">${esc(p1.texto)}</div>
+            </div>
+            ${p2 ? `
+            <div class="pick-tier secondary">
+              <div class="tier-head"><span>🥈 Pick #2 • ${esc(p2.etiqueta)}</span>${p2.prob ? `<span class="prob-chip">${Number(p2.prob).toFixed(1)}% prob.</span>` : ''}</div>
+              <div class="tier-val">${esc(p2.texto)}</div>
+            </div>` : ''}
+            ${p3 ? `
+            <div class="pick-tier tertiary">
+              <div class="tier-head"><span>🥉 Opción #3 • ${esc(p3.etiqueta)}</span>${p3.prob ? `<span class="prob-chip">${Number(p3.prob).toFixed(1)}% prob.</span>` : ''}</div>
+              <div class="tier-val">${esc(p3.texto)}</div>
+            </div>` : ''}
+          </div>
+        </div>` : '';
+
+      const bloqueApertura = apRef ? `
+        <div>
+          <div class="modal-sec-head">
+            <span class="modal-sec-title">📸 Línea Inicial de Referencia</span>
+            <span class="modal-sec-sub">${esc(apRef.casino || 'Mercado')}</span>
+          </div>
+          <div class="line-box">
+            <div>${esc(apRef.linea_1)}</div>
+            <div>${esc(apRef.linea_2)}</div>
+          </div>
+        </div>` : '';
+
+      const esTenis = m.deporte === 'TENNIS';
+      const bloqueProps = `
+        <div>
+          <div class="modal-sec-head">
+            <span class="modal-sec-title">🌟 Player Props Piso Seguro</span>
+            <span class="modal-sec-sub">${propsFiltrados.length} disponibles</span>
+          </div>
+          <div class="team-switcher" style="margin-bottom:10px;">
+            <button class="tsw-btn ${currentModalTeam === 'ALL' ? 'active' : ''}" data-modal-team="ALL"><span>Ambos</span></button>
+            <button class="tsw-btn ${currentModalTeam === 'A' ? 'active' : ''}" data-modal-team="A">
+              ${imgTag(m.logo_a, m.equipo_a, '', esTenis)}<span>${esc(m.equipo_a)}</span>
+            </button>
+            <button class="tsw-btn ${currentModalTeam === 'B' ? 'active' : ''}" data-modal-team="B">
+              ${imgTag(m.logo_b, m.equipo_b, '', esTenis)}<span>${esc(m.equipo_b)}</span>
+            </button>
+          </div>
+          ${avisoEquipo}
+          <div class="modal-list">
+            ${propsFiltrados.length
+              ? propsFiltrados.map(renderPropCard).join('')
+              : `<div class="empty-state">Los Player Props Piso Seguro de este duelo aparecerán aquí automáticamente en cuanto corra el análisis del día.</div>`}
+          </div>
+        </div>`;
+
+      const bloqueSgp = `
+        <div>
+          <div class="modal-sec-head">
+            <span class="modal-sec-title">🎬 Combinada del Partido (Guion SGP)</span>
+            <span class="modal-sec-sub">${guiones.length ? 'Correlación IA' : 'Pendiente'}</span>
+          </div>
+          <div class="modal-list">
+            ${guiones.length
+              ? guiones.map((g) => `
+                <div class="diamond-card" style="margin:0;">
+                  <div class="diamond-title" style="font-size:0.86rem;">${esc(g.titulo)}</div>
+                  <div class="rich-text">${cleanMd(g.valor)}</div>
+                </div>`).join('')
+              : `<div class="empty-state">Este partido no generó guion combinado SGP en la jornada actual.</div>`}
+          </div>
+        </div>`;
+
+      const bloqueContexto = contexto.length ? `
+        <div>
+          <div class="modal-sec-head">
+            <span class="modal-sec-title">📋 Factores Clave del Motor</span>
+            <span class="modal-sec-sub">Datos en vivo</span>
+          </div>
+          <div class="modal-list">
+            ${contexto.map((c) => `
+              <div class="rich-field" style="margin:0;">
+                <div class="rich-field-title">${esc(c.titulo)}</div>
+                <div class="rich-text">${cleanMd(c.valor)}</div>
+              </div>`).join('')}
+          </div>
+        </div>` : '';
+
+      document.getElementById('modalBody').innerHTML = `
+        ${matchupHTML(m, false)}
+        ${bloqueMercados}
+        ${bloqueProps}
+        ${bloqueSgp}
+        ${bloqueApertura}
+        ${bloqueContexto}
+      `;
+    }
+
+    // Delegación limpia de clics (escudos, tarjetas y pestañas del modal)
+    document.addEventListener('click', (e) => {
+      const tsw = e.target.closest('[data-modal-team]');
+      if (tsw) {
+        currentModalTeam = tsw.dataset.modalTeam;
+        renderModalContent();
+        return;
+      }
+      const trigger = e.target.closest('[data-open-match]');
+      if (trigger) {
+        e.stopPropagation();
+        abrirModalPartido(trigger.dataset.openMatch, trigger.dataset.teamFilter || 'ALL');
+      }
+    });
+
+    document.getElementById('btnCloseModal').addEventListener('click', cerrarModal);
+    document.getElementById('matchModal').addEventListener('click', (e) => {
+      if (e.target.id === 'matchModal') cerrarModal();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') cerrarModal();
+    });
 
     function renderEquityChart(curva) {
       const box = document.getElementById('equityChart');
@@ -559,6 +880,7 @@
 
     function renderAll() {
       if (!DATA) return;
+      MATCH_LOOKUP.clear();
       const k = DATA.kpis;
       document.getElementById('updatedAt').textContent = DATA.updated_at || '-';
 
@@ -589,7 +911,7 @@
         ? picks.map(renderPickCard).join('')
         : `<div class="empty-state" style="grid-column:1/-1;">Todavía no se publican los pronósticos finales de este deporte hoy.<br/>Puedes consultar los partidos programados en <b>📸 Líneas Iniciales</b>.</div>`;
 
-      // 2. Jugadores (Props con foto)
+      // 2. Top Jugadores (Curado al Top 12 Piso Seguro por defecto)
       const pRes = filtrar(DATA.props_resumenes);
       document.getElementById('propsResumenContainer').innerHTML = pRes.map((r) => `
         <div class="diamond-card">
@@ -598,22 +920,20 @@
         </div>`).join('');
 
       const props = filtrar(DATA.props);
-      document.getElementById('propsContainer').innerHTML = props.length ? props.map((pr) => `
-        <article class="prop-card">
-          ${imgTag(pr.foto, pr.jugador, pr.es_equipo ? 'player-avatar logo-mode' : 'player-avatar', !pr.es_equipo)}
-          <div class="prop-body">
-            <div class="prop-head">
-              <div class="prop-player">${esc(pr.jugador)}</div>
-              <span class="badge purple">${pr.probabilidad ? pr.probabilidad.toFixed(1) + '% prob.' : pr.deporte}</span>
-            </div>
-            <div class="prop-pick">${esc(pr.pick)}</div>
-            <div class="prop-foot">
-              <span>${icons[pr.deporte] || ''} ${esc(pr.partido)}</span>
-              <span>Últimos 5: ${esc(pr.racha_l5 || '—')}</span>
-            </div>
-          </div>
-        </article>`).join('') :
-        `<div class="empty-state" style="grid-column:1/-1;">Las selecciones de jugadores con foto aparecerán aquí automáticamente en cuanto termine el siguiente análisis del día.</div>`;
+      const pBar = document.getElementById('propsBar');
+      if (props.length > 12) {
+        pBar.style.display = 'flex';
+        document.getElementById('propsBarTitle').textContent = showAllProps
+          ? `🌟 Todos los Props Piso Seguro (${props.length})`
+          : `🛡️ Top 12 Piso Seguro del Día (de ${props.length})`;
+        document.getElementById('btnToggleAllProps').textContent = showAllProps ? 'Ver solo Top 12' : `Ver los ${props.length}`;
+      } else {
+        pBar.style.display = 'none';
+      }
+      const propsVisibles = showAllProps ? props : props.slice(0, 12);
+      document.getElementById('propsContainer').innerHTML = propsVisibles.length
+        ? propsVisibles.map(renderPropCard).join('')
+        : `<div class="empty-state" style="grid-column:1/-1;">Las selecciones de jugadores con foto aparecerán aquí automáticamente en cuanto termine el siguiente análisis del día. También puedes ver los props por equipo tocando cualquier partido.</div>`;
 
       // 3. Combinadas (Guiones SGP)
       const guiones = filtrar(DATA.guiones);
@@ -627,24 +947,27 @@
         </article>`).join('') :
         `<div class="empty-state" style="grid-column:1/-1;">Aún no hay combinadas sugeridas para este deporte hoy.</div>`;
 
-      // 4. Líneas Iniciales (Aperturas RLM)
+      // 4. Líneas Iniciales (también clicables para ver radiografía)
       const aps = filtrar(DATA.aperturas);
-      document.getElementById('aperturasContainer').innerHTML = aps.length ? aps.map((a) => `
-        <article class="card">
+      document.getElementById('aperturasContainer').innerHTML = aps.length ? aps.map((a) => {
+        MATCH_LOOKUP.set(a.id, a);
+        return `
+        <article class="card clickable" data-open-match="${esc(a.id)}" data-team-filter="ALL">
           <div class="card-top">
             <span class="badge">${icons[a.deporte] || ''} ${esc(a.liga)}</span>
             <span class="badge green">${esc(a.casino)}</span>
           </div>
-          ${matchupHTML(a)}
+          ${matchupHTML(a, true)}
           <div class="line-box">
             <div>${esc(a.linea_1)}</div>
             <div>${esc(a.linea_2)}</div>
           </div>
-          <div class="pick-extra-row">
-            <span>Partido: ${esc(a.fecha)}</span>
-            <span>Registro: ${esc((a.captura || '').slice(0, 16))}</span>
+          <div class="card-cta-bar">
+            <span style="color:var(--muted);">Registro: ${esc((a.captura || '').slice(0, 16))}</span>
+            <span class="cta-link">Ver detalle →</span>
           </div>
-        </article>`).join('') :
+        </article>`;
+      }).join('') :
         `<div class="empty-state" style="grid-column:1/-1;">No hay líneas iniciales registradas para este deporte.</div>`;
 
       // 5. Resultados y Motores
@@ -674,7 +997,7 @@
         <article class="card">
           <div class="card-top"><span class="badge">${icons[m.deporte] || ''} ${esc(m.deporte)} ${esc(m.version)}</span><span class="badge green">ACTIVO</span></div>
           <div style="font-size:0.86rem;font-weight:700;">${esc(m.horario)}</div>
-          <div class="pick-extra-row"><span>${esc(m.modulo)}</span></div>
+          <div style="font-size:0.74rem;color:var(--muted);">${esc(m.modulo)}</div>
         </article>`).join('');
     }
 

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-19 22:56 CST",
-  "fecha_operativa": "2026-11-19",
+  "updated_at": "2026-11-20 00:26 CST",
+  "fecha_operativa": "2026-11-20",
   "kpis": {
     "ganados": 552,
     "perdidos": 410,
@@ -8,8 +8,8 @@
     "win_rate": 57.4,
     "unidades_netas": -219.23,
     "roi_global": -22.8,
-    "picks_hoy": 11,
-    "aperturas_activas": 39
+    "picks_hoy": 0,
+    "aperturas_activas": 28
   },
   "motores": [
     {
@@ -211,402 +211,10 @@
   "props": [],
   "props_resumenes": [],
   "guiones": [],
-  "picks_hoy": [
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-19",
-      "duelo": "New York Knicks @ Minnesota Timberwolves",
-      "pick_principal": "Ganador: Minnesota Timberwolves",
-      "cuota": 1.02,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "equipo_a": "New York Knicks",
-      "equipo_b": "Minnesota Timberwolves",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "Minnesota Timberwolves",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "Minnesota Timberwolves +1.0",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-19",
-      "duelo": "Portland Trail Blazers @ Milwaukee Bucks",
-      "pick_principal": "Ganador: Portland Trail Blazers",
-      "cuota": 1.01,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "equipo_a": "Portland Trail Blazers",
-      "equipo_b": "Milwaukee Bucks",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "Portland Trail Blazers",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "Milwaukee Bucks +11.5",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-19",
-      "duelo": "Los Angeles Clippers @ San Antonio Spurs",
-      "pick_principal": "Ganador: San Antonio Spurs",
-      "cuota": 1.01,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "equipo_a": "Los Angeles Clippers",
-      "equipo_b": "San Antonio Spurs",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "San Antonio Spurs",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "Los Angeles Clippers +15.5",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
-        "prob": null
-      },
-      "rankeado_real": false
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-19",
-      "duelo": "Golden State Warriors @ Memphis Grizzlies",
-      "pick_principal": "Ganador: Memphis Grizzlies",
-      "cuota": 1.02,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "equipo_a": "Golden State Warriors",
-      "equipo_b": "Memphis Grizzlies",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "Memphis Grizzlies",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "Memphis Grizzlies -5.5",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-19",
-      "duelo": "IND @ HOU",
-      "pick_principal": "Ganador: HOU",
-      "cuota": 1.01,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "equipo_a": "IND",
-      "equipo_b": "HOU",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "HOU",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "IND +13.0",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Major League Soccer",
-      "fecha": "2026-11-19",
-      "duelo": "Seattle Sounders vs Real Salt Lake",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.34,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "equipo_a": "Seattle Sounders",
-      "equipo_b": "Real Salt Lake",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
-      "pick_1": {
-        "etiqueta": "Pronóstico Principal",
-        "texto": "🛡️ 1X (Local o Empate)",
-        "prob": 73.8
-      },
-      "pick_2": {
-        "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -1.1%",
-        "prob": null
-      },
-      "pick_3": null,
-      "rankeado_real": false
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Major League Soccer",
-      "fecha": "2026-11-19",
-      "duelo": "Orlando City SC vs FC Cincinnati",
-      "pick_principal": "🛡️ 12 (Local o Visita)",
-      "cuota": 1.25,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "equipo_a": "Orlando City SC",
-      "equipo_b": "FC Cincinnati",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
-      "pick_1": {
-        "etiqueta": "Pronóstico Principal",
-        "texto": "🛡️ 12 (Local o Visita)",
-        "prob": 72.1
-      },
-      "pick_2": {
-        "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -9.8%",
-        "prob": null
-      },
-      "pick_3": null,
-      "rankeado_real": false
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-19",
-      "duelo": "Sao Paulo vs Fluminense",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.4,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "equipo_a": "Sao Paulo",
-      "equipo_b": "Fluminense",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-      "pick_1": {
-        "etiqueta": "Pronóstico Principal",
-        "texto": "⚽ Más de 1.5 Goles",
-        "prob": 71.8
-      },
-      "pick_2": {
-        "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: +0.5%",
-        "prob": null
-      },
-      "pick_3": null,
-      "rankeado_real": false
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-19",
-      "duelo": "Vitoria vs RB Bragantino",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.27,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "equipo_a": "Vitoria",
-      "equipo_b": "RB Bragantino",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
-      "logo_b": "",
-      "pick_1": {
-        "etiqueta": "Pronóstico Principal",
-        "texto": "⚽ Más de 1.5 Goles",
-        "prob": 71.8
-      },
-      "pick_2": {
-        "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -8.9%",
-        "prob": null
-      },
-      "pick_3": null,
-      "rankeado_real": false
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-19",
-      "duelo": "Vasco DA Gama vs Internacional",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.18,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "equipo_a": "Vasco DA Gama",
-      "equipo_b": "Internacional",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-      "pick_1": {
-        "etiqueta": "Pronóstico Principal",
-        "texto": "🛡️ 1X (Local o Empate)",
-        "prob": 77.0
-      },
-      "pick_2": {
-        "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -9.1%",
-        "prob": null
-      },
-      "pick_3": null,
-      "rankeado_real": false
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Friendlies",
-      "fecha": "2026-11-19",
-      "duelo": "Switzerland U17 vs Czechia U17",
-      "pick_principal": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
-      "cuota": 1.0,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "equipo_a": "Switzerland U17",
-      "equipo_b": "Czechia U17",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "logo_b": "",
-      "pick_1": {
-        "etiqueta": "Pronóstico Principal",
-        "texto": "⚠️ Partido sin Valor (Todas las cuotas <= 1.05)",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: +0.0%",
-        "prob": null
-      },
-      "pick_3": null,
-      "rankeado_real": false
-    }
-  ],
+  "picks_hoy": [],
   "aperturas": [
     {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-19",
-      "duelo": "Golden State Warriors @ Memphis Grizzlies",
-      "equipo_a": "Golden State Warriors",
-      "equipo_b": "Memphis Grizzlies",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
-      "linea_1": "Hándicap Memphis Grizzlies: -8.5 pts",
-      "linea_2": "Altas / Bajas: 225.5 pts",
-      "casino": "LowVig.ag",
-      "captura": "2026-11-19 00:32:07"
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-19",
-      "duelo": "Los Angeles Clippers @ San Antonio Spurs",
-      "equipo_a": "Los Angeles Clippers",
-      "equipo_b": "San Antonio Spurs",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
-      "linea_1": "Hándicap San Antonio Spurs: -16.0 pts",
-      "linea_2": "Altas / Bajas: 227.0 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-19 00:32:07"
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-19",
-      "duelo": "Portland Trail Blazers @ Milwaukee Bucks",
-      "equipo_a": "Portland Trail Blazers",
-      "equipo_b": "Milwaukee Bucks",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
-      "linea_1": "Hándicap Milwaukee Bucks: +9.5 pts",
-      "linea_2": "Altas / Bajas: 226.5 pts",
-      "casino": "LowVig.ag",
-      "captura": "2026-11-19 00:32:07"
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-19",
-      "duelo": "New York Knicks @ Minnesota Timberwolves",
-      "equipo_a": "New York Knicks",
-      "equipo_b": "Minnesota Timberwolves",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-      "linea_1": "Hándicap Minnesota Timberwolves: +1.5 pts",
-      "linea_2": "Altas / Bajas: 216.5 pts",
-      "casino": "LowVig.ag",
-      "captura": "2026-11-19 00:32:07"
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-19",
-      "duelo": "IND @ HOU",
-      "equipo_a": "IND",
-      "equipo_b": "HOU",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-      "linea_1": "Hándicap HOU: -13.0 pts",
-      "linea_2": "Altas / Bajas: 44.0 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
-    },
-    {
+      "id": "a95303b82567",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-22",
@@ -619,9 +227,13 @@
       "linea_1": "Hándicap KC: -16.0 pts",
       "linea_2": "Altas / Bajas: 41.0 pts",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "0faff0363a91",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-22",
@@ -634,9 +246,13 @@
       "linea_1": "Hándicap CAR: -2.5 pts",
       "linea_2": "Altas / Bajas: 43.5 pts",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "3846dd1561ae",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-22",
@@ -649,9 +265,13 @@
       "linea_1": "Hándicap BUF: -17.0 pts",
       "linea_2": "Altas / Bajas: 45.5 pts",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "6de439365809",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-22",
@@ -664,9 +284,13 @@
       "linea_1": "Hándicap CHI: -11.5 pts",
       "linea_2": "Altas / Bajas: 48.5 pts",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "be6db0babcb9",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-22",
@@ -679,9 +303,13 @@
       "linea_1": "Hándicap DAL: -8.0 pts",
       "linea_2": "Altas / Bajas: 55.5 pts",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "5dacda6abfb0",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-22",
@@ -694,9 +322,13 @@
       "linea_1": "Hándicap DET: -7.0 pts",
       "linea_2": "Altas / Bajas: 44.0 pts",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "1bba8fad191b",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-22",
@@ -709,9 +341,13 @@
       "linea_1": "Hándicap PHI: +4.5 pts",
       "linea_2": "Altas / Bajas: 38.5 pts",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "16ba6612385b",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-22",
@@ -724,9 +360,13 @@
       "linea_1": "Hándicap LAC: -3.0 pts",
       "linea_2": "Altas / Bajas: 41.5 pts",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "ed5f4ee099ac",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-22",
@@ -739,9 +379,13 @@
       "linea_1": "Hándicap DEN: -10.5 pts",
       "linea_2": "Altas / Bajas: 40.0 pts",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "5c61a4dbd1e0",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-22",
@@ -754,9 +398,13 @@
       "linea_1": "Hándicap NYG: +6.0 pts",
       "linea_2": "Altas / Bajas: 46.5 pts",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "ffc1b670bb34",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-22",
@@ -769,9 +417,13 @@
       "linea_1": "Hándicap SF: -3.0 pts",
       "linea_2": "Altas / Bajas: 46.0 pts",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "bbfdb75dd4ae",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-23",
@@ -784,9 +436,13 @@
       "linea_1": "Hándicap WAS: +6.5 pts",
       "linea_2": "Altas / Bajas: 54.5 pts",
       "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "e288468366de",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-25",
@@ -799,9 +455,13 @@
       "linea_1": "Hándicap LA: -3.5 pts",
       "linea_2": "Altas / Bajas: 45.0 pts",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "9dc2199d465f",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-26",
@@ -814,9 +474,13 @@
       "linea_1": "Hándicap DET: +2.5 pts",
       "linea_2": "Altas / Bajas: 54.5 pts",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "62537ef082ed",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-26",
@@ -829,9 +493,13 @@
       "linea_1": "Hándicap DAL: -8.0 pts",
       "linea_2": "Altas / Bajas: 47.5 pts",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "c947c7d0576d",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-26",
@@ -844,9 +512,13 @@
       "linea_1": "Hándicap BUF: -3.0 pts",
       "linea_2": "Altas / Bajas: 50.5 pts",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "5be95507b957",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-27",
@@ -859,9 +531,13 @@
       "linea_1": "Hándicap PIT: +1.5 pts",
       "linea_2": "Altas / Bajas: 40.0 pts",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "a400405f9d0b",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-29",
@@ -874,9 +550,13 @@
       "linea_1": "Hándicap MIN: -7.0 pts",
       "linea_2": "Altas / Bajas: 42.5 pts",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "d24a88024a8f",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-29",
@@ -889,9 +569,13 @@
       "linea_1": "Hándicap HOU: -6.0 pts",
       "linea_2": "Altas / Bajas: 44.5 pts",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "ad2f6afffee1",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-29",
@@ -904,9 +588,13 @@
       "linea_1": "Hándicap CIN: -10.0 pts",
       "linea_2": "Altas / Bajas: 52.5 pts",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "d7b0582c23e6",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-29",
@@ -919,9 +607,13 @@
       "linea_1": "Hándicap IND: +4.0 pts",
       "linea_2": "Altas / Bajas: 44.0 pts",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "8f14d1bffa7b",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-29",
@@ -934,9 +626,13 @@
       "linea_1": "Hándicap JAX: -14.5 pts",
       "linea_2": "Altas / Bajas: 47.5 pts",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "ebfc7c2b1257",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-29",
@@ -949,9 +645,13 @@
       "linea_1": "Hándicap MIA: +3.0 pts",
       "linea_2": "Altas / Bajas: 41.5 pts",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "be6138c8008f",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-29",
@@ -964,9 +664,13 @@
       "linea_1": "Hándicap LAC: -5.0 pts",
       "linea_2": "Altas / Bajas: 40.0 pts",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "e091bfe54df6",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-29",
@@ -979,9 +683,13 @@
       "linea_1": "Hándicap ARI: +6.0 pts",
       "linea_2": "Altas / Bajas: 42.0 pts",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "4b84d289b5e3",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-29",
@@ -994,9 +702,13 @@
       "linea_1": "Hándicap SF: -2.5 pts",
       "linea_2": "Altas / Bajas: 46.5 pts",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "2a576ea2503e",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-29",
@@ -1009,9 +721,13 @@
       "linea_1": "Hándicap CLE: -4.0 pts",
       "linea_2": "Altas / Bajas: 41.0 pts",
       "casino": "LowVig.ag",
-      "captura": "2026-11-19 01:03:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     },
     {
+      "id": "d330e91ac4ef",
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-30",
@@ -1024,97 +740,10 @@
       "linea_1": "Hándicap TB: -2.0 pts",
       "linea_2": "Altas / Bajas: 43.5 pts",
       "casino": "BetOnline.ag",
-      "captura": "2026-11-19 01:03:56"
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-19",
-      "duelo": "Vasco DA Gama vs Internacional",
-      "equipo_a": "Vasco DA Gama",
-      "equipo_b": "Internacional",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.70 / 4.18 / 5.33",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.83 / 2.12",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-19 02:13:54"
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-19",
-      "duelo": "Vitoria vs RB Bragantino",
-      "equipo_a": "Vitoria",
-      "equipo_b": "RB Bragantino",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
-      "logo_b": "",
-      "linea_1": "Ganador (Local / Empate / Visita): 2.80 / 3.50 / 2.63",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.83 / 2.04",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-19 02:14:00"
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-19",
-      "duelo": "Sao Paulo vs Fluminense",
-      "equipo_a": "Sao Paulo",
-      "equipo_b": "Fluminense",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 2.45 / 3.30 / 3.22",
-      "linea_2": "Altas / Bajas 2.5 goles: 2.20 / 1.75",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-19 02:14:07"
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Major League Soccer",
-      "fecha": "2026-11-19",
-      "duelo": "Orlando City SC vs FC Cincinnati",
-      "equipo_a": "Orlando City SC",
-      "equipo_b": "FC Cincinnati",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 2.51 / 4.20 / 2.57",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.32 / 3.50",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-19 02:14:13"
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Major League Soccer",
-      "fecha": "2026-11-19",
-      "duelo": "Seattle Sounders vs Real Salt Lake",
-      "equipo_a": "Seattle Sounders",
-      "equipo_b": "Real Salt Lake",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 2.03 / 4.01 / 3.60",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.55 / 2.55",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-19 02:14:19"
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Friendlies",
-      "fecha": "2026-11-19",
-      "duelo": "Switzerland U17 vs Czechia U17",
-      "equipo_a": "Switzerland U17",
-      "equipo_b": "Czechia U17",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "logo_b": "",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.00 / 1.00 / 1.00",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.00 / 1.00",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-19 07:30:56"
+      "captura": "2026-11-19 01:03:56",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
     }
   ],
   "historial": [
