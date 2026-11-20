@@ -6,16 +6,16 @@
   <meta name="theme-color" content="#070b14" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <title>Cypher AI — Apex Syndicate Terminal</title>
+  <title>Cypher AI — Pronósticos Deportivos</title>
   <link rel="manifest" href="./manifest.json" />
   <link rel="icon" type="image/svg+xml" href="./assets/icon.svg" />
   <style>
     :root {
       --bg: #070b14;
       --panel: #0f172a;
-      --panel-2: #151f36;
+      --panel-2: #141e33;
       --border: rgba(148, 163, 184, 0.14);
-      --text: #f1f5f9;
+      --text: #f8fafc;
       --muted: #94a3b8;
       --cyan: #00e5ff;
       --purple: #a855f7;
@@ -27,29 +27,29 @@
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      background: radial-gradient(circle at top right, #121c38 0%, var(--bg) 52%);
+      background: radial-gradient(circle at top right, #111d38 0%, var(--bg) 54%);
       color: var(--text);
       font-family: var(--sans);
       min-height: 100vh;
-      padding-bottom: 84px;
+      padding-bottom: 86px;
     }
 
-    /* CABECERA CON BOTONES DE MOTORES */
+    /* CABECERA FIJA CON BOTONES DE DEPORTES */
     header {
       position: sticky; top: 0; z-index: 40;
       backdrop-filter: blur(16px);
-      background: rgba(7, 11, 20, 0.90);
+      background: rgba(7, 11, 20, 0.92);
       border-bottom: 1px solid var(--border);
-      padding: 10px 14px 8px;
+      padding: 10px 14px 9px;
     }
     .header-top {
-      max-width: 1120px; margin: 0 auto 8px;
+      max-width: 1120px; margin: 0 auto 9px;
       display: flex; align-items: center; justify-content: space-between; gap: 10px;
     }
     .brand { display: flex; align-items: center; gap: 9px; }
-    .brand img { width: 30px; height: 30px; border-radius: 7px; }
-    .brand h1 { font-size: 0.96rem; letter-spacing: 0.5px; font-weight: 800; line-height: 1.1; }
-    .brand span { display: block; font-size: 0.64rem; color: var(--cyan); text-transform: uppercase; letter-spacing: 1.1px; }
+    .brand img { width: 32px; height: 32px; border-radius: 8px; }
+    .brand h1 { font-size: 0.98rem; letter-spacing: 0.4px; font-weight: 800; line-height: 1.1; }
+    .brand span { display: block; font-size: 0.65rem; color: var(--cyan); text-transform: uppercase; letter-spacing: 1px; }
     .header-actions { display: flex; align-items: center; gap: 7px; }
     .sync-pill {
       font-family: var(--mono); font-size: 0.68rem; color: var(--muted);
@@ -74,7 +74,7 @@
     .header-sports::-webkit-scrollbar { display: none; }
     .sport-pill {
       background: var(--panel); color: var(--muted); border: 1px solid var(--border);
-      padding: 6px 12px; border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+      padding: 6px 13px; border-radius: 999px; font-size: 0.76rem; font-weight: 700;
       cursor: pointer; white-space: nowrap; transition: 0.16s; flex-shrink: 0;
     }
     .sport-pill.active {
@@ -82,7 +82,7 @@
       color: #050a14; border-color: transparent; box-shadow: 0 0 12px rgba(0, 229, 255, 0.25);
     }
 
-    main { max-width: 1120px; margin: 0 auto; padding: 14px 14px 20px; }
+    main { max-width: 1120px; margin: 0 auto; padding: 14px 14px 18px; }
 
     .toolbar {
       display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
@@ -99,7 +99,7 @@
     }
     .search-input {
       background: var(--panel); color: var(--text); border: 1px solid var(--border);
-      border-radius: 10px; padding: 7px 12px; font-size: 0.8rem; min-width: 210px; flex: 0 1 260px;
+      border-radius: 10px; padding: 8px 12px; font-size: 0.82rem; min-width: 210px; flex: 0 1 260px;
     }
     @media (max-width: 720px) {
       .desktop-tabs { display: none; }
@@ -107,59 +107,94 @@
       .sync-pill .ts-text { display: none; }
     }
 
-    /* TARJETAS DE PARTIDO (ESCUDO VS ESCUDO) */
+    /* TARJETAS DE PARTIDOS */
     .cards-grid {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 12px;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(316px, 1fr)); gap: 13px;
     }
     .card {
       background: linear-gradient(180deg, var(--panel) 0%, #0b1222 100%);
-      border: 1px solid var(--border); border-radius: 14px; padding: 14px;
+      border: 1px solid var(--border); border-radius: 16px; padding: 14px;
       display: flex; flex-direction: column; gap: 10px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
     }
     .card-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
     .badge {
-      font-family: var(--mono); font-size: 0.66rem; font-weight: 700;
+      font-family: var(--mono); font-size: 0.67rem; font-weight: 700;
       padding: 3px 8px; border-radius: 6px; text-transform: uppercase;
       background: rgba(0, 229, 255, 0.12); color: var(--cyan);
     }
-    .badge.green { background: rgba(16, 185, 129, 0.14); color: var(--green); }
-    .badge.red { background: rgba(244, 63, 94, 0.14); color: var(--red); }
+    .badge.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge.red { background: rgba(244, 63, 94, 0.15); color: var(--red); }
     .badge.amber { background: rgba(245, 158, 11, 0.15); color: var(--amber); }
     .badge.purple { background: rgba(168, 85, 247, 0.16); color: #d8b4fe; }
 
+    /* BLOQUE ESCUDO VS ESCUDO */
     .matchup-banner {
       display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px;
-      background: rgba(15, 23, 42, 0.55); border: 1px solid rgba(148, 163, 184, 0.09);
-      border-radius: 12px; padding: 11px 8px;
+      background: rgba(15, 23, 42, 0.60); border: 1px solid rgba(148, 163, 184, 0.10);
+      border-radius: 12px; padding: 12px 8px;
     }
     .team-col {
       display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px;
     }
     .team-logo {
-      width: 46px; height: 46px; object-fit: contain;
+      width: 48px; height: 48px; object-fit: contain;
       filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.55));
     }
     .team-logo.round {
       border-radius: 50%; object-fit: cover; background: var(--panel-2);
       border: 2px solid rgba(0, 229, 255, 0.35);
     }
-    .team-name { font-size: 0.82rem; font-weight: 700; line-height: 1.2; }
+    .team-name { font-size: 0.83rem; font-weight: 700; line-height: 1.2; }
+    .team-role { font-size: 0.62rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.6px; }
     .vs-pill {
       font-family: var(--mono); font-size: 0.68rem; font-weight: 800; color: var(--cyan);
       background: rgba(0, 229, 255, 0.10); border: 1px solid rgba(0, 229, 255, 0.25);
       padding: 4px 8px; border-radius: 999px; text-transform: uppercase;
     }
 
-    .pick-box {
-      background: var(--panel-2); border-left: 3px solid var(--cyan);
-      padding: 9px 11px; border-radius: 8px; font-family: var(--mono); font-size: 0.8rem; line-height: 1.4;
+    /* CAJAS CLARAS DE PICK #1 Y PICK #2 */
+    .picks-stack { display: flex; flex-direction: column; gap: 7px; }
+    .pick-tier {
+      border-radius: 11px; padding: 9px 11px;
+      display: flex; flex-direction: column; gap: 4px;
     }
-    .meta-row { font-size: 0.74rem; color: var(--muted); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; }
+    .pick-tier.primary {
+      background: linear-gradient(135deg, rgba(0, 229, 255, 0.11), rgba(16, 185, 129, 0.08));
+      border: 1px solid rgba(0, 229, 255, 0.32);
+      border-left: 3.5px solid var(--cyan);
+    }
+    .pick-tier.secondary {
+      background: rgba(168, 85, 247, 0.08);
+      border: 1px solid rgba(168, 85, 247, 0.25);
+      border-left: 3.5px solid var(--purple);
+    }
+    .tier-head {
+      display: flex; justify-content: space-between; align-items: center; gap: 6px;
+      font-size: 0.67rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;
+    }
+    .pick-tier.primary .tier-head { color: var(--cyan); }
+    .pick-tier.secondary .tier-head { color: #d8b4fe; }
+    .prob-chip {
+      font-family: var(--mono); font-size: 0.68rem; font-weight: 800;
+      padding: 2px 7px; border-radius: 999px;
+      background: rgba(16, 185, 129, 0.18); color: var(--green);
+    }
+    .tier-val { font-size: 0.9rem; font-weight: 800; color: var(--text); line-height: 1.25; }
+
+    .pick-extra-row {
+      display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap;
+      font-size: 0.73rem; color: var(--muted); padding-top: 2px;
+    }
+    .extra-pill {
+      background: var(--panel-2); border: 1px solid var(--border);
+      padding: 3px 8px; border-radius: 7px; color: #cbd5e1; font-size: 0.72rem;
+    }
 
     /* BLOQUE DIAMANTE */
-    .diamond-wrap { display: grid; gap: 10px; margin-bottom: 16px; }
+    .diamond-wrap { display: grid; gap: 10px; margin-bottom: 14px; }
     .diamond-card {
-      background: linear-gradient(135deg, rgba(0, 229, 255, 0.08), rgba(168, 85, 247, 0.08));
+      background: linear-gradient(135deg, rgba(0, 229, 255, 0.09), rgba(168, 85, 247, 0.09));
       border: 1px solid rgba(0, 229, 255, 0.35); border-radius: 14px; padding: 14px;
     }
     .diamond-card.nobet {
@@ -167,14 +202,14 @@
     }
     .diamond-title { font-size: 0.92rem; font-weight: 800; color: var(--cyan); margin-bottom: 6px; }
     .diamond-card.nobet .diamond-title { color: #cbd5e1; }
-    .rich-text { font-size: 0.8rem; color: #dbe5f4; line-height: 1.48; white-space: pre-line; }
+    .rich-text { font-size: 0.81rem; color: #dbe5f4; line-height: 1.5; white-space: pre-line; }
     .rich-field {
       margin-top: 8px; background: rgba(7, 11, 20, 0.55); border: 1px solid var(--border);
       border-radius: 9px; padding: 9px 11px;
     }
     .rich-field-title { font-size: 0.74rem; font-weight: 800; color: var(--amber); margin-bottom: 4px; }
 
-    /* TARJETAS DE PLAYER PROPS CON FOTO */
+    /* TARJETAS DE JUGADORES (PROPS) CON FOTO */
     .prop-card {
       background: linear-gradient(180deg, var(--panel) 0%, #0b1222 100%);
       border: 1px solid var(--border); border-radius: 14px; padding: 12px 13px;
@@ -190,20 +225,27 @@
     .player-avatar.logo-mode { object-fit: contain; padding: 5px; border-color: rgba(0, 229, 255, 0.45); }
     .prop-body { flex: 1; min-width: 0; }
     .prop-head { display: flex; justify-content: space-between; align-items: center; gap: 6px; margin-bottom: 4px; }
-    .prop-player { font-size: 0.86rem; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .prop-player { font-size: 0.88rem; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .prop-pick {
-      font-family: var(--mono); font-size: 0.78rem; color: var(--cyan);
-      background: var(--panel-2); padding: 5px 8px; border-radius: 7px; margin-bottom: 5px;
+      font-size: 0.82rem; font-weight: 700; color: var(--cyan);
+      background: var(--panel-2); padding: 6px 9px; border-radius: 8px; margin-bottom: 5px;
     }
     .prop-foot { display: flex; justify-content: space-between; align-items: center; gap: 6px; font-size: 0.72rem; color: var(--muted); }
+
+    /* LÍNEAS INICIALES */
+    .line-box {
+      background: var(--panel-2); border-radius: 10px; padding: 9px 11px;
+      display: flex; flex-direction: column; gap: 4px; font-size: 0.8rem;
+    }
+    .line-box b { color: var(--cyan); }
 
     /* TABLAS Y SECCIONES */
     .section-box {
       background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
       padding: 14px; margin-bottom: 14px; overflow-x: auto;
     }
-    .section-title { font-size: 0.86rem; font-weight: 700; margin-bottom: 10px; display: flex; justify-content: space-between; }
-    table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+    .section-title { font-size: 0.88rem; font-weight: 700; margin-bottom: 10px; display: flex; justify-content: space-between; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.79rem; }
     th, td { text-align: left; padding: 9px 7px; border-bottom: 1px solid var(--border); }
     th { color: var(--muted); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.6px; }
     td.mono { font-family: var(--mono); }
@@ -213,30 +255,30 @@
 
     .empty-state {
       background: var(--panel); border: 1px dashed var(--border); border-radius: 14px;
-      padding: 28px 18px; text-align: center; color: var(--muted); font-size: 0.84rem;
+      padding: 28px 18px; text-align: center; color: var(--muted); font-size: 0.84rem; line-height: 1.5;
     }
     .view { display: none; }
     .view.active { display: block; }
 
     /* BARRA COMPACTA DE KPIs HASTA LA PARTE MÁS BAJA */
     .kpi-footer {
-      max-width: 1120px; margin: 18px auto 0; padding: 0 14px;
+      max-width: 1120px; margin: 16px auto 0; padding: 0 14px;
     }
     .kpi-strip {
-      display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px;
-      background: rgba(15, 23, 42, 0.72); border: 1px solid var(--border);
-      border-radius: 12px; padding: 8px 10px;
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 7px;
+      background: rgba(15, 23, 42, 0.74); border: 1px solid var(--border);
+      border-radius: 12px; padding: 7px 9px;
     }
     @media (max-width: 640px) {
-      .kpi-strip { grid-template-columns: repeat(2, 1fr); gap: 6px; padding: 7px 8px; }
+      .kpi-strip { grid-template-columns: repeat(2, 1fr); gap: 6px; padding: 6px 8px; }
     }
     .kpi-mini {
       display: flex; align-items: baseline; justify-content: space-between; gap: 6px;
       background: rgba(7, 11, 20, 0.55); border: 1px solid rgba(148, 163, 184, 0.08);
       border-radius: 8px; padding: 6px 9px;
     }
-    .kpi-mini-lbl { font-size: 0.64rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
-    .kpi-mini-val { font-family: var(--mono); font-size: 0.88rem; font-weight: 800; }
+    .kpi-mini-lbl { font-size: 0.63rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.4px; }
+    .kpi-mini-val { font-family: var(--mono); font-size: 0.86rem; font-weight: 800; }
 
     /* NAV INFERIOR MÓVIL */
     .mobile-nav {
@@ -246,7 +288,7 @@
       grid-template-columns: repeat(5, 1fr); gap: 2px;
     }
     .m-btn {
-      background: none; border: none; color: var(--muted); font-size: 0.66rem; font-weight: 600;
+      background: none; border: none; color: var(--muted); font-size: 0.65rem; font-weight: 600;
       display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 4px; cursor: pointer;
     }
     .m-btn.active { color: var(--cyan); }
@@ -260,17 +302,17 @@
         <img src="./assets/icon.svg" alt="Cypher AI" />
         <div>
           <h1>CYPHER AI</h1>
-          <span>Apex Syndicate V2</span>
+          <span>Pronósticos Inteligentes</span>
         </div>
       </div>
       <div class="header-actions">
-        <div class="sync-pill"><span class="dot"></span><span class="ts-text" id="updatedAt">Sincronizando...</span></div>
-        <button class="btn-ghost" id="btnRefresh" title="Actualizar">↻</button>
+        <div class="sync-pill"><span class="dot"></span><span class="ts-text" id="updatedAt">Actualizando...</span></div>
+        <button class="btn-ghost" id="btnRefresh" title="Actualizar datos">↻</button>
         <button class="btn" id="btnInstall" style="display:none;">Instalar</button>
       </div>
     </div>
 
-    <!-- BOTONES DE MOTORES EN CABECERA -->
+    <!-- BOTONES DE DEPORTES EN CABECERA -->
     <div class="header-sports" id="sportPills">
       <button class="sport-pill active" data-sport="ALL">⚡ Todos</button>
       <button class="sport-pill" data-sport="NBA">🏀 NBA</button>
@@ -284,54 +326,54 @@
   <main>
     <div class="toolbar">
       <div class="desktop-tabs">
-        <button class="tab-btn active" data-view="picks">🎯 Cartelera & Diamante</button>
-        <button class="tab-btn" data-view="props">🌟 Player Props</button>
-        <button class="tab-btn" data-view="guiones">🎬 Guiones SGP</button>
-        <button class="tab-btn" data-view="aperturas">📸 Aperturas RLM</button>
-        <button class="tab-btn" data-view="roi">📈 ROI & Motores</button>
+        <button class="tab-btn active" data-view="picks">🎯 Pronósticos</button>
+        <button class="tab-btn" data-view="props">🌟 Jugadores</button>
+        <button class="tab-btn" data-view="guiones">🎬 Combinadas</button>
+        <button class="tab-btn" data-view="aperturas">📸 Líneas Iniciales</button>
+        <button class="tab-btn" data-view="roi">📈 Resultados</button>
       </div>
-      <input class="search-input" id="searchInput" type="search" placeholder="Buscar equipo, jugador o pick..." />
+      <input class="search-input" id="searchInput" type="search" placeholder="Buscar equipo, jugador o liga..." />
     </div>
 
-    <!-- VISTA 1: DIAMANTE + CARTELERA CON ESCUDOS -->
+    <!-- VISTA 1: DIAMANTE + PRONÓSTICOS (#1 Y #2 MÁS PROBABLE) -->
     <section id="view-picks" class="view active">
       <div id="diamanteContainer" class="diamond-wrap"></div>
       <div id="picksContainer" class="cards-grid"></div>
     </section>
 
-    <!-- VISTA 2: PLAYER PROPS CON FOTOS -->
+    <!-- VISTA 2: JUGADORES (PROPS CON FOTO) -->
     <section id="view-props" class="view">
       <div id="propsResumenContainer" class="diamond-wrap"></div>
       <div id="propsContainer" class="cards-grid"></div>
     </section>
 
-    <!-- VISTA 3: GUIONES SGP -->
+    <!-- VISTA 3: COMBINADAS (GUIONES SGP) -->
     <section id="view-guiones" class="view">
       <div id="guionesContainer" class="cards-grid"></div>
     </section>
 
-    <!-- VISTA 4: APERTURAS RLM CON ESCUDOS -->
+    <!-- VISTA 4: LÍNEAS INICIALES (APERTURAS RLM) -->
     <section id="view-aperturas" class="view">
       <div id="aperturasContainer" class="cards-grid"></div>
     </section>
 
-    <!-- VISTA 5: ROI, AUDITORÍA Y MOTORES -->
+    <!-- VISTA 5: RESULTADOS, GANANCIAS Y MOTORES -->
     <section id="view-roi" class="view">
       <div class="section-box">
-        <div class="section-title"><span>Curva de Banca Acumulada (Unidades)</span><span class="mono cyan" id="chartMax"></span></div>
+        <div class="section-title"><span>Evolución de Ganancias (Unidades)</span><span class="mono cyan" id="chartMax"></span></div>
         <div id="equityChart"></div>
       </div>
       <div class="section-box">
-        <div class="section-title"><span>Rendimiento por Motor</span></div>
+        <div class="section-title"><span>Efectividad por Deporte</span></div>
         <table>
-          <thead><tr><th>Deporte</th><th>G - P</th><th>Acierto</th><th>Unidades</th><th>ROI</th></tr></thead>
+          <thead><tr><th>Deporte</th><th>Ganados - Perdidos</th><th>Efectividad</th><th>Ganancia</th><th>ROI</th></tr></thead>
           <tbody id="sportSummaryBody"></tbody>
         </table>
       </div>
       <div class="section-box">
-        <div class="section-title"><span>Libro Mayor de Auditoría (Últimos 80)</span></div>
+        <div class="section-title"><span>Historial Verificado (Últimos 80)</span></div>
         <table>
-          <thead><tr><th>Fecha</th><th>Dep</th><th>Partido</th><th>Pick</th><th>Cuota</th><th>Estado</th></tr></thead>
+          <thead><tr><th>Fecha</th><th>Dep</th><th>Partido</th><th>Pronóstico</th><th>Cuota</th><th>Resultado</th></tr></thead>
           <tbody id="historyBody"></tbody>
         </table>
       </div>
@@ -343,18 +385,18 @@
   <footer class="kpi-footer">
     <div class="kpi-strip">
       <div class="kpi-mini"><span class="kpi-mini-lbl">ROI Global</span><span class="kpi-mini-val cyan" id="kpiRoi">0.0%</span></div>
-      <div class="kpi-mini"><span class="kpi-mini-lbl">Unidades</span><span class="kpi-mini-val" id="kpiUnits">+0.00 U</span></div>
-      <div class="kpi-mini"><span class="kpi-mini-lbl">Picks Hoy</span><span class="kpi-mini-val cyan" id="kpiPicksHoy">0</span></div>
-      <div class="kpi-mini"><span class="kpi-mini-lbl">Aperturas RLM</span><span class="kpi-mini-val pos" id="kpiAperturas">0</span></div>
+      <div class="kpi-mini"><span class="kpi-mini-lbl">Ganancia</span><span class="kpi-mini-val" id="kpiUnits">+0.00 U</span></div>
+      <div class="kpi-mini"><span class="kpi-mini-lbl">Juegos Hoy</span><span class="kpi-mini-val cyan" id="kpiPicksHoy">0</span></div>
+      <div class="kpi-mini"><span class="kpi-mini-lbl">Líneas RLM</span><span class="kpi-mini-val pos" id="kpiAperturas">0</span></div>
     </div>
   </footer>
 
   <nav class="mobile-nav">
     <button class="m-btn active" data-view="picks"><span>🎯</span><span>Picks</span></button>
-    <button class="m-btn" data-view="props"><span>🌟</span><span>Props</span></button>
-    <button class="m-btn" data-view="guiones"><span>🎬</span><span>SGP</span></button>
-    <button class="m-btn" data-view="aperturas"><span>📸</span><span>RLM</span></button>
-    <button class="m-btn" data-view="roi"><span>📈</span><span>ROI</span></button>
+    <button class="m-btn" data-view="props"><span>🌟</span><span>Jugadores</span></button>
+    <button class="m-btn" data-view="guiones"><span>🎬</span><span>Combos</span></button>
+    <button class="m-btn" data-view="aperturas"><span>📸</span><span>Líneas</span></button>
+    <button class="m-btn" data-view="roi"><span>📈</span><span>Balance</span></button>
   </nav>
 
   <script>
@@ -383,8 +425,7 @@
 
     function imgTag(url, nombre, clase, redondo = false) {
       const fb = fallbackSvg(nombre, redondo);
-      const src = url || fb;
-      return `<img class="${clase}" src="${esc(src)}" alt="${esc(nombre)}" loading="lazy" onerror="this.onerror=null;this.src='${fb}'" />`;
+      return `<img class="${clase}" src="${esc(url || fb)}" alt="${esc(nombre)}" loading="lazy" onerror="this.onerror=null;this.src='${fb}'" />`;
     }
 
     if ('serviceWorker' in navigator) {
@@ -436,18 +477,66 @@
       const sep = item.separador || (item.deporte === 'SOCCER' || item.deporte === 'TENNIS' ? 'vs' : '@');
       const esTenis = item.deporte === 'TENNIS';
       const cls = esTenis ? 'team-logo round' : 'team-logo';
+      const rolA = sep === '@' ? 'Visita' : (esTenis ? 'Jugador A' : 'Local');
+      const rolB = sep === '@' ? 'Local' : (esTenis ? 'Jugador B' : 'Visita');
       return `
         <div class="matchup-banner">
-          <div class="team-col">${imgTag(item.logo_a, a, cls, esTenis)}<div class="team-name">${esc(a)}</div></div>
-          <div class="vs-pill">${esc(sep)}</div>
-          <div class="team-col">${imgTag(item.logo_b, b, cls, esTenis)}<div class="team-name">${esc(b)}</div></div>
+          <div class="team-col">
+            ${imgTag(item.logo_a, a, cls, esTenis)}
+            <div class="team-name">${esc(a)}</div>
+            <div class="team-role">${rolA}</div>
+          </div>
+          <div class="vs-pill">VS</div>
+          <div class="team-col">
+            ${imgTag(item.logo_b, b, cls, esTenis)}
+            <div class="team-name">${esc(b)}</div>
+            <div class="team-role">${rolB}</div>
+          </div>
         </div>`;
+    }
+
+    function renderPickCard(p) {
+      const p1 = p.pick_1 || { etiqueta: 'Ganador', texto: p.pick_principal || '-', prob: null };
+      const p2 = p.pick_2 || null;
+      const p3 = p.pick_3 || null;
+      const prob1 = p1.prob ? `<span class="prob-chip">${Number(p1.prob).toFixed(1)}% prob.</span>` : '';
+      const prob2 = p2 && p2.prob ? `<span class="prob-chip">${Number(p2.prob).toFixed(1)}% prob.</span>` : '';
+
+      return `
+        <article class="card">
+          <div class="card-top">
+            <span class="badge">${icons[p.deporte] || ''} ${esc(p.liga)}</span>
+            <span class="badge amber">Cuota ${Number(p.cuota).toFixed(2)}</span>
+          </div>
+          ${matchupHTML(p)}
+          <div class="picks-stack">
+            <div class="pick-tier primary">
+              <div class="tier-head">
+                <span>🥇 Pick #1 • ${esc(p1.etiqueta)}</span>
+                ${prob1}
+              </div>
+              <div class="tier-val">${esc(p1.texto)}</div>
+            </div>
+            ${p2 ? `
+            <div class="pick-tier secondary">
+              <div class="tier-head">
+                <span>🥈 Pick #2 • ${esc(p2.etiqueta)}</span>
+                ${prob2}
+              </div>
+              <div class="tier-val">${esc(p2.texto)}</div>
+            </div>` : ''}
+          </div>
+          <div class="pick-extra-row">
+            ${p3 ? `<span class="extra-pill"><b>${esc(p3.etiqueta)}:</b> ${esc(p3.texto)}${p3.prob ? ` (${Number(p3.prob).toFixed(0)}%)` : ''}</span>` : '<span></span>'}
+            <span>${esc(p.fecha)}</span>
+          </div>
+        </article>`;
     }
 
     function renderEquityChart(curva) {
       const box = document.getElementById('equityChart');
       if (!curva || curva.length < 2) {
-        box.innerHTML = '<div class="empty-state">La curva de banca aparecerá al acumular al menos 2 jornadas auditadas.</div>';
+        box.innerHTML = '<div class="empty-state">La gráfica de ganancias se dibujará automáticamente cuando se cierren al menos 2 jornadas.</div>';
         return;
       }
       const w = 800, h = 175, pad = 22;
@@ -473,7 +562,6 @@
       const k = DATA.kpis;
       document.getElementById('updatedAt').textContent = DATA.updated_at || '-';
 
-      // KPIs compactos en el footer
       const roiEl = document.getElementById('kpiRoi');
       roiEl.textContent = `${k.roi_global >= 0 ? '+' : ''}${k.roi_global.toFixed(1)}%`;
       roiEl.className = `kpi-mini-val ${k.roi_global >= 0 ? 'pos' : 'neg'}`;
@@ -483,7 +571,7 @@
       document.getElementById('kpiPicksHoy').textContent = k.picks_hoy;
       document.getElementById('kpiAperturas').textContent = k.aperturas_activas;
 
-      // 1. Picks Diamante + Cartelera con Escudos
+      // 1. Diamante + Pronósticos
       const diams = filtrar(DATA.diamantes);
       document.getElementById('diamanteContainer').innerHTML = diams.map((d) => `
         <div class="diamond-card ${d.es_no_bet ? 'nobet' : ''}">
@@ -497,23 +585,15 @@
         </div>`).join('');
 
       const picks = filtrar(DATA.picks_hoy);
-      document.getElementById('picksContainer').innerHTML = picks.length ? picks.map((p) => `
-        <article class="card">
-          <div class="card-top">
-            <span class="badge">${icons[p.deporte] || ''} ${esc(p.liga)}</span>
-            <span class="badge amber">Cuota ${Number(p.cuota).toFixed(2)}</span>
-          </div>
-          ${matchupHTML(p)}
-          <div class="pick-box">${esc(p.pick_principal)}</div>
-          <div class="meta-row"><span>${esc(p.mercados_extra)}</span><span>${esc(p.fecha)}</span></div>
-        </article>`).join('') :
-        `<div class="empty-state" style="grid-column:1/-1;">Sin picks finales disparados todavía para este filtro. Revisa <b>📸 RLM</b> para ver los duelos con apertura capturada.</div>`;
+      document.getElementById('picksContainer').innerHTML = picks.length
+        ? picks.map(renderPickCard).join('')
+        : `<div class="empty-state" style="grid-column:1/-1;">Todavía no se publican los pronósticos finales de este deporte hoy.<br/>Puedes consultar los partidos programados en <b>📸 Líneas Iniciales</b>.</div>`;
 
-      // 2. Player Props con Fotos
+      // 2. Jugadores (Props con foto)
       const pRes = filtrar(DATA.props_resumenes);
       document.getElementById('propsResumenContainer').innerHTML = pRes.map((r) => `
         <div class="diamond-card">
-          <div class="diamond-title">💎 Top Props Blindados — ${icons[r.deporte] || ''} ${esc(r.deporte)}</div>
+          <div class="diamond-title">💎 Mejores Selecciones de Jugadores — ${icons[r.deporte] || ''} ${esc(r.deporte)}</div>
           <div class="rich-text">${cleanMd(r.texto)}</div>
         </div>`).join('');
 
@@ -524,30 +604,30 @@
           <div class="prop-body">
             <div class="prop-head">
               <div class="prop-player">${esc(pr.jugador)}</div>
-              <span class="badge purple">${pr.probabilidad ? pr.probabilidad.toFixed(1) + '%' : pr.deporte}</span>
+              <span class="badge purple">${pr.probabilidad ? pr.probabilidad.toFixed(1) + '% prob.' : pr.deporte}</span>
             </div>
             <div class="prop-pick">${esc(pr.pick)}</div>
             <div class="prop-foot">
               <span>${icons[pr.deporte] || ''} ${esc(pr.partido)}</span>
-              <span>${esc(pr.racha_l5 || '')}</span>
+              <span>Últimos 5: ${esc(pr.racha_l5 || '—')}</span>
             </div>
           </div>
         </article>`).join('') :
-        `<div class="empty-state" style="grid-column:1/-1;">Los Player Props con foto aparecerán aquí automáticamente en cuanto corra el siguiente motor con cartelera hoy.</div>`;
+        `<div class="empty-state" style="grid-column:1/-1;">Las selecciones de jugadores con foto aparecerán aquí automáticamente en cuanto termine el siguiente análisis del día.</div>`;
 
-      // 3. Guiones SGP
+      // 3. Combinadas (Guiones SGP)
       const guiones = filtrar(DATA.guiones);
       document.getElementById('guionesContainer').innerHTML = guiones.length ? guiones.map((g) => `
         <article class="card">
           <div class="card-top">
-            <span class="badge purple">${icons[g.deporte] || '🎬'} ${esc(g.deporte)} SGP</span>
+            <span class="badge purple">${icons[g.deporte] || '🎬'} Combinada ${esc(g.deporte)}</span>
           </div>
-          <div class="diamond-title" style="font-size:0.86rem;margin:0;">${esc(g.titulo)}</div>
+          <div class="diamond-title" style="font-size:0.88rem;margin:0;">${esc(g.titulo)}</div>
           <div class="rich-text">${cleanMd(g.valor)}</div>
         </article>`).join('') :
-        `<div class="empty-state" style="grid-column:1/-1;">Sin Guiones de Partido SGP publicados aún para este filtro hoy.</div>`;
+        `<div class="empty-state" style="grid-column:1/-1;">Aún no hay combinadas sugeridas para este deporte hoy.</div>`;
 
-      // 4. Aperturas RLM con Escudos
+      // 4. Líneas Iniciales (Aperturas RLM)
       const aps = filtrar(DATA.aperturas);
       document.getElementById('aperturasContainer').innerHTML = aps.length ? aps.map((a) => `
         <article class="card">
@@ -556,12 +636,18 @@
             <span class="badge green">${esc(a.casino)}</span>
           </div>
           ${matchupHTML(a)}
-          <div class="pick-box">${esc(a.linea_1)}<br/>${esc(a.linea_2)}</div>
-          <div class="meta-row"><span>Juego: ${esc(a.fecha)}</span><span>Captura: ${esc((a.captura || '').slice(0, 16))}</span></div>
+          <div class="line-box">
+            <div>${esc(a.linea_1)}</div>
+            <div>${esc(a.linea_2)}</div>
+          </div>
+          <div class="pick-extra-row">
+            <span>Partido: ${esc(a.fecha)}</span>
+            <span>Registro: ${esc((a.captura || '').slice(0, 16))}</span>
+          </div>
         </article>`).join('') :
-        `<div class="empty-state" style="grid-column:1/-1;">No hay líneas de apertura registradas para este filtro.</div>`;
+        `<div class="empty-state" style="grid-column:1/-1;">No hay líneas iniciales registradas para este deporte.</div>`;
 
-      // 5. ROI & Motores
+      // 5. Resultados y Motores
       renderEquityChart(DATA.curva_banca);
       document.getElementById('sportSummaryBody').innerHTML = Object.entries(DATA.resumen_deportes || {}).map(([dep, v]) => `
         <tr>
@@ -578,17 +664,17 @@
           <td class="mono">${esc(h.fecha)}</td>
           <td>${icons[h.deporte] || ''}</td>
           <td>${esc(h.duelo)}</td>
-          <td class="mono">${esc(h.pick_principal)}</td>
+          <td>${esc(h.pick_principal)}</td>
           <td class="mono">${Number(h.cuota).toFixed(2)}</td>
           <td><span class="badge ${h.estado === 'Ganado' ? 'green' : 'red'}">${esc(h.estado)} (${h.ganancia >= 0 ? '+' : ''}${Number(h.ganancia).toFixed(2)}U)</span></td>
         </tr>`).join('') :
-        `<tr><td colspan="6" style="text-align:center;color:var(--muted);">Sin resultados auditados para este filtro.</td></tr>`;
+        `<tr><td colspan="6" style="text-align:center;color:var(--muted);">Aún sin resultados cerrados para este filtro.</td></tr>`;
 
       document.getElementById('enginesContainer').innerHTML = (DATA.motores || []).map((m) => `
         <article class="card">
-          <div class="card-top"><span class="badge">${icons[m.deporte] || ''} ${esc(m.deporte)} ${esc(m.version)}</span><span class="badge green">ONLINE</span></div>
+          <div class="card-top"><span class="badge">${icons[m.deporte] || ''} ${esc(m.deporte)} ${esc(m.version)}</span><span class="badge green">ACTIVO</span></div>
           <div style="font-size:0.86rem;font-weight:700;">${esc(m.horario)}</div>
-          <div class="meta-row"><span>${esc(m.modulo)}</span></div>
+          <div class="pick-extra-row"><span>${esc(m.modulo)}</span></div>
         </article>`).join('');
     }
 
@@ -598,7 +684,7 @@
         DATA = await res.json();
         renderAll();
       } catch (e) {
-        document.getElementById('updatedAt').textContent = 'Modo Offline';
+        document.getElementById('updatedAt').textContent = 'Sin conexión';
       }
     }
 
