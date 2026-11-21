@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20 17:10 CST",
+  "updated_at": "2026-11-20 23:45 CST",
   "fecha_operativa": "2026-11-20",
   "kpis": {
     "ganados": 507,
@@ -9,7 +9,7 @@
     "unidades_netas": -192.62,
     "roi_global": -22.3,
     "picks_hoy": 17,
-    "aperturas_activas": 44
+    "aperturas_activas": 45
   },
   "motores": [
     {
@@ -4908,6 +4908,25 @@
           "lado": "ALL"
         }
       ],
+      "guiones_partido": [],
+      "apertura_ref": null
+    },
+    {
+      "id": "c3c6b3791814",
+      "deporte": "TENNIS",
+      "liga": "ATP Finals",
+      "fecha": "2026-11-21",
+      "duelo": "Alexander Zverev vs Daniil Medvedev",
+      "equipo_a": "Alexander Zverev",
+      "equipo_b": "Daniil Medvedev",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/headshots/tennis/players/full/2375.png",
+      "logo_b": "https://a.espncdn.com/i/headshots/tennis/players/full/2383.png",
+      "linea_1": "Ganador: 1.02 vs 1.03",
+      "linea_2": "Altas / Bajas: 25.5 juegos",
+      "casino": "LowVig.ag",
+      "captura": "2026-11-20 23:30:04",
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     }
