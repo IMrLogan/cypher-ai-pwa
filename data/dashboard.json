@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 04:45 CST",
+  "updated_at": "2026-11-21 05:45 CST",
   "fecha_operativa": "2026-11-21",
   "kpis": {
     "ganados": 484,
@@ -8,7 +8,7 @@
     "win_rate": 58.1,
     "unidades_netas": -188.52,
     "roi_global": -22.6,
-    "picks_hoy": 47,
+    "picks_hoy": 48,
     "aperturas_activas": 67
   },
   "motores": [
@@ -245,6 +245,18 @@
         {
           "titulo": "📌 Radar Rápido de Mercados Especiales (Líderes del Día)",
           "valor": "• **Mejor Ambos Anotan:** `Manchester City vs Fulham` ➡️ **SÍ** (`54.8%`)\n• **Mejor Línea de Goles:** `Manchester City vs Fulham` ➡️ **Más de 1.5 Goles** (`71.8%`)\n• **Mejor Pick Córners:** `Manchester City vs Fulham` ➡️ **Córners Menos de 9.5** (`50.8%`)\n• **Mejor Pick Tarjetas:** `Sevilla vs Real Betis` ➡️ **Tarjetas Más de 4.5** (`70.0%`)"
+        }
+      ]
+    },
+    {
+      "deporte": "TENNIS",
+      "titulo": "🛡️ CYPHER TENNIS AI: JORNADA SIN VALOR DIAMANTE — CAPITAL PROTEGIDO (2026-11-21)",
+      "descripcion": "El **Filtro Maestro de Francotirador V10.0** bloqueó el Boleto Diamante de hoy por **fatiga acumulada, dinero Sharp en contra (RLM) o líneas muy ajustadas**.\n\n> 💰 **Instrucción Institucional:** `0.0% Stake` en Parlay Principal hoy. Revisa los **Floor-Lock Props** y los **Guiones de Partido** abajo.",
+      "es_no_bet": true,
+      "campos": [
+        {
+          "titulo": "📌 Radares Informativos (Solo Referencia)",
+          "valor": "• **Hándicap de Sets más sólido:** `Alexander Zverev vs Daniil Medvedev` ➡️ **Daniil Medvedev +1.5 Sets (Gana ≥1 Set)** (`70.0%`)\n• **Total de Juegos más sólido:** `Alexander Zverev vs Daniil Medvedev` ➡️ **OVER 23.5** (`55.3%`)"
         }
       ]
     }
@@ -2219,6 +2231,18 @@
       "pick_amigable": "1410.63x"
     },
     {
+      "deporte": "TENNIS",
+      "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
+      "equipo": "",
+      "jugador": "Alexander Zverev",
+      "es_equipo": false,
+      "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2375.png",
+      "pick": "Alexander Zverev OVER 11.5 Juegos Ganados",
+      "probabilidad": 88.5,
+      "racha_l5": "🟢🟢🟢",
+      "pick_amigable": "Alexander Zverev Más de 11.5 Juegos Ganados"
+    },
+    {
       "deporte": "NBA",
       "partido": "Partido #5: Washington Wizards @ Chicago Bulls (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -2313,6 +2337,18 @@
       "probabilidad": 80.0,
       "racha_l5": "🟢🟢🔴🟢🟢",
       "pick_amigable": "Daniss Jenkins Más de 1.5 Triples (3PM)"
+    },
+    {
+      "deporte": "TENNIS",
+      "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
+      "equipo": "",
+      "jugador": "Alexander Zverev",
+      "es_equipo": false,
+      "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2375.png",
+      "pick": "Alexander Zverev Gana al menos 1 Set (+1.5 Sets)",
+      "probabilidad": 80.0,
+      "racha_l5": "🟢🟢🟢",
+      "pick_amigable": "Alexander Zverev Gana al menos 1 Set (+1.5 Sets)"
     },
     {
       "deporte": "NBA",
@@ -2481,6 +2517,18 @@
       "probabilidad": 70.1,
       "racha_l5": "",
       "pick_amigable": "12.23x"
+    },
+    {
+      "deporte": "TENNIS",
+      "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
+      "equipo": "",
+      "jugador": "Daniil Medvedev",
+      "es_equipo": false,
+      "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2383.png",
+      "pick": "Daniil Medvedev Gana al menos 1 Set (+1.5 Sets)",
+      "probabilidad": 70.0,
+      "racha_l5": "🟢🔴🟢",
+      "pick_amigable": "Daniil Medvedev Gana al menos 1 Set (+1.5 Sets)"
     },
     {
       "deporte": "NBA",
@@ -2987,6 +3035,18 @@
       "pick_amigable": "11.22x"
     },
     {
+      "deporte": "TENNIS",
+      "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
+      "equipo": "",
+      "jugador": "Daniil Medvedev",
+      "es_equipo": false,
+      "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2383.png",
+      "pick": "Daniil Medvedev OVER 11.5 Juegos Ganados",
+      "probabilidad": 67.6,
+      "racha_l5": "🟢🔴🟢",
+      "pick_amigable": "Daniil Medvedev Más de 11.5 Juegos Ganados"
+    },
+    {
       "deporte": "NBA",
       "partido": "Partido #3: Indiana Pacers @ Cleveland Cavaliers (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -3139,9 +3199,24 @@
     {
       "deporte": "SOCCER",
       "texto": "**1. [Manchester City vs Fulham]** `Manchester City OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.4` | L5: `100%` 🟢🟢🟢🟢🟢)\n**2. [Manchester City vs Fulham]** `Manchester City OVER 4.5 Córners del Equipo` ➡️ **Prob IA: `91.0%`** (Proy: `5.8` | L5: `100%` 🟢🟢🟢🟢🟢)\n**3. [Manchester City vs Fulham]** `Fulham OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.1` | L5: `100%` 🟢🟢🟢🟢🟢)\n**4. [Manchester City vs Fulham]** `Fulham OVER 2.5 Remates a Puerta` ➡️ **Prob IA: `91.0%`** (Proy: `3.5` | L5: `100%` 🟢🟢🟢🟢🟢)\n\n> 💰 **Cuota Combinada (Top 4):** `11.22` | **Prob. Conjunta:** `68.6%` | **Stake:** `5.0%`"
+    },
+    {
+      "deporte": "TENNIS",
+      "texto": "**1. [Alexander Zverev vs Daniil Medvedev]** `Alexander Zverev OVER 11.5 Juegos Ganados` ➡️ **Prob IA: `88.5%`** (🟢🟢🟢)\n**2. [Alexander Zverev vs Daniil Medvedev]** `Alexander Zverev Gana al menos 1 Set (+1.5 Sets)` ➡️ **Prob IA: `80.0%`** (🟢🟢🟢)\n**3. [Alexander Zverev vs Daniil Medvedev]** `Daniil Medvedev Gana al menos 1 Set (+1.5 Sets)` ➡️ **Prob IA: `70.0%`** (🟢🔴🟢)\n**4. [Alexander Zverev vs Daniil Medvedev]** `Daniil Medvedev OVER 11.5 Juegos Ganados` ➡️ **Prob IA: `67.6%`** (🟢🔴🟢)\n\n> 💰 **Cuota (Top 4):** `11.71x` | **Prob. Conjunta:** `33.5%` | **Stake:** `4.1%`"
     }
   ],
-  "guiones": [],
+  "guiones": [
+    {
+      "titulo": "🎾 #1 Alexander Zverev vs Daniil Medvedev — 💣 Guion de Cañoneros y Tiebreak (Hold Alto)",
+      "valor": "📖 **Cadena Causal:** Duelo de saques intocables en Dura Indoor 🏢 (`Hold 83% / 80%`) $\\rightarrow$ Pocos quiebres empujan el 1er set a 10+ juegos (`61%`), alta opción de *Tiebreak* y lluvia de Aces.\n🔗 **Ticket Correlacionado (3-Leg SGP):**\n  • 🔥 **Suceso 1 (Volumen):** `OVER 23.5 Juegos` (`55.3%`)\n  • ⏱️ **Suceso 2 (1er Set Largo):** `1er Set OVER 9.5 Juegos` (`61.0%`)\n  • 🎾 **Suceso 3 (Saque `Zverev`):** `Alexander Zverev OVER 9.5 Aces` (`72.2%`)\n📈 *Prob. SGP Correlacionada: **`28.8%`** | Stake: `1.3%`*",
+      "deporte": "TENNIS"
+    },
+    {
+      "titulo": "💎 TOP 3 GUIONES SGP MÁS SÓLIDOS DEL DÍA",
+      "valor": "**1. [Alexander Zverev vs Daniil Medvedev]** `OVER 23.5g + 1er Set O9.5 + Alexander Zverev OVER 9.5 Aces` (`28.8%` | Stake `1.3%`)",
+      "deporte": "TENNIS"
+    }
+  ],
   "picks_hoy": [
     {
       "deporte": "NBA",
@@ -8055,6 +8130,111 @@
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-21 01:00:16"
       }
+    },
+    {
+      "deporte": "TENNIS",
+      "liga": "ATP Finals",
+      "fecha": "2026-11-21",
+      "duelo": "Alexander Zverev vs Daniil Medvedev",
+      "pick_principal": "Ganador: Alexander Zverev",
+      "cuota": 1.02,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "ec78f9148943",
+      "equipo_a": "Alexander Zverev",
+      "equipo_b": "Daniil Medvedev",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/headshots/tennis/players/full/2375.png",
+      "logo_b": "https://a.espncdn.com/i/headshots/tennis/players/full/2383.png",
+      "contexto": [],
+      "pick_1": {
+        "etiqueta": "Hándicap",
+        "texto": "Daniil Medvedev +1.5 Sets (Gana ≥1 Set)",
+        "prob": 70.0
+      },
+      "pick_2": {
+        "etiqueta": "Ganador",
+        "texto": "Alexander Zverev",
+        "prob": 64.5
+      },
+      "pick_3": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "Más de 23.5 Juegos",
+        "prob": 55.3
+      },
+      "rankeado_real": true,
+      "props_partido": [
+        {
+          "deporte": "TENNIS",
+          "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
+          "equipo": "",
+          "jugador": "Alexander Zverev",
+          "es_equipo": false,
+          "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2375.png",
+          "pick": "Alexander Zverev OVER 11.5 Juegos Ganados",
+          "probabilidad": 88.5,
+          "racha_l5": "🟢🟢🟢",
+          "pick_amigable": "Alexander Zverev Más de 11.5 Juegos Ganados",
+          "lado": "A"
+        },
+        {
+          "deporte": "TENNIS",
+          "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
+          "equipo": "",
+          "jugador": "Alexander Zverev",
+          "es_equipo": false,
+          "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2375.png",
+          "pick": "Alexander Zverev Gana al menos 1 Set (+1.5 Sets)",
+          "probabilidad": 80.0,
+          "racha_l5": "🟢🟢🟢",
+          "pick_amigable": "Alexander Zverev Gana al menos 1 Set (+1.5 Sets)",
+          "lado": "A"
+        },
+        {
+          "deporte": "TENNIS",
+          "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
+          "equipo": "",
+          "jugador": "Daniil Medvedev",
+          "es_equipo": false,
+          "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2383.png",
+          "pick": "Daniil Medvedev Gana al menos 1 Set (+1.5 Sets)",
+          "probabilidad": 70.0,
+          "racha_l5": "🟢🔴🟢",
+          "pick_amigable": "Daniil Medvedev Gana al menos 1 Set (+1.5 Sets)",
+          "lado": "B"
+        },
+        {
+          "deporte": "TENNIS",
+          "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
+          "equipo": "",
+          "jugador": "Daniil Medvedev",
+          "es_equipo": false,
+          "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2383.png",
+          "pick": "Daniil Medvedev OVER 11.5 Juegos Ganados",
+          "probabilidad": 67.6,
+          "racha_l5": "🟢🔴🟢",
+          "pick_amigable": "Daniil Medvedev Más de 11.5 Juegos Ganados",
+          "lado": "B"
+        }
+      ],
+      "guiones_partido": [
+        {
+          "titulo": "🎾 #1 Alexander Zverev vs Daniil Medvedev — 💣 Guion de Cañoneros y Tiebreak (Hold Alto)",
+          "valor": "📖 **Cadena Causal:** Duelo de saques intocables en Dura Indoor 🏢 (`Hold 83% / 80%`) $\\rightarrow$ Pocos quiebres empujan el 1er set a 10+ juegos (`61%`), alta opción de *Tiebreak* y lluvia de Aces.\n🔗 **Ticket Correlacionado (3-Leg SGP):**\n  • 🔥 **Suceso 1 (Volumen):** `OVER 23.5 Juegos` (`55.3%`)\n  • ⏱️ **Suceso 2 (1er Set Largo):** `1er Set OVER 9.5 Juegos` (`61.0%`)\n  • 🎾 **Suceso 3 (Saque `Zverev`):** `Alexander Zverev OVER 9.5 Aces` (`72.2%`)\n📈 *Prob. SGP Correlacionada: **`28.8%`** | Stake: `1.3%`*",
+          "deporte": "TENNIS"
+        },
+        {
+          "titulo": "💎 TOP 3 GUIONES SGP MÁS SÓLIDOS DEL DÍA",
+          "valor": "**1. [Alexander Zverev vs Daniil Medvedev]** `OVER 23.5g + 1er Set O9.5 + Alexander Zverev OVER 9.5 Aces` (`28.8%` | Stake `1.3%`)",
+          "deporte": "TENNIS"
+        }
+      ],
+      "apertura_ref": {
+        "linea_1": "Ganador: 1.02 vs 1.03",
+        "linea_2": "Altas / Bajas: 25.5 juegos",
+        "casino": "LowVig.ag",
+        "captura": "2026-11-20 23:30:04"
+      }
     }
   ],
   "aperturas": [
@@ -11835,8 +12015,72 @@
       "linea_2": "Altas / Bajas: 25.5 juegos",
       "casino": "LowVig.ag",
       "captura": "2026-11-20 23:30:04",
-      "props_partido": [],
-      "guiones_partido": [],
+      "props_partido": [
+        {
+          "deporte": "TENNIS",
+          "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
+          "equipo": "",
+          "jugador": "Alexander Zverev",
+          "es_equipo": false,
+          "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2375.png",
+          "pick": "Alexander Zverev OVER 11.5 Juegos Ganados",
+          "probabilidad": 88.5,
+          "racha_l5": "🟢🟢🟢",
+          "pick_amigable": "Alexander Zverev Más de 11.5 Juegos Ganados",
+          "lado": "A"
+        },
+        {
+          "deporte": "TENNIS",
+          "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
+          "equipo": "",
+          "jugador": "Alexander Zverev",
+          "es_equipo": false,
+          "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2375.png",
+          "pick": "Alexander Zverev Gana al menos 1 Set (+1.5 Sets)",
+          "probabilidad": 80.0,
+          "racha_l5": "🟢🟢🟢",
+          "pick_amigable": "Alexander Zverev Gana al menos 1 Set (+1.5 Sets)",
+          "lado": "A"
+        },
+        {
+          "deporte": "TENNIS",
+          "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
+          "equipo": "",
+          "jugador": "Daniil Medvedev",
+          "es_equipo": false,
+          "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2383.png",
+          "pick": "Daniil Medvedev Gana al menos 1 Set (+1.5 Sets)",
+          "probabilidad": 70.0,
+          "racha_l5": "🟢🔴🟢",
+          "pick_amigable": "Daniil Medvedev Gana al menos 1 Set (+1.5 Sets)",
+          "lado": "B"
+        },
+        {
+          "deporte": "TENNIS",
+          "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
+          "equipo": "",
+          "jugador": "Daniil Medvedev",
+          "es_equipo": false,
+          "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2383.png",
+          "pick": "Daniil Medvedev OVER 11.5 Juegos Ganados",
+          "probabilidad": 67.6,
+          "racha_l5": "🟢🔴🟢",
+          "pick_amigable": "Daniil Medvedev Más de 11.5 Juegos Ganados",
+          "lado": "B"
+        }
+      ],
+      "guiones_partido": [
+        {
+          "titulo": "🎾 #1 Alexander Zverev vs Daniil Medvedev — 💣 Guion de Cañoneros y Tiebreak (Hold Alto)",
+          "valor": "📖 **Cadena Causal:** Duelo de saques intocables en Dura Indoor 🏢 (`Hold 83% / 80%`) $\\rightarrow$ Pocos quiebres empujan el 1er set a 10+ juegos (`61%`), alta opción de *Tiebreak* y lluvia de Aces.\n🔗 **Ticket Correlacionado (3-Leg SGP):**\n  • 🔥 **Suceso 1 (Volumen):** `OVER 23.5 Juegos` (`55.3%`)\n  • ⏱️ **Suceso 2 (1er Set Largo):** `1er Set OVER 9.5 Juegos` (`61.0%`)\n  • 🎾 **Suceso 3 (Saque `Zverev`):** `Alexander Zverev OVER 9.5 Aces` (`72.2%`)\n📈 *Prob. SGP Correlacionada: **`28.8%`** | Stake: `1.3%`*",
+          "deporte": "TENNIS"
+        },
+        {
+          "titulo": "💎 TOP 3 GUIONES SGP MÁS SÓLIDOS DEL DÍA",
+          "valor": "**1. [Alexander Zverev vs Daniil Medvedev]** `OVER 23.5g + 1er Set O9.5 + Alexander Zverev OVER 9.5 Aces` (`28.8%` | Stake `1.3%`)",
+          "deporte": "TENNIS"
+        }
+      ],
       "apertura_ref": null
     }
   ],
