@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-21 10:45 CST",
+  "updated_at": "2026-11-21 11:10 CST",
   "fecha_operativa": "2026-11-21",
   "kpis": {
-    "ganados": 491,
+    "ganados": 492,
     "perdidos": 351,
-    "total_auditados": 842,
-    "win_rate": 58.3,
-    "unidades_netas": -190.43,
+    "total_auditados": 843,
+    "win_rate": 58.4,
+    "unidades_netas": -190.42,
     "roi_global": -22.6,
     "picks_hoy": 45,
     "aperturas_activas": 73
@@ -53,11 +53,11 @@
       "roi": -32.0
     },
     "NFL": {
-      "ganados": 78,
+      "ganados": 79,
       "perdidos": 71,
-      "total": 149,
-      "win_rate": 52.3,
-      "unidades": -0.02,
+      "total": 150,
+      "win_rate": 52.7,
+      "unidades": -0.01,
       "roi": -0.0
     },
     "SOCCER": {
@@ -200,11 +200,11 @@
     },
     {
       "fecha": "2026-11-19",
-      "unidades": -164.02
+      "unidades": -164.01
     },
     {
       "fecha": "2026-11-20",
-      "unidades": -166.78
+      "unidades": -166.77
     }
   ],
   "diamantes": [
@@ -12293,6 +12293,16 @@
       "ganancia": 0.02
     },
     {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-19",
+      "duelo": "IND @ HOU",
+      "pick_principal": "Ganador: HOU",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
       "deporte": "SOCCER",
       "liga": "Major League Soccer",
       "fecha": "2026-11-19",
@@ -12901,16 +12911,6 @@
       "cuota": 1.01,
       "estado": "Ganado",
       "ganancia": 0.01
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-16",
-      "duelo": "Orlando Magic @ Boston Celtics",
-      "pick_principal": "Ganador: Boston Celtics",
-      "cuota": 1.01,
-      "estado": "Perdido",
-      "ganancia": -1.0
     }
   ]
 }
