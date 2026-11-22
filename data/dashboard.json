@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 11:10 CST",
+  "updated_at": "2026-11-21 23:45 CST",
   "fecha_operativa": "2026-11-21",
   "kpis": {
     "ganados": 492,
@@ -9,7 +9,7 @@
     "unidades_netas": -190.42,
     "roi_global": -22.6,
     "picks_hoy": 45,
-    "aperturas_activas": 73
+    "aperturas_activas": 74
   },
   "motores": [
     {
@@ -12108,6 +12108,25 @@
           "deporte": "TENNIS"
         }
       ],
+      "apertura_ref": null
+    },
+    {
+      "id": "498080fb10e3",
+      "deporte": "TENNIS",
+      "liga": "ATP Finals",
+      "fecha": "2026-11-22",
+      "duelo": "Alexander Zverev vs Carlos Alcaraz",
+      "equipo_a": "Alexander Zverev",
+      "equipo_b": "Carlos Alcaraz",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/headshots/tennis/players/full/2375.png",
+      "logo_b": "https://a.espncdn.com/i/headshots/tennis/players/full/3782.png",
+      "linea_1": "Ganador: 1.03 vs 1.02",
+      "linea_2": "Altas / Bajas: 23.5 juegos",
+      "casino": "LowVig.ag",
+      "captura": "2026-11-21 23:30:04",
+      "props_partido": [],
+      "guiones_partido": [],
       "apertura_ref": null
     }
   ],
