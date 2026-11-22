@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-22 04:45 CST",
+  "updated_at": "2026-11-22 05:45 CST",
   "fecha_operativa": "2026-11-22",
   "kpis": {
-    "ganados": 497,
+    "ganados": 498,
     "perdidos": 357,
-    "total_auditados": 854,
+    "total_auditados": 855,
     "win_rate": 58.2,
-    "unidades_netas": -195.24,
-    "roi_global": -22.9,
-    "picks_hoy": 34,
+    "unidades_netas": -195.22,
+    "roi_global": -22.8,
+    "picks_hoy": 33,
     "aperturas_activas": 56
   },
   "motores": [
@@ -69,12 +69,12 @@
       "roi": -29.7
     },
     "TENNIS": {
-      "ganados": 0,
+      "ganados": 1,
       "perdidos": 0,
-      "total": 0,
-      "win_rate": 0.0,
-      "unidades": 0,
-      "roi": 0.0
+      "total": 1,
+      "win_rate": 100.0,
+      "unidades": 0.02,
+      "roi": 2.0
     },
     "MLB": {
       "ganados": 48,
@@ -204,7 +204,7 @@
     },
     {
       "fecha": "2026-11-21",
-      "unidades": -172.53
+      "unidades": -172.51
     }
   ],
   "diamantes": [
@@ -5824,106 +5824,6 @@
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-22 01:00:19"
       }
-    },
-    {
-      "deporte": "TENNIS",
-      "liga": "ATP Finals",
-      "fecha": "2026-11-21",
-      "duelo": "Alexander Zverev vs Daniil Medvedev",
-      "pick_principal": "Ganador: Alexander Zverev",
-      "cuota": 1.02,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "ec78f9148943",
-      "equipo_a": "Alexander Zverev",
-      "equipo_b": "Daniil Medvedev",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/headshots/tennis/players/full/2375.png",
-      "logo_b": "https://a.espncdn.com/i/headshots/tennis/players/full/2383.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Hándicap",
-        "texto": "Daniil Medvedev +1.5 Sets (Gana ≥1 Set)",
-        "prob": 70.0
-      },
-      "pick_2": {
-        "etiqueta": "Ganador",
-        "texto": "Alexander Zverev",
-        "prob": 64.5
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "Más de 23.5 Juegos",
-        "prob": 55.3
-      },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "TENNIS",
-          "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
-          "equipo": "",
-          "jugador": "Alexander Zverev",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2375.png",
-          "pick": "Alexander Zverev OVER 11.5 Juegos Ganados",
-          "probabilidad": 88.5,
-          "racha_l5": "🟢🟢🟢",
-          "pick_amigable": "Alexander Zverev Más de 11.5 Juegos Ganados",
-          "lado": "A"
-        },
-        {
-          "deporte": "TENNIS",
-          "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
-          "equipo": "",
-          "jugador": "Alexander Zverev",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2375.png",
-          "pick": "Alexander Zverev Gana al menos 1 Set (+1.5 Sets)",
-          "probabilidad": 80.0,
-          "racha_l5": "🟢🟢🟢",
-          "pick_amigable": "Alexander Zverev Gana al menos 1 Set (+1.5 Sets)",
-          "lado": "A"
-        },
-        {
-          "deporte": "TENNIS",
-          "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
-          "equipo": "",
-          "jugador": "Daniil Medvedev",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2383.png",
-          "pick": "Daniil Medvedev Gana al menos 1 Set (+1.5 Sets)",
-          "probabilidad": 70.0,
-          "racha_l5": "🟢🔴🟢",
-          "pick_amigable": "Daniil Medvedev Gana al menos 1 Set (+1.5 Sets)",
-          "lado": "B"
-        },
-        {
-          "deporte": "TENNIS",
-          "partido": "1: Alexander Zverev vs Daniil Medvedev (ATP Finals)",
-          "equipo": "",
-          "jugador": "Daniil Medvedev",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/tennis/players/full/2383.png",
-          "pick": "Daniil Medvedev OVER 11.5 Juegos Ganados",
-          "probabilidad": 67.6,
-          "racha_l5": "🟢🔴🟢",
-          "pick_amigable": "Daniil Medvedev Más de 11.5 Juegos Ganados",
-          "lado": "B"
-        }
-      ],
-      "guiones_partido": [
-        {
-          "titulo": "🎾 #1 Alexander Zverev vs Daniil Medvedev — 💣 Guion de Cañoneros y Tiebreak (Hold Alto)",
-          "valor": "📖 **Cadena Causal:** Duelo de saques intocables en Dura Indoor 🏢 (`Hold 83% / 80%`) $\\rightarrow$ Pocos quiebres empujan el 1er set a 10+ juegos (`61%`), alta opción de *Tiebreak* y lluvia de Aces.\n🔗 **Ticket Correlacionado (3-Leg SGP):**\n  • 🔥 **Suceso 1 (Volumen):** `OVER 23.5 Juegos` (`55.3%`)\n  • ⏱️ **Suceso 2 (1er Set Largo):** `1er Set OVER 9.5 Juegos` (`61.0%`)\n  • 🎾 **Suceso 3 (Saque `Zverev`):** `Alexander Zverev OVER 9.5 Aces` (`72.2%`)\n📈 *Prob. SGP Correlacionada: **`28.8%`** | Stake: `1.3%`*",
-          "deporte": "TENNIS"
-        },
-        {
-          "titulo": "💎 TOP 3 GUIONES SGP MÁS SÓLIDOS DEL DÍA",
-          "valor": "**1. [Alexander Zverev vs Daniil Medvedev]** `OVER 23.5g + 1er Set O9.5 + Alexander Zverev OVER 9.5 Aces` (`28.8%` | Stake `1.3%`)",
-          "deporte": "TENNIS"
-        }
-      ],
-      "apertura_ref": null
     }
   ],
   "aperturas": [
@@ -9156,6 +9056,16 @@
       "ganancia": -1.0
     },
     {
+      "deporte": "TENNIS",
+      "liga": "ATP Finals",
+      "fecha": "2026-11-21",
+      "duelo": "Alexander Zverev vs Daniil Medvedev",
+      "pick_principal": "Ganador: Alexander Zverev",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
       "deporte": "NBA",
       "liga": "NBA",
       "fecha": "2026-11-20",
@@ -9564,16 +9474,6 @@
       "cuota": 1.25,
       "estado": "Ganado",
       "ganancia": 0.25
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-18",
-      "duelo": "Remo vs Chapecoense-sc",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.17,
-      "estado": "Ganado",
-      "ganancia": 0.17
     }
   ]
 }
