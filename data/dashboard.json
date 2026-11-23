@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-22 11:10 CST",
-  "fecha_operativa": "2026-11-22",
+  "updated_at": "2026-11-23 01:10 CST",
+  "fecha_operativa": "2026-11-23",
   "kpis": {
     "ganados": 502,
     "perdidos": 358,
@@ -8,8 +8,8 @@
     "win_rate": 58.4,
     "unidades_netas": -196.17,
     "roi_global": -22.8,
-    "picks_hoy": 46,
-    "aperturas_activas": 63
+    "picks_hoy": 45,
+    "aperturas_activas": 25
   },
   "motores": [
     {
@@ -3192,12 +3192,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap Golden State Warriors: +8.5 pts",
-        "linea_2": "Altas / Bajas: 210.5 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-22 08:00:04"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NBA",
@@ -3308,12 +3303,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap New York Knicks: -8.5 pts",
-        "linea_2": "Altas / Bajas: 214.5 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-22 08:00:04"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NBA",
@@ -3424,12 +3414,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap Washington Wizards: +5.5 pts",
-        "linea_2": "Altas / Bajas: 220.5 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-22 08:00:04"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NBA",
@@ -3540,12 +3525,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap Utah Jazz: -1.0 pts",
-        "linea_2": "Altas / Bajas: 225.5 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-22 08:00:04"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NBA",
@@ -3656,12 +3636,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap Chicago Bulls: +9.5 pts",
-        "linea_2": "Altas / Bajas: 237.5 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-22 08:00:04"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NBA",
@@ -3772,12 +3747,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap Miami Heat: -3.5 pts",
-        "linea_2": "Altas / Bajas: 231.0 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-22 08:00:04"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NBA",
@@ -3888,47 +3858,6 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap Atlanta Hawks: +2.0 pts",
-        "linea_2": "Altas / Bajas: 224.5 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-22 08:00:04"
-      }
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-21",
-      "duelo": "Los Angeles Clippers @ Dallas Mavericks",
-      "pick_principal": "Ganador: Dallas Mavericks",
-      "cuota": 1.02,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "aa79828b7688",
-      "equipo_a": "Los Angeles Clippers",
-      "equipo_b": "Dallas Mavericks",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "Dallas Mavericks",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "Los Angeles Clippers +5.5",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
       "apertura_ref": null
     },
     {
@@ -4036,12 +3965,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap SF: -3.0 pts",
-        "linea_2": "Altas / Bajas: 46.0 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-19 01:03:56"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NFL",
@@ -4148,12 +4072,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap PHI: +4.5 pts",
-        "linea_2": "Altas / Bajas: 38.5 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-19 01:03:56"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NFL",
@@ -4260,12 +4179,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap DEN: -10.5 pts",
-        "linea_2": "Altas / Bajas: 40.0 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-19 01:03:56"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NFL",
@@ -4372,12 +4286,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap LAC: -3.0 pts",
-        "linea_2": "Altas / Bajas: 41.5 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-19 01:03:56"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NFL",
@@ -4484,12 +4393,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap NYG: +6.0 pts",
-        "linea_2": "Altas / Bajas: 46.5 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-19 01:03:56"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NFL",
@@ -4596,12 +4500,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap KC: -16.0 pts",
-        "linea_2": "Altas / Bajas: 41.0 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-19 01:03:56"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NFL",
@@ -4708,12 +4607,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap DET: -7.0 pts",
-        "linea_2": "Altas / Bajas: 44.0 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-19 01:03:56"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NFL",
@@ -4820,12 +4714,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap DAL: -8.0 pts",
-        "linea_2": "Altas / Bajas: 55.5 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-19 01:03:56"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NFL",
@@ -4932,12 +4821,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap CHI: -11.5 pts",
-        "linea_2": "Altas / Bajas: 48.5 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-19 01:03:56"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NFL",
@@ -5044,12 +4928,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap CAR: -2.5 pts",
-        "linea_2": "Altas / Bajas: 43.5 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-19 01:03:56"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "NFL",
@@ -5156,12 +5035,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Hándicap BUF: -17.0 pts",
-        "linea_2": "Altas / Bajas: 45.5 pts",
-        "casino": "Pinnacle",
-        "captura": "2026-11-19 01:03:56"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -5259,12 +5133,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.52 / 5.01 / 5.75",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.40 / 3.12",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 04:39:53"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -5362,12 +5231,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 2.15 / 3.90 / 3.32",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.63 / 2.38",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 04:39:34"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -5465,12 +5329,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 2.12 / 3.10 / 4.50",
-        "linea_2": "Altas / Bajas 2.5 goles: 2.88 / 1.47",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 04:39:15"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -5568,12 +5427,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.67 / 4.70 / 5.00",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.37 / 3.25",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 04:38:57"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -5671,12 +5525,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 2.25 / 4.04 / 2.99",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.65 / 2.33",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 04:38:38"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -5774,12 +5623,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 2.68 / 3.60 / 2.68",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.72 / 2.21",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:02:31"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -5877,12 +5721,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.67 / 3.75 / 6.50",
-        "linea_2": "Altas / Bajas 2.5 goles: 2.40 / 1.62",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:02:25"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -5980,12 +5819,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.67 / 4.25 / 5.50",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.82 / 2.06",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:02:18"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -6083,12 +5917,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.52 / 4.90 / 5.96",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.47 / 2.88",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:02:12"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -6186,12 +6015,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 7.11 / 4.16 / 1.60",
-        "linea_2": "Altas / Bajas 2.5 goles: 2.12 / 1.84",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:02:06"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -6289,12 +6113,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.49 / 5.08 / 6.90",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.55 / 2.57",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:01:59"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -6392,12 +6211,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 5.43 / 4.92 / 1.60",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.42 / 3.10",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:01:53"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -6495,12 +6309,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.44 / 4.80 / 8.50",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.91 / 1.98",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:01:47"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -6598,12 +6407,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.60 / 4.35 / 6.59",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.72 / 2.20",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:01:40"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -6701,12 +6505,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.91 / 3.72 / 4.88",
-        "linea_2": "Altas / Bajas 2.5 goles: 2.06 / 1.89",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:01:34"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -6804,12 +6603,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.58 / 5.08 / 5.43",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.37 / 3.25",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:01:28"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -6907,12 +6701,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.66 / 4.57 / 5.30",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.59 / 2.50",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:01:22"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -7010,12 +6799,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.78 / 4.45 / 4.67",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.52 / 2.65",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:01:15"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -7113,12 +6897,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 2.99 / 3.64 / 2.49",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.94 / 2.00",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:01:09"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -7216,12 +6995,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 3.33 / 4.21 / 2.10",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.38 / 3.20",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:01:03"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -7319,12 +7093,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 2.70 / 4.16 / 2.50",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.44 / 3.00",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:00:56"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -7422,12 +7191,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 7.52 / 4.83 / 1.53",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.76 / 2.23",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:00:50"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -7525,12 +7289,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.31 / 6.36 / 10.30",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.47 / 2.88",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 04:32:20"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -7628,12 +7387,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 2.76 / 3.58 / 2.80",
-        "linea_2": "Altas / Bajas 2.5 goles: 2.00 / 1.94",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:00:38"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -7731,12 +7485,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.78 / 4.04 / 5.09",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.98 / 1.98",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:00:31"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -7834,12 +7583,7 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.25 / 8.50 / 15.22",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.19 / 5.50",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:00:25"
-      }
+      "apertura_ref": null
     },
     {
       "deporte": "SOCCER",
@@ -7937,1545 +7681,10 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": {
-        "linea_1": "Ganador (Local / Empate / Visita): 1.40 / 5.39 / 9.00",
-        "linea_2": "Altas / Bajas 2.5 goles: 1.68 / 2.39",
-        "casino": "Pinnacle / Consenso",
-        "captura": "2026-11-22 01:00:19"
-      }
+      "apertura_ref": null
     }
   ],
   "aperturas": [
-    {
-      "id": "69929ec0b695",
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-22",
-      "duelo": "Detroit Pistons @ Atlanta Hawks",
-      "equipo_a": "Detroit Pistons",
-      "equipo_b": "Atlanta Hawks",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
-      "linea_1": "Hándicap Atlanta Hawks: +2.0 pts",
-      "linea_2": "Altas / Bajas: 224.5 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-22 08:00:04",
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Detroit Pistons @ Atlanta Hawks (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Onyeka Okongwu",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4431680.png",
-          "pick": "Onyeka Okongwu OVER 14.5 Puntos",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢",
-          "pick_amigable": "Onyeka Okongwu Más de 14.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Detroit Pistons @ Atlanta Hawks (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Nickeil Alexander-Walker",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4278039.png",
-          "pick": "Nickeil Alexander-Walker OVER 3.5 Rebotes",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢",
-          "pick_amigable": "Nickeil Alexander-Walker Más de 3.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Detroit Pistons @ Atlanta Hawks (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Daniss Jenkins",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5107199.png",
-          "pick": "Daniss Jenkins OVER 1.5 Triples (3PM)",
-          "probabilidad": 86.5,
-          "racha_l5": "🟢🔴🟢🟢🟢",
-          "pick_amigable": "Daniss Jenkins Más de 1.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Detroit Pistons @ Atlanta Hawks (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Ausar Thompson",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4684742.png",
-          "pick": "Ausar Thompson OVER 4.5 Asistencias",
-          "probabilidad": 74.3,
-          "racha_l5": "🟢🟢🟢🔴🔴",
-          "pick_amigable": "Ausar Thompson Más de 4.5 Asistencias",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Detroit Pistons @ Atlanta Hawks (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 53.8,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "6696ed42f042",
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-22",
-      "duelo": "Oklahoma City Thunder @ Miami Heat",
-      "equipo_a": "Oklahoma City Thunder",
-      "equipo_b": "Miami Heat",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
-      "linea_1": "Hándicap Miami Heat: -3.5 pts",
-      "linea_2": "Altas / Bajas: 231.0 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-22 08:00:04",
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Oklahoma City Thunder @ Miami Heat (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Ajay Mitchell",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4900671.png",
-          "pick": "Ajay Mitchell UNDER 20.5 Puntos",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢",
-          "pick_amigable": "Ajay Mitchell Menos de 20.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Oklahoma City Thunder @ Miami Heat (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Davion Mitchell",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4278053.png",
-          "pick": "Davion Mitchell OVER 14.5 Puntos",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Davion Mitchell Más de 14.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Oklahoma City Thunder @ Miami Heat (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Bam Adebayo",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4066261.png",
-          "pick": "Bam Adebayo UNDER 9.5 Rebotes",
-          "probabilidad": 83.4,
-          "racha_l5": "🟢🔴🟢🟢🟢",
-          "pick_amigable": "Bam Adebayo Menos de 9.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Oklahoma City Thunder @ Miami Heat (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Isaiah Hartenstein",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4222252.png",
-          "pick": "Isaiah Hartenstein OVER 10.5 Rebotes",
-          "probabilidad": 82.7,
-          "racha_l5": "🟢🟢🟢🟢🔴",
-          "pick_amigable": "Isaiah Hartenstein Más de 10.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Oklahoma City Thunder @ Miami Heat (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 57.7,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "38882abf1c5c",
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-22",
-      "duelo": "Denver Nuggets @ Chicago Bulls",
-      "equipo_a": "Denver Nuggets",
-      "equipo_b": "Chicago Bulls",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
-      "linea_1": "Hándicap Chicago Bulls: +9.5 pts",
-      "linea_2": "Altas / Bajas: 237.5 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-22 08:00:04",
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Denver Nuggets @ Chicago Bulls (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Nikola Jokic",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
-          "pick": "Nikola Jokic OVER 41.5 Pts+Reb+Ast (PRA)",
-          "probabilidad": 84.4,
-          "racha_l5": "🟢🟢🟢🔴🟢",
-          "pick_amigable": "Nikola Jokic Más de 41.5 Pts+Reb+Ast (PRA)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Denver Nuggets @ Chicago Bulls (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Isaac Okoro",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4432822.png",
-          "pick": "Isaac Okoro OVER 17.5 Pts+Reb+Ast (PRA)",
-          "probabilidad": 74.2,
-          "racha_l5": "🟢🟢🟢🟢🔴",
-          "pick_amigable": "Isaac Okoro Más de 17.5 Pts+Reb+Ast (PRA)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Denver Nuggets @ Chicago Bulls (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Christian Braun",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4431767.png",
-          "pick": "Christian Braun OVER 4.5 Rebotes",
-          "probabilidad": 73.7,
-          "racha_l5": "🟢🟢🔴🟢🟢",
-          "pick_amigable": "Christian Braun Más de 4.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Denver Nuggets @ Chicago Bulls (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Josh Giddey",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4871145.png",
-          "pick": "Josh Giddey OVER 6.5 Rebotes",
-          "probabilidad": 69.4,
-          "racha_l5": "🟢🟢🔴🟢🔴",
-          "pick_amigable": "Josh Giddey Más de 6.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Denver Nuggets @ Chicago Bulls (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 32.1,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "fef518f9d499",
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-22",
-      "duelo": "Dallas Mavericks @ Utah Jazz",
-      "equipo_a": "Dallas Mavericks",
-      "equipo_b": "Utah Jazz",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
-      "linea_1": "Hándicap Utah Jazz: -1.0 pts",
-      "linea_2": "Altas / Bajas: 225.5 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-22 08:00:04",
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #4: Dallas Mavericks @ Utah Jazz (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Jaxson Hayes",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4397077.png",
-          "pick": "Jaxson Hayes OVER 6.5 Rebotes",
-          "probabilidad": 91.5,
-          "racha_l5": "",
-          "pick_amigable": "Jaxson Hayes Más de 6.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #4: Dallas Mavericks @ Utah Jazz (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Cooper Flagg",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5041939.png",
-          "pick": "Cooper Flagg UNDER 24.5 Puntos",
-          "probabilidad": 84.6,
-          "racha_l5": "🟢🟢🟢🔴🟢",
-          "pick_amigable": "Cooper Flagg Menos de 24.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #4: Dallas Mavericks @ Utah Jazz (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Brice Sensabaugh",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5105839.png",
-          "pick": "Brice Sensabaugh OVER 13.5 Puntos",
-          "probabilidad": 83.1,
-          "racha_l5": "🔴🟢🟢🟢",
-          "pick_amigable": "Brice Sensabaugh Más de 13.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #4: Dallas Mavericks @ Utah Jazz (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Kyrie Irving",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/6442.png",
-          "pick": "Kyrie Irving OVER 3.5 Rebotes",
-          "probabilidad": 81.3,
-          "racha_l5": "🔴🟢🟢🟢",
-          "pick_amigable": "Kyrie Irving Más de 3.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #4: Dallas Mavericks @ Utah Jazz (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 52.2,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "29ba035b8b7d",
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-22",
-      "duelo": "Orlando Magic @ Washington Wizards",
-      "equipo_a": "Orlando Magic",
-      "equipo_b": "Washington Wizards",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
-      "linea_1": "Hándicap Washington Wizards: +5.5 pts",
-      "linea_2": "Altas / Bajas: 220.5 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-22 08:00:04",
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #5: Orlando Magic @ Washington Wizards (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Nikola Vucevic",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/6478.png",
-          "pick": "Nikola Vucevic OVER 2.5 Triples (3PM)",
-          "probabilidad": 91.5,
-          "racha_l5": "",
-          "pick_amigable": "Nikola Vucevic Más de 2.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #5: Orlando Magic @ Washington Wizards (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Franz Wagner",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
-          "pick": "Franz Wagner OVER 43.5 Pts+Reb+Ast (PRA)",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🔴🟢🟢",
-          "pick_amigable": "Franz Wagner Más de 43.5 Pts+Reb+Ast (PRA)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #5: Orlando Magic @ Washington Wizards (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Kyshawn George",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5174563.png",
-          "pick": "Kyshawn George OVER 3.5 Asistencias",
-          "probabilidad": 70.3,
-          "racha_l5": "🟢🟢🔴🟢🟢",
-          "pick_amigable": "Kyshawn George Más de 3.5 Asistencias",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #5: Orlando Magic @ Washington Wizards (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "AJ Dybantsa",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5142718.png",
-          "pick": "AJ Dybantsa OVER 15.5 Puntos",
-          "probabilidad": 70.2,
-          "racha_l5": "🔴🟢🟢🟢🟢",
-          "pick_amigable": "AJ Dybantsa Más de 15.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #5: Orlando Magic @ Washington Wizards (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 41.3,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "14453f2d98e7",
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-22",
-      "duelo": "Indiana Pacers @ New York Knicks",
-      "equipo_a": "Indiana Pacers",
-      "equipo_b": "New York Knicks",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-      "linea_1": "Hándicap New York Knicks: -8.5 pts",
-      "linea_2": "Altas / Bajas: 214.5 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-22 08:00:04",
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #6: Indiana Pacers @ New York Knicks (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Jalen Brunson",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
-          "pick": "Jalen Brunson OVER 3.5 Triples (3PM)",
-          "probabilidad": 82.4,
-          "racha_l5": "🟢🔴🟢🟢🟢",
-          "pick_amigable": "Jalen Brunson Más de 3.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #6: Indiana Pacers @ New York Knicks (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Braden Smith",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5105854.png",
-          "pick": "Braden Smith OVER 4.5 Rebotes",
-          "probabilidad": 80.3,
-          "racha_l5": "",
-          "pick_amigable": "Braden Smith Más de 4.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #6: Indiana Pacers @ New York Knicks (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Kelly Oubre Jr.",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3133603.png",
-          "pick": "Kelly Oubre Jr. OVER 19.5 Pts+Reb+Ast (PRA)",
-          "probabilidad": 79.6,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Kelly Oubre Jr. Más de 19.5 Pts+Reb+Ast (PRA)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #6: Indiana Pacers @ New York Knicks (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Mikal Bridges",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png",
-          "pick": "Mikal Bridges UNDER 18.5 Pts+Reb+Ast (PRA)",
-          "probabilidad": 64.2,
-          "racha_l5": "🔴🟢🔴🟢🟢",
-          "pick_amigable": "Mikal Bridges Menos de 18.5 Pts+Reb+Ast (PRA)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #6: Indiana Pacers @ New York Knicks (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 33.8,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "13a9087af745",
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-22",
-      "duelo": "Boston Celtics @ Golden State Warriors",
-      "equipo_a": "Boston Celtics",
-      "equipo_b": "Golden State Warriors",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
-      "linea_1": "Hándicap Golden State Warriors: +8.5 pts",
-      "linea_2": "Altas / Bajas: 210.5 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-22 08:00:04",
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #7: Boston Celtics @ Golden State Warriors (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Mike Conley",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3195.png",
-          "pick": "Mike Conley OVER 3.5 Triples (3PM)",
-          "probabilidad": 89.5,
-          "racha_l5": "",
-          "pick_amigable": "Mike Conley Más de 3.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #7: Boston Celtics @ Golden State Warriors (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Yaxel Lendeborg",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5175737.png",
-          "pick": "Yaxel Lendeborg OVER 6.5 Rebotes",
-          "probabilidad": 78.7,
-          "racha_l5": "🟢🟢🟢🔴🟢",
-          "pick_amigable": "Yaxel Lendeborg Más de 6.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #7: Boston Celtics @ Golden State Warriors (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "LJ Cryer",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4433149.png",
-          "pick": "LJ Cryer OVER 2.5 Triples (3PM)",
-          "probabilidad": 72.3,
-          "racha_l5": "🟢🟢🔴🟢",
-          "pick_amigable": "LJ Cryer Más de 2.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #7: Boston Celtics @ Golden State Warriors (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Neemias Queta",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4397424.png",
-          "pick": "Neemias Queta OVER 22.5 Pts+Reb+Ast (PRA)",
-          "probabilidad": 64.3,
-          "racha_l5": "🟢🔴🟢🟢",
-          "pick_amigable": "Neemias Queta Más de 22.5 Pts+Reb+Ast (PRA)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #7: Boston Celtics @ Golden State Warriors (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 32.7,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "a95303b82567",
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "ARI @ KC",
-      "equipo_a": "ARI",
-      "equipo_b": "KC",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-      "linea_1": "Hándicap KC: -16.0 pts",
-      "linea_2": "Altas / Bajas: 41.0 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56",
-      "props_partido": [
-        {
-          "deporte": "NFL",
-          "partido": "Partido #6: ARI @ KC (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB E.Johnson",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB E.Johnson UNDER 87.5 Yds Tierra",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢🔴",
-          "pick_amigable": "RB E.Johnson Menos de 87.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #6: ARI @ KC (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR T.McBride",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR T.McBride OVER 5.5 Recepciones",
-          "probabilidad": 90.4,
-          "racha_l5": "🟢🟢🟢🟢🔴",
-          "pick_amigable": "WR T.McBride Más de 5.5 Recepciones",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #6: ARI @ KC (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR T.Kelce",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR T.Kelce OVER 40.5 Yds Rec",
-          "probabilidad": 83.6,
-          "racha_l5": "🟢🟢🟢🟢🔴",
-          "pick_amigable": "WR T.Kelce Más de 40.5 Yds Rec",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #6: ARI @ KC (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB T.Allgeier",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB T.Allgeier OVER 28.5 Yds Tierra",
-          "probabilidad": 62.7,
-          "racha_l5": "🟢🔴🟢🟢🔴",
-          "pick_amigable": "RB T.Allgeier Más de 28.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #6: ARI @ KC (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 43.4,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "0faff0363a91",
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "BAL @ CAR",
-      "equipo_a": "BAL",
-      "equipo_b": "CAR",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-      "linea_1": "Hándicap CAR: -2.5 pts",
-      "linea_2": "Altas / Bajas: 43.5 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56",
-      "props_partido": [
-        {
-          "deporte": "NFL",
-          "partido": "Partido #2: BAL @ CAR (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "QB J.Brissett",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "QB J.Brissett OVER 227.5 Yds Pase",
-          "probabilidad": 91.5,
-          "racha_l5": "",
-          "pick_amigable": "QB J.Brissett Más de 227.5 Yds Pase",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #2: BAL @ CAR (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB D.Henry",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB D.Henry UNDER 65.5 Yds Tierra",
-          "probabilidad": 82.4,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "RB D.Henry Menos de 65.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #2: BAL @ CAR (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR C.Hubbard",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR C.Hubbard OVER 3.5 Recepciones",
-          "probabilidad": 73.3,
-          "racha_l5": "🔴🟢🟢🟢🟢",
-          "pick_amigable": "WR C.Hubbard Más de 3.5 Recepciones",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #2: BAL @ CAR (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR T.McMillan",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR T.McMillan UNDER 63.5 Yds Rec",
-          "probabilidad": 66.3,
-          "racha_l5": "🔴🟢🟢🟢🟢",
-          "pick_amigable": "WR T.McMillan Menos de 63.5 Yds Rec",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #2: BAL @ CAR (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 36.6,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "3846dd1561ae",
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "MIA @ BUF",
-      "equipo_a": "MIA",
-      "equipo_b": "BUF",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-      "linea_1": "Hándicap BUF: -17.0 pts",
-      "linea_2": "Altas / Bajas: 45.5 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56",
-      "props_partido": [
-        {
-          "deporte": "NFL",
-          "partido": "Partido #1: MIA @ BUF (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB J.Cook",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB J.Cook OVER 94.5 Yds Tierra",
-          "probabilidad": 87.9,
-          "racha_l5": "🟢🟢🔴🟢🟢",
-          "pick_amigable": "RB J.Cook Más de 94.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #1: MIA @ BUF (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB O.Gordon",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB O.Gordon OVER 54.5 Yds Tierra",
-          "probabilidad": 82.7,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "RB O.Gordon Más de 54.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #1: MIA @ BUF (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR C.Douglas",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR C.Douglas OVER 49.5 Yds Rec",
-          "probabilidad": 77.6,
-          "racha_l5": "🔴🟢🔴🟢🟢",
-          "pick_amigable": "WR C.Douglas Más de 49.5 Yds Rec",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #1: MIA @ BUF (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR D.Moore",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR D.Moore OVER 49.5 Yds Rec",
-          "probabilidad": 58.9,
-          "racha_l5": "🟢🔴🟢🔴🟢",
-          "pick_amigable": "WR D.Moore Más de 49.5 Yds Rec",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #1: MIA @ BUF (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 33.2,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "6de439365809",
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "NO @ CHI",
-      "equipo_a": "NO",
-      "equipo_b": "CHI",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-      "linea_1": "Hándicap CHI: -11.5 pts",
-      "linea_2": "Altas / Bajas: 48.5 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56",
-      "props_partido": [
-        {
-          "deporte": "NFL",
-          "partido": "Partido #3: NO @ CHI (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "QB C.Williams",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "QB C.Williams OVER 237.5 Yds Pase",
-          "probabilidad": 79.9,
-          "racha_l5": "🔴🟢🟢🟢🟢",
-          "pick_amigable": "QB C.Williams Más de 237.5 Yds Pase",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #3: NO @ CHI (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR D.Vele",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR D.Vele OVER 20.5 Yds Rec",
-          "probabilidad": 77.1,
-          "racha_l5": "🟢🟢🟢🔴🔴",
-          "pick_amigable": "WR D.Vele Más de 20.5 Yds Rec",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #3: NO @ CHI (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR R.Odunze",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR R.Odunze OVER 45.5 Yds Rec",
-          "probabilidad": 73.7,
-          "racha_l5": "🔴🔴🟢🟢🟢",
-          "pick_amigable": "WR R.Odunze Más de 45.5 Yds Rec",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #3: NO @ CHI (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB T.Shough",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB T.Shough OVER 18.5 Yds Tierra",
-          "probabilidad": 58.7,
-          "racha_l5": "🔴🟢🔴🟢🟢",
-          "pick_amigable": "RB T.Shough Más de 18.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #3: NO @ CHI (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 26.6,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "be6db0babcb9",
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "TEN @ DAL",
-      "equipo_a": "TEN",
-      "equipo_b": "DAL",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-      "linea_1": "Hándicap DAL: -8.0 pts",
-      "linea_2": "Altas / Bajas: 55.5 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56",
-      "props_partido": [
-        {
-          "deporte": "NFL",
-          "partido": "Partido #4: TEN @ DAL (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR W.Robinson",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR W.Robinson OVER 3.5 Recepciones",
-          "probabilidad": 74.5,
-          "racha_l5": "🟢🔴🟢🟢🔴",
-          "pick_amigable": "WR W.Robinson Más de 3.5 Recepciones",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #4: TEN @ DAL (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR G.Pickens",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR G.Pickens OVER 69.5 Yds Rec",
-          "probabilidad": 72.8,
-          "racha_l5": "🟢🟢🔴🔴🟢",
-          "pick_amigable": "WR G.Pickens Más de 69.5 Yds Rec",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #4: TEN @ DAL (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB T.Pollard",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB T.Pollard OVER 71.5 Yds Tierra",
-          "probabilidad": 63.2,
-          "racha_l5": "🔴🟢🟢🟢🔴",
-          "pick_amigable": "RB T.Pollard Más de 71.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #4: TEN @ DAL (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "QB D.Prescott",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "QB D.Prescott OVER 285.5 Yds Pase",
-          "probabilidad": 61.9,
-          "racha_l5": "🔴🔴🔴🟢🟢",
-          "pick_amigable": "QB D.Prescott Más de 285.5 Yds Pase",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #4: TEN @ DAL (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 21.2,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "5dacda6abfb0",
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "TB @ DET",
-      "equipo_a": "TB",
-      "equipo_b": "DET",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-      "linea_1": "Hándicap DET: -7.0 pts",
-      "linea_2": "Altas / Bajas: 44.0 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56",
-      "props_partido": [
-        {
-          "deporte": "NFL",
-          "partido": "Partido #5: TB @ DET (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB B.Irving",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB B.Irving OVER 64.5 Yds Tierra",
-          "probabilidad": 81.8,
-          "racha_l5": "🟢🔴🟢🟢🟢",
-          "pick_amigable": "RB B.Irving Más de 64.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #5: TB @ DET (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB J.Gibbs",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB J.Gibbs OVER 84.5 Yds Tierra",
-          "probabilidad": 79.7,
-          "racha_l5": "🟢🟢🟢🔴🟢",
-          "pick_amigable": "RB J.Gibbs Más de 84.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #5: TB @ DET (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR T.Johnson",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR T.Johnson OVER 19.5 Yds Rec",
-          "probabilidad": 77.2,
-          "racha_l5": "🔴🟢🔴🟢🟢",
-          "pick_amigable": "WR T.Johnson Más de 19.5 Yds Rec",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #5: TB @ DET (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR A.St. Brown",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR A.St. Brown UNDER 7.5 Recepciones",
-          "probabilidad": 67.8,
-          "racha_l5": "🟢🔴🟢🔴🟢",
-          "pick_amigable": "WR A.St. Brown Menos de 7.5 Recepciones",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #5: TB @ DET (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 34.1,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "1bba8fad191b",
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "PIT @ PHI",
-      "equipo_a": "PIT",
-      "equipo_b": "PHI",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-      "linea_1": "Hándicap PHI: +4.5 pts",
-      "linea_2": "Altas / Bajas: 38.5 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56",
-      "props_partido": [
-        {
-          "deporte": "NFL",
-          "partido": "Partido #10: PIT @ PHI (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "QB T.McKee",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "QB T.McKee OVER 193.5 Yds Pase",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢",
-          "pick_amigable": "QB T.McKee Más de 193.5 Yds Pase",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #10: PIT @ PHI (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR M.Lemon",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR M.Lemon OVER 4.5 Recepciones",
-          "probabilidad": 77.9,
-          "racha_l5": "🟢🔴🟢🟢🟢",
-          "pick_amigable": "WR M.Lemon Más de 4.5 Recepciones",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #10: PIT @ PHI (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "QB A.Rodgers",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "QB A.Rodgers OVER 191.5 Yds Pase",
-          "probabilidad": 69.8,
-          "racha_l5": "🟢🟢🟢🔴🔴",
-          "pick_amigable": "QB A.Rodgers Más de 191.5 Yds Pase",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #10: PIT @ PHI (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB J.Warren",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB J.Warren OVER 70.5 Yds Tierra",
-          "probabilidad": 64.0,
-          "racha_l5": "🟢🔴🟢🟢🔴",
-          "pick_amigable": "RB J.Warren Más de 70.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #10: PIT @ PHI (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 31.9,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "16ba6612385b",
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "NYJ @ LAC",
-      "equipo_a": "NYJ",
-      "equipo_b": "LAC",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-      "linea_1": "Hándicap LAC: -3.0 pts",
-      "linea_2": "Altas / Bajas: 41.5 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56",
-      "props_partido": [
-        {
-          "deporte": "NFL",
-          "partido": "Partido #8: NYJ @ LAC (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "QB G.Smith",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "QB G.Smith OVER 202.5 Yds Pase",
-          "probabilidad": 71.7,
-          "racha_l5": "🟢🟢🟢🔴🔴",
-          "pick_amigable": "QB G.Smith Más de 202.5 Yds Pase",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #8: NYJ @ LAC (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR Q.Johnston",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR Q.Johnston OVER 32.5 Yds Rec",
-          "probabilidad": 70.6,
-          "racha_l5": "🟢🟢🟢🟢🔴",
-          "pick_amigable": "WR Q.Johnston Más de 32.5 Yds Rec",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #8: NYJ @ LAC (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR G.Wilson",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR G.Wilson OVER 4.5 Recepciones",
-          "probabilidad": 66.4,
-          "racha_l5": "🟢🔴🔴🟢🟢",
-          "pick_amigable": "WR G.Wilson Más de 4.5 Recepciones",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #8: NYJ @ LAC (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "QB J.Herbert",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "QB J.Herbert OVER 175.5 Yds Pase",
-          "probabilidad": 63.9,
-          "racha_l5": "🔴🟢🟢🟢🔴",
-          "pick_amigable": "QB J.Herbert Más de 175.5 Yds Pase",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #8: NYJ @ LAC (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 21.5,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "ed5f4ee099ac",
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "LV @ DEN",
-      "equipo_a": "LV",
-      "equipo_b": "DEN",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-      "linea_1": "Hándicap DEN: -10.5 pts",
-      "linea_2": "Altas / Bajas: 40.0 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56",
-      "props_partido": [
-        {
-          "deporte": "NFL",
-          "partido": "Partido #9: LV @ DEN (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "QB K.Cousins",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "QB K.Cousins OVER 239.5 Yds Pase",
-          "probabilidad": 91.2,
-          "racha_l5": "🟢🟢🟢🟢🔴",
-          "pick_amigable": "QB K.Cousins Más de 239.5 Yds Pase",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #9: LV @ DEN (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB J.Coleman",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB J.Coleman OVER 42.5 Yds Tierra",
-          "probabilidad": 71.0,
-          "racha_l5": "🔴🟢🔴🟢",
-          "pick_amigable": "RB J.Coleman Más de 42.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #9: LV @ DEN (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "QB B.Nix",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "QB B.Nix OVER 176.5 Yds Pase",
-          "probabilidad": 66.4,
-          "racha_l5": "🔴🔴🟢🟢🟢",
-          "pick_amigable": "QB B.Nix Más de 176.5 Yds Pase",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #9: LV @ DEN (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR A.Jeanty",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR A.Jeanty OVER 37.5 Yds Rec",
-          "probabilidad": 65.5,
-          "racha_l5": "🔴🟢🟢🔴🟢",
-          "pick_amigable": "WR A.Jeanty Más de 37.5 Yds Rec",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #9: LV @ DEN (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 28.2,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "5c61a4dbd1e0",
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "JAX @ NYG",
-      "equipo_a": "JAX",
-      "equipo_b": "NYG",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-      "linea_1": "Hándicap NYG: +6.0 pts",
-      "linea_2": "Altas / Bajas: 46.5 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56",
-      "props_partido": [
-        {
-          "deporte": "NFL",
-          "partido": "Partido #7: JAX @ NYG (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "QB J.McCarthy",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "QB J.McCarthy OVER 208.5 Yds Pase",
-          "probabilidad": 73.6,
-          "racha_l5": "🟢🟢🔴🟢",
-          "pick_amigable": "QB J.McCarthy Más de 208.5 Yds Pase",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #7: JAX @ NYG (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "QB T.Lawrence",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "QB T.Lawrence OVER 240.5 Yds Pase",
-          "probabilidad": 70.0,
-          "racha_l5": "🟢🟢🔴🟢🟢",
-          "pick_amigable": "QB T.Lawrence Más de 240.5 Yds Pase",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #7: JAX @ NYG (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB B.Tuten",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB B.Tuten OVER 59.5 Yds Tierra",
-          "probabilidad": 62.6,
-          "racha_l5": "🟢🔴🟢🔴🟢",
-          "pick_amigable": "RB B.Tuten Más de 59.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #7: JAX @ NYG (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB C.Skattebo",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB C.Skattebo UNDER 73.5 Yds Tierra",
-          "probabilidad": 62.6,
-          "racha_l5": "🟢🟢🟢🔴🔴",
-          "pick_amigable": "RB C.Skattebo Menos de 73.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #7: JAX @ NYG (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 20.2,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "ffc1b670bb34",
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "MIN @ SF",
-      "equipo_a": "MIN",
-      "equipo_b": "SF",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-      "linea_1": "Hándicap SF: -3.0 pts",
-      "linea_2": "Altas / Bajas: 46.0 pts",
-      "casino": "Pinnacle",
-      "captura": "2026-11-19 01:03:56",
-      "props_partido": [
-        {
-          "deporte": "NFL",
-          "partido": "Partido #11: MIN @ SF (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "QB K.Cousins",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "QB K.Cousins OVER 1.5 Pases TD",
-          "probabilidad": 86.6,
-          "racha_l5": "",
-          "pick_amigable": "QB K.Cousins Más de 1.5 Pases TD",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #11: MIN @ SF (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB C.McCaffrey",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB C.McCaffrey OVER 52.5 Yds Tierra",
-          "probabilidad": 71.9,
-          "racha_l5": "🟢🟢🔴🟢🟢",
-          "pick_amigable": "RB C.McCaffrey Más de 52.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #11: MIN @ SF (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR G.Kittle",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR G.Kittle UNDER 5.5 Recepciones",
-          "probabilidad": 68.8,
-          "racha_l5": "🟢🟢🔴🟢🔴",
-          "pick_amigable": "WR G.Kittle Menos de 5.5 Recepciones",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #11: MIN @ SF (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR J.Jefferson",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR J.Jefferson OVER 4.5 Recepciones",
-          "probabilidad": 62.9,
-          "racha_l5": "🟢🔴🟢🔴🟢",
-          "pick_amigable": "WR J.Jefferson Más de 4.5 Recepciones",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #11: MIN @ SF (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 26.9,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
     {
       "id": "bbfdb75dd4ae",
       "deporte": "NFL",
@@ -9800,2315 +8009,153 @@
       "apertura_ref": null
     },
     {
-      "id": "30867dbed663",
+      "id": "10e29d7f9aa6",
       "deporte": "SOCCER",
       "liga": "Serie A",
-      "fecha": "2026-11-22",
-      "duelo": "Juventus vs Venezia",
-      "equipo_a": "Juventus",
-      "equipo_b": "Venezia",
+      "fecha": "2026-11-23",
+      "duelo": "Monza vs Fiorentina",
+      "equipo_a": "Monza",
+      "equipo_b": "Fiorentina",
       "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.40 / 5.39 / 9.00",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.68 / 2.39",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+      "linea_1": "Ganador (Local / Empate / Visita): 3.78 / 4.07 / 2.00",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.63 / 2.49",
       "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:00:19",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #1: Juventus vs Venezia (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Juventus",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Juventus OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Juventus Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #1: Juventus vs Venezia (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Juventus",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Juventus OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Juventus Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #1: Juventus vs Venezia (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Venezia",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Venezia OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Venezia Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #1: Juventus vs Venezia (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Venezia",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Venezia OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Venezia Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #1: Juventus vs Venezia (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
+      "captura": "2026-11-23 01:00:17",
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
     {
-      "id": "d69c5ea5898d",
-      "deporte": "SOCCER",
-      "liga": "La Liga",
-      "fecha": "2026-11-22",
-      "duelo": "Barcelona vs Villarreal",
-      "equipo_a": "Barcelona",
-      "equipo_b": "Villarreal",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.25 / 8.50 / 15.22",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.19 / 5.50",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:00:25",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #2: Barcelona vs Villarreal (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Barcelona",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Barcelona OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Barcelona Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #2: Barcelona vs Villarreal (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Barcelona",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Barcelona OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Barcelona Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #2: Barcelona vs Villarreal (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Villarreal",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Villarreal OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Villarreal Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #2: Barcelona vs Villarreal (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Villarreal",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Villarreal OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Villarreal Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #2: Barcelona vs Villarreal (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "d17f950e479f",
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-22",
-      "duelo": "Bologna vs Udinese",
-      "equipo_a": "Bologna",
-      "equipo_b": "Udinese",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.78 / 4.04 / 5.09",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.98 / 1.98",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:00:31",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #3: Bologna vs Udinese (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Bologna",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Bologna OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Bologna Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #3: Bologna vs Udinese (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Bologna",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Bologna OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Bologna Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #3: Bologna vs Udinese (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Udinese",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Udinese OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Udinese Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #3: Bologna vs Udinese (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Udinese",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Udinese OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Udinese Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #3: Bologna vs Udinese (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "453bfb5d2fbf",
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-22",
-      "duelo": "Sassuolo vs Genoa",
-      "equipo_a": "Sassuolo",
-      "equipo_b": "Genoa",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 2.76 / 3.58 / 2.80",
-      "linea_2": "Altas / Bajas 2.5 goles: 2.00 / 1.94",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:00:38",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #4: Sassuolo vs Genoa (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Sassuolo",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Sassuolo OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Sassuolo Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #4: Sassuolo vs Genoa (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Sassuolo",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Sassuolo OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Sassuolo Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #4: Sassuolo vs Genoa (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Genoa",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Genoa OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Genoa Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #4: Sassuolo vs Genoa (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Genoa",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Genoa OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Genoa Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #4: Sassuolo vs Genoa (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "542cf912b6c9",
+      "id": "c0b88cb28efc",
       "deporte": "SOCCER",
       "liga": "Premier League",
-      "fecha": "2026-11-22",
-      "duelo": "Hull City vs Brighton",
-      "equipo_a": "Hull City",
-      "equipo_b": "Brighton",
+      "fecha": "2026-11-23",
+      "duelo": "Brentford vs Everton",
+      "equipo_a": "Brentford",
+      "equipo_b": "Everton",
       "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 7.52 / 4.83 / 1.53",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.76 / 2.23",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+      "linea_1": "Ganador (Local / Empate / Visita): 2.37 / 3.71 / 3.13",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.89 / 2.06",
       "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:00:50",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #6: Hull City vs Brighton (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Hull City",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Hull City OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Hull City Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #6: Hull City vs Brighton (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Hull City",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Hull City OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Hull City Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #6: Hull City vs Brighton (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Brighton",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Brighton OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Brighton Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #6: Hull City vs Brighton (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Brighton",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Brighton OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Brighton Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #6: Hull City vs Brighton (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
+      "captura": "2026-11-23 01:00:23",
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
     {
-      "id": "f68167c0b46a",
-      "deporte": "SOCCER",
-      "liga": "Bundesliga",
-      "fecha": "2026-11-22",
-      "duelo": "FC Augsburg vs FSV Mainz 05",
-      "equipo_a": "FC Augsburg",
-      "equipo_b": "FSV Mainz 05",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
-      "logo_b": "",
-      "linea_1": "Ganador (Local / Empate / Visita): 2.70 / 4.16 / 2.50",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.44 / 3.00",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:00:56",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #7: FC Augsburg vs FSV Mainz 05 (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "FC Augsburg",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "FC Augsburg OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "FC Augsburg Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #7: FC Augsburg vs FSV Mainz 05 (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "FC Augsburg",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "FC Augsburg OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "FC Augsburg Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #7: FC Augsburg vs FSV Mainz 05 (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "FSV Mainz 05",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "FSV Mainz 05 OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "FSV Mainz 05 Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #7: FC Augsburg vs FSV Mainz 05 (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "FSV Mainz 05",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "FSV Mainz 05 OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "FSV Mainz 05 Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #7: FC Augsburg vs FSV Mainz 05 (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "88e91c740549",
+      "id": "50cb47fddca6",
       "deporte": "SOCCER",
       "liga": "La Liga",
-      "fecha": "2026-11-22",
-      "duelo": "Racing Santander vs Real Sociedad",
-      "equipo_a": "Racing Santander",
-      "equipo_b": "Real Sociedad",
+      "fecha": "2026-11-23",
+      "duelo": "Levante vs Elche",
+      "equipo_a": "Levante",
+      "equipo_b": "Elche",
       "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 3.33 / 4.21 / 2.10",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.38 / 3.20",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+      "linea_1": "Ganador (Local / Empate / Visita): 2.26 / 3.82 / 3.37",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.73 / 2.28",
       "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:01:03",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #8: Racing Santander vs Real Sociedad (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Racing Santander",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Racing Santander OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Racing Santander Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #8: Racing Santander vs Real Sociedad (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Racing Santander",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Racing Santander OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Racing Santander Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #8: Racing Santander vs Real Sociedad (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Real Sociedad",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Real Sociedad OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Real Sociedad Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #8: Racing Santander vs Real Sociedad (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Real Sociedad",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Real Sociedad OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Real Sociedad Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #8: Racing Santander vs Real Sociedad (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
+      "captura": "2026-11-23 01:00:29",
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
     {
-      "id": "0ff78f3cca83",
-      "deporte": "SOCCER",
-      "liga": "Ligue 1",
-      "fecha": "2026-11-22",
-      "duelo": "Lorient vs Rennes",
-      "equipo_a": "Lorient",
-      "equipo_b": "Rennes",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 2.99 / 3.64 / 2.49",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.94 / 2.00",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:01:09",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #9: Lorient vs Rennes (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Lorient",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Lorient OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Lorient Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #9: Lorient vs Rennes (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Lorient",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Lorient OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Lorient Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #9: Lorient vs Rennes (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Rennes",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Rennes OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Rennes Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #9: Lorient vs Rennes (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Rennes",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Rennes OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Rennes Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #9: Lorient vs Rennes (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "90c2fef06f47",
-      "deporte": "SOCCER",
-      "liga": "Premier League",
-      "fecha": "2026-11-22",
-      "duelo": "Liverpool vs Manchester United",
-      "equipo_a": "Liverpool",
-      "equipo_b": "Manchester United",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.78 / 4.45 / 4.67",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.52 / 2.65",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:01:15",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #10: Liverpool vs Manchester United (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Liverpool",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Liverpool OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Liverpool Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #10: Liverpool vs Manchester United (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Liverpool",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Liverpool OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Liverpool Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #10: Liverpool vs Manchester United (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Manchester United",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Manchester United OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Manchester United Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #10: Liverpool vs Manchester United (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Manchester United",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Manchester United OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Manchester United Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #10: Liverpool vs Manchester United (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "7bd6464e6a2f",
-      "deporte": "SOCCER",
-      "liga": "Bundesliga",
-      "fecha": "2026-11-22",
-      "duelo": "Werder Bremen vs Hamburger SV",
-      "equipo_a": "Werder Bremen",
-      "equipo_b": "Hamburger SV",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
-      "logo_b": "",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.66 / 4.57 / 5.30",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.59 / 2.50",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:01:22",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #11: Werder Bremen vs Hamburger SV (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Werder Bremen",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Werder Bremen OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Werder Bremen Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #11: Werder Bremen vs Hamburger SV (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Werder Bremen",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Werder Bremen OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Werder Bremen Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #11: Werder Bremen vs Hamburger SV (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Hamburger SV",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Hamburger SV OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Hamburger SV Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #11: Werder Bremen vs Hamburger SV (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Hamburger SV",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Hamburger SV OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Hamburger SV Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #11: Werder Bremen vs Hamburger SV (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "b7f8c54bd37b",
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-22",
-      "duelo": "AC Milan vs Frosinone",
-      "equipo_a": "AC Milan",
-      "equipo_b": "Frosinone",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.58 / 5.08 / 5.43",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.37 / 3.25",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:01:28",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #12: AC Milan vs Frosinone (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "AC Milan",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "AC Milan OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "AC Milan Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #12: AC Milan vs Frosinone (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "AC Milan",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "AC Milan OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "AC Milan Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #12: AC Milan vs Frosinone (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Frosinone",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Frosinone OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Frosinone Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #12: AC Milan vs Frosinone (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Frosinone",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Frosinone OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Frosinone Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #12: AC Milan vs Frosinone (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "746d9e7f91b4",
-      "deporte": "SOCCER",
-      "liga": "La Liga",
-      "fecha": "2026-11-22",
-      "duelo": "Osasuna vs Malaga",
-      "equipo_a": "Osasuna",
-      "equipo_b": "Malaga",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.91 / 3.72 / 4.88",
-      "linea_2": "Altas / Bajas 2.5 goles: 2.06 / 1.89",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:01:34",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #13: Osasuna vs Malaga (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Osasuna",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Osasuna OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Osasuna Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #13: Osasuna vs Malaga (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Osasuna",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Osasuna OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Osasuna Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #13: Osasuna vs Malaga (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Malaga",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Malaga OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Malaga Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #13: Osasuna vs Malaga (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Malaga",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Malaga OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Malaga Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #13: Osasuna vs Malaga (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "fe50dc248016",
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-22",
-      "duelo": "Atletico Paranaense vs Remo",
-      "equipo_a": "Atletico Paranaense",
-      "equipo_b": "Remo",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-      "logo_b": "",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.60 / 4.35 / 6.59",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.72 / 2.20",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:01:40",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #14: Atletico Paranaense vs Remo (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Atletico Paranaense",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Atletico Paranaense OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Atletico Paranaense Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #14: Atletico Paranaense vs Remo (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Atletico Paranaense",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Atletico Paranaense OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Atletico Paranaense Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #14: Atletico Paranaense vs Remo (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Remo",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Remo OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Remo Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #14: Atletico Paranaense vs Remo (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Remo",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Remo OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Remo Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #14: Atletico Paranaense vs Remo (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "0ba2c8e0ab50",
+      "id": "0ae8e9fc5e47",
       "deporte": "SOCCER",
       "liga": "Liga Profesional Argentina",
-      "fecha": "2026-11-22",
-      "duelo": "Rosario Central vs Gimnasia M.",
-      "equipo_a": "Rosario Central",
-      "equipo_b": "Gimnasia M.",
+      "fecha": "2026-11-23",
+      "duelo": "Gimnasia L.P. vs Newells Old Boys",
+      "equipo_a": "Gimnasia L.P.",
+      "equipo_b": "Newells Old Boys",
       "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.44 / 4.80 / 8.50",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.91 / 1.98",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:01:47",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #15: Rosario Central vs Gimnasia M. (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Rosario Central",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Rosario Central OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Rosario Central Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #15: Rosario Central vs Gimnasia M. (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Rosario Central",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Rosario Central OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Rosario Central Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #15: Rosario Central vs Gimnasia M. (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Gimnasia M.",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Gimnasia M. OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Gimnasia M. Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #15: Rosario Central vs Gimnasia M. (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Gimnasia M.",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Gimnasia M. OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Gimnasia M. Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #15: Rosario Central vs Gimnasia M. (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "2711945fdee9",
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-22",
-      "duelo": "Atalanta vs Inter",
-      "equipo_a": "Atalanta",
-      "equipo_b": "Inter",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 5.43 / 4.92 / 1.60",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.42 / 3.10",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:01:53",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #16: Atalanta vs Inter (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Atalanta",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Atalanta OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Atalanta Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #16: Atalanta vs Inter (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Atalanta",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Atalanta OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Atalanta Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #16: Atalanta vs Inter (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Inter",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895783.png",
-          "pick": "Inter OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Inter Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #16: Atalanta vs Inter (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Inter",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895783.png",
-          "pick": "Inter OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Inter Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #16: Atalanta vs Inter (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "0e2a166db33f",
-      "deporte": "SOCCER",
-      "liga": "Ligue 1",
-      "fecha": "2026-11-22",
-      "duelo": "Marseille vs Le Mans",
-      "equipo_a": "Marseille",
-      "equipo_b": "Le Mans",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.49 / 5.08 / 6.90",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.55 / 2.57",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:01:59",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #17: Marseille vs Le Mans (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Marseille",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/college-football/players/full/5169041.png",
-          "pick": "Marseille OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Marseille Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #17: Marseille vs Le Mans (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Marseille",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/college-football/players/full/5169041.png",
-          "pick": "Marseille OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Marseille Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #17: Marseille vs Le Mans (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Le Mans",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Le Mans OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Le Mans Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #17: Marseille vs Le Mans (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Le Mans",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Le Mans OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Le Mans Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #17: Marseille vs Le Mans (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "b384ae1b55ed",
-      "deporte": "SOCCER",
-      "liga": "La Liga",
-      "fecha": "2026-11-22",
-      "duelo": "Getafe vs Atletico Madrid",
-      "equipo_a": "Getafe",
-      "equipo_b": "Atletico Madrid",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 7.11 / 4.16 / 1.60",
-      "linea_2": "Altas / Bajas 2.5 goles: 2.12 / 1.84",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:02:06",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #18: Getafe vs Atletico Madrid (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Getafe",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Getafe OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Getafe Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #18: Getafe vs Atletico Madrid (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Getafe",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Getafe OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Getafe Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #18: Getafe vs Atletico Madrid (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Atletico Madrid",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Atletico Madrid OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Atletico Madrid Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #18: Getafe vs Atletico Madrid (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Atletico Madrid",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Atletico Madrid OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Atletico Madrid Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #18: Getafe vs Atletico Madrid (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "78ad866cf20a",
-      "deporte": "SOCCER",
-      "liga": "Major League Soccer",
-      "fecha": "2026-11-22",
-      "duelo": "Nashville SC vs FC Cincinnati",
-      "equipo_a": "Nashville SC",
-      "equipo_b": "FC Cincinnati",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.52 / 4.90 / 5.96",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.47 / 2.88",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:02:12",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #19: Nashville SC vs FC Cincinnati (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Nashville SC",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Nashville SC OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Nashville SC Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #19: Nashville SC vs FC Cincinnati (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Nashville SC",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Nashville SC OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Nashville SC Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #19: Nashville SC vs FC Cincinnati (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "FC Cincinnati",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "FC Cincinnati OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "FC Cincinnati Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #19: Nashville SC vs FC Cincinnati (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "FC Cincinnati",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "FC Cincinnati OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "FC Cincinnati Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #19: Nashville SC vs FC Cincinnati (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "4cdeace477b9",
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-22",
-      "duelo": "Fluminense vs Mirassol",
-      "equipo_a": "Fluminense",
-      "equipo_b": "Mirassol",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.67 / 4.25 / 5.50",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.82 / 2.06",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:02:18",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #20: Fluminense vs Mirassol (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Fluminense",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Fluminense OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Fluminense Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #20: Fluminense vs Mirassol (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Fluminense",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Fluminense OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Fluminense Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #20: Fluminense vs Mirassol (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Mirassol",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Mirassol OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Mirassol Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #20: Fluminense vs Mirassol (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Mirassol",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Mirassol OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Mirassol Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #20: Fluminense vs Mirassol (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "6830bb82f0f6",
-      "deporte": "SOCCER",
-      "liga": "Liga Profesional Argentina",
-      "fecha": "2026-11-22",
-      "duelo": "River Plate vs Lanus",
-      "equipo_a": "River Plate",
-      "equipo_b": "Lanus",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.67 / 3.75 / 6.50",
-      "linea_2": "Altas / Bajas 2.5 goles: 2.40 / 1.62",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:02:25",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #21: River Plate vs Lanus (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "River Plate",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "River Plate OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "River Plate Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #21: River Plate vs Lanus (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "River Plate",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "River Plate OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "River Plate Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #21: River Plate vs Lanus (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Lanus",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Lanus OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Lanus Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #21: River Plate vs Lanus (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Lanus",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Lanus OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Lanus Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #21: River Plate vs Lanus (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "23249365e941",
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-22",
-      "duelo": "RB Bragantino vs Vasco DA Gama",
-      "equipo_a": "RB Bragantino",
-      "equipo_b": "Vasco DA Gama",
-      "separador": "vs",
-      "logo_a": "",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 2.68 / 3.60 / 2.68",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.72 / 2.21",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 01:02:31",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #22: RB Bragantino vs Vasco DA Gama (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB Bragantino",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB Bragantino OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "RB Bragantino Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #22: RB Bragantino vs Vasco DA Gama (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB Bragantino",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB Bragantino OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "RB Bragantino Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #22: RB Bragantino vs Vasco DA Gama (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Vasco DA Gama",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Vasco DA Gama OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Vasco DA Gama Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #22: RB Bragantino vs Vasco DA Gama (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Vasco DA Gama",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Vasco DA Gama OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Vasco DA Gama Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #22: RB Bragantino vs Vasco DA Gama (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "8fbecea9396f",
-      "deporte": "SOCCER",
-      "liga": "Ligue 1",
-      "fecha": "2026-11-22",
-      "duelo": "Paris FC vs Angers",
-      "equipo_a": "Paris FC",
-      "equipo_b": "Angers",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
       "logo_b": "",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.31 / 6.36 / 10.30",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.47 / 2.88",
+      "linea_1": "Ganador (Local / Empate / Visita): 2.22 / 3.30 / 3.90",
+      "linea_2": "Altas / Bajas 2.5 goles: 2.38 / 1.65",
       "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 04:32:20",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #5: Paris FC vs Angers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Paris FC",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Paris FC OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Paris FC Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #5: Paris FC vs Angers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Paris FC",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Paris FC OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Paris FC Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #5: Paris FC vs Angers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Angers",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Angers OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Angers Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #5: Paris FC vs Angers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Angers",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Angers OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Angers Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #5: Paris FC vs Angers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
+      "captura": "2026-11-23 01:00:36",
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
     {
-      "id": "df1bd0c7b170",
+      "id": "9bf8c3c8b80f",
       "deporte": "SOCCER",
-      "liga": "Liga MX",
-      "fecha": "2026-11-22",
-      "duelo": "Guadalajara Chivas vs Cruz Azul",
-      "equipo_a": "Guadalajara Chivas",
-      "equipo_b": "Cruz Azul",
+      "liga": "Serie A",
+      "fecha": "2026-11-23",
+      "duelo": "Internacional vs Vitoria",
+      "equipo_a": "Internacional",
+      "equipo_b": "Vitoria",
       "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 2.25 / 4.04 / 2.99",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.65 / 2.33",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+      "linea_1": "Ganador (Local / Empate / Visita): 1.70 / 4.07 / 5.40",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.85 / 2.03",
       "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 04:38:38",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #23: Guadalajara Chivas vs Cruz Azul (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Guadalajara Chivas",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Guadalajara Chivas OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Guadalajara Chivas Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #23: Guadalajara Chivas vs Cruz Azul (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Guadalajara Chivas",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Guadalajara Chivas OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Guadalajara Chivas Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #23: Guadalajara Chivas vs Cruz Azul (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Cruz Azul",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Cruz Azul OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Cruz Azul Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #23: Guadalajara Chivas vs Cruz Azul (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Cruz Azul",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Cruz Azul OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Cruz Azul Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #23: Guadalajara Chivas vs Cruz Azul (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
+      "captura": "2026-11-23 01:00:42",
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
     {
-      "id": "596b2513f908",
+      "id": "e6c61bfb8f0e",
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-23",
+      "duelo": "Botafogo vs Sao Paulo",
+      "equipo_a": "Botafogo",
+      "equipo_b": "Sao Paulo",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+      "linea_1": "Ganador (Local / Empate / Visita): 2.31 / 3.50 / 3.30",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.98 / 1.91",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-23 01:00:48",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
+    },
+    {
+      "id": "1d5c446ab328",
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-23",
+      "duelo": "Santos vs Gremio",
+      "equipo_a": "Santos",
+      "equipo_b": "Gremio",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+      "linea_1": "Ganador (Local / Empate / Visita): 1.72 / 4.33 / 4.85",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.62 / 2.40",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-23 01:00:55",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
+    },
+    {
+      "id": "dd26afce53d3",
       "deporte": "SOCCER",
       "liga": "Major League Soccer",
-      "fecha": "2026-11-22",
-      "duelo": "Chicago Fire vs Charlotte",
-      "equipo_a": "Chicago Fire",
-      "equipo_b": "Charlotte",
+      "fecha": "2026-11-23",
+      "duelo": "St. Louis City vs Los Angeles FC",
+      "equipo_a": "St. Louis City",
+      "equipo_b": "Los Angeles FC",
       "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.67 / 4.70 / 5.00",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.37 / 3.25",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+      "linea_1": "Ganador (Local / Empate / Visita): 2.42 / 3.70 / 2.89",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.62 / 2.38",
       "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 04:38:57",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #24: Chicago Fire vs Charlotte (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Chicago Fire",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Chicago Fire OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Chicago Fire Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #24: Chicago Fire vs Charlotte (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Chicago Fire",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Chicago Fire OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Chicago Fire Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #24: Chicago Fire vs Charlotte (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Charlotte",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Charlotte OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Charlotte Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #24: Chicago Fire vs Charlotte (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Charlotte",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Charlotte OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Charlotte Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #24: Chicago Fire vs Charlotte (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "e3fad4a2427a",
-      "deporte": "SOCCER",
-      "liga": "Liga Profesional Argentina",
-      "fecha": "2026-11-22",
-      "duelo": "Instituto Cordoba vs Huracan",
-      "equipo_a": "Instituto Cordoba",
-      "equipo_b": "Huracan",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/10.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 2.12 / 3.10 / 4.50",
-      "linea_2": "Altas / Bajas 2.5 goles: 2.88 / 1.47",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 04:39:15",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #25: Instituto Cordoba vs Huracan (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Instituto Cordoba",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Instituto Cordoba OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Instituto Cordoba Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #25: Instituto Cordoba vs Huracan (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Instituto Cordoba",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Instituto Cordoba OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Instituto Cordoba Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #25: Instituto Cordoba vs Huracan (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Huracan",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/mma/players/full/4898914.png",
-          "pick": "Huracan OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Huracan Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #25: Instituto Cordoba vs Huracan (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Huracan",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/mma/players/full/4898914.png",
-          "pick": "Huracan OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Huracan Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #25: Instituto Cordoba vs Huracan (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "f7f3ce9bcd40",
-      "deporte": "SOCCER",
-      "liga": "Liga MX",
-      "fecha": "2026-11-22",
-      "duelo": "Club Queretaro vs Necaxa",
-      "equipo_a": "Club Queretaro",
-      "equipo_b": "Necaxa",
-      "separador": "vs",
-      "logo_a": "",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/229.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 2.15 / 3.90 / 3.32",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.63 / 2.38",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 04:39:34",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #26: Club Queretaro vs Necaxa (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Club Queretaro",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Club Queretaro OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Club Queretaro Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #26: Club Queretaro vs Necaxa (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Club Queretaro",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Club Queretaro OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Club Queretaro Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #26: Club Queretaro vs Necaxa (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Necaxa",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Necaxa OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Necaxa Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #26: Club Queretaro vs Necaxa (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Necaxa",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Necaxa OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Necaxa Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #26: Club Queretaro vs Necaxa (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "7fa395feacc7",
-      "deporte": "SOCCER",
-      "liga": "Major League Soccer",
-      "fecha": "2026-11-22",
-      "duelo": "Vancouver Whitecaps vs Real Salt Lake",
-      "equipo_a": "Vancouver Whitecaps",
-      "equipo_b": "Real Salt Lake",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
-      "linea_1": "Ganador (Local / Empate / Visita): 1.52 / 5.01 / 5.75",
-      "linea_2": "Altas / Bajas 2.5 goles: 1.40 / 3.12",
-      "casino": "Pinnacle / Consenso",
-      "captura": "2026-11-22 04:39:53",
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #27: Vancouver Whitecaps vs Real Salt Lake (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Vancouver Whitecaps",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Vancouver Whitecaps OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Vancouver Whitecaps Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #27: Vancouver Whitecaps vs Real Salt Lake (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Vancouver Whitecaps",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Vancouver Whitecaps OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Vancouver Whitecaps Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #27: Vancouver Whitecaps vs Real Salt Lake (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Real Salt Lake",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Real Salt Lake OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Real Salt Lake Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #27: Vancouver Whitecaps vs Real Salt Lake (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Real Salt Lake",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Real Salt Lake OVER 2.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Real Salt Lake Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #27: Vancouver Whitecaps vs Real Salt Lake (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 68.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "id": "498080fb10e3",
-      "deporte": "TENNIS",
-      "liga": "ATP Finals",
-      "fecha": "2026-11-22",
-      "duelo": "Alexander Zverev vs Carlos Alcaraz",
-      "equipo_a": "Alexander Zverev",
-      "equipo_b": "Carlos Alcaraz",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/headshots/tennis/players/full/2375.png",
-      "logo_b": "https://a.espncdn.com/i/headshots/tennis/players/full/3782.png",
-      "linea_1": "Ganador: 1.03 vs 1.02",
-      "linea_2": "Altas / Bajas: 23.5 juegos",
-      "casino": "LowVig.ag",
-      "captura": "2026-11-21 23:30:04",
+      "captura": "2026-11-23 01:01:01",
       "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
