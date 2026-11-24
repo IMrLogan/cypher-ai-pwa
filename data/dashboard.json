@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 06:10 CST",
+  "updated_at": "2026-11-24 08:10 CST",
   "fecha_operativa": "2026-11-24",
   "kpis": {
     "ganados": 528,
@@ -9,7 +9,7 @@
     "unidades_netas": -199.58,
     "roi_global": -22.3,
     "picks_hoy": 22,
-    "aperturas_activas": 27
+    "aperturas_activas": 30
   },
   "motores": [
     {
@@ -2454,6 +2454,63 @@
     }
   ],
   "aperturas": [
+    {
+      "id": "5d8c7f79008d",
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-24",
+      "duelo": "Detroit Pistons @ Orlando Magic",
+      "equipo_a": "Detroit Pistons",
+      "equipo_b": "Orlando Magic",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+      "linea_1": "Hándicap Orlando Magic: +2.5 pts",
+      "linea_2": "Altas / Bajas: 212.5 pts",
+      "casino": "Pinnacle",
+      "captura": "2026-11-24 08:00:05",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
+    },
+    {
+      "id": "d6995b03bbc1",
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-24",
+      "duelo": "Boston Celtics @ Washington Wizards",
+      "equipo_a": "Boston Celtics",
+      "equipo_b": "Washington Wizards",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+      "linea_1": "Hándicap Washington Wizards: +10.5 pts",
+      "linea_2": "Altas / Bajas: 217.5 pts",
+      "casino": "Pinnacle",
+      "captura": "2026-11-24 08:00:05",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
+    },
+    {
+      "id": "cd9d8b1b2c1c",
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-24",
+      "duelo": "Dallas Mavericks @ Denver Nuggets",
+      "equipo_a": "Dallas Mavericks",
+      "equipo_b": "Denver Nuggets",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+      "linea_1": "Hándicap Denver Nuggets: -8.0 pts",
+      "linea_2": "Altas / Bajas: 233.5 pts",
+      "casino": "Pinnacle",
+      "captura": "2026-11-24 08:00:05",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null
+    },
     {
       "id": "e288468366de",
       "deporte": "NFL",
