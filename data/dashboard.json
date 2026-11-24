@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 04:45 CST",
+  "updated_at": "2026-11-24 06:10 CST",
   "fecha_operativa": "2026-11-24",
   "kpis": {
     "ganados": 528,
@@ -209,46 +209,6 @@
   ],
   "diamantes": [
     {
-      "deporte": "NBA",
-      "titulo": "💎 CYPHER AI: FILTRO MAESTRO 'PICKS DIAMANTE' (2026-11-23)",
-      "descripcion": "Selección institucional de **Francotirador (Cero Relleno)**. Solo aparecen los partidos que superaron las **3 Compuertas de Convergencia** (Híbrido 60/40 SOS, Four Factors, Zonas de Tiro, Árbitros, Roster sin GTD y Escudo RLM).",
-      "es_no_bet": false,
-      "campos": [
-        {
-          "titulo": "💎 BOLETO INSIGNIA: PARLAY DIAMANTE VIP (3 SELECCIONES BLINDADAS)",
-          "valor": "**1. Los Angeles Clippers @ Houston Rockets** — `💎💎💎 DIAMANTE PURO (Grado A+)`\n> 🎯 **Pick Diamante:** `MÁS DE (Over) 224.5 Pts` (`73.6%` Prob IA | Cuota: `1.02`)\n> 🛡️ **Auditoría 3 Compuertas:** Proy V13 `231.8p` | Hit L5 `70%`\n> ⭐ **Prop Ancla del Juego:** `Kevin Durant OVER 1.5 Triples (3PM) (Proy: 2.1 | Prob: 77.9%)`\n\n**2. Milwaukee Bucks @ Toronto Raptors** — `💎💎💎 DIAMANTE PURO (Grado A+)`\n> 🎯 **Pick Diamante:** `Milwaukee Bucks +10.5` (`67.7%` Prob IA | Cuota: `1.02`)\n> 🛡️ **Auditoría 3 Compuertas:** Cobertura FF/Zonas `67.7%` | Piernas Frescas + Roster Confirmado\n> ⭐ **Prop Ancla del Juego:** `Kasparas Jakucionis OVER 2.5 Triples (3PM) (Proy: 3.2 | Prob: 91.5%)`\n\n**3. Brooklyn Nets @ Minnesota Timberwolves** — `💎💎💎 DIAMANTE PURO (Grado A+)`\n> 🎯 **Pick Diamante:** `Brooklyn Nets +11.0` (`65.5%` Prob IA | Cuota: `1.02`)\n> 🛡️ **Auditoría 3 Compuertas:** Cobertura FF/Zonas `65.5%` | Piernas Frescas + Roster Confirmado\n> ⭐ **Prop Ancla del Juego:** `LaMelo Ball OVER 4.5 Rebotes (Proy: 7.0 | Prob: 91.5%)`"
-        },
-        {
-          "titulo": "💰 Matemática del Boleto Diamante",
-          "valor": "> **Cuota Total:** `1.06x`\n> **Probabilidad Conjunta Real:** `32.6%`\n> **Stake Institucional Sugerido:** `1.2%` del Bankroll *(Se recomienda jugar también cada Bala de Plata en derecho)*"
-        },
-        {
-          "titulo": "📌 Radares Especiales de la Jornada (Líderes por Mercado)",
-          "valor": "• **Hándicap Más Sólido:** `Milwaukee Bucks @ Toronto Raptors` ➡️ **Milwaukee Bucks +10.5** (`67.7%`)\n• **Total Más Sólido (O/U):** `Los Angeles Clippers @ Houston Rockets` ➡️ **MÁS DE (Over) 224.5** (`73.6%`)"
-        }
-      ]
-    },
-    {
-      "deporte": "NFL",
-      "titulo": "💎 NFL CYPHER AI: FILTRO MAESTRO 'PICKS DIAMANTE' (2026-11-23)",
-      "descripcion": "Selección institucional de **Francotirador (Cero Relleno)**. Solo aparecen partidos que superaron **EPA Filtrado 60/40 SOS, Clima en Vivo, Árbitro, Candado GTD y Escudo RLM Semanal**.",
-      "es_no_bet": false,
-      "campos": [
-        {
-          "titulo": "💎 BALA DE PLATA ÚNICA: APUESTA DIRECTA BLINDADA (1 SELECCIÓN)",
-          "valor": "**1. CIN @ WAS** — `💎💎💎 DIAMANTE PURO (Grado A+)`\n> 🎯 **Pick Diamante:** `MENOS DE (Under) 54.0 Pts` (`61.5%` Prob IA | Cuota: `1.02`)\n> 🛡️ **Auditoría 3 Compuertas:** Proy V10 `49.9p` | L5 `70%` | 🦓 Ref Under (Bill Vinovich)\n> ⭐ **Prop Ancla del Juego:** `CIN: QB J.Burrow OVER 2.5 Pases TD (Proy: 3.8 | Prob: 91.5%)`"
-        },
-        {
-          "titulo": "💰 Matemática del Boleto Diamante",
-          "valor": "> **Cuota Total:** `1.02x`\n> **Probabilidad Conjunta Real:** `61.5%`\n> **Stake Institucional Sugerido:** `1.5%` del Bankroll *(Se recomienda jugar también cada Bala de Plata en derecho)*"
-        },
-        {
-          "titulo": "📌 Radares Especiales de la Jornada (Líderes por Mercado)",
-          "valor": "• **Hándicap Más Sólido:** `CIN @ WAS` ➡️ **WAS +6.5** (`52.5%`)\n• **Total Más Sólido (O/U):** `CIN @ WAS` ➡️ **MENOS DE (Under) 54.0** (`61.5%`)"
-        }
-      ]
-    },
-    {
       "deporte": "SOCCER",
       "titulo": "💎 CYPHER AI SOCCER: FILTRO MAESTRO 'PICKS DIAMANTE' (2026-11-24)",
       "descripcion": "Selección institucional de **Francotirador (Cero Relleno)**. Solo aparecen partidos que superaron **Dixon-Coles + XGBoost Universal, Pinnacle Sharp Steam, Consistencia L10 y Escudo RLM**.",
@@ -270,114 +230,6 @@
     }
   ],
   "props": [
-    {
-      "deporte": "NBA",
-      "partido": "Partido #1: Memphis Grizzlies @ Charlotte Hornets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Cedric Coward",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4903027.png",
-      "pick": "Cedric Coward OVER 15.5 Puntos",
-      "probabilidad": 91.5,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Cedric Coward Más de 15.5 Puntos"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #1: Memphis Grizzlies @ Charlotte Hornets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Ty Jerome",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4065733.png",
-      "pick": "Ty Jerome OVER 25.5 Pts+Reb+Ast (PRA)",
-      "probabilidad": 91.5,
-      "racha_l5": "",
-      "pick_amigable": "Ty Jerome Más de 25.5 Pts+Reb+Ast (PRA)"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #1: Memphis Grizzlies @ Charlotte Hornets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Moussa Diabate",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4433249.png",
-      "pick": "Moussa Diabate OVER 9.5 Rebotes",
-      "probabilidad": 91.5,
-      "racha_l5": "🟢🟢🟢🟢",
-      "pick_amigable": "Moussa Diabate Más de 9.5 Rebotes"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #3: Brooklyn Nets @ Minnesota Timberwolves (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "LaMelo Ball",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4432816.png",
-      "pick": "LaMelo Ball OVER 4.5 Rebotes",
-      "probabilidad": 91.5,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "LaMelo Ball Más de 4.5 Rebotes"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #4: Oklahoma City Thunder @ Indiana Pacers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Shai Gilgeous-Alexander",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-      "pick": "Shai Gilgeous-Alexander OVER 31.5 Puntos",
-      "probabilidad": 91.5,
-      "racha_l5": "🟢🟢🟢🟢",
-      "pick_amigable": "Shai Gilgeous-Alexander Más de 31.5 Puntos"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #4: Oklahoma City Thunder @ Indiana Pacers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Ajay Mitchell",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4900671.png",
-      "pick": "Ajay Mitchell UNDER 17.5 Puntos",
-      "probabilidad": 91.5,
-      "racha_l5": "🟢🟢🟢🟢",
-      "pick_amigable": "Ajay Mitchell Menos de 17.5 Puntos"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #4: Oklahoma City Thunder @ Indiana Pacers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Kelly Oubre Jr.",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3133603.png",
-      "pick": "Kelly Oubre Jr. OVER 3.5 Rebotes",
-      "probabilidad": 91.5,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Kelly Oubre Jr. Más de 3.5 Rebotes"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #5: Milwaukee Bucks @ Toronto Raptors (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Kasparas Jakucionis",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5214640.png",
-      "pick": "Kasparas Jakucionis OVER 2.5 Triples (3PM)",
-      "probabilidad": 91.5,
-      "racha_l5": "🟢🟢🟢",
-      "pick_amigable": "Kasparas Jakucionis Más de 2.5 Triples (3PM)"
-    },
-    {
-      "deporte": "NFL",
-      "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "QB J.Burrow",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "QB J.Burrow OVER 2.5 Pases TD",
-      "probabilidad": 91.5,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "QB J.Burrow Más de 2.5 Pases TD"
-    },
     {
       "deporte": "SOCCER",
       "partido": "Partido #1: Bodo/Glimt vs Lask Linz (4 Picks: 2xEquipo)",
@@ -775,18 +627,6 @@
       "pick_amigable": "Houston Dynamo Más de 2.5 Remates a Puerta"
     },
     {
-      "deporte": "NBA",
-      "partido": "Partido #5: Milwaukee Bucks @ Toronto Raptors (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Immanuel Quickley",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4395724.png",
-      "pick": "Immanuel Quickley OVER 2.5 Triples (3PM)",
-      "probabilidad": 90.8,
-      "racha_l5": "🟢🟢🔴🟢🟢",
-      "pick_amigable": "Immanuel Quickley Más de 2.5 Triples (3PM)"
-    },
-    {
       "deporte": "SOCCER",
       "partido": "Partido #9: Slovan Bratislava vs Real Betis (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -835,18 +675,6 @@
       "pick_amigable": "Palmeiras Más de 2.5 Remates a Puerta"
     },
     {
-      "deporte": "NBA",
-      "partido": "Partido #1: Memphis Grizzlies @ Charlotte Hornets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Naz Reid",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4396971.png",
-      "pick": "Naz Reid OVER 2.5 Asistencias",
-      "probabilidad": 87.5,
-      "racha_l5": "🟢🟢🟢🟢",
-      "pick_amigable": "Naz Reid Más de 2.5 Asistencias"
-    },
-    {
       "deporte": "SOCCER",
       "partido": "Partido #9: Slovan Bratislava vs Real Betis (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -883,66 +711,6 @@
       "pick_amigable": "PSV Eindhoven Más de 2.5 Remates a Puerta"
     },
     {
-      "deporte": "NFL",
-      "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "RB R.White",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "RB R.White OVER 19.5 Yds Tierra",
-      "probabilidad": 85.3,
-      "racha_l5": "🔴🟢🟢🟢🟢",
-      "pick_amigable": "RB R.White Más de 19.5 Yds Tierra"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #2: Portland Trail Blazers @ Philadelphia 76ers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Deni Avdija",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4683021.png",
-      "pick": "Deni Avdija OVER 3.5 Asistencias",
-      "probabilidad": 85.2,
-      "racha_l5": "🟢🟢🟢",
-      "pick_amigable": "Deni Avdija Más de 3.5 Asistencias"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #2: Portland Trail Blazers @ Philadelphia 76ers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "LeBron James",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
-      "pick": "LeBron James OVER 29.5 Pts+Reb+Ast (PRA)",
-      "probabilidad": 84.1,
-      "racha_l5": "🟢🟢🟢",
-      "pick_amigable": "LeBron James Más de 29.5 Pts+Reb+Ast (PRA)"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #3: Brooklyn Nets @ Minnesota Timberwolves (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Julius Randle",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3064514.png",
-      "pick": "Julius Randle UNDER 6.5 Rebotes",
-      "probabilidad": 82.4,
-      "racha_l5": "🟢🟢🟢🟢🔴",
-      "pick_amigable": "Julius Randle Menos de 6.5 Rebotes"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #6: Cleveland Cavaliers @ Chicago Bulls (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Donovan Mitchell",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
-      "pick": "Donovan Mitchell OVER 34.5 Pts+Reb+Ast (PRA)",
-      "probabilidad": 81.8,
-      "racha_l5": "🟢🟢🟢🔴",
-      "pick_amigable": "Donovan Mitchell Más de 34.5 Pts+Reb+Ast (PRA)"
-    },
-    {
       "deporte": "SOCCER",
       "partido": "Partido #2: Galatasaray vs Aston Villa (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -965,102 +733,6 @@
       "probabilidad": 81.6,
       "racha_l5": "🟢🟢🟢🟢🟢",
       "pick_amigable": "FC Porto Menos de 1.5 Goles Recibidos (Muro)"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #10: San Antonio Spurs @ Sacramento Kings (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Darius Acuff Jr.",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5142620.png",
-      "pick": "Darius Acuff Jr. UNDER 3.5 Triples (3PM)",
-      "probabilidad": 81.4,
-      "racha_l5": "🟢🟢🔴🟢🟢",
-      "pick_amigable": "Darius Acuff Jr. Menos de 3.5 Triples (3PM)"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #2: Portland Trail Blazers @ Philadelphia 76ers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Donovan Clingan",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5105565.png",
-      "pick": "Donovan Clingan OVER 10.5 Rebotes",
-      "probabilidad": 80.5,
-      "racha_l5": "🟢🔴🟢🟢🟢",
-      "pick_amigable": "Donovan Clingan Más de 10.5 Rebotes"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #5: Milwaukee Bucks @ Toronto Raptors (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Scottie Barnes",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4433134.png",
-      "pick": "Scottie Barnes OVER 24.5 Puntos",
-      "probabilidad": 80.1,
-      "racha_l5": "🟢🔴🟢",
-      "pick_amigable": "Scottie Barnes Más de 24.5 Puntos"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #4: Oklahoma City Thunder @ Indiana Pacers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Quenton Jackson",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4592829.png",
-      "pick": "Quenton Jackson OVER 2.5 Asistencias",
-      "probabilidad": 79.8,
-      "racha_l5": "🟢🟢🟢🔴🟢",
-      "pick_amigable": "Quenton Jackson Más de 2.5 Asistencias"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #10: San Antonio Spurs @ Sacramento Kings (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Zach LaVine",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3064440.png",
-      "pick": "Zach LaVine UNDER 2.5 Triples (3PM)",
-      "probabilidad": 79.8,
-      "racha_l5": "🔴🟢🟢🟢",
-      "pick_amigable": "Zach LaVine Menos de 2.5 Triples (3PM)"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #3: Brooklyn Nets @ Minnesota Timberwolves (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Egor Demin",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5175643.png",
-      "pick": "Egor Demin OVER 1.5 Triples (3PM)",
-      "probabilidad": 79.6,
-      "racha_l5": "🟢🟢🟢🟢🔴",
-      "pick_amigable": "Egor Demin Más de 1.5 Triples (3PM)"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #7: Phoenix Suns @ New Orleans Pelicans (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Miles Bridges",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4066383.png",
-      "pick": "Miles Bridges OVER 5.5 Rebotes",
-      "probabilidad": 79.1,
-      "racha_l5": "🟢🔴🟢🟢🟢",
-      "pick_amigable": "Miles Bridges Más de 5.5 Rebotes"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #9: Utah Jazz @ Los Angeles Lakers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Matisse Thybulle",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3907498.png",
-      "pick": "Matisse Thybulle UNDER 16.5 Pts+Reb+Ast (PRA)",
-      "probabilidad": 79.1,
-      "racha_l5": "🟢🔴🟢🟢🟢",
-      "pick_amigable": "Matisse Thybulle Menos de 16.5 Pts+Reb+Ast (PRA)"
     },
     {
       "deporte": "SOCCER",
@@ -1087,30 +759,6 @@
       "pick_amigable": "Napoli Menos de 4.5 Córners del Equipo"
     },
     {
-      "deporte": "NBA",
-      "partido": "Partido #3: Brooklyn Nets @ Minnesota Timberwolves (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Jonathan Kuminga",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4433247.png",
-      "pick": "Jonathan Kuminga OVER 20.5 Pts+Reb+Ast (PRA)",
-      "probabilidad": 78.1,
-      "racha_l5": "🔴🟢🟢🟢",
-      "pick_amigable": "Jonathan Kuminga Más de 20.5 Pts+Reb+Ast (PRA)"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #8: Los Angeles Clippers @ Houston Rockets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Kevin Durant",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3202.png",
-      "pick": "Kevin Durant OVER 1.5 Triples (3PM)",
-      "probabilidad": 77.9,
-      "racha_l5": "🟢🟢🟢🟢🔴",
-      "pick_amigable": "Kevin Durant Más de 1.5 Triples (3PM)"
-    },
-    {
       "deporte": "SOCCER",
       "partido": "Partido #7: RB Leipzig vs Lens (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -1121,162 +769,6 @@
       "probabilidad": 77.8,
       "racha_l5": "🟢🟢🔴🟢🟢",
       "pick_amigable": "Lens Menos de 4.5 Córners del Equipo"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #8: Los Angeles Clippers @ Houston Rockets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Isaiah Crawford",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4592857.png",
-      "pick": "Isaiah Crawford OVER 22.5 Pts+Reb+Ast (PRA)",
-      "probabilidad": 77.6,
-      "racha_l5": "",
-      "pick_amigable": "Isaiah Crawford Más de 22.5 Pts+Reb+Ast (PRA)"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #5: Milwaukee Bucks @ Toronto Raptors (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Brayden Burries",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5082206.png",
-      "pick": "Brayden Burries OVER 1.5 Triples (3PM)",
-      "probabilidad": 76.9,
-      "racha_l5": "🔴🟢🟢🟢🟢",
-      "pick_amigable": "Brayden Burries Más de 1.5 Triples (3PM)"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #6: Cleveland Cavaliers @ Chicago Bulls (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Mario Hezonja",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/2995706.png",
-      "pick": "Mario Hezonja OVER 1.5 Triples (3PM)",
-      "probabilidad": 76.9,
-      "racha_l5": "🟢🔴🟢🟢",
-      "pick_amigable": "Mario Hezonja Más de 1.5 Triples (3PM)"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #8: Los Angeles Clippers @ Houston Rockets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Brook Lopez",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3448.png",
-      "pick": "Brook Lopez OVER 4.5 Rebotes",
-      "probabilidad": 75.9,
-      "racha_l5": "🟢🟢🟢🔴🟢",
-      "pick_amigable": "Brook Lopez Más de 4.5 Rebotes"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #7: Phoenix Suns @ New Orleans Pelicans (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Trey Murphy III",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4397688.png",
-      "pick": "Trey Murphy III OVER 2.5 Triples (3PM)",
-      "probabilidad": 74.8,
-      "racha_l5": "",
-      "pick_amigable": "Trey Murphy III Más de 2.5 Triples (3PM)"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #7: Phoenix Suns @ New Orleans Pelicans (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Saddiq Bey",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4397136.png",
-      "pick": "Saddiq Bey OVER 5.5 Rebotes",
-      "probabilidad": 74.1,
-      "racha_l5": "🟢🟢🟢🟢🔴",
-      "pick_amigable": "Saddiq Bey Más de 5.5 Rebotes"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #9: Utah Jazz @ Los Angeles Lakers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Luka Doncic",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3945274.png",
-      "pick": "Luka Doncic OVER 6.5 Asistencias",
-      "probabilidad": 73.7,
-      "racha_l5": "🔴🟢🟢🟢🟢",
-      "pick_amigable": "Luka Doncic Más de 6.5 Asistencias"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #6: Cleveland Cavaliers @ Chicago Bulls (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Matas Buzelis",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4711294.png",
-      "pick": "Matas Buzelis OVER 4.5 Rebotes",
-      "probabilidad": 71.6,
-      "racha_l5": "🟢🔴🟢🟢🟢",
-      "pick_amigable": "Matas Buzelis Más de 4.5 Rebotes"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #8: Los Angeles Clippers @ Houston Rockets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Darius Garland",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4396907.png",
-      "pick": "Darius Garland OVER 27.5 Pts+Reb+Ast (PRA)",
-      "probabilidad": 71.5,
-      "racha_l5": "🟢🟢🟢🟢🔴",
-      "pick_amigable": "Darius Garland Más de 27.5 Pts+Reb+Ast (PRA)"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #2: Portland Trail Blazers @ Philadelphia 76ers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "VJ Edgecombe",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5124612.png",
-      "pick": "VJ Edgecombe OVER 5.5 Asistencias",
-      "probabilidad": 70.9,
-      "racha_l5": "🟢🟢🔴🟢🟢",
-      "pick_amigable": "VJ Edgecombe Más de 5.5 Asistencias"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #7: Phoenix Suns @ New Orleans Pelicans (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Collin Gillespie",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4278585.png",
-      "pick": "Collin Gillespie OVER 2.5 Triples (3PM)",
-      "probabilidad": 70.2,
-      "racha_l5": "🟢🟢🔴🔴🟢",
-      "pick_amigable": "Collin Gillespie Más de 2.5 Triples (3PM)"
-    },
-    {
-      "deporte": "NFL",
-      "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "WR J.Chase",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "WR J.Chase OVER 101.5 Yds Rec",
-      "probabilidad": 69.0,
-      "racha_l5": "🔴🔴🟢🟢🟢",
-      "pick_amigable": "WR J.Chase Más de 101.5 Yds Rec"
-    },
-    {
-      "deporte": "NFL",
-      "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "QB J.Daniels",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "QB J.Daniels OVER 223.5 Yds Pase",
-      "probabilidad": 68.7,
-      "racha_l5": "🔴🟢🔴🟢🟢",
-      "pick_amigable": "QB J.Daniels Más de 223.5 Yds Pase"
     },
     {
       "deporte": "SOCCER",
@@ -1303,42 +795,6 @@
       "pick_amigable": "11.22x"
     },
     {
-      "deporte": "NBA",
-      "partido": "Partido #9: Utah Jazz @ Los Angeles Lakers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Svi Mykhailiuk",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3133602.png",
-      "pick": "Svi Mykhailiuk UNDER 15.5 Puntos",
-      "probabilidad": 67.9,
-      "racha_l5": "🟢🟢🟢🟢🔴",
-      "pick_amigable": "Svi Mykhailiuk Menos de 15.5 Puntos"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #6: Cleveland Cavaliers @ Chicago Bulls (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Buddy Hield",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/2990984.png",
-      "pick": "Buddy Hield OVER 3.5 Triples (3PM)",
-      "probabilidad": 67.1,
-      "racha_l5": "🟢🔴🔴🟢🟢",
-      "pick_amigable": "Buddy Hield Más de 3.5 Triples (3PM)"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #1: Memphis Grizzlies @ Charlotte Hornets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 67.0,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
       "deporte": "SOCCER",
       "partido": "Partido #9: Slovan Bratislava vs Real Betis (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -1349,18 +805,6 @@
       "probabilidad": 65.5,
       "racha_l5": "",
       "pick_amigable": "11.22x"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #10: San Antonio Spurs @ Sacramento Kings (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Julian Champagnie",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4592479.png",
-      "pick": "Julian Champagnie UNDER 5.5 Rebotes",
-      "probabilidad": 65.3,
-      "racha_l5": "🔴🟢🔴🟢🟢",
-      "pick_amigable": "Julian Champagnie Menos de 5.5 Rebotes"
     },
     {
       "deporte": "SOCCER",
@@ -1399,18 +843,6 @@
       "pick_amigable": "11.22x"
     },
     {
-      "deporte": "NBA",
-      "partido": "Partido #9: Utah Jazz @ Los Angeles Lakers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Mo Bamba",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4277919.png",
-      "pick": "Mo Bamba OVER 7.5 Rebotes",
-      "probabilidad": 63.7,
-      "racha_l5": "🔴🟢🟢🔴🟢",
-      "pick_amigable": "Mo Bamba Más de 7.5 Rebotes"
-    },
-    {
       "deporte": "SOCCER",
       "partido": "Partido #2: Galatasaray vs Aston Villa (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -1433,30 +865,6 @@
       "probabilidad": 61.5,
       "racha_l5": "",
       "pick_amigable": "11.22x"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #4: Oklahoma City Thunder @ Indiana Pacers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 61.1,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #10: San Antonio Spurs @ Sacramento Kings (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Keldon Johnson",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4395723.png",
-      "pick": "Keldon Johnson UNDER 18.5 Pts+Reb+Ast (PRA)",
-      "probabilidad": 61.0,
-      "racha_l5": "🔴🔴🟢🟢🟢",
-      "pick_amigable": "Keldon Johnson Menos de 18.5 Pts+Reb+Ast (PRA)"
     },
     {
       "deporte": "SOCCER",
@@ -1495,186 +903,6 @@
       "pick_amigable": "11.22x"
     },
     {
-      "deporte": "NBA",
-      "partido": "Partido #5: Milwaukee Bucks @ Toronto Raptors (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 51.2,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #3: Brooklyn Nets @ Minnesota Timberwolves (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 46.9,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #2: Portland Trail Blazers @ Philadelphia 76ers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 40.9,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
-      "deporte": "NFL",
-      "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 37.0,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #8: Los Angeles Clippers @ Houston Rockets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 32.8,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #7: Phoenix Suns @ New Orleans Pelicans (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 30.8,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #6: Cleveland Cavaliers @ Chicago Bulls (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 30.2,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #10: San Antonio Spurs @ Sacramento Kings (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 25.8,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #9: Utah Jazz @ Los Angeles Lakers (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 25.2,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Resumen Matemático Sábana Completa (40 Player Props)",
-      "equipo": "",
-      "jugador": "2",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "2 por equipo",
-      "probabilidad": 0.0,
-      "racha_l5": "",
-      "pick_amigable": "2 por equipo"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Resumen Matemático Sábana Completa (40 Player Props)",
-      "equipo": "",
-      "jugador": "DvP",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "DvP Posicional + Zonas de Tiro + Impuesto Faltas Árbitros + Exclusión GTD",
-      "probabilidad": 0.0,
-      "racha_l5": "",
-      "pick_amigable": "DvP Posicional + Zonas de Tiro + Impuesto Faltas Árbitros + Exclusión GTD"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Resumen Matemático Sábana Completa (40 Player Props)",
-      "equipo": "",
-      "jugador": "1828.52x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "1828.52x",
-      "probabilidad": 0.0,
-      "racha_l5": "",
-      "pick_amigable": "1828.52x"
-    },
-    {
-      "deporte": "NFL",
-      "partido": "Resumen Matemático Sábana Completa (4 Player Props NFL)",
-      "equipo": "",
-      "jugador": "2",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "2 por equipo",
-      "probabilidad": 0.0,
-      "racha_l5": "",
-      "pick_amigable": "2 por equipo"
-    },
-    {
-      "deporte": "NFL",
-      "partido": "Resumen Matemático Sábana Completa (4 Player Props NFL)",
-      "equipo": "",
-      "jugador": "Titular",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "Titular Vigente L3 + Líneas Reales + Clima en Vivo + Exclusión GTD",
-      "probabilidad": 0.0,
-      "racha_l5": "",
-      "pick_amigable": "Titular Vigente L3 + Líneas Reales + Clima en Vivo + Exclusión GTD"
-    },
-    {
-      "deporte": "NFL",
-      "partido": "Resumen Matemático Sábana Completa (4 Player Props NFL)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 0.0,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
       "deporte": "SOCCER",
       "partido": "Resumen Matemático Sábana Completa (44 Props Soccer)",
       "equipo": "",
@@ -1688,14 +916,6 @@
     }
   ],
   "props_resumenes": [
-    {
-      "deporte": "NBA",
-      "texto": "**1. [Memphis Grizzlies]** `Cedric Coward OVER 15.5 Puntos` ➡️ **Prob IA: `91.5%`** (Proy: `23.0` | L5: `100%` 🟢🟢🟢🟢🟢)\n**2. [Memphis Grizzlies]** `Ty Jerome OVER 25.5 Pts+Reb+Ast (PRA)` ➡️ **Prob IA: `91.5%`** (Proy: `31.5` | L5: `100%` 🟢)\n**3. [Charlotte Hornets]** `Moussa Diabate OVER 9.5 Rebotes` ➡️ **Prob IA: `91.5%`** (Proy: `14.1` | L5: `100%` 🟢🟢🟢🟢)\n**4. [Minnesota Timberwolves]** `LaMelo Ball OVER 4.5 Rebotes` ➡️ **Prob IA: `91.5%`** (Proy: `7.0` | L5: `100%` 🟢🟢🟢🟢🟢)\n\n> 💰 **Cuota Combinada (Top 4):** `12.23` | **Prob. Conjunta:** `70.1%` | **Stake:** `5.0%`"
-    },
-    {
-      "deporte": "NFL",
-      "texto": "**1. [CIN]** `QB J.Burrow OVER 2.5 Pases TD` ➡️ **Prob IA: `91.5%`** (Proy: `3.8` | L5: `100%` 🟢🟢🟢🟢🟢)\n**2. [CIN]** `WR J.Chase OVER 101.5 Yds Rec` ➡️ **Prob IA: `69.0%`** (Proy: `125.3` | L5: `60%` 🔴🔴🟢🟢🟢)\n**3. [WAS]** `QB J.Daniels OVER 223.5 Yds Pase` ➡️ **Prob IA: `68.7%`** (Proy: `248.0` | L5: `60%` 🔴🟢🔴🟢🟢)\n\n> 💰 **Cuota Combinada (Top 4):** `6.54` | **Prob. Conjunta:** `43.4%` | **Stake:** `5.0%`"
-    },
     {
       "deporte": "SOCCER",
       "texto": "**1. [Bodo/Glimt vs Lask Linz]** `Bodo/Glimt OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.3` | L5: `100%` 🟢🟢🟢🟢🟢)\n**2. [Bodo/Glimt vs Lask Linz]** `Bodo/Glimt OVER 4.5 Córners del Equipo` ➡️ **Prob IA: `91.0%`** (Proy: `5.8` | L5: `100%` 🟢🟢🟢🟢🟢)\n**3. [Bodo/Glimt vs Lask Linz]** `Lask Linz OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.0` | L5: `100%` 🟢🟢🟢🟢🟢)\n**4. [Galatasaray vs Aston Villa]** `Galatasaray OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.2` | L5: `100%` 🟢🟢🟢🟢🟢)\n\n> 💰 **Cuota Combinada (Top 4):** `11.22` | **Prob. Conjunta:** `68.6%` | **Stake:** `5.0%`"
@@ -1718,99 +938,24 @@
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
-      "contexto": [
-        {
-          "titulo": "🛡️ Four Factors, Zonas de Tiro & Terna Arbitral",
-          "valor": "> **Sacramento Kings:** `🟢 DvP #35 Defensa Vulnerable (117.1 PA)` | eFG `51.6%` • 3PAr `42%` • Pintura `44p` (`⚖️ Zonas Balanceadas`)\n> **San Antonio Spurs:** `🔴 DvP #4 Muro Defensivo (104.3 PA)` | eFG `54.3%` • 3PAr `46%` • Pintura `48p` (`🎯 Lluvia 3PT Abierta`)\n> 🦓 Terna por confirmar (Estándar)"
-        },
-        {
-          "titulo": "🌟 Syndicate Floor-Lock Props (2 Picks por Equipo • Zonas + DvP + Faltas)",
-          "valor": "✈️ **San Antonio Spurs Pick 1:** `Julian Champagnie UNDER 5.5 Rebotes` (**`65.3%`** | Proy: `4.6` | 🔴🟢🔴🟢🟢 `⚡ Estable (DvP-F 🔴)`)\n✈️ **San Antonio Spurs Pick 2:** `Keldon Johnson UNDER 18.5 Pts+Reb+Ast (PRA)` (**`61.0%`** | Proy: `16.8` | 🔴🔴🟢🟢🟢 `⚡ Estable (DvP-F 🔴)`)\n🏠 **Sacramento Kings Pick 1:** `Darius Acuff Jr. UNDE"
-        }
-      ],
+      "contexto": [],
       "pick_1": {
         "etiqueta": "Ganador",
         "texto": "San Antonio Spurs",
-        "prob": 87.9
+        "prob": null
       },
       "pick_2": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": 70.0
-      },
-      "pick_3": {
         "etiqueta": "Hándicap",
         "texto": "San Antonio Spurs -12.5",
-        "prob": 53.7
+        "prob": null
       },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #10: San Antonio Spurs @ Sacramento Kings (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Darius Acuff Jr.",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5142620.png",
-          "pick": "Darius Acuff Jr. UNDER 3.5 Triples (3PM)",
-          "probabilidad": 81.4,
-          "racha_l5": "🟢🟢🔴🟢🟢",
-          "pick_amigable": "Darius Acuff Jr. Menos de 3.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #10: San Antonio Spurs @ Sacramento Kings (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Zach LaVine",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3064440.png",
-          "pick": "Zach LaVine UNDER 2.5 Triples (3PM)",
-          "probabilidad": 79.8,
-          "racha_l5": "🔴🟢🟢🟢",
-          "pick_amigable": "Zach LaVine Menos de 2.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #10: San Antonio Spurs @ Sacramento Kings (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Julian Champagnie",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4592479.png",
-          "pick": "Julian Champagnie UNDER 5.5 Rebotes",
-          "probabilidad": 65.3,
-          "racha_l5": "🔴🟢🔴🟢🟢",
-          "pick_amigable": "Julian Champagnie Menos de 5.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #10: San Antonio Spurs @ Sacramento Kings (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Keldon Johnson",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4395723.png",
-          "pick": "Keldon Johnson UNDER 18.5 Pts+Reb+Ast (PRA)",
-          "probabilidad": 61.0,
-          "racha_l5": "🔴🔴🟢🟢🟢",
-          "pick_amigable": "Keldon Johnson Menos de 18.5 Pts+Reb+Ast (PRA)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #10: San Antonio Spurs @ Sacramento Kings (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 25.8,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
+      "pick_3": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "MENOS DE (Menos de)",
+        "prob": null
+      },
+      "rankeado_real": false,
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -1829,99 +974,24 @@
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
-      "contexto": [
-        {
-          "titulo": "🛡️ Four Factors, Zonas de Tiro & Terna Arbitral",
-          "valor": "> **Los Angeles Lakers:** `🟢 DvP #30 Defensa Vulnerable (114.5 PA)` | eFG `52.9%` • 3PAr `45%` • Pintura `47p` (`🏃 Contraataque Letal`)\n> **Utah Jazz:** `🟡 DvP #29 Defensa Media (114.3 PA)` | eFG `58.4%` • 3PAr `48%` • Pintura `43p` (`🎯 Lluvia 3PT Abierta`)\n> 🦓 Terna por confirmar (Estándar)"
-        },
-        {
-          "titulo": "🌟 Syndicate Floor-Lock Props (2 Picks por Equipo • Zonas + DvP + Faltas)",
-          "valor": "✈️ **Utah Jazz Pick 1:** `Svi Mykhailiuk UNDER 15.5 Puntos` (**`67.9%`** | Proy: `14.5` | 🟢🟢🟢🟢🔴 `🛡️ Seguro 4/5 (DvP-G 🔴)`)\n✈️ **Utah Jazz Pick 2:** `Mo Bamba OVER 7.5 Rebotes` (**`63.7%`** | Proy: `8.8` | 🔴🟢🟢🔴🟢 `⚡ Estable (DvP-C 🔴)`)\n🏠 **Los Angeles Lakers Pick 1:** `Matisse Thybulle UNDER 16.5 Pts+Reb+Ast (PRA)` (**`7"
-        }
-      ],
+      "contexto": [],
       "pick_1": {
         "etiqueta": "Ganador",
         "texto": "Los Angeles Lakers",
-        "prob": 88.2
+        "prob": null
       },
       "pick_2": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": 64.7
-      },
-      "pick_3": {
         "etiqueta": "Hándicap",
         "texto": "Utah Jazz +14.0",
-        "prob": 50.3
+        "prob": null
       },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #9: Utah Jazz @ Los Angeles Lakers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Matisse Thybulle",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3907498.png",
-          "pick": "Matisse Thybulle UNDER 16.5 Pts+Reb+Ast (PRA)",
-          "probabilidad": 79.1,
-          "racha_l5": "🟢🔴🟢🟢🟢",
-          "pick_amigable": "Matisse Thybulle Menos de 16.5 Pts+Reb+Ast (PRA)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #9: Utah Jazz @ Los Angeles Lakers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Luka Doncic",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3945274.png",
-          "pick": "Luka Doncic OVER 6.5 Asistencias",
-          "probabilidad": 73.7,
-          "racha_l5": "🔴🟢🟢🟢🟢",
-          "pick_amigable": "Luka Doncic Más de 6.5 Asistencias",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #9: Utah Jazz @ Los Angeles Lakers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Svi Mykhailiuk",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3133602.png",
-          "pick": "Svi Mykhailiuk UNDER 15.5 Puntos",
-          "probabilidad": 67.9,
-          "racha_l5": "🟢🟢🟢🟢🔴",
-          "pick_amigable": "Svi Mykhailiuk Menos de 15.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #9: Utah Jazz @ Los Angeles Lakers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Mo Bamba",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4277919.png",
-          "pick": "Mo Bamba OVER 7.5 Rebotes",
-          "probabilidad": 63.7,
-          "racha_l5": "🔴🟢🟢🔴🟢",
-          "pick_amigable": "Mo Bamba Más de 7.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #9: Utah Jazz @ Los Angeles Lakers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 25.2,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
+      "pick_3": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "MENOS DE (Menos de)",
+        "prob": null
+      },
+      "rankeado_real": false,
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -1940,99 +1010,24 @@
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
-      "contexto": [
-        {
-          "titulo": "🛡️ Four Factors, Zonas de Tiro & Terna Arbitral",
-          "valor": "> **Houston Rockets:** `🟡 DvP #27 Defensa Media (113.7 PA)` | eFG `57.5%` • 3PAr `37%` • Pintura `52p` (`⚖️ Zonas Balanceadas`)\n> **Los Angeles Clippers:** `🟢 DvP #37 Defensa Vulnerable (117.9 PA)` | eFG `55.9%` • 3PAr `47%` • Pintura `37p` (`🎯 Lluvia 3PT Abierta`)\n> 🦓 Terna por confirmar (Estándar)"
-        },
-        {
-          "titulo": "🌟 Syndicate Floor-Lock Props (2 Picks por Equipo • Zonas + DvP + Faltas)",
-          "valor": "✈️ **Los Angeles Clippers Pick 1:** `Brook Lopez OVER 4.5 Rebotes` (**`75.9%`** | Proy: `5.3` | 🟢🟢🟢🔴🟢 `🛡️ Seguro 4/5 (DvP-C 🟡)`)\n✈️ **Los Angeles Clippers Pick 2:** `Darius Garland OVER 27.5 Pts+Reb+Ast (PRA)` (**`71.5%`** | Proy: `29.0` | 🟢🟢🟢🟢🔴 `🛡️ Seguro 4/5 (DvP-G 🔴)`)\n🏠 **Houston Rockets Pick 1:** `Kevin Durant OVE"
-        }
-      ],
+      "contexto": [],
       "pick_1": {
         "etiqueta": "Ganador",
         "texto": "Houston Rockets",
-        "prob": 83.9
+        "prob": null
       },
       "pick_2": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
-        "prob": 73.6
-      },
-      "pick_3": {
         "etiqueta": "Hándicap",
         "texto": "Los Angeles Clippers +12.5",
-        "prob": 53.7
+        "prob": null
       },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #8: Los Angeles Clippers @ Houston Rockets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Kevin Durant",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3202.png",
-          "pick": "Kevin Durant OVER 1.5 Triples (3PM)",
-          "probabilidad": 77.9,
-          "racha_l5": "🟢🟢🟢🟢🔴",
-          "pick_amigable": "Kevin Durant Más de 1.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #8: Los Angeles Clippers @ Houston Rockets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Isaiah Crawford",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4592857.png",
-          "pick": "Isaiah Crawford OVER 22.5 Pts+Reb+Ast (PRA)",
-          "probabilidad": 77.6,
-          "racha_l5": "",
-          "pick_amigable": "Isaiah Crawford Más de 22.5 Pts+Reb+Ast (PRA)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #8: Los Angeles Clippers @ Houston Rockets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Brook Lopez",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3448.png",
-          "pick": "Brook Lopez OVER 4.5 Rebotes",
-          "probabilidad": 75.9,
-          "racha_l5": "🟢🟢🟢🔴🟢",
-          "pick_amigable": "Brook Lopez Más de 4.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #8: Los Angeles Clippers @ Houston Rockets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Darius Garland",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4396907.png",
-          "pick": "Darius Garland OVER 27.5 Pts+Reb+Ast (PRA)",
-          "probabilidad": 71.5,
-          "racha_l5": "🟢🟢🟢🟢🔴",
-          "pick_amigable": "Darius Garland Más de 27.5 Pts+Reb+Ast (PRA)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #8: Los Angeles Clippers @ Houston Rockets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 32.8,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
+      "pick_3": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "MÁS DE (Más de)",
+        "prob": null
+      },
+      "rankeado_real": false,
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -2051,99 +1046,24 @@
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
-      "contexto": [
-        {
-          "titulo": "🛡️ Four Factors, Zonas de Tiro & Terna Arbitral",
-          "valor": "> **New Orleans Pelicans:** `🟢 DvP #43 Defensa Vulnerable (122.3 PA)` | eFG `49.4%` • 3PAr `39%` • Pintura `46p` (`⚖️ Zonas Balanceadas`)\n> **Phoenix Suns:** `🟡 DvP #14 Defensa Media (112.7 PA)` | eFG `55.5%` • 3PAr `43%` • Pintura `48p` (`🎯 Lluvia 3PT Abierta`)\n> 🦓 Terna por confirmar (Estándar)"
-        },
-        {
-          "titulo": "🌟 Syndicate Floor-Lock Props (2 Picks por Equipo • Zonas + DvP + Faltas)",
-          "valor": "✈️ **Phoenix Suns Pick 1:** `Miles Bridges OVER 5.5 Rebotes` (**`79.1%`** | Proy: `6.7` | 🟢🔴🟢🟢🟢 `🛡️ Seguro 4/5 (DvP-F 🔴)`)\n✈️ **Phoenix Suns Pick 2:** `Collin Gillespie OVER 2.5 Triples (3PM)` (**`70.2%`** | Proy: `3.3` | 🟢🟢🔴🔴🟢 `⚡ Estable (DvP-G 🔴)`)\n🏠 **New Orleans Pelicans Pick 1:** `Trey Murphy III OVER 2.5 Triples "
-        }
-      ],
+      "contexto": [],
       "pick_1": {
         "etiqueta": "Ganador",
         "texto": "Phoenix Suns",
-        "prob": 73.7
+        "prob": null
       },
       "pick_2": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": 68.3
-      },
-      "pick_3": {
         "etiqueta": "Hándicap",
         "texto": "Phoenix Suns -3.5",
-        "prob": 63.1
+        "prob": null
       },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #7: Phoenix Suns @ New Orleans Pelicans (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Miles Bridges",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4066383.png",
-          "pick": "Miles Bridges OVER 5.5 Rebotes",
-          "probabilidad": 79.1,
-          "racha_l5": "🟢🔴🟢🟢🟢",
-          "pick_amigable": "Miles Bridges Más de 5.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #7: Phoenix Suns @ New Orleans Pelicans (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Trey Murphy III",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4397688.png",
-          "pick": "Trey Murphy III OVER 2.5 Triples (3PM)",
-          "probabilidad": 74.8,
-          "racha_l5": "",
-          "pick_amigable": "Trey Murphy III Más de 2.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #7: Phoenix Suns @ New Orleans Pelicans (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Saddiq Bey",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4397136.png",
-          "pick": "Saddiq Bey OVER 5.5 Rebotes",
-          "probabilidad": 74.1,
-          "racha_l5": "🟢🟢🟢🟢🔴",
-          "pick_amigable": "Saddiq Bey Más de 5.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #7: Phoenix Suns @ New Orleans Pelicans (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Collin Gillespie",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4278585.png",
-          "pick": "Collin Gillespie OVER 2.5 Triples (3PM)",
-          "probabilidad": 70.2,
-          "racha_l5": "🟢🟢🔴🔴🟢",
-          "pick_amigable": "Collin Gillespie Más de 2.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #7: Phoenix Suns @ New Orleans Pelicans (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 30.8,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
+      "pick_3": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "MENOS DE (Menos de)",
+        "prob": null
+      },
+      "rankeado_real": false,
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -2162,99 +1082,24 @@
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
-      "contexto": [
-        {
-          "titulo": "🛡️ Four Factors, Zonas de Tiro & Terna Arbitral",
-          "valor": "> **Chicago Bulls:** `🟢 DvP #42 Defensa Vulnerable (121.7 PA)` | eFG `56.7%` • 3PAr `44%` • Pintura `52p` (`🎯 Lluvia 3PT Abierta`)\n> **Cleveland Cavaliers:** `🟢 DvP #36 Defensa Vulnerable (117.1 PA)` | eFG `58.3%` • 3PAr `45%` • Pintura `53p` (`🎨 Dominio Pintura`)\n> 🦓 Terna por confirmar (Estándar)"
-        },
-        {
-          "titulo": "🌟 Syndicate Floor-Lock Props (2 Picks por Equipo • Zonas + DvP + Faltas)",
-          "valor": "✈️ **Cleveland Cavaliers Pick 1:** `Donovan Mitchell OVER 34.5 Pts+Reb+Ast (PRA)` (**`81.8%`** | Proy: `41.3` | 🟢🟢🟢🔴 `⚡ Estable (DvP-G 🔴)`)\n✈️ **Cleveland Cavaliers Pick 2:** `Mario Hezonja OVER 1.5 Triples (3PM)` (**`76.9%`** | Proy: `2.0` | 🟢🔴🟢🟢 `⚡ Estable (DvP-F 🔴)`)\n🏠 **Chicago Bulls Pick 1:** `Matas Buzelis OVER 4"
-        }
-      ],
+      "contexto": [],
       "pick_1": {
         "etiqueta": "Ganador",
         "texto": "Cleveland Cavaliers",
-        "prob": 82.2
+        "prob": null
       },
       "pick_2": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": 60.7
-      },
-      "pick_3": {
         "etiqueta": "Hándicap",
         "texto": "Cleveland Cavaliers -8.5",
-        "prob": 58.2
+        "prob": null
       },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #6: Cleveland Cavaliers @ Chicago Bulls (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Donovan Mitchell",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
-          "pick": "Donovan Mitchell OVER 34.5 Pts+Reb+Ast (PRA)",
-          "probabilidad": 81.8,
-          "racha_l5": "🟢🟢🟢🔴",
-          "pick_amigable": "Donovan Mitchell Más de 34.5 Pts+Reb+Ast (PRA)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #6: Cleveland Cavaliers @ Chicago Bulls (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Mario Hezonja",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/2995706.png",
-          "pick": "Mario Hezonja OVER 1.5 Triples (3PM)",
-          "probabilidad": 76.9,
-          "racha_l5": "🟢🔴🟢🟢",
-          "pick_amigable": "Mario Hezonja Más de 1.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #6: Cleveland Cavaliers @ Chicago Bulls (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Matas Buzelis",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4711294.png",
-          "pick": "Matas Buzelis OVER 4.5 Rebotes",
-          "probabilidad": 71.6,
-          "racha_l5": "🟢🔴🟢🟢🟢",
-          "pick_amigable": "Matas Buzelis Más de 4.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #6: Cleveland Cavaliers @ Chicago Bulls (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Buddy Hield",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/2990984.png",
-          "pick": "Buddy Hield OVER 3.5 Triples (3PM)",
-          "probabilidad": 67.1,
-          "racha_l5": "🟢🔴🔴🟢🟢",
-          "pick_amigable": "Buddy Hield Más de 3.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #6: Cleveland Cavaliers @ Chicago Bulls (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 30.2,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
+      "pick_3": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "MENOS DE (Menos de)",
+        "prob": null
+      },
+      "rankeado_real": false,
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -2273,99 +1118,24 @@
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
-      "contexto": [
-        {
-          "titulo": "🛡️ Four Factors, Zonas de Tiro & Terna Arbitral",
-          "valor": "> **Toronto Raptors:** `🔴 DvP #7 Muro Defensivo (110.5 PA)` | eFG `55.0%` • 3PAr `40%` • Pintura `49p` (`⚖️ Zonas Balanceadas`)\n> **Milwaukee Bucks:** `🟢 DvP #41 Defensa Vulnerable (121.4 PA)` | eFG `52.7%` • 3PAr `49%` • Pintura `44p` (`⚖️ Zonas Balanceadas`)\n> 🦓 Terna por confirmar (Estándar)"
-        },
-        {
-          "titulo": "🌟 Syndicate Floor-Lock Props (2 Picks por Equipo • Zonas + DvP + Faltas)",
-          "valor": "✈️ **Milwaukee Bucks Pick 1:** `Kasparas Jakucionis OVER 2.5 Triples (3PM)` (**`91.5%`** | Proy: `3.2` | 🟢🟢🟢 `🔒 Piso 5/5 (DvP-G 🔴)`)\n✈️ **Milwaukee Bucks Pick 2:** `Brayden Burries OVER 1.5 Triples (3PM)` (**`76.9%`** | Proy: `1.9` | 🔴🟢🟢🟢🟢 `🛡️ Seguro 4/5 (DvP-G 🔴)`)\n🏠 **Toronto Raptors Pick 1:** `Immanuel Quickley OVER"
-        }
-      ],
+      "contexto": [],
       "pick_1": {
-        "etiqueta": "Hándicap",
-        "texto": "Milwaukee Bucks +10.5",
-        "prob": 67.7
-      },
-      "pick_2": {
         "etiqueta": "Ganador",
         "texto": "Toronto Raptors",
-        "prob": 67.6
+        "prob": null
+      },
+      "pick_2": {
+        "etiqueta": "Hándicap",
+        "texto": "Milwaukee Bucks +10.5",
+        "prob": null
       },
       "pick_3": {
         "etiqueta": "Altas / Bajas",
         "texto": "MÁS DE (Más de)",
-        "prob": 58.0
+        "prob": null
       },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #5: Milwaukee Bucks @ Toronto Raptors (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Kasparas Jakucionis",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5214640.png",
-          "pick": "Kasparas Jakucionis OVER 2.5 Triples (3PM)",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢",
-          "pick_amigable": "Kasparas Jakucionis Más de 2.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #5: Milwaukee Bucks @ Toronto Raptors (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Immanuel Quickley",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4395724.png",
-          "pick": "Immanuel Quickley OVER 2.5 Triples (3PM)",
-          "probabilidad": 90.8,
-          "racha_l5": "🟢🟢🔴🟢🟢",
-          "pick_amigable": "Immanuel Quickley Más de 2.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #5: Milwaukee Bucks @ Toronto Raptors (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Scottie Barnes",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4433134.png",
-          "pick": "Scottie Barnes OVER 24.5 Puntos",
-          "probabilidad": 80.1,
-          "racha_l5": "🟢🔴🟢",
-          "pick_amigable": "Scottie Barnes Más de 24.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #5: Milwaukee Bucks @ Toronto Raptors (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Brayden Burries",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5082206.png",
-          "pick": "Brayden Burries OVER 1.5 Triples (3PM)",
-          "probabilidad": 76.9,
-          "racha_l5": "🔴🟢🟢🟢🟢",
-          "pick_amigable": "Brayden Burries Más de 1.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #5: Milwaukee Bucks @ Toronto Raptors (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 51.2,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
+      "rankeado_real": false,
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -2384,99 +1154,24 @@
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
-      "contexto": [
-        {
-          "titulo": "🛡️ Four Factors, Zonas de Tiro & Terna Arbitral",
-          "valor": "> **Indiana Pacers:** `🟢 DvP #31 Defensa Vulnerable (115.7 PA)` | eFG `52.8%` • 3PAr `34%` • Pintura `55p` (`🧱 Muro en Aro Rival`)\n> **Oklahoma City Thunder:** `🔴 DvP #9 Muro Defensivo (111.7 PA)` | eFG `56.4%` • 3PAr `36%` • Pintura `57p` (`🧱 Muro en Aro Rival`)\n> 🦓 Silbato Caliente (`+1.4p O/U` • ⚠️ Faltas Pívots) | "
-        },
-        {
-          "titulo": "🌟 Syndicate Floor-Lock Props (2 Picks por Equipo • Zonas + DvP + Faltas)",
-          "valor": "✈️ **Oklahoma City Thunder Pick 1:** `Shai Gilgeous-Alexander OVER 31.5 Puntos` (**`91.5%`** | Proy: `39.5` | 🟢🟢🟢🟢 `🔒 Piso 5/5 (DvP-G 🟢)`)\n✈️ **Oklahoma City Thunder Pick 2:** `Ajay Mitchell UNDER 17.5 Puntos` (**`91.5%`** | Proy: `13.2` | 🟢🟢🟢🟢 `🔒 Piso 5/5 (DvP-G 🟢)`)\n🏠 **Indiana Pacers Pick 1:** `Kelly Oubre Jr. OVER "
-        }
-      ],
+      "contexto": [],
       "pick_1": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": 73.0
-      },
-      "pick_2": {
         "etiqueta": "Ganador",
         "texto": "Oklahoma City Thunder",
-        "prob": 59.0
+        "prob": null
       },
-      "pick_3": {
+      "pick_2": {
         "etiqueta": "Hándicap",
         "texto": "Indiana Pacers +5.0",
-        "prob": 58.2
+        "prob": null
       },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #4: Oklahoma City Thunder @ Indiana Pacers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Shai Gilgeous-Alexander",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-          "pick": "Shai Gilgeous-Alexander OVER 31.5 Puntos",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢",
-          "pick_amigable": "Shai Gilgeous-Alexander Más de 31.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #4: Oklahoma City Thunder @ Indiana Pacers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Ajay Mitchell",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4900671.png",
-          "pick": "Ajay Mitchell UNDER 17.5 Puntos",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢",
-          "pick_amigable": "Ajay Mitchell Menos de 17.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #4: Oklahoma City Thunder @ Indiana Pacers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Kelly Oubre Jr.",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3133603.png",
-          "pick": "Kelly Oubre Jr. OVER 3.5 Rebotes",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Kelly Oubre Jr. Más de 3.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #4: Oklahoma City Thunder @ Indiana Pacers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Quenton Jackson",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4592829.png",
-          "pick": "Quenton Jackson OVER 2.5 Asistencias",
-          "probabilidad": 79.8,
-          "racha_l5": "🟢🟢🟢🔴🟢",
-          "pick_amigable": "Quenton Jackson Más de 2.5 Asistencias",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #4: Oklahoma City Thunder @ Indiana Pacers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 61.1,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
+      "pick_3": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "MENOS DE (Menos de)",
+        "prob": null
+      },
+      "rankeado_real": false,
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -2495,99 +1190,24 @@
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-      "contexto": [
-        {
-          "titulo": "🛡️ Four Factors, Zonas de Tiro & Terna Arbitral",
-          "valor": "> **Minnesota Timberwolves:** `🔴 DvP #2 Muro Defensivo (103.4 PA)` | eFG `53.1%` • 3PAr `42%` • Pintura `47p` (`⚖️ Zonas Balanceadas`)\n> **Brooklyn Nets:** `🟢 DvP #40 Defensa Vulnerable (120.9 PA)` | eFG `57.8%` • 3PAr `46%` • Pintura `50p` (`⚖️ Zonas Balanceadas`)\n> 🦓 Terna por confirmar (Estándar)"
-        },
-        {
-          "titulo": "🌟 Syndicate Floor-Lock Props (2 Picks por Equipo • Zonas + DvP + Faltas)",
-          "valor": "✈️ **Brooklyn Nets Pick 1:** `Julius Randle UNDER 6.5 Rebotes` (**`82.4%`** | Proy: `4.5` | 🟢🟢🟢🟢🔴 `🛡️ Seguro 4/5 (DvP-F 🔴)`)\n✈️ **Brooklyn Nets Pick 2:** `Egor Demin OVER 1.5 Triples (3PM)` (**`79.6%`** | Proy: `2.3` | 🟢🟢🟢🟢🔴 `🛡️ Seguro 4/5 (DvP-G 🔴)`)\n🏠 **Minnesota Timberwolves Pick 1:** `LaMelo Ball OVER 4.5 Rebotes` "
-        }
-      ],
+      "contexto": [],
       "pick_1": {
         "etiqueta": "Ganador",
         "texto": "Minnesota Timberwolves",
-        "prob": 70.7
+        "prob": null
       },
       "pick_2": {
         "etiqueta": "Hándicap",
         "texto": "Brooklyn Nets +11.0",
-        "prob": 65.5
+        "prob": null
       },
       "pick_3": {
         "etiqueta": "Altas / Bajas",
         "texto": "MÁS DE (Más de)",
-        "prob": 57.7
+        "prob": null
       },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Brooklyn Nets @ Minnesota Timberwolves (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "LaMelo Ball",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4432816.png",
-          "pick": "LaMelo Ball OVER 4.5 Rebotes",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "LaMelo Ball Más de 4.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Brooklyn Nets @ Minnesota Timberwolves (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Julius Randle",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3064514.png",
-          "pick": "Julius Randle UNDER 6.5 Rebotes",
-          "probabilidad": 82.4,
-          "racha_l5": "🟢🟢🟢🟢🔴",
-          "pick_amigable": "Julius Randle Menos de 6.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Brooklyn Nets @ Minnesota Timberwolves (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Egor Demin",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5175643.png",
-          "pick": "Egor Demin OVER 1.5 Triples (3PM)",
-          "probabilidad": 79.6,
-          "racha_l5": "🟢🟢🟢🟢🔴",
-          "pick_amigable": "Egor Demin Más de 1.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Brooklyn Nets @ Minnesota Timberwolves (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Jonathan Kuminga",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4433247.png",
-          "pick": "Jonathan Kuminga OVER 20.5 Pts+Reb+Ast (PRA)",
-          "probabilidad": 78.1,
-          "racha_l5": "🔴🟢🟢🟢",
-          "pick_amigable": "Jonathan Kuminga Más de 20.5 Pts+Reb+Ast (PRA)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Brooklyn Nets @ Minnesota Timberwolves (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 46.9,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
+      "rankeado_real": false,
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -2606,99 +1226,24 @@
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-      "contexto": [
-        {
-          "titulo": "🛡️ Four Factors, Zonas de Tiro & Terna Arbitral",
-          "valor": "> **Philadelphia 76ers:** `🟢 DvP #34 Defensa Vulnerable (116.5 PA)` | eFG `60.2%` • 3PAr `40%` • Pintura `51p` (`🧱 Muro en Aro Rival`)\n> **Portland Trail Blazers:** `🔴 DvP #5 Muro Defensivo (109.2 PA)` | eFG `53.1%` • 3PAr `49%` • Pintura `43p` (`⚖️ Zonas Balanceadas`)\n> 🦓 Terna por confirmar (Estándar)"
-        },
-        {
-          "titulo": "🌟 Syndicate Floor-Lock Props (2 Picks por Equipo • Zonas + DvP + Faltas)",
-          "valor": "✈️ **Portland Trail Blazers Pick 1:** `Deni Avdija OVER 3.5 Asistencias` (**`85.2%`** | Proy: `4.1` | 🟢🟢🟢 `🔒 Piso 5/5 (DvP-F 🟡)`)\n✈️ **Portland Trail Blazers Pick 2:** `Donovan Clingan OVER 10.5 Rebotes` (**`80.5%`** | Proy: `11.6` | 🟢🔴🟢🟢🟢 `🛡️ Seguro 4/5 (DvP-C 🟡)`)\n🏠 **Philadelphia 76ers Pick 1:** `LeBron James OVER 2"
-        }
-      ],
+      "contexto": [],
       "pick_1": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": 56.2
-      },
-      "pick_2": {
         "etiqueta": "Ganador",
         "texto": "Philadelphia 76ers",
-        "prob": 55.6
+        "prob": null
       },
-      "pick_3": {
+      "pick_2": {
         "etiqueta": "Hándicap",
         "texto": "Philadelphia 76ers -1.0",
-        "prob": 52.2
+        "prob": null
       },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Portland Trail Blazers @ Philadelphia 76ers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Deni Avdija",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4683021.png",
-          "pick": "Deni Avdija OVER 3.5 Asistencias",
-          "probabilidad": 85.2,
-          "racha_l5": "🟢🟢🟢",
-          "pick_amigable": "Deni Avdija Más de 3.5 Asistencias",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Portland Trail Blazers @ Philadelphia 76ers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "LeBron James",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
-          "pick": "LeBron James OVER 29.5 Pts+Reb+Ast (PRA)",
-          "probabilidad": 84.1,
-          "racha_l5": "🟢🟢🟢",
-          "pick_amigable": "LeBron James Más de 29.5 Pts+Reb+Ast (PRA)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Portland Trail Blazers @ Philadelphia 76ers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Donovan Clingan",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5105565.png",
-          "pick": "Donovan Clingan OVER 10.5 Rebotes",
-          "probabilidad": 80.5,
-          "racha_l5": "🟢🔴🟢🟢🟢",
-          "pick_amigable": "Donovan Clingan Más de 10.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Portland Trail Blazers @ Philadelphia 76ers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "VJ Edgecombe",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5124612.png",
-          "pick": "VJ Edgecombe OVER 5.5 Asistencias",
-          "probabilidad": 70.9,
-          "racha_l5": "🟢🟢🔴🟢🟢",
-          "pick_amigable": "VJ Edgecombe Más de 5.5 Asistencias",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Portland Trail Blazers @ Philadelphia 76ers (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 40.9,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
+      "pick_3": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "MENOS DE (Menos de)",
+        "prob": null
+      },
+      "rankeado_real": false,
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -2717,99 +1262,24 @@
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
-      "contexto": [
-        {
-          "titulo": "🛡️ Four Factors, Zonas de Tiro & Terna Arbitral",
-          "valor": "> **Charlotte Hornets:** `🔴 DvP #6 Muro Defensivo (110.1 PA)` | eFG `50.0%` • 3PAr `54%` • Pintura `41p` (`⚖️ Zonas Balanceadas`)\n> **Memphis Grizzlies:** `🔴 DvP #10 Muro Defensivo (111.7 PA)` | eFG `59.5%` • 3PAr `41%` • Pintura `59p` (`🧱 Muro en Aro Rival`)\n> 🦓 Terna por confirmar (Estándar)"
-        },
-        {
-          "titulo": "🌟 Syndicate Floor-Lock Props (2 Picks por Equipo • Zonas + DvP + Faltas)",
-          "valor": "✈️ **Memphis Grizzlies Pick 1:** `Cedric Coward OVER 15.5 Puntos` (**`91.5%`** | Proy: `23.0` | 🟢🟢🟢🟢🟢 `🔒 Piso 5/5 (DvP-F 🟡)`)\n✈️ **Memphis Grizzlies Pick 2:** `Ty Jerome OVER 25.5 Pts+Reb+Ast (PRA)` (**`91.5%`** | Proy: `31.5` | 🟢 `🔒 Piso 5/5 (DvP-G 🟡)`)\n🏠 **Charlotte Hornets Pick 1:** `Moussa Diabate OVER 9.5 Rebotes`"
-        }
-      ],
+      "contexto": [],
       "pick_1": {
         "etiqueta": "Ganador",
         "texto": "Memphis Grizzlies",
-        "prob": 73.4
+        "prob": null
       },
       "pick_2": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
-        "prob": 68.4
-      },
-      "pick_3": {
         "etiqueta": "Hándicap",
         "texto": "Memphis Grizzlies -2.5",
-        "prob": 65.8
+        "prob": null
       },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Memphis Grizzlies @ Charlotte Hornets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Cedric Coward",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4903027.png",
-          "pick": "Cedric Coward OVER 15.5 Puntos",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Cedric Coward Más de 15.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Memphis Grizzlies @ Charlotte Hornets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Ty Jerome",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4065733.png",
-          "pick": "Ty Jerome OVER 25.5 Pts+Reb+Ast (PRA)",
-          "probabilidad": 91.5,
-          "racha_l5": "",
-          "pick_amigable": "Ty Jerome Más de 25.5 Pts+Reb+Ast (PRA)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Memphis Grizzlies @ Charlotte Hornets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Moussa Diabate",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4433249.png",
-          "pick": "Moussa Diabate OVER 9.5 Rebotes",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢",
-          "pick_amigable": "Moussa Diabate Más de 9.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Memphis Grizzlies @ Charlotte Hornets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Naz Reid",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4396971.png",
-          "pick": "Naz Reid OVER 2.5 Asistencias",
-          "probabilidad": 87.5,
-          "racha_l5": "🟢🟢🟢🟢",
-          "pick_amigable": "Naz Reid Más de 2.5 Asistencias",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Memphis Grizzlies @ Charlotte Hornets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 67.0,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
+      "pick_3": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "MÁS DE (Más de)",
+        "prob": null
+      },
+      "rankeado_real": false,
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -2828,95 +1298,24 @@
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-      "contexto": [
-        {
-          "titulo": "📊 Totales (54.0) • EPA Filtrado, Clima Vivo & L5",
-          "valor": "> **Pick Sugerido:** `MENOS DE (Under)` (`61.5%` | Cuota: `1.02`) *(Ap: `54.5`)*\n> **Proyección V10.0:** `49.9` pts (`CIN: 27.5` - `WAS: 22.4`)\n> 📈 **Hit Rate Over 54.0 (L5):** `30%` (`CIN:` 🟢🔴🟢🔴🟢 | `WAS:` 🔴🔴🔴🔴🔴)"
-        }
-      ],
+      "contexto": [],
       "pick_1": {
         "etiqueta": "Ganador",
         "texto": "CIN",
-        "prob": 62.6
+        "prob": null
       },
       "pick_2": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": 61.5
-      },
-      "pick_3": {
         "etiqueta": "Hándicap",
         "texto": "WAS +6.5",
-        "prob": 52.5
+        "prob": null
       },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "NFL",
-          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "QB J.Burrow",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "QB J.Burrow OVER 2.5 Pases TD",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "QB J.Burrow Más de 2.5 Pases TD",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB R.White",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB R.White OVER 19.5 Yds Tierra",
-          "probabilidad": 85.3,
-          "racha_l5": "🔴🟢🟢🟢🟢",
-          "pick_amigable": "RB R.White Más de 19.5 Yds Tierra",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "WR J.Chase",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "WR J.Chase OVER 101.5 Yds Rec",
-          "probabilidad": 69.0,
-          "racha_l5": "🔴🔴🟢🟢🟢",
-          "pick_amigable": "WR J.Chase Más de 101.5 Yds Rec",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "QB J.Daniels",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "QB J.Daniels OVER 223.5 Yds Pase",
-          "probabilidad": 68.7,
-          "racha_l5": "🔴🟢🔴🟢🟢",
-          "pick_amigable": "QB J.Daniels Más de 223.5 Yds Pase",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NFL",
-          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 37.0,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
+      "pick_3": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "MENOS DE (Menos de)",
+        "prob": null
+      },
+      "rankeado_real": false,
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
