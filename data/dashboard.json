@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-23 17:10 CST",
+  "updated_at": "2026-11-23 18:10 CST",
   "fecha_operativa": "2026-11-23",
   "kpis": {
-    "ganados": 520,
-    "perdidos": 366,
-    "total_auditados": 886,
-    "win_rate": 58.7,
-    "unidades_netas": -200.18,
-    "roi_global": -22.6,
-    "picks_hoy": 29,
+    "ganados": 529,
+    "perdidos": 368,
+    "total_auditados": 897,
+    "win_rate": 59.0,
+    "unidades_netas": -202.04,
+    "roi_global": -22.5,
+    "picks_hoy": 19,
     "aperturas_activas": 35
   },
   "motores": [
@@ -53,12 +53,12 @@
       "roi": -32.0
     },
     "NFL": {
-      "ganados": 79,
-      "perdidos": 71,
-      "total": 150,
-      "win_rate": 52.7,
-      "unidades": -0.01,
-      "roi": -0.0
+      "ganados": 88,
+      "perdidos": 73,
+      "total": 161,
+      "win_rate": 54.7,
+      "unidades": -1.87,
+      "roi": -1.2
     },
     "SOCCER": {
       "ganados": 223,
@@ -204,7 +204,7 @@
     },
     {
       "fecha": "2026-11-22",
-      "unidades": -173.59
+      "unidades": -175.45
     }
   ],
   "diamantes": [
@@ -225,6 +225,26 @@
         {
           "titulo": "📌 Radares Especiales de la Jornada (Líderes por Mercado)",
           "valor": "• **Hándicap Más Sólido:** `Milwaukee Bucks @ Toronto Raptors` ➡️ **Milwaukee Bucks +10.5** (`67.7%`)\n• **Total Más Sólido (O/U):** `Los Angeles Clippers @ Houston Rockets` ➡️ **MÁS DE (Over) 224.5** (`73.6%`)"
+        }
+      ]
+    },
+    {
+      "deporte": "NFL",
+      "titulo": "💎 NFL CYPHER AI: FILTRO MAESTRO 'PICKS DIAMANTE' (2026-11-23)",
+      "descripcion": "Selección institucional de **Francotirador (Cero Relleno)**. Solo aparecen partidos que superaron **EPA Filtrado 60/40 SOS, Clima en Vivo, Árbitro, Candado GTD y Escudo RLM Semanal**.",
+      "es_no_bet": false,
+      "campos": [
+        {
+          "titulo": "💎 BALA DE PLATA ÚNICA: APUESTA DIRECTA BLINDADA (1 SELECCIÓN)",
+          "valor": "**1. CIN @ WAS** — `💎💎💎 DIAMANTE PURO (Grado A+)`\n> 🎯 **Pick Diamante:** `MENOS DE (Under) 54.0 Pts` (`61.5%` Prob IA | Cuota: `1.02`)\n> 🛡️ **Auditoría 3 Compuertas:** Proy V10 `49.9p` | L5 `70%` | 🦓 Ref Under (Bill Vinovich)\n> ⭐ **Prop Ancla del Juego:** `CIN: QB J.Burrow OVER 2.5 Pases TD (Proy: 3.8 | Prob: 91.5%)`"
+        },
+        {
+          "titulo": "💰 Matemática del Boleto Diamante",
+          "valor": "> **Cuota Total:** `1.02x`\n> **Probabilidad Conjunta Real:** `61.5%`\n> **Stake Institucional Sugerido:** `1.5%` del Bankroll *(Se recomienda jugar también cada Bala de Plata en derecho)*"
+        },
+        {
+          "titulo": "📌 Radares Especiales de la Jornada (Líderes por Mercado)",
+          "valor": "• **Hándicap Más Sólido:** `CIN @ WAS` ➡️ **WAS +6.5** (`52.5%`)\n• **Total Más Sólido (O/U):** `CIN @ WAS` ➡️ **MENOS DE (Under) 54.0** (`61.5%`)"
         }
       ]
     },
@@ -345,6 +365,18 @@
       "probabilidad": 91.5,
       "racha_l5": "🟢🟢🟢",
       "pick_amigable": "Kasparas Jakucionis Más de 2.5 Triples (3PM)"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "QB J.Burrow",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "QB J.Burrow OVER 2.5 Pases TD",
+      "probabilidad": 91.5,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "QB J.Burrow Más de 2.5 Pases TD"
     },
     {
       "deporte": "SOCCER",
@@ -743,6 +775,18 @@
       "pick_amigable": "Gremio Más de 2.5 Remates a Puerta"
     },
     {
+      "deporte": "NFL",
+      "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "RB R.White",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "RB R.White OVER 19.5 Yds Tierra",
+      "probabilidad": 85.3,
+      "racha_l5": "🔴🟢🟢🟢🟢",
+      "pick_amigable": "RB R.White Más de 19.5 Yds Tierra"
+    },
+    {
       "deporte": "NBA",
       "partido": "Partido #2: Portland Trail Blazers @ Philadelphia 76ers (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -1067,6 +1111,30 @@
       "pick_amigable": "Collin Gillespie Más de 2.5 Triples (3PM)"
     },
     {
+      "deporte": "NFL",
+      "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "WR J.Chase",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "WR J.Chase OVER 101.5 Yds Rec",
+      "probabilidad": 69.0,
+      "racha_l5": "🔴🔴🟢🟢🟢",
+      "pick_amigable": "WR J.Chase Más de 101.5 Yds Rec"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "QB J.Daniels",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "QB J.Daniels OVER 223.5 Yds Pase",
+      "probabilidad": 68.7,
+      "racha_l5": "🔴🟢🔴🟢🟢",
+      "pick_amigable": "QB J.Daniels Más de 223.5 Yds Pase"
+    },
+    {
       "deporte": "SOCCER",
       "partido": "Partido #4: Gimnasia L.P. vs Newells Old Boys (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -1283,6 +1351,18 @@
       "pick_amigable": "12.23x"
     },
     {
+      "deporte": "NFL",
+      "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "12.23x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "12.23x",
+      "probabilidad": 37.0,
+      "racha_l5": "",
+      "pick_amigable": "12.23x"
+    },
+    {
       "deporte": "NBA",
       "partido": "Partido #8: Los Angeles Clippers @ Houston Rockets (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -1379,6 +1459,42 @@
       "pick_amigable": "1828.52x"
     },
     {
+      "deporte": "NFL",
+      "partido": "Resumen Matemático Sábana Completa (4 Player Props NFL)",
+      "equipo": "",
+      "jugador": "2",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "2 por equipo",
+      "probabilidad": 0.0,
+      "racha_l5": "",
+      "pick_amigable": "2 por equipo"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Resumen Matemático Sábana Completa (4 Player Props NFL)",
+      "equipo": "",
+      "jugador": "Titular",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Titular Vigente L3 + Líneas Reales + Clima en Vivo + Exclusión GTD",
+      "probabilidad": 0.0,
+      "racha_l5": "",
+      "pick_amigable": "Titular Vigente L3 + Líneas Reales + Clima en Vivo + Exclusión GTD"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Resumen Matemático Sábana Completa (4 Player Props NFL)",
+      "equipo": "",
+      "jugador": "12.23x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "12.23x",
+      "probabilidad": 0.0,
+      "racha_l5": "",
+      "pick_amigable": "12.23x"
+    },
+    {
       "deporte": "SOCCER",
       "partido": "Resumen Matemático Sábana Completa (32 Props Soccer)",
       "equipo": "",
@@ -1395,6 +1511,10 @@
     {
       "deporte": "NBA",
       "texto": "**1. [Memphis Grizzlies]** `Cedric Coward OVER 15.5 Puntos` ➡️ **Prob IA: `91.5%`** (Proy: `23.0` | L5: `100%` 🟢🟢🟢🟢🟢)\n**2. [Memphis Grizzlies]** `Ty Jerome OVER 25.5 Pts+Reb+Ast (PRA)` ➡️ **Prob IA: `91.5%`** (Proy: `31.5` | L5: `100%` 🟢)\n**3. [Charlotte Hornets]** `Moussa Diabate OVER 9.5 Rebotes` ➡️ **Prob IA: `91.5%`** (Proy: `14.1` | L5: `100%` 🟢🟢🟢🟢)\n**4. [Minnesota Timberwolves]** `LaMelo Ball OVER 4.5 Rebotes` ➡️ **Prob IA: `91.5%`** (Proy: `7.0` | L5: `100%` 🟢🟢🟢🟢🟢)\n\n> 💰 **Cuota Combinada (Top 4):** `12.23` | **Prob. Conjunta:** `70.1%` | **Stake:** `5.0%`"
+    },
+    {
+      "deporte": "NFL",
+      "texto": "**1. [CIN]** `QB J.Burrow OVER 2.5 Pases TD` ➡️ **Prob IA: `91.5%`** (Proy: `3.8` | L5: `100%` 🟢🟢🟢🟢🟢)\n**2. [CIN]** `WR J.Chase OVER 101.5 Yds Rec` ➡️ **Prob IA: `69.0%`** (Proy: `125.3` | L5: `60%` 🔴🔴🟢🟢🟢)\n**3. [WAS]** `QB J.Daniels OVER 223.5 Yds Pase` ➡️ **Prob IA: `68.7%`** (Proy: `248.0` | L5: `60%` 🔴🟢🔴🟢🟢)\n\n> 💰 **Cuota Combinada (Top 4):** `6.54` | **Prob. Conjunta:** `43.4%` | **Stake:** `5.0%`"
     },
     {
       "deporte": "SOCCER",
@@ -2566,398 +2686,114 @@
     {
       "deporte": "NFL",
       "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "MIN @ SF",
-      "pick_principal": "Ganador: SF",
-      "cuota": 1.02,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "37e9ada88868",
-      "equipo_a": "MIN",
-      "equipo_b": "SF",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "SF",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "SF -3.0",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "PIT @ PHI",
-      "pick_principal": "Ganador: PIT",
-      "cuota": 1.02,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "2bd06118dab7",
-      "equipo_a": "PIT",
-      "equipo_b": "PHI",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "PIT",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "PHI +3.5",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "LV @ DEN",
-      "pick_principal": "Ganador: DEN",
+      "fecha": "2026-11-23",
+      "duelo": "CIN @ WAS",
+      "pick_principal": "Ganador: CIN",
       "cuota": 1.01,
       "estado": "Pendiente",
       "ganancia": 0.0,
-      "id": "69acc54aebc6",
-      "equipo_a": "LV",
-      "equipo_b": "DEN",
+      "id": "68a4df871b5b",
+      "equipo_a": "CIN",
+      "equipo_b": "WAS",
       "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-      "contexto": [],
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+      "contexto": [
+        {
+          "titulo": "📊 Totales (54.0) • EPA Filtrado, Clima Vivo & L5",
+          "valor": "> **Pick Sugerido:** `MENOS DE (Under)` (`61.5%` | Cuota: `1.02`) *(Ap: `54.5`)*\n> **Proyección V10.0:** `49.9` pts (`CIN: 27.5` - `WAS: 22.4`)\n> 📈 **Hit Rate Over 54.0 (L5):** `30%` (`CIN:` 🟢🔴🟢🔴🟢 | `WAS:` 🔴🔴🔴🔴🔴)"
+        }
+      ],
       "pick_1": {
         "etiqueta": "Ganador",
-        "texto": "DEN",
-        "prob": null
+        "texto": "CIN",
+        "prob": 62.6
       },
       "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "LV +11.5",
-        "prob": null
-      },
-      "pick_3": {
         "etiqueta": "Altas / Bajas",
         "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "NYJ @ LAC",
-      "pick_principal": "Ganador: NYJ",
-      "cuota": 1.03,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "4cf4e231db9e",
-      "equipo_a": "NYJ",
-      "equipo_b": "LAC",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "NYJ",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "NYJ +3.0",
-        "prob": null
+        "prob": 61.5
       },
       "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "JAX @ NYG",
-      "pick_principal": "Ganador: JAX",
-      "cuota": 1.01,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "193377df2a5e",
-      "equipo_a": "JAX",
-      "equipo_b": "NYG",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "JAX",
-        "prob": null
-      },
-      "pick_2": {
         "etiqueta": "Hándicap",
-        "texto": "NYG +6.0",
-        "prob": null
+        "texto": "WAS +6.5",
+        "prob": 52.5
       },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
+      "rankeado_real": true,
+      "props_partido": [
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB J.Burrow",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB J.Burrow OVER 2.5 Pases TD",
+          "probabilidad": 91.5,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "QB J.Burrow Más de 2.5 Pases TD",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "RB R.White",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "RB R.White OVER 19.5 Yds Tierra",
+          "probabilidad": 85.3,
+          "racha_l5": "🔴🟢🟢🟢🟢",
+          "pick_amigable": "RB R.White Más de 19.5 Yds Tierra",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR J.Chase",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR J.Chase OVER 101.5 Yds Rec",
+          "probabilidad": 69.0,
+          "racha_l5": "🔴🔴🟢🟢🟢",
+          "pick_amigable": "WR J.Chase Más de 101.5 Yds Rec",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB J.Daniels",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB J.Daniels OVER 223.5 Yds Pase",
+          "probabilidad": 68.7,
+          "racha_l5": "🔴🟢🔴🟢🟢",
+          "pick_amigable": "QB J.Daniels Más de 223.5 Yds Pase",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "12.23x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "12.23x",
+          "probabilidad": 37.0,
+          "racha_l5": "",
+          "pick_amigable": "12.23x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "ARI @ KC",
-      "pick_principal": "Ganador: KC",
-      "cuota": 1.01,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "3caa05b67a4f",
-      "equipo_a": "ARI",
-      "equipo_b": "KC",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "KC",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "ARI +14.5",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "TB @ DET",
-      "pick_principal": "Ganador: DET",
-      "cuota": 1.02,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "2b43d3ff34d6",
-      "equipo_a": "TB",
-      "equipo_b": "DET",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "DET",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "DET -3.5",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "TEN @ DAL",
-      "pick_principal": "Ganador: DAL",
-      "cuota": 1.01,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "9bb63b0fdf9b",
-      "equipo_a": "TEN",
-      "equipo_b": "DAL",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "DAL",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "TEN +8.0",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "NO @ CHI",
-      "pick_principal": "Ganador: CHI",
-      "cuota": 1.01,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "1563f4502c7f",
-      "equipo_a": "NO",
-      "equipo_b": "CHI",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "CHI",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "NO +11.5",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "BAL @ CAR",
-      "pick_principal": "Ganador: CAR",
-      "cuota": 1.02,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "62c0a4af8a19",
-      "equipo_a": "BAL",
-      "equipo_b": "CAR",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "CAR",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "BAL +2.5",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "MIA @ BUF",
-      "pick_principal": "Ganador: BUF",
-      "cuota": 1.01,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "82488111662a",
-      "equipo_a": "MIA",
-      "equipo_b": "BUF",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "BUF",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "MIA +17.0",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": {
+        "linea_1": "Hándicap WAS: +6.5 pts",
+        "linea_2": "Altas / Bajas: 54.5 pts",
+        "casino": "Pinnacle",
+        "captura": "2026-11-19 01:03:56"
+      }
     },
     {
       "deporte": "SOCCER",
@@ -4650,7 +4486,73 @@
       "linea_2": "Altas / Bajas: 54.5 pts",
       "casino": "Pinnacle",
       "captura": "2026-11-19 01:03:56",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB J.Burrow",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB J.Burrow OVER 2.5 Pases TD",
+          "probabilidad": 91.5,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "QB J.Burrow Más de 2.5 Pases TD",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "RB R.White",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "RB R.White OVER 19.5 Yds Tierra",
+          "probabilidad": 85.3,
+          "racha_l5": "🔴🟢🟢🟢🟢",
+          "pick_amigable": "RB R.White Más de 19.5 Yds Tierra",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR J.Chase",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR J.Chase OVER 101.5 Yds Rec",
+          "probabilidad": 69.0,
+          "racha_l5": "🔴🔴🟢🟢🟢",
+          "pick_amigable": "WR J.Chase Más de 101.5 Yds Rec",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB J.Daniels",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB J.Daniels OVER 223.5 Yds Pase",
+          "probabilidad": 68.7,
+          "racha_l5": "🔴🟢🔴🟢🟢",
+          "pick_amigable": "QB J.Daniels Más de 223.5 Yds Pase",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CIN @ WAS (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "12.23x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "12.23x",
+          "probabilidad": 37.0,
+          "racha_l5": "",
+          "pick_amigable": "12.23x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -5711,6 +5613,116 @@
       "ganancia": 0.02
     },
     {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "MIN @ SF",
+      "pick_principal": "Ganador: SF",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "PIT @ PHI",
+      "pick_principal": "Ganador: PIT",
+      "cuota": 1.02,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "LV @ DEN",
+      "pick_principal": "Ganador: DEN",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "NYJ @ LAC",
+      "pick_principal": "Ganador: NYJ",
+      "cuota": 1.03,
+      "estado": "Ganado",
+      "ganancia": 0.03
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "JAX @ NYG",
+      "pick_principal": "Ganador: JAX",
+      "cuota": 1.01,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "ARI @ KC",
+      "pick_principal": "Ganador: KC",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "TB @ DET",
+      "pick_principal": "Ganador: DET",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "TEN @ DAL",
+      "pick_principal": "Ganador: DAL",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "NO @ CHI",
+      "pick_principal": "Ganador: CHI",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "BAL @ CAR",
+      "pick_principal": "Ganador: CAR",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-22",
+      "duelo": "MIA @ BUF",
+      "pick_principal": "Ganador: BUF",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
       "deporte": "SOCCER",
       "liga": "Major League Soccer",
       "fecha": "2026-11-22",
@@ -6329,116 +6341,6 @@
       "cuota": 1.28,
       "estado": "Ganado",
       "ganancia": 0.28
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Bundesliga",
-      "fecha": "2026-11-21",
-      "duelo": "Borussia Mönchengladbach vs Borussia Dortmund",
-      "pick_principal": "🛡️ 12 (Local o Visita)",
-      "cuota": 1.23,
-      "estado": "Ganado",
-      "ganancia": 0.23
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Bundesliga",
-      "fecha": "2026-11-21",
-      "duelo": "Union Berlin vs RB Leipzig",
-      "pick_principal": "🛡️ 12 (Local o Visita)",
-      "cuota": 1.21,
-      "estado": "Ganado",
-      "ganancia": 0.21
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Bundesliga",
-      "fecha": "2026-11-21",
-      "duelo": "Eintracht Frankfurt vs 1899 Hoffenheim",
-      "pick_principal": "🛡️ 12 (Local o Visita)",
-      "cuota": 1.26,
-      "estado": "Ganado",
-      "ganancia": 0.26
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Bundesliga",
-      "fecha": "2026-11-21",
-      "duelo": "Bayer Leverkusen vs SC Paderborn 07",
-      "pick_principal": "🏠 Gana Bayer Leverkusen",
-      "cuota": 1.29,
-      "estado": "Ganado",
-      "ganancia": 0.29
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-21",
-      "duelo": "Lazio vs Lecce",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.16,
-      "estado": "Ganado",
-      "ganancia": 0.16
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-21",
-      "duelo": "Como vs Cagliari",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.18,
-      "estado": "Ganado",
-      "ganancia": 0.18
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "La Liga",
-      "fecha": "2026-11-21",
-      "duelo": "Alaves vs Deportivo La Coruna",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.4,
-      "estado": "Ganado",
-      "ganancia": 0.4
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Premier League",
-      "fecha": "2026-11-21",
-      "duelo": "Manchester City vs Fulham",
-      "pick_principal": "🏠 Gana Manchester City",
-      "cuota": 1.44,
-      "estado": "Perdido",
-      "ganancia": -1.0
-    },
-    {
-      "deporte": "TENNIS",
-      "liga": "ATP Finals",
-      "fecha": "2026-11-21",
-      "duelo": "Alexander Zverev vs Daniil Medvedev",
-      "pick_principal": "Ganador: Alexander Zverev",
-      "cuota": 1.02,
-      "estado": "Ganado",
-      "ganancia": 0.02
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-20",
-      "duelo": "Sacramento Kings @ Los Angeles Lakers",
-      "pick_principal": "Ganador: Los Angeles Lakers",
-      "cuota": 1.01,
-      "estado": "Ganado",
-      "ganancia": 0.01
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-20",
-      "duelo": "Houston Rockets @ Denver Nuggets",
-      "pick_principal": "Ganador: Denver Nuggets",
-      "cuota": 1.02,
-      "estado": "Ganado",
-      "ganancia": 0.02
     }
   ]
 }
