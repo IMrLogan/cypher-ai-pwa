@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 04:45 CST",
+  "updated_at": "2026-11-25 06:10 CST",
   "fecha_operativa": "2026-11-25",
   "kpis": {
     "ganados": 531,
@@ -209,26 +209,6 @@
   ],
   "diamantes": [
     {
-      "deporte": "NBA",
-      "titulo": "💎 CYPHER AI: FILTRO MAESTRO 'PICKS DIAMANTE' (2026-11-24)",
-      "descripcion": "Selección institucional de **Francotirador (Cero Relleno)**. Solo aparecen los partidos que superaron las **3 Compuertas de Convergencia** (Híbrido 60/40 SOS, Four Factors, Zonas de Tiro, Árbitros, Roster sin GTD y Escudo RLM).",
-      "es_no_bet": false,
-      "campos": [
-        {
-          "titulo": "💎 BALA DE PLATA ÚNICA: APUESTA DIRECTA BLINDADA (1 SELECCIÓN)",
-          "valor": "**1. Boston Celtics @ Washington Wizards** — `💎💎 DIAMANTE ÉLITE (Grado A)`\n> 🎯 **Pick Diamante:** `MENOS DE (Under) 218.5 Pts` (`64.2%` Prob IA | Cuota: `1.02`)\n> 🛡️ **Auditoría 3 Compuertas:** Proy V13 `214.5p` | Hit L5 `60%`\n> ⭐ **Prop Ancla del Juego:** `Jayson Tatum UNDER 6.5 Asistencias (Proy: 4.3 | Prob: 91.5%)`"
-        },
-        {
-          "titulo": "💰 Matemática del Boleto Diamante",
-          "valor": "> **Cuota Total:** `1.02x`\n> **Probabilidad Conjunta Real:** `64.2%`\n> **Stake Institucional Sugerido:** `1.5%` del Bankroll *(Se recomienda jugar también cada Bala de Plata en derecho)*"
-        },
-        {
-          "titulo": "📌 Radares Especiales de la Jornada (Líderes por Mercado)",
-          "valor": "• **Hándicap Más Sólido:** `Dallas Mavericks @ Denver Nuggets` ➡️ **Denver Nuggets -8.5** (`62.1%`)\n• **Total Más Sólido (O/U):** `Detroit Pistons @ Orlando Magic` ➡️ **MÁS DE (Over) 212.5** (`65.0%`)"
-        }
-      ]
-    },
-    {
       "deporte": "SOCCER",
       "titulo": "💎 CYPHER AI SOCCER: FILTRO MAESTRO 'PICKS DIAMANTE' (2026-11-25)",
       "descripcion": "Selección institucional de **Francotirador (Cero Relleno)**. Solo aparecen partidos que superaron **Dixon-Coles + XGBoost Universal, Pinnacle Sharp Steam, Consistencia L10 y Escudo RLM**.",
@@ -250,54 +230,6 @@
     }
   ],
   "props": [
-    {
-      "deporte": "NBA",
-      "partido": "Partido #1: Detroit Pistons @ Orlando Magic (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Desmond Bane",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4066320.png",
-      "pick": "Desmond Bane OVER 2.5 Asistencias",
-      "probabilidad": 91.5,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Desmond Bane Más de 2.5 Asistencias"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #1: Detroit Pistons @ Orlando Magic (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Franz Wagner",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
-      "pick": "Franz Wagner OVER 6.5 Asistencias",
-      "probabilidad": 91.5,
-      "racha_l5": "🟢🟢🟢🟢🔴",
-      "pick_amigable": "Franz Wagner Más de 6.5 Asistencias"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #2: Boston Celtics @ Washington Wizards (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Jayson Tatum",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4065648.png",
-      "pick": "Jayson Tatum UNDER 6.5 Asistencias",
-      "probabilidad": 91.5,
-      "racha_l5": "🟢🟢🟢🟢",
-      "pick_amigable": "Jayson Tatum Menos de 6.5 Asistencias"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #3: Dallas Mavericks @ Denver Nuggets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Caleb Martin",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3138160.png",
-      "pick": "Caleb Martin OVER 3.5 Rebotes",
-      "probabilidad": 91.5,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Caleb Martin Más de 3.5 Rebotes"
-    },
     {
       "deporte": "SOCCER",
       "partido": "Partido #1: Sabah FA vs Barcelona (4 Picks: 2xEquipo)",
@@ -935,78 +867,6 @@
       "pick_amigable": "1410.63x"
     },
     {
-      "deporte": "NBA",
-      "partido": "Partido #3: Dallas Mavericks @ Denver Nuggets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Walter Clayton Jr.",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4896372.png",
-      "pick": "Walter Clayton Jr. OVER 1.5 Triples (3PM)",
-      "probabilidad": 90.6,
-      "racha_l5": "🟢🟢🟢🟢",
-      "pick_amigable": "Walter Clayton Jr. Más de 1.5 Triples (3PM)"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #2: Boston Celtics @ Washington Wizards (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "AJ Dybantsa",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5142718.png",
-      "pick": "AJ Dybantsa OVER 15.5 Puntos",
-      "probabilidad": 87.5,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "AJ Dybantsa Más de 15.5 Puntos"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #3: Dallas Mavericks @ Denver Nuggets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Christian Braun",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4431767.png",
-      "pick": "Christian Braun OVER 12.5 Puntos",
-      "probabilidad": 85.6,
-      "racha_l5": "🟢🔴🟢🟢🟢",
-      "pick_amigable": "Christian Braun Más de 12.5 Puntos"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #3: Dallas Mavericks @ Denver Nuggets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Nikola Jokic",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
-      "pick": "Nikola Jokic OVER 25.5 Puntos",
-      "probabilidad": 80.8,
-      "racha_l5": "🟢🟢🔴🟢🟢",
-      "pick_amigable": "Nikola Jokic Más de 25.5 Puntos"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #2: Boston Celtics @ Washington Wizards (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Trae Young",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4277905.png",
-      "pick": "Trae Young OVER 7.5 Asistencias",
-      "probabilidad": 76.8,
-      "racha_l5": "🟢🟢🟢🔴🟢",
-      "pick_amigable": "Trae Young Más de 7.5 Asistencias"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #2: Boston Celtics @ Washington Wizards (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Paul George",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4251.png",
-      "pick": "Paul George OVER 5.5 Rebotes",
-      "probabilidad": 75.5,
-      "racha_l5": "🟢🟢🔴🟢",
-      "pick_amigable": "Paul George Más de 5.5 Rebotes"
-    },
-    {
       "deporte": "SOCCER",
       "partido": "Partido #1: Sabah FA vs Barcelona (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -1163,102 +1023,6 @@
       "pick_amigable": "11.22x"
     },
     {
-      "deporte": "NBA",
-      "partido": "Partido #1: Detroit Pistons @ Orlando Magic (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Ausar Thompson",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4684742.png",
-      "pick": "Ausar Thompson OVER 10.5 Puntos",
-      "probabilidad": 67.4,
-      "racha_l5": "🔴🟢🔴🟢🟢",
-      "pick_amigable": "Ausar Thompson Más de 10.5 Puntos"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #1: Detroit Pistons @ Orlando Magic (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Kevin Huerter",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4066372.png",
-      "pick": "Kevin Huerter OVER 2.5 Asistencias",
-      "probabilidad": 67.3,
-      "racha_l5": "🟢🔴🟢🟢🔴",
-      "pick_amigable": "Kevin Huerter Más de 2.5 Asistencias"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #3: Dallas Mavericks @ Denver Nuggets (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 57.4,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #2: Boston Celtics @ Washington Wizards (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 46.4,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Partido #1: Detroit Pistons @ Orlando Magic (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "12.23x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "12.23x",
-      "probabilidad": 38.0,
-      "racha_l5": "",
-      "pick_amigable": "12.23x"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Resumen Matemático Sábana Completa (12 Player Props)",
-      "equipo": "",
-      "jugador": "2",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "2 por equipo",
-      "probabilidad": 0.0,
-      "racha_l5": "",
-      "pick_amigable": "2 por equipo"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Resumen Matemático Sábana Completa (12 Player Props)",
-      "equipo": "",
-      "jugador": "DvP",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "DvP Posicional + Zonas de Tiro + Impuesto Faltas Árbitros + Exclusión GTD",
-      "probabilidad": 0.0,
-      "racha_l5": "",
-      "pick_amigable": "DvP Posicional + Zonas de Tiro + Impuesto Faltas Árbitros + Exclusión GTD"
-    },
-    {
-      "deporte": "NBA",
-      "partido": "Resumen Matemático Sábana Completa (12 Player Props)",
-      "equipo": "",
-      "jugador": "1828.52x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "1828.52x",
-      "probabilidad": 0.0,
-      "racha_l5": "",
-      "pick_amigable": "1828.52x"
-    },
-    {
       "deporte": "SOCCER",
       "partido": "Resumen Matemático Sábana Completa (52 Props Soccer)",
       "equipo": "",
@@ -1272,10 +1036,6 @@
     }
   ],
   "props_resumenes": [
-    {
-      "deporte": "NBA",
-      "texto": "**1. [Orlando Magic]** `Desmond Bane OVER 2.5 Asistencias` ➡️ **Prob IA: `91.5%`** (Proy: `4.4` | L5: `100%` 🟢🟢🟢🟢🟢)\n**2. [Boston Celtics]** `Jayson Tatum UNDER 6.5 Asistencias` ➡️ **Prob IA: `91.5%`** (Proy: `4.3` | L5: `100%` 🟢🟢🟢🟢)\n**3. [Dallas Mavericks]** `Caleb Martin OVER 3.5 Rebotes` ➡️ **Prob IA: `91.5%`** (Proy: `5.5` | L5: `100%` 🟢🟢🟢🟢🟢)\n**4. [Dallas Mavericks]** `Walter Clayton Jr. OVER 1.5 Triples (3PM)` ➡️ **Prob IA: `90.6%`** (Proy: `2.2` | L5: `100%` 🟢🟢🟢🟢)\n\n> 💰 **Cuota Combinada (Top 4):** `12.23` | **Prob. Conjunta:** `69.4%` | **Stake:** `5.0%`"
-    },
     {
       "deporte": "SOCCER",
       "texto": "**1. [Sabah FA vs Barcelona]** `Sabah FA OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.4` | L5: `100%` 🟢🟢🟢🟢🟢)\n**2. [Sabah FA vs Barcelona]** `Sabah FA OVER 4.5 Córners del Equipo` ➡️ **Prob IA: `91.0%`** (Proy: `5.8` | L5: `100%` 🟢🟢🟢🟢🟢)\n**3. [Sabah FA vs Barcelona]** `Barcelona OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.1` | L5: `100%` 🟢🟢🟢🟢🟢)\n**4. [Sabah FA vs Barcelona]** `Barcelona OVER 2.5 Remates a Puerta` ➡️ **Prob IA: `91.0%`** (Proy: `3.5` | L5: `100%` 🟢🟢🟢🟢🟢)\n\n> 💰 **Cuota Combinada (Top 4):** `11.22` | **Prob. Conjunta:** `68.6%` | **Stake:** `5.0%`"
@@ -1298,99 +1058,24 @@
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
-      "contexto": [
-        {
-          "titulo": "🛡️ Four Factors, Zonas de Tiro & Terna Arbitral",
-          "valor": "> **Denver Nuggets:** `🟢 DvP #31 Defensa Vulnerable (116.4 PA)` | eFG `55.9%` • 3PAr `32%` • Pintura `53p` (`🧱 Muro en Aro Rival`)\n> **Dallas Mavericks:** `🟢 DvP #30 Defensa Vulnerable (114.3 PA)` | eFG `53.0%` • 3PAr `46%` • Pintura `42p` (`🎯 Lluvia 3PT Abierta`)\n> 🦓 Terna por confirmar (Estándar)"
-        },
-        {
-          "titulo": "🌟 Syndicate Floor-Lock Props (2 Picks por Equipo • Zonas + DvP + Faltas)",
-          "valor": "✈️ **Dallas Mavericks Pick 1:** `Caleb Martin OVER 3.5 Rebotes` (**`91.5%`** | Proy: `5.5` | 🟢🟢🟢🟢🟢 `🔒 Piso 5/5 (DvP-F 🟡)`)\n✈️ **Dallas Mavericks Pick 2:** `Walter Clayton Jr. OVER 1.5 Triples (3PM)` (**`90.6%`** | Proy: `2.2` | 🟢🟢🟢🟢 `🔒 Piso 5/5 (DvP-G 🟡)`)\n🏠 **Denver Nuggets Pick 1:** `Christian Braun OVER 12.5 Puntos`"
-        }
-      ],
+      "contexto": [],
       "pick_1": {
         "etiqueta": "Ganador",
         "texto": "Denver Nuggets",
-        "prob": 84.9
+        "prob": null
       },
       "pick_2": {
         "etiqueta": "Hándicap",
         "texto": "Denver Nuggets -8.5",
-        "prob": 62.1
+        "prob": null
       },
       "pick_3": {
         "etiqueta": "Altas / Bajas",
         "texto": "MENOS DE (Menos de)",
-        "prob": 62.1
+        "prob": null
       },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Dallas Mavericks @ Denver Nuggets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Caleb Martin",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3138160.png",
-          "pick": "Caleb Martin OVER 3.5 Rebotes",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Caleb Martin Más de 3.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Dallas Mavericks @ Denver Nuggets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Walter Clayton Jr.",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4896372.png",
-          "pick": "Walter Clayton Jr. OVER 1.5 Triples (3PM)",
-          "probabilidad": 90.6,
-          "racha_l5": "🟢🟢🟢🟢",
-          "pick_amigable": "Walter Clayton Jr. Más de 1.5 Triples (3PM)",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Dallas Mavericks @ Denver Nuggets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Christian Braun",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4431767.png",
-          "pick": "Christian Braun OVER 12.5 Puntos",
-          "probabilidad": 85.6,
-          "racha_l5": "🟢🔴🟢🟢🟢",
-          "pick_amigable": "Christian Braun Más de 12.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Dallas Mavericks @ Denver Nuggets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Nikola Jokic",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
-          "pick": "Nikola Jokic OVER 25.5 Puntos",
-          "probabilidad": 80.8,
-          "racha_l5": "🟢🟢🔴🟢🟢",
-          "pick_amigable": "Nikola Jokic Más de 25.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #3: Dallas Mavericks @ Denver Nuggets (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 57.4,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
+      "rankeado_real": false,
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -1409,99 +1094,24 @@
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
-      "contexto": [
-        {
-          "titulo": "🛡️ Four Factors, Zonas de Tiro & Terna Arbitral",
-          "valor": "> **Washington Wizards:** `🟢 DvP #32 Defensa Vulnerable (116.7 PA)` | eFG `55.0%` • 3PAr `40%` • Pintura `42p` (`⚖️ Zonas Balanceadas`)\n> **Boston Celtics:** `🔴 DvP #1 Muro Defensivo (101.7 PA)` | eFG `49.9%` • 3PAr `56%` • Pintura `38p` (`⚖️ Zonas Balanceadas`)\n> 🦓 Terna por confirmar (Estándar)"
-        },
-        {
-          "titulo": "🌟 Syndicate Floor-Lock Props (2 Picks por Equipo • Zonas + DvP + Faltas)",
-          "valor": "✈️ **Boston Celtics Pick 1:** `Jayson Tatum UNDER 6.5 Asistencias` (**`91.5%`** | Proy: `4.3` | 🟢🟢🟢🟢 `🔒 Piso 5/5 (DvP-F 🟡)`)\n✈️ **Boston Celtics Pick 2:** `Paul George OVER 5.5 Rebotes` (**`75.5%`** | Proy: `6.5` | 🟢🟢🔴🟢 `⚡ Estable (DvP-F 🟡)`)\n🏠 **Washington Wizards Pick 1:** `AJ Dybantsa OVER 15.5 Puntos` (**`87.5%`** "
-        }
-      ],
+      "contexto": [],
       "pick_1": {
         "etiqueta": "Ganador",
         "texto": "Boston Celtics",
-        "prob": 74.0
+        "prob": null
       },
       "pick_2": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": 64.2
-      },
-      "pick_3": {
         "etiqueta": "Hándicap",
         "texto": "Washington Wizards +10.5",
-        "prob": 60.0
+        "prob": null
       },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Boston Celtics @ Washington Wizards (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Jayson Tatum",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4065648.png",
-          "pick": "Jayson Tatum UNDER 6.5 Asistencias",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢",
-          "pick_amigable": "Jayson Tatum Menos de 6.5 Asistencias",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Boston Celtics @ Washington Wizards (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "AJ Dybantsa",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/5142718.png",
-          "pick": "AJ Dybantsa OVER 15.5 Puntos",
-          "probabilidad": 87.5,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "AJ Dybantsa Más de 15.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Boston Celtics @ Washington Wizards (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Trae Young",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4277905.png",
-          "pick": "Trae Young OVER 7.5 Asistencias",
-          "probabilidad": 76.8,
-          "racha_l5": "🟢🟢🟢🔴🟢",
-          "pick_amigable": "Trae Young Más de 7.5 Asistencias",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Boston Celtics @ Washington Wizards (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Paul George",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4251.png",
-          "pick": "Paul George OVER 5.5 Rebotes",
-          "probabilidad": 75.5,
-          "racha_l5": "🟢🟢🔴🟢",
-          "pick_amigable": "Paul George Más de 5.5 Rebotes",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #2: Boston Celtics @ Washington Wizards (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 46.4,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
+      "pick_3": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "MENOS DE (Menos de)",
+        "prob": null
+      },
+      "rankeado_real": false,
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -1520,99 +1130,24 @@
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
-      "contexto": [
-        {
-          "titulo": "🛡️ Four Factors, Zonas de Tiro & Terna Arbitral",
-          "valor": "> **Orlando Magic:** `🔴 DvP #12 Muro Defensivo (112.3 PA)` | eFG `56.5%` • 3PAr `48%` • Pintura `44p` (`🎯 Lluvia 3PT Abierta`)\n> **Detroit Pistons:** `🔴 DvP #7 Muro Defensivo (110.8 PA)` | eFG `53.0%` • 3PAr `36%` • Pintura `49p` (`⚖️ Zonas Balanceadas`)\n> 🦓 Terna Neutral (`+0.4p`) | John Goble, Karl Lane, Evan Scott"
-        },
-        {
-          "titulo": "🌟 Syndicate Floor-Lock Props (2 Picks por Equipo • Zonas + DvP + Faltas)",
-          "valor": "✈️ **Detroit Pistons Pick 1:** `Kevin Huerter OVER 2.5 Asistencias` (**`67.3%`** | Proy: `3.8` | 🟢🔴🟢🟢🔴 `⚡ Estable (DvP-G 🟡)`)\n✈️ **Detroit Pistons Pick 2:** `Ausar Thompson OVER 10.5 Puntos` (**`67.4%`** | Proy: `12.7` | 🔴🟢🔴🟢🟢 `⚡ Estable (DvP-G 🟡)`)\n🏠 **Orlando Magic Pick 1:** `Desmond Bane OVER 2.5 Asistencias` (**`91"
-        }
-      ],
+      "contexto": [],
       "pick_1": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
-        "prob": 65.0
+        "etiqueta": "Ganador",
+        "texto": "Orlando Magic",
+        "prob": null
       },
       "pick_2": {
         "etiqueta": "Hándicap",
         "texto": "Orlando Magic +2.0",
-        "prob": 58.5
+        "prob": null
       },
       "pick_3": {
-        "etiqueta": "Ganador",
-        "texto": "Orlando Magic",
-        "prob": 51.8
+        "etiqueta": "Altas / Bajas",
+        "texto": "MÁS DE (Más de)",
+        "prob": null
       },
-      "rankeado_real": true,
-      "props_partido": [
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Detroit Pistons @ Orlando Magic (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Desmond Bane",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4066320.png",
-          "pick": "Desmond Bane OVER 2.5 Asistencias",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Desmond Bane Más de 2.5 Asistencias",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Detroit Pistons @ Orlando Magic (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Franz Wagner",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
-          "pick": "Franz Wagner OVER 6.5 Asistencias",
-          "probabilidad": 91.5,
-          "racha_l5": "🟢🟢🟢🟢🔴",
-          "pick_amigable": "Franz Wagner Más de 6.5 Asistencias",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Detroit Pistons @ Orlando Magic (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Ausar Thompson",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4684742.png",
-          "pick": "Ausar Thompson OVER 10.5 Puntos",
-          "probabilidad": 67.4,
-          "racha_l5": "🔴🟢🔴🟢🟢",
-          "pick_amigable": "Ausar Thompson Más de 10.5 Puntos",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Detroit Pistons @ Orlando Magic (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Kevin Huerter",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/nba/players/full/4066372.png",
-          "pick": "Kevin Huerter OVER 2.5 Asistencias",
-          "probabilidad": 67.3,
-          "racha_l5": "🟢🔴🟢🟢🔴",
-          "pick_amigable": "Kevin Huerter Más de 2.5 Asistencias",
-          "lado": "ALL"
-        },
-        {
-          "deporte": "NBA",
-          "partido": "Partido #1: Detroit Pistons @ Orlando Magic (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "12.23x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "12.23x",
-          "probabilidad": 38.0,
-          "racha_l5": "",
-          "pick_amigable": "12.23x",
-          "lado": "ALL"
-        }
-      ],
+      "rankeado_real": false,
+      "props_partido": [],
       "guiones_partido": [],
       "apertura_ref": null
     },
