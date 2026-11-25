@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-25 01:10 CST",
+  "updated_at": "2026-11-25 04:45 CST",
   "fecha_operativa": "2026-11-25",
   "kpis": {
-    "ganados": 533,
-    "perdidos": 370,
+    "ganados": 531,
+    "perdidos": 372,
     "total_auditados": 903,
-    "win_rate": 59.0,
-    "unidades_netas": -203.51,
-    "roi_global": -22.5,
+    "win_rate": 58.8,
+    "unidades_netas": -205.31,
+    "roi_global": -22.7,
     "picks_hoy": 14,
     "aperturas_activas": 29
   },
@@ -61,12 +61,12 @@
       "roi": -1.2
     },
     "SOCCER": {
-      "ganados": 222,
-      "perdidos": 161,
+      "ganados": 220,
+      "perdidos": 163,
       "total": 383,
-      "win_rate": 58.0,
-      "unidades": -107.53,
-      "roi": -28.1
+      "win_rate": 57.4,
+      "unidades": -109.33,
+      "roi": -28.5
     },
     "TENNIS": {
       "ganados": 1,
@@ -87,124 +87,124 @@
   },
   "curva_banca": [
     {
-      "fecha": "2026-10-24",
-      "unidades": -3.95
-    },
-    {
       "fecha": "2026-10-25",
-      "unidades": -14.96
+      "unidades": -11.01
     },
     {
       "fecha": "2026-10-26",
-      "unidades": -18.98
+      "unidades": -15.03
     },
     {
       "fecha": "2026-10-27",
-      "unidades": -19.94
+      "unidades": -15.99
     },
     {
       "fecha": "2026-10-28",
-      "unidades": -23.85
+      "unidades": -19.9
     },
     {
       "fecha": "2026-10-29",
-      "unidades": -23.89
+      "unidades": -19.94
     },
     {
       "fecha": "2026-10-30",
-      "unidades": -26.8
+      "unidades": -22.85
     },
     {
       "fecha": "2026-10-31",
-      "unidades": -28.72
+      "unidades": -24.77
     },
     {
       "fecha": "2026-11-01",
-      "unidades": -26.41
+      "unidades": -22.46
     },
     {
       "fecha": "2026-11-02",
-      "unidades": -29.34
+      "unidades": -25.39
     },
     {
       "fecha": "2026-11-04",
-      "unidades": -34.96
+      "unidades": -31.95
     },
     {
       "fecha": "2026-11-05",
-      "unidades": -33.81
+      "unidades": -30.8
     },
     {
       "fecha": "2026-11-06",
-      "unidades": -36.24
+      "unidades": -33.23
     },
     {
       "fecha": "2026-11-07",
-      "unidades": -38.6
+      "unidades": -35.59
     },
     {
       "fecha": "2026-11-08",
-      "unidades": -37.05
+      "unidades": -34.04
     },
     {
       "fecha": "2026-11-09",
-      "unidades": -38.06
+      "unidades": -35.05
     },
     {
       "fecha": "2026-11-10",
-      "unidades": -39.76
+      "unidades": -36.75
     },
     {
       "fecha": "2026-11-11",
-      "unidades": -44.56
+      "unidades": -41.55
     },
     {
       "fecha": "2026-11-12",
-      "unidades": -48.83
+      "unidades": -45.82
     },
     {
       "fecha": "2026-11-13",
-      "unidades": -51.89
+      "unidades": -48.88
     },
     {
       "fecha": "2026-11-14",
-      "unidades": -106.1
+      "unidades": -103.09
     },
     {
       "fecha": "2026-11-15",
-      "unidades": -132.82
+      "unidades": -129.81
     },
     {
       "fecha": "2026-11-16",
-      "unidades": -137.12
+      "unidades": -134.11
     },
     {
       "fecha": "2026-11-17",
-      "unidades": -148.81
+      "unidades": -145.8
     },
     {
       "fecha": "2026-11-18",
-      "unidades": -156.92
+      "unidades": -153.91
     },
     {
       "fecha": "2026-11-19",
-      "unidades": -158.84
+      "unidades": -155.83
     },
     {
       "fecha": "2026-11-20",
-      "unidades": -161.6
+      "unidades": -158.59
     },
     {
       "fecha": "2026-11-21",
-      "unidades": -167.96
+      "unidades": -164.95
     },
     {
       "fecha": "2026-11-22",
-      "unidades": -172.96
+      "unidades": -169.95
     },
     {
       "fecha": "2026-11-23",
-      "unidades": -176.92
+      "unidades": -173.91
+    },
+    {
+      "fecha": "2026-11-24",
+      "unidades": -174.77
     }
   ],
   "diamantes": [
@@ -230,21 +230,21 @@
     },
     {
       "deporte": "SOCCER",
-      "titulo": "💎 CYPHER AI SOCCER: FILTRO MAESTRO 'PICKS DIAMANTE' (2026-11-24)",
+      "titulo": "💎 CYPHER AI SOCCER: FILTRO MAESTRO 'PICKS DIAMANTE' (2026-11-25)",
       "descripcion": "Selección institucional de **Francotirador (Cero Relleno)**. Solo aparecen partidos que superaron **Dixon-Coles + XGBoost Universal, Pinnacle Sharp Steam, Consistencia L10 y Escudo RLM**.",
       "es_no_bet": false,
       "campos": [
         {
           "titulo": "💎 BOLETO INSIGNIA: PARLAY DIAMANTE VIP (3 SELECCIONES BLINDADAS)",
-          "valor": "**1. San Jose Earthquakes vs Houston Dynamo** (Major League Soccer) — `💎💎💎 DIAMANTE PURO (Grado A+)`\n> 🎯 **Pick Diamante:** `⚽ Más de 1.5 Goles` (`70.7%` Prob IA | Cuota: `1.24` | 🔒 Piso Seguro)\n> 🛡️ **Auditoría 3 Compuertas:** Dixon-Coles `70.7%` | L10 `68%`\n> ⭐ **Prop Ancla del Juego:** `San Jose Earthquakes OVER 0.5 Goles (Anota Gol) (Proy: 1.3 | Prob: 91.0%)`\n\n**2. Arsenal vs Borussia Dortmund** (UEFA Champions League) — `💎💎💎 DIAMANTE PURO (Grado A+)`\n> 🎯 **Pick Diamante:** `⚽ Más de 1.5 Goles` (`68.5%` Prob IA | Cuota: `1.25` | 🔒 Piso Seguro)\n> 🛡️ **Auditoría 3 Compuertas:** Dixon-Coles `68.5%` | L10 `68%`\n> ⭐ **Prop Ancla del Juego:** `Arsenal OVER 0.5 Goles (Anota Gol) (Proy: 1.3 | Prob: 91.0%)`\n\n**3. Chapecoense-sc vs Palmeiras** (Serie A) — `💎💎 DIAMANTE ÉLITE (Grado A)`\n> 🎯 **Pick Diamante:** `⚽ Más de 1.5 Goles` (`68.2%` Prob IA | Cuota: `1.24` | 🔒 Piso Seguro)\n> 🛡️ **Auditoría 3 Compuertas:** Dixon-Coles `68.2%` | L10 `68%`\n> ⭐ **Prop Ancla del Juego:** `Chapecoense-sc OVER 0.5 Goles (Anota Gol) (Proy: 1.2 | Prob: 91.0%)`"
+          "valor": "**1. Boca Juniors vs Independ. Rivadavia** (Liga Profesional Argentina) — `💎💎💎 DIAMANTE PURO (Grado A+)`\n> 🎯 **Pick Diamante:** `⚽ Más de 1.5 Goles` (`71.8%` Prob IA | Cuota: `1.42` | 🔥 +1.9% EV)\n> 🛡️ **Auditoría 3 Compuertas:** Dixon-Coles `71.8%` | L10 `68%`\n> ⭐ **Prop Ancla del Juego:** `Boca Juniors OVER 0.5 Goles (Anota Gol) (Proy: 1.4 | Prob: 91.0%)`\n\n**2. Lille vs Bayern München** (UEFA Champions League) — `💎💎💎 DIAMANTE PURO (Grado A+)`\n> 🎯 **Pick Diamante:** `⚽ Más de 1.5 Goles` (`71.8%` Prob IA | Cuota: `1.25` | 🔒 Piso Seguro)\n> 🛡️ **Auditoría 3 Compuertas:** Dixon-Coles `71.8%` | L10 `68%`\n> ⭐ **Prop Ancla del Juego:** `Lille OVER 0.5 Goles (Anota Gol) (Proy: 1.4 | Prob: 91.0%)`\n\n**3. Shakhtar Donetsk vs Fenerbahçe** (UEFA Champions League) — `💎💎💎 DIAMANTE PURO (Grado A+)`\n> 🎯 **Pick Diamante:** `⚽ Más de 1.5 Goles` (`71.8%` Prob IA | Cuota: `1.26` | 🔒 Piso Seguro)\n> 🛡️ **Auditoría 3 Compuertas:** Dixon-Coles `71.8%` | L10 `68%`\n> ⭐ **Prop Ancla del Juego:** `Shakhtar Donetsk OVER 0.5 Goles (Anota Gol) (Proy: 1.4 | Prob: 91.0%)`"
         },
         {
           "titulo": "💰 Matemática del Boleto Diamante",
-          "valor": "> **Cuota Total:** `1.92x`\n> **Probabilidad Conjunta Real:** `33.0%`\n> **Stake Institucional Sugerido:** `1.2%` del Bankroll *(Se recomienda jugar también cada Bala de Plata en derecho)*"
+          "valor": "> **Cuota Total:** `2.24x`\n> **Probabilidad Conjunta Real:** `37.0%`\n> **Stake Institucional Sugerido:** `1.2%` del Bankroll *(Se recomienda jugar también cada Bala de Plata en derecho)*"
         },
         {
           "titulo": "📌 Radar Rápido de Mercados Especiales (Líderes del Día)",
-          "valor": "• **Mejor Ambos Anotan:** `Como vs AEK Athens FC` ➡️ **SÍ** (`54.8%`)\n• **Mejor Línea de Goles:** `Como vs AEK Athens FC` ➡️ **Más de 1.5 Goles** (`71.8%`)\n• **Mejor Pick Córners:** `Chapecoense-sc vs Palmeiras` ➡️ **Córners Menos de 9.5** (`53.2%`)\n• **Mejor Pick Tarjetas:** `Bodo/Glimt vs Lask Linz` ➡️ **Tarjetas Más de 4.5** (`59.4%`)"
+          "valor": "• **Mejor Ambos Anotan:** `Sabah FA vs Barcelona` ➡️ **SÍ** (`54.8%`)\n• **Mejor Línea de Goles:** `Sabah FA vs Barcelona` ➡️ **Más de 1.5 Goles** (`71.8%`)\n• **Mejor Pick Córners:** `Sabah FA vs Barcelona` ➡️ **Córners Menos de 9.5** (`50.8%`)\n• **Mejor Pick Tarjetas:** `Club Brugge KV vs Liverpool` ➡️ **Tarjetas Más de 4.5** (`70.8%`)"
         }
       ]
     }
@@ -300,399 +300,639 @@
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #1: Bodo/Glimt vs Lask Linz (4 Picks: 2xEquipo)",
+      "partido": "Partido #1: Sabah FA vs Barcelona (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Bodo/Glimt",
+      "jugador": "Sabah FA",
       "es_equipo": false,
       "foto": "",
-      "pick": "Bodo/Glimt OVER 0.5 Goles (Anota Gol)",
+      "pick": "Sabah FA OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Bodo/Glimt Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Sabah FA Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #1: Bodo/Glimt vs Lask Linz (4 Picks: 2xEquipo)",
+      "partido": "Partido #1: Sabah FA vs Barcelona (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Bodo/Glimt",
+      "jugador": "Sabah FA",
       "es_equipo": false,
       "foto": "",
-      "pick": "Bodo/Glimt OVER 4.5 Córners del Equipo",
+      "pick": "Sabah FA OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Bodo/Glimt Más de 4.5 Córners del Equipo"
+      "pick_amigable": "Sabah FA Más de 4.5 Córners del Equipo"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #1: Bodo/Glimt vs Lask Linz (4 Picks: 2xEquipo)",
+      "partido": "Partido #1: Sabah FA vs Barcelona (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Lask Linz",
+      "jugador": "Barcelona",
       "es_equipo": false,
       "foto": "",
-      "pick": "Lask Linz OVER 0.5 Goles (Anota Gol)",
+      "pick": "Barcelona OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Lask Linz Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Barcelona Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #2: Galatasaray vs Aston Villa (4 Picks: 2xEquipo)",
+      "partido": "Partido #1: Sabah FA vs Barcelona (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Galatasaray",
+      "jugador": "Barcelona",
       "es_equipo": false,
       "foto": "",
-      "pick": "Galatasaray OVER 0.5 Goles (Anota Gol)",
+      "pick": "Barcelona OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Galatasaray Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Barcelona Más de 2.5 Remates a Puerta"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #2: Galatasaray vs Aston Villa (4 Picks: 2xEquipo)",
+      "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Galatasaray",
+      "jugador": "Slavia Praha",
       "es_equipo": false,
       "foto": "",
-      "pick": "Galatasaray OVER 4.5 Córners del Equipo",
+      "pick": "Slavia Praha OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Galatasaray Más de 4.5 Córners del Equipo"
+      "pick_amigable": "Slavia Praha Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #2: Galatasaray vs Aston Villa (4 Picks: 2xEquipo)",
+      "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Aston Villa",
+      "jugador": "Slavia Praha",
       "es_equipo": false,
       "foto": "",
-      "pick": "Aston Villa OVER 0.5 Goles (Anota Gol)",
+      "pick": "Slavia Praha OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Aston Villa Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Slavia Praha Más de 4.5 Córners del Equipo"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #3: Arsenal vs Borussia Dortmund (4 Picks: 2xEquipo)",
+      "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Arsenal",
+      "jugador": "Villarreal",
       "es_equipo": false,
       "foto": "",
-      "pick": "Arsenal OVER 0.5 Goles (Anota Gol)",
+      "pick": "Villarreal OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Arsenal Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Villarreal Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #3: Arsenal vs Borussia Dortmund (4 Picks: 2xEquipo)",
+      "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Arsenal",
+      "jugador": "Villarreal",
       "es_equipo": false,
       "foto": "",
-      "pick": "Arsenal OVER 3.5 Remates a Puerta",
+      "pick": "Villarreal OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Arsenal Más de 3.5 Remates a Puerta"
+      "pick_amigable": "Villarreal Más de 2.5 Remates a Puerta"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #3: Arsenal vs Borussia Dortmund (4 Picks: 2xEquipo)",
+      "partido": "Partido #3: Atletico Madrid vs Viking (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Borussia Dortmund",
+      "jugador": "Atletico Madrid",
       "es_equipo": false,
       "foto": "",
-      "pick": "Borussia Dortmund OVER 0.5 Goles (Anota Gol)",
+      "pick": "Atletico Madrid OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Borussia Dortmund Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Atletico Madrid Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #4: Como vs AEK Athens FC (4 Picks: 2xEquipo)",
+      "partido": "Partido #3: Atletico Madrid vs Viking (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Como",
+      "jugador": "Atletico Madrid",
       "es_equipo": false,
       "foto": "",
-      "pick": "Como OVER 0.5 Goles (Anota Gol)",
+      "pick": "Atletico Madrid OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Como Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Atletico Madrid Más de 4.5 Córners del Equipo"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #4: Como vs AEK Athens FC (4 Picks: 2xEquipo)",
+      "partido": "Partido #3: Atletico Madrid vs Viking (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Como",
+      "jugador": "Viking",
       "es_equipo": false,
-      "foto": "",
-      "pick": "Como OVER 4.5 Córners del Equipo",
+      "foto": "https://a.espncdn.com/i/headshots/mma/players/full/4226626.png",
+      "pick": "Viking OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Como Más de 4.5 Córners del Equipo"
+      "pick_amigable": "Viking Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #4: Como vs AEK Athens FC (4 Picks: 2xEquipo)",
+      "partido": "Partido #3: Atletico Madrid vs Viking (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "AEK Athens FC",
+      "jugador": "Viking",
       "es_equipo": false,
-      "foto": "",
-      "pick": "AEK Athens FC OVER 0.5 Goles (Anota Gol)",
+      "foto": "https://a.espncdn.com/i/headshots/mma/players/full/4226626.png",
+      "pick": "Viking OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "AEK Athens FC Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Viking Más de 2.5 Remates a Puerta"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #4: Como vs AEK Athens FC (4 Picks: 2xEquipo)",
+      "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "AEK Athens FC",
+      "jugador": "Club Brugge KV",
       "es_equipo": false,
       "foto": "",
-      "pick": "AEK Athens FC OVER 2.5 Remates a Puerta",
+      "pick": "Club Brugge KV OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "AEK Athens FC Más de 2.5 Remates a Puerta"
+      "pick_amigable": "Club Brugge KV Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #5: Feyenoord vs FC Porto (4 Picks: 2xEquipo)",
+      "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Feyenoord",
+      "jugador": "Club Brugge KV",
       "es_equipo": false,
       "foto": "",
-      "pick": "Feyenoord OVER 0.5 Goles (Anota Gol)",
+      "pick": "Club Brugge KV OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Feyenoord Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Club Brugge KV Más de 4.5 Córners del Equipo"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #5: Feyenoord vs FC Porto (4 Picks: 2xEquipo)",
+      "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Feyenoord",
+      "jugador": "Liverpool",
       "es_equipo": false,
       "foto": "",
-      "pick": "Feyenoord OVER 4.5 Córners del Equipo",
+      "pick": "Liverpool OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Feyenoord Más de 4.5 Córners del Equipo"
+      "pick_amigable": "Liverpool Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #5: Feyenoord vs FC Porto (4 Picks: 2xEquipo)",
+      "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "FC Porto",
+      "jugador": "Liverpool",
       "es_equipo": false,
       "foto": "",
-      "pick": "FC Porto OVER 0.5 Goles (Anota Gol)",
+      "pick": "Liverpool OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "FC Porto Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Liverpool Más de 2.5 Remates a Puerta"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #6: Manchester City vs Napoli (4 Picks: 2xEquipo)",
+      "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Manchester City",
+      "jugador": "Inter",
       "es_equipo": false,
-      "foto": "",
-      "pick": "Manchester City OVER 0.5 Goles (Anota Gol)",
+      "foto": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895783.png",
+      "pick": "Inter OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Manchester City Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Inter Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #6: Manchester City vs Napoli (4 Picks: 2xEquipo)",
+      "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Manchester City",
+      "jugador": "Inter",
       "es_equipo": false,
-      "foto": "",
-      "pick": "Manchester City OVER 3.5 Remates a Puerta",
+      "foto": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895783.png",
+      "pick": "Inter OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Manchester City Más de 3.5 Remates a Puerta"
+      "pick_amigable": "Inter Más de 4.5 Córners del Equipo"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #6: Manchester City vs Napoli (4 Picks: 2xEquipo)",
+      "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Napoli",
+      "jugador": "VfB Stuttgart",
       "es_equipo": false,
       "foto": "",
-      "pick": "Napoli OVER 0.5 Goles (Anota Gol)",
+      "pick": "VfB Stuttgart OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Napoli Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "VfB Stuttgart Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #7: RB Leipzig vs Lens (4 Picks: 2xEquipo)",
+      "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "RB Leipzig",
+      "jugador": "VfB Stuttgart",
       "es_equipo": false,
       "foto": "",
-      "pick": "RB Leipzig OVER 0.5 Goles (Anota Gol)",
+      "pick": "VfB Stuttgart OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "RB Leipzig Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "VfB Stuttgart Más de 2.5 Remates a Puerta"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #7: RB Leipzig vs Lens (4 Picks: 2xEquipo)",
+      "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "RB Leipzig",
+      "jugador": "Lille",
       "es_equipo": false,
       "foto": "",
-      "pick": "RB Leipzig OVER 1.5 Tarjetas del Equipo",
+      "pick": "Lille OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "RB Leipzig Más de 1.5 Tarjetas del Equipo"
+      "pick_amigable": "Lille Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #7: RB Leipzig vs Lens (4 Picks: 2xEquipo)",
+      "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Lens",
+      "jugador": "Lille",
       "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4838752.png",
-      "pick": "Lens OVER 0.5 Goles (Anota Gol)",
+      "foto": "",
+      "pick": "Lille OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Lens Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Lille Más de 4.5 Córners del Equipo"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #8: Real Madrid vs PSV Eindhoven (4 Picks: 2xEquipo)",
+      "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Real Madrid",
+      "jugador": "Bayern München",
       "es_equipo": false,
       "foto": "",
-      "pick": "Real Madrid OVER 0.5 Goles (Anota Gol)",
+      "pick": "Bayern München OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Real Madrid Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Bayern München Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #8: Real Madrid vs PSV Eindhoven (4 Picks: 2xEquipo)",
+      "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Real Madrid",
+      "jugador": "Bayern München",
       "es_equipo": false,
       "foto": "",
-      "pick": "Real Madrid OVER 4.5 Córners del Equipo",
+      "pick": "Bayern München OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Real Madrid Más de 4.5 Córners del Equipo"
+      "pick_amigable": "Bayern München Más de 2.5 Remates a Puerta"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #8: Real Madrid vs PSV Eindhoven (4 Picks: 2xEquipo)",
+      "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "PSV Eindhoven",
+      "jugador": "Paris Saint Germain",
       "es_equipo": false,
       "foto": "",
-      "pick": "PSV Eindhoven OVER 0.5 Goles (Anota Gol)",
+      "pick": "Paris Saint Germain OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "PSV Eindhoven Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Paris Saint Germain Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #9: Slovan Bratislava vs Real Betis (4 Picks: 2xEquipo)",
+      "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Slovan Bratislava",
+      "jugador": "Paris Saint Germain",
       "es_equipo": false,
       "foto": "",
-      "pick": "Slovan Bratislava OVER 0.5 Goles (Anota Gol)",
+      "pick": "Paris Saint Germain OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Slovan Bratislava Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Paris Saint Germain Más de 4.5 Córners del Equipo"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #9: Slovan Bratislava vs Real Betis (4 Picks: 2xEquipo)",
+      "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Real Betis",
+      "jugador": "AS Roma",
       "es_equipo": false,
       "foto": "",
-      "pick": "Real Betis OVER 0.5 Goles (Anota Gol)",
+      "pick": "AS Roma OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Real Betis Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "AS Roma Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #10: Chapecoense-sc vs Palmeiras (4 Picks: 2xEquipo)",
+      "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Chapecoense-sc",
+      "jugador": "AS Roma",
       "es_equipo": false,
       "foto": "",
-      "pick": "Chapecoense-sc OVER 0.5 Goles (Anota Gol)",
+      "pick": "AS Roma OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Chapecoense-sc Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "AS Roma Más de 2.5 Remates a Puerta"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #10: Chapecoense-sc vs Palmeiras (4 Picks: 2xEquipo)",
+      "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Palmeiras",
+      "jugador": "Shakhtar Donetsk",
       "es_equipo": false,
       "foto": "",
-      "pick": "Palmeiras OVER 0.5 Goles (Anota Gol)",
+      "pick": "Shakhtar Donetsk OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Palmeiras Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Shakhtar Donetsk Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #11: San Jose Earthquakes vs Houston Dynamo (4 Picks: 2xEquipo)",
+      "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "San Jose Earthquakes",
+      "jugador": "Shakhtar Donetsk",
       "es_equipo": false,
       "foto": "",
-      "pick": "San Jose Earthquakes OVER 0.5 Goles (Anota Gol)",
+      "pick": "Shakhtar Donetsk OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "San Jose Earthquakes Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Shakhtar Donetsk Más de 4.5 Córners del Equipo"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #11: San Jose Earthquakes vs Houston Dynamo (4 Picks: 2xEquipo)",
+      "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "San Jose Earthquakes",
+      "jugador": "Fenerbahçe",
       "es_equipo": false,
       "foto": "",
-      "pick": "San Jose Earthquakes OVER 3.5 Remates a Puerta",
+      "pick": "Fenerbahçe OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "San Jose Earthquakes Más de 3.5 Remates a Puerta"
+      "pick_amigable": "Fenerbahçe Más de 0.5 Goles (Anota Gol)"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #11: San Jose Earthquakes vs Houston Dynamo (4 Picks: 2xEquipo)",
+      "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Houston Dynamo",
+      "jugador": "Fenerbahçe",
       "es_equipo": false,
       "foto": "",
-      "pick": "Houston Dynamo OVER 0.5 Goles (Anota Gol)",
+      "pick": "Fenerbahçe OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Houston Dynamo Más de 0.5 Goles (Anota Gol)"
+      "pick_amigable": "Fenerbahçe Más de 2.5 Remates a Puerta"
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #11: San Jose Earthquakes vs Houston Dynamo (4 Picks: 2xEquipo)",
+      "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
       "equipo": "",
-      "jugador": "Houston Dynamo",
+      "jugador": "Sporting CP",
       "es_equipo": false,
       "foto": "",
-      "pick": "Houston Dynamo OVER 2.5 Remates a Puerta",
+      "pick": "Sporting CP OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Houston Dynamo Más de 2.5 Remates a Puerta"
+      "pick_amigable": "Sporting CP Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Sporting CP",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Sporting CP OVER 4.5 Córners del Equipo",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Sporting CP Más de 4.5 Córners del Equipo"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Manchester United",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Manchester United OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Manchester United Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Manchester United",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Manchester United OVER 2.5 Remates a Puerta",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Manchester United Más de 2.5 Remates a Puerta"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Atletico-MG",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Atletico-MG OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Atletico-MG Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Atletico-MG",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Atletico-MG OVER 4.5 Córners del Equipo",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Atletico-MG Más de 4.5 Córners del Equipo"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Corinthians",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Corinthians OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Corinthians Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Corinthians",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Corinthians OVER 2.5 Remates a Puerta",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Corinthians Más de 2.5 Remates a Puerta"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Boca Juniors",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Boca Juniors OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Boca Juniors Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Boca Juniors",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Boca Juniors OVER 4.5 Córners del Equipo",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Boca Juniors Más de 4.5 Córners del Equipo"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Independ. Rivadavia",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Independ. Rivadavia OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Independ. Rivadavia Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Independ. Rivadavia",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Independ. Rivadavia OVER 2.5 Remates a Puerta",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Independ. Rivadavia Más de 2.5 Remates a Puerta"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Toluca",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Toluca OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Toluca Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Toluca",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Toluca OVER 4.5 Córners del Equipo",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Toluca Más de 4.5 Córners del Equipo"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Atlas",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Atlas OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Atlas Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Atlas",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Atlas OVER 2.5 Remates a Puerta",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Atlas Más de 2.5 Remates a Puerta"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Monterrey",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Monterrey OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Monterrey Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Monterrey",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Monterrey OVER 4.5 Córners del Equipo",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Monterrey Más de 4.5 Córners del Equipo"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Club America",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Club America OVER 0.5 Goles (Anota Gol)",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Club America Más de 0.5 Goles (Anota Gol)"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "Club America",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Club America OVER 2.5 Remates a Puerta",
+      "probabilidad": 91.0,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "Club America Más de 2.5 Remates a Puerta"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Resumen Matemático Sábana Completa (52 Props Soccer)",
+      "equipo": "",
+      "jugador": "1410.63x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "1410.63x",
+      "probabilidad": 91.0,
+      "racha_l5": "",
+      "pick_amigable": "1410.63x"
     },
     {
       "deporte": "NBA",
@@ -707,54 +947,6 @@
       "pick_amigable": "Walter Clayton Jr. Más de 1.5 Triples (3PM)"
     },
     {
-      "deporte": "SOCCER",
-      "partido": "Partido #9: Slovan Bratislava vs Real Betis (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Slovan Bratislava",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "Slovan Bratislava OVER 4.5 Córners del Equipo",
-      "probabilidad": 90.6,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Slovan Bratislava Más de 4.5 Córners del Equipo"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Resumen Matemático Sábana Completa (44 Props Soccer)",
-      "equipo": "",
-      "jugador": "1410.63x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "1410.63x",
-      "probabilidad": 89.3,
-      "racha_l5": "",
-      "pick_amigable": "1410.63x"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #10: Chapecoense-sc vs Palmeiras (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Chapecoense-sc",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "Chapecoense-sc OVER 4.5 Córners del Equipo",
-      "probabilidad": 88.9,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Chapecoense-sc Más de 4.5 Córners del Equipo"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #10: Chapecoense-sc vs Palmeiras (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Palmeiras",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "Palmeiras OVER 2.5 Remates a Puerta",
-      "probabilidad": 88.6,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Palmeiras Más de 2.5 Remates a Puerta"
-    },
-    {
       "deporte": "NBA",
       "partido": "Partido #2: Boston Celtics @ Washington Wizards (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -765,42 +957,6 @@
       "probabilidad": 87.5,
       "racha_l5": "🟢🟢🟢🟢🟢",
       "pick_amigable": "AJ Dybantsa Más de 15.5 Puntos"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #9: Slovan Bratislava vs Real Betis (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Real Betis",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "Real Betis OVER 2.5 Remates a Puerta",
-      "probabilidad": 87.2,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Real Betis Más de 2.5 Remates a Puerta"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #1: Bodo/Glimt vs Lask Linz (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Lask Linz",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "Lask Linz OVER 2.5 Remates a Puerta",
-      "probabilidad": 85.7,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Lask Linz Más de 2.5 Remates a Puerta"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #8: Real Madrid vs PSV Eindhoven (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "PSV Eindhoven",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "PSV Eindhoven OVER 2.5 Remates a Puerta",
-      "probabilidad": 85.7,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "PSV Eindhoven Más de 2.5 Remates a Puerta"
     },
     {
       "deporte": "NBA",
@@ -815,30 +971,6 @@
       "pick_amigable": "Christian Braun Más de 12.5 Puntos"
     },
     {
-      "deporte": "SOCCER",
-      "partido": "Partido #2: Galatasaray vs Aston Villa (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Aston Villa",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "Aston Villa UNDER 1.5 Goles Recibidos (Muro)",
-      "probabilidad": 81.6,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "Aston Villa Menos de 1.5 Goles Recibidos (Muro)"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #5: Feyenoord vs FC Porto (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "FC Porto",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "FC Porto UNDER 1.5 Goles Recibidos (Muro)",
-      "probabilidad": 81.6,
-      "racha_l5": "🟢🟢🟢🟢🟢",
-      "pick_amigable": "FC Porto Menos de 1.5 Goles Recibidos (Muro)"
-    },
-    {
       "deporte": "NBA",
       "partido": "Partido #3: Dallas Mavericks @ Denver Nuggets (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -849,42 +981,6 @@
       "probabilidad": 80.8,
       "racha_l5": "🟢🟢🔴🟢🟢",
       "pick_amigable": "Nikola Jokic Más de 25.5 Puntos"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #3: Arsenal vs Borussia Dortmund (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Borussia Dortmund",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "Borussia Dortmund UNDER 4.5 Córners del Equipo",
-      "probabilidad": 78.4,
-      "racha_l5": "🟢🟢🔴🟢🟢",
-      "pick_amigable": "Borussia Dortmund Menos de 4.5 Córners del Equipo"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #6: Manchester City vs Napoli (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Napoli",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "Napoli UNDER 4.5 Córners del Equipo",
-      "probabilidad": 78.4,
-      "racha_l5": "🟢🟢🔴🟢🟢",
-      "pick_amigable": "Napoli Menos de 4.5 Córners del Equipo"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #7: RB Leipzig vs Lens (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "Lens",
-      "es_equipo": false,
-      "foto": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4838752.png",
-      "pick": "Lens UNDER 4.5 Córners del Equipo",
-      "probabilidad": 77.8,
-      "racha_l5": "🟢🟢🔴🟢🟢",
-      "pick_amigable": "Lens Menos de 4.5 Córners del Equipo"
     },
     {
       "deporte": "NBA",
@@ -912,7 +1008,7 @@
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #4: Como vs AEK Athens FC (4 Picks: 2xEquipo)",
+      "partido": "Partido #1: Sabah FA vs Barcelona (4 Picks: 2xEquipo)",
       "equipo": "",
       "jugador": "11.22x",
       "es_equipo": false,
@@ -924,7 +1020,139 @@
     },
     {
       "deporte": "SOCCER",
-      "partido": "Partido #11: San Jose Earthquakes vs Houston Dynamo (4 Picks: 2xEquipo)",
+      "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #3: Atletico Madrid vs Viking (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "11.22x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "11.22x",
+      "probabilidad": 68.6,
+      "racha_l5": "",
+      "pick_amigable": "11.22x"
+    },
+    {
+      "deporte": "SOCCER",
+      "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
       "equipo": "",
       "jugador": "11.22x",
       "es_equipo": false,
@@ -957,114 +1185,6 @@
       "probabilidad": 67.3,
       "racha_l5": "🟢🔴🟢🟢🔴",
       "pick_amigable": "Kevin Huerter Más de 2.5 Asistencias"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #9: Slovan Bratislava vs Real Betis (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "11.22x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "11.22x",
-      "probabilidad": 65.5,
-      "racha_l5": "",
-      "pick_amigable": "11.22x"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #10: Chapecoense-sc vs Palmeiras (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "11.22x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "11.22x",
-      "probabilidad": 65.2,
-      "racha_l5": "",
-      "pick_amigable": "11.22x"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #1: Bodo/Glimt vs Lask Linz (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "11.22x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "11.22x",
-      "probabilidad": 64.6,
-      "racha_l5": "",
-      "pick_amigable": "11.22x"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #8: Real Madrid vs PSV Eindhoven (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "11.22x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "11.22x",
-      "probabilidad": 64.6,
-      "racha_l5": "",
-      "pick_amigable": "11.22x"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #2: Galatasaray vs Aston Villa (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "11.22x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "11.22x",
-      "probabilidad": 61.5,
-      "racha_l5": "",
-      "pick_amigable": "11.22x"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #5: Feyenoord vs FC Porto (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "11.22x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "11.22x",
-      "probabilidad": 61.5,
-      "racha_l5": "",
-      "pick_amigable": "11.22x"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #3: Arsenal vs Borussia Dortmund (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "11.22x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "11.22x",
-      "probabilidad": 59.1,
-      "racha_l5": "",
-      "pick_amigable": "11.22x"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #6: Manchester City vs Napoli (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "11.22x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "11.22x",
-      "probabilidad": 59.1,
-      "racha_l5": "",
-      "pick_amigable": "11.22x"
-    },
-    {
-      "deporte": "SOCCER",
-      "partido": "Partido #7: RB Leipzig vs Lens (4 Picks: 2xEquipo)",
-      "equipo": "",
-      "jugador": "11.22x",
-      "es_equipo": false,
-      "foto": "",
-      "pick": "11.22x",
-      "probabilidad": 58.6,
-      "racha_l5": "",
-      "pick_amigable": "11.22x"
     },
     {
       "deporte": "NBA",
@@ -1140,7 +1260,7 @@
     },
     {
       "deporte": "SOCCER",
-      "partido": "Resumen Matemático Sábana Completa (44 Props Soccer)",
+      "partido": "Resumen Matemático Sábana Completa (52 Props Soccer)",
       "equipo": "",
       "jugador": "2",
       "es_equipo": false,
@@ -1158,7 +1278,7 @@
     },
     {
       "deporte": "SOCCER",
-      "texto": "**1. [Bodo/Glimt vs Lask Linz]** `Bodo/Glimt OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.3` | L5: `100%` 🟢🟢🟢🟢🟢)\n**2. [Bodo/Glimt vs Lask Linz]** `Bodo/Glimt OVER 4.5 Córners del Equipo` ➡️ **Prob IA: `91.0%`** (Proy: `5.8` | L5: `100%` 🟢🟢🟢🟢🟢)\n**3. [Bodo/Glimt vs Lask Linz]** `Lask Linz OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.0` | L5: `100%` 🟢🟢🟢🟢🟢)\n**4. [Galatasaray vs Aston Villa]** `Galatasaray OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.2` | L5: `100%` 🟢🟢🟢🟢🟢)\n\n> 💰 **Cuota Combinada (Top 4):** `11.22` | **Prob. Conjunta:** `68.6%` | **Stake:** `5.0%`"
+      "texto": "**1. [Sabah FA vs Barcelona]** `Sabah FA OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.4` | L5: `100%` 🟢🟢🟢🟢🟢)\n**2. [Sabah FA vs Barcelona]** `Sabah FA OVER 4.5 Córners del Equipo` ➡️ **Prob IA: `91.0%`** (Proy: `5.8` | L5: `100%` 🟢🟢🟢🟢🟢)\n**3. [Sabah FA vs Barcelona]** `Barcelona OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.1` | L5: `100%` 🟢🟢🟢🟢🟢)\n**4. [Sabah FA vs Barcelona]** `Barcelona OVER 2.5 Remates a Puerta` ➡️ **Prob IA: `91.0%`** (Proy: `3.5` | L5: `100%` 🟢🟢🟢🟢🟢)\n\n> 💰 **Cuota Combinada (Top 4):** `11.22` | **Prob. Conjunta:** `68.6%` | **Stake:** `5.0%`"
     }
   ],
   "guiones": [],
@@ -1498,28 +1618,28 @@
     },
     {
       "deporte": "SOCCER",
-      "liga": "Major League Soccer",
-      "fecha": "2026-11-24",
-      "duelo": "San Jose Earthquakes vs Houston Dynamo",
-      "pick_principal": "🛡️ 12 (Local o Visita)",
-      "cuota": 1.29,
+      "liga": "Liga MX",
+      "fecha": "2026-11-25",
+      "duelo": "Monterrey vs Club America",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.31,
       "estado": "Pendiente",
       "ganancia": 0.0,
-      "id": "bc1a960bf6c0",
-      "equipo_a": "San Jose Earthquakes",
-      "equipo_b": "Houston Dynamo",
+      "id": "db06a538179f",
+      "equipo_a": "Monterrey",
+      "equipo_b": "Club America",
       "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
       "contexto": [],
       "pick_1": {
         "etiqueta": "Pronóstico Principal",
-        "texto": "🛡️ 12 (Local o Visita)",
-        "prob": 73.6
+        "texto": "⚽ Más de 1.5 Goles",
+        "prob": 71.8
       },
       "pick_2": {
         "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -5.0%",
+        "texto": "Valor sobre casino: -6.0%",
         "prob": null
       },
       "pick_3": null,
@@ -1527,59 +1647,59 @@
       "props_partido": [
         {
           "deporte": "SOCCER",
-          "partido": "Partido #11: San Jose Earthquakes vs Houston Dynamo (4 Picks: 2xEquipo)",
+          "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "San Jose Earthquakes",
+          "jugador": "Monterrey",
           "es_equipo": false,
           "foto": "",
-          "pick": "San Jose Earthquakes OVER 0.5 Goles (Anota Gol)",
+          "pick": "Monterrey OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "San Jose Earthquakes Más de 0.5 Goles (Anota Gol)",
+          "pick_amigable": "Monterrey Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #11: San Jose Earthquakes vs Houston Dynamo (4 Picks: 2xEquipo)",
+          "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "San Jose Earthquakes",
+          "jugador": "Monterrey",
           "es_equipo": false,
           "foto": "",
-          "pick": "San Jose Earthquakes OVER 3.5 Remates a Puerta",
+          "pick": "Monterrey OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "San Jose Earthquakes Más de 3.5 Remates a Puerta",
+          "pick_amigable": "Monterrey Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #11: San Jose Earthquakes vs Houston Dynamo (4 Picks: 2xEquipo)",
+          "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Houston Dynamo",
+          "jugador": "Club America",
           "es_equipo": false,
           "foto": "",
-          "pick": "Houston Dynamo OVER 0.5 Goles (Anota Gol)",
+          "pick": "Club America OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Houston Dynamo Más de 0.5 Goles (Anota Gol)",
+          "pick_amigable": "Club America Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #11: San Jose Earthquakes vs Houston Dynamo (4 Picks: 2xEquipo)",
+          "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Houston Dynamo",
+          "jugador": "Club America",
           "es_equipo": false,
           "foto": "",
-          "pick": "Houston Dynamo OVER 2.5 Remates a Puerta",
+          "pick": "Club America OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Houston Dynamo Más de 2.5 Remates a Puerta",
+          "pick_amigable": "Club America Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #11: San Jose Earthquakes vs Houston Dynamo (4 Picks: 2xEquipo)",
+          "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
           "equipo": "",
           "jugador": "11.22x",
           "es_equipo": false,
@@ -1592,32 +1712,37 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 2.37 / 3.55 / 3.18",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.93 / 1.97",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-25 01:01:33"
+      }
     },
     {
       "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-24",
-      "duelo": "Chapecoense-sc vs Palmeiras",
+      "liga": "Liga MX",
+      "fecha": "2026-11-25",
+      "duelo": "Toluca vs Atlas",
       "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.24,
+      "cuota": 1.16,
       "estado": "Pendiente",
       "ganancia": 0.0,
-      "id": "b6df182e6dec",
-      "equipo_a": "Chapecoense-sc",
-      "equipo_b": "Palmeiras",
+      "id": "8737ac22f2b0",
+      "equipo_a": "Toluca",
+      "equipo_b": "Atlas",
       "separador": "vs",
-      "logo_a": "",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
       "contexto": [],
       "pick_1": {
         "etiqueta": "Pronóstico Principal",
         "texto": "⚽ Más de 1.5 Goles",
-        "prob": 68.2
+        "prob": 71.8
       },
       "pick_2": {
         "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -15.5%",
+        "texto": "Valor sobre casino: -16.8%",
         "prob": null
       },
       "pick_3": null,
@@ -1625,587 +1750,102 @@
       "props_partido": [
         {
           "deporte": "SOCCER",
-          "partido": "Partido #10: Chapecoense-sc vs Palmeiras (4 Picks: 2xEquipo)",
+          "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Chapecoense-sc",
+          "jugador": "Toluca",
           "es_equipo": false,
           "foto": "",
-          "pick": "Chapecoense-sc OVER 0.5 Goles (Anota Gol)",
+          "pick": "Toluca OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Chapecoense-sc Más de 0.5 Goles (Anota Gol)",
+          "pick_amigable": "Toluca Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #10: Chapecoense-sc vs Palmeiras (4 Picks: 2xEquipo)",
+          "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Palmeiras",
+          "jugador": "Toluca",
           "es_equipo": false,
           "foto": "",
-          "pick": "Palmeiras OVER 0.5 Goles (Anota Gol)",
+          "pick": "Toluca OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Palmeiras Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #10: Chapecoense-sc vs Palmeiras (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Chapecoense-sc",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Chapecoense-sc OVER 4.5 Córners del Equipo",
-          "probabilidad": 88.9,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Chapecoense-sc Más de 4.5 Córners del Equipo",
+          "pick_amigable": "Toluca Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #10: Chapecoense-sc vs Palmeiras (4 Picks: 2xEquipo)",
+          "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Palmeiras",
+          "jugador": "Atlas",
           "es_equipo": false,
           "foto": "",
-          "pick": "Palmeiras OVER 2.5 Remates a Puerta",
-          "probabilidad": 88.6,
+          "pick": "Atlas OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Palmeiras Más de 2.5 Remates a Puerta",
+          "pick_amigable": "Atlas Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #10: Chapecoense-sc vs Palmeiras (4 Picks: 2xEquipo)",
+          "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atlas",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atlas OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atlas Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
           "equipo": "",
           "jugador": "11.22x",
           "es_equipo": false,
           "foto": "",
           "pick": "11.22x",
-          "probabilidad": 65.2,
+          "probabilidad": 68.6,
           "racha_l5": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 1.47 / 5.08 / 6.50",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.50 / 2.65",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-25 01:01:27"
+      }
     },
     {
       "deporte": "SOCCER",
-      "liga": "UEFA Champions League",
-      "fecha": "2026-11-24",
-      "duelo": "Slovan Bratislava vs Real Betis",
-      "pick_principal": "✈️ Gana Real Betis",
-      "cuota": 1.32,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "2d85691d1b0a",
-      "equipo_a": "Slovan Bratislava",
-      "equipo_b": "Real Betis",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Pronóstico Principal",
-        "texto": "✈️ Gana Real Betis",
-        "prob": 53.5
-      },
-      "pick_2": {
-        "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -29.4%",
-        "prob": null
-      },
-      "pick_3": null,
-      "rankeado_real": false,
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #9: Slovan Bratislava vs Real Betis (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Slovan Bratislava",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Slovan Bratislava OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Slovan Bratislava Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #9: Slovan Bratislava vs Real Betis (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Real Betis",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Real Betis OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Real Betis Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #9: Slovan Bratislava vs Real Betis (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Slovan Bratislava",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Slovan Bratislava OVER 4.5 Córners del Equipo",
-          "probabilidad": 90.6,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Slovan Bratislava Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #9: Slovan Bratislava vs Real Betis (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Real Betis",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Real Betis OVER 2.5 Remates a Puerta",
-          "probabilidad": 87.2,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Real Betis Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #9: Slovan Bratislava vs Real Betis (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 65.5,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "UEFA Champions League",
-      "fecha": "2026-11-24",
-      "duelo": "Real Madrid vs PSV Eindhoven",
-      "pick_principal": "🏠 Gana Real Madrid",
-      "cuota": 1.17,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "683637fbf89d",
-      "equipo_a": "Real Madrid",
-      "equipo_b": "PSV Eindhoven",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Pronóstico Principal",
-        "texto": "🏠 Gana Real Madrid",
-        "prob": 65.1
-      },
-      "pick_2": {
-        "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -23.8%",
-        "prob": null
-      },
-      "pick_3": null,
-      "rankeado_real": false,
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #8: Real Madrid vs PSV Eindhoven (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Real Madrid",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Real Madrid OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Real Madrid Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #8: Real Madrid vs PSV Eindhoven (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Real Madrid",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Real Madrid OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Real Madrid Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #8: Real Madrid vs PSV Eindhoven (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "PSV Eindhoven",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "PSV Eindhoven OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "PSV Eindhoven Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #8: Real Madrid vs PSV Eindhoven (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "PSV Eindhoven",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "PSV Eindhoven OVER 2.5 Remates a Puerta",
-          "probabilidad": 85.7,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "PSV Eindhoven Más de 2.5 Remates a Puerta",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #8: Real Madrid vs PSV Eindhoven (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 64.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "UEFA Champions League",
-      "fecha": "2026-11-24",
-      "duelo": "RB Leipzig vs Lens",
-      "pick_principal": "🏠 Gana RB Leipzig",
-      "cuota": 1.4,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "7415d4e22967",
-      "equipo_a": "RB Leipzig",
-      "equipo_b": "Lens",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Pronóstico Principal",
-        "texto": "🏠 Gana RB Leipzig",
-        "prob": 55.6
-      },
-      "pick_2": {
-        "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -22.1%",
-        "prob": null
-      },
-      "pick_3": null,
-      "rankeado_real": false,
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #7: RB Leipzig vs Lens (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB Leipzig",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB Leipzig OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "RB Leipzig Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #7: RB Leipzig vs Lens (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "RB Leipzig",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "RB Leipzig OVER 1.5 Tarjetas del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "RB Leipzig Más de 1.5 Tarjetas del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #7: RB Leipzig vs Lens (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Lens",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4838752.png",
-          "pick": "Lens OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Lens Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #7: RB Leipzig vs Lens (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Lens",
-          "es_equipo": false,
-          "foto": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4838752.png",
-          "pick": "Lens UNDER 4.5 Córners del Equipo",
-          "probabilidad": 77.8,
-          "racha_l5": "🟢🟢🔴🟢🟢",
-          "pick_amigable": "Lens Menos de 4.5 Córners del Equipo",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #7: RB Leipzig vs Lens (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 58.6,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "UEFA Champions League",
-      "fecha": "2026-11-24",
-      "duelo": "Manchester City vs Napoli",
-      "pick_principal": "🏠 Gana Manchester City",
-      "cuota": 1.33,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "694af60f3a5a",
-      "equipo_a": "Manchester City",
-      "equipo_b": "Napoli",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Pronóstico Principal",
-        "texto": "🏠 Gana Manchester City",
-        "prob": 60.1
-      },
-      "pick_2": {
-        "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -20.0%",
-        "prob": null
-      },
-      "pick_3": null,
-      "rankeado_real": false,
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #6: Manchester City vs Napoli (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Manchester City",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Manchester City OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Manchester City Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #6: Manchester City vs Napoli (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Manchester City",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Manchester City OVER 3.5 Remates a Puerta",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Manchester City Más de 3.5 Remates a Puerta",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #6: Manchester City vs Napoli (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Napoli",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Napoli OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Napoli Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #6: Manchester City vs Napoli (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Napoli",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Napoli UNDER 4.5 Córners del Equipo",
-          "probabilidad": 78.4,
-          "racha_l5": "🟢🟢🔴🟢🟢",
-          "pick_amigable": "Napoli Menos de 4.5 Córners del Equipo",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #6: Manchester City vs Napoli (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 59.1,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "UEFA Champions League",
-      "fecha": "2026-11-24",
-      "duelo": "Feyenoord vs FC Porto",
+      "liga": "Liga Profesional Argentina",
+      "fecha": "2026-11-25",
+      "duelo": "Boca Juniors vs Independ. Rivadavia",
       "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.21,
+      "cuota": 1.42,
       "estado": "Pendiente",
       "ganancia": 0.0,
-      "id": "e533906dda70",
-      "equipo_a": "Feyenoord",
-      "equipo_b": "FC Porto",
+      "id": "0d825024bd55",
+      "equipo_a": "Boca Juniors",
+      "equipo_b": "Independ. Rivadavia",
       "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Pronóstico Principal",
-        "texto": "⚽ Más de 1.5 Goles",
-        "prob": 66.8
-      },
-      "pick_2": {
-        "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -19.2%",
-        "prob": null
-      },
-      "pick_3": null,
-      "rankeado_real": false,
-      "props_partido": [
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #5: Feyenoord vs FC Porto (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Feyenoord",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Feyenoord OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Feyenoord Más de 0.5 Goles (Anota Gol)",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #5: Feyenoord vs FC Porto (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "Feyenoord",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "Feyenoord OVER 4.5 Córners del Equipo",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Feyenoord Más de 4.5 Córners del Equipo",
-          "lado": "A"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #5: Feyenoord vs FC Porto (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "FC Porto",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "FC Porto OVER 0.5 Goles (Anota Gol)",
-          "probabilidad": 91.0,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "FC Porto Más de 0.5 Goles (Anota Gol)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #5: Feyenoord vs FC Porto (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "FC Porto",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "FC Porto UNDER 1.5 Goles Recibidos (Muro)",
-          "probabilidad": 81.6,
-          "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "FC Porto Menos de 1.5 Goles Recibidos (Muro)",
-          "lado": "B"
-        },
-        {
-          "deporte": "SOCCER",
-          "partido": "Partido #5: Feyenoord vs FC Porto (4 Picks: 2xEquipo)",
-          "equipo": "",
-          "jugador": "11.22x",
-          "es_equipo": false,
-          "foto": "",
-          "pick": "11.22x",
-          "probabilidad": 61.5,
-          "racha_l5": "",
-          "pick_amigable": "11.22x",
-          "lado": "ALL"
-        }
-      ],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "UEFA Champions League",
-      "fecha": "2026-11-24",
-      "duelo": "Como vs AEK Athens FC",
-      "pick_principal": "🏠 Gana Como",
-      "cuota": 1.3,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "b9eac5f7405f",
-      "equipo_a": "Como",
-      "equipo_b": "AEK Athens FC",
-      "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
       "logo_b": "",
       "contexto": [],
       "pick_1": {
         "etiqueta": "Pronóstico Principal",
-        "texto": "🏠 Gana Como",
-        "prob": 60.1
+        "texto": "⚽ Más de 1.5 Goles",
+        "prob": 71.8
       },
       "pick_2": {
         "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -21.9%",
+        "texto": "Valor sobre casino: +1.9%",
         "prob": null
       },
       "pick_3": null,
@@ -2213,59 +1853,59 @@
       "props_partido": [
         {
           "deporte": "SOCCER",
-          "partido": "Partido #4: Como vs AEK Athens FC (4 Picks: 2xEquipo)",
+          "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Como",
+          "jugador": "Boca Juniors",
           "es_equipo": false,
           "foto": "",
-          "pick": "Como OVER 0.5 Goles (Anota Gol)",
+          "pick": "Boca Juniors OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Como Más de 0.5 Goles (Anota Gol)",
+          "pick_amigable": "Boca Juniors Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #4: Como vs AEK Athens FC (4 Picks: 2xEquipo)",
+          "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Como",
+          "jugador": "Boca Juniors",
           "es_equipo": false,
           "foto": "",
-          "pick": "Como OVER 4.5 Córners del Equipo",
+          "pick": "Boca Juniors OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Como Más de 4.5 Córners del Equipo",
+          "pick_amigable": "Boca Juniors Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #4: Como vs AEK Athens FC (4 Picks: 2xEquipo)",
+          "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "AEK Athens FC",
+          "jugador": "Independ. Rivadavia",
           "es_equipo": false,
           "foto": "",
-          "pick": "AEK Athens FC OVER 0.5 Goles (Anota Gol)",
+          "pick": "Independ. Rivadavia OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "AEK Athens FC Más de 0.5 Goles (Anota Gol)",
+          "pick_amigable": "Independ. Rivadavia Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #4: Como vs AEK Athens FC (4 Picks: 2xEquipo)",
+          "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "AEK Athens FC",
+          "jugador": "Independ. Rivadavia",
           "es_equipo": false,
           "foto": "",
-          "pick": "AEK Athens FC OVER 2.5 Remates a Puerta",
+          "pick": "Independ. Rivadavia OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "AEK Athens FC Más de 2.5 Remates a Puerta",
+          "pick_amigable": "Independ. Rivadavia Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #4: Como vs AEK Athens FC (4 Picks: 2xEquipo)",
+          "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
           "equipo": "",
           "jugador": "11.22x",
           "es_equipo": false,
@@ -2278,32 +1918,37 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 1.67 / 3.90 / 6.00",
+        "linea_2": "Altas / Bajas 2.5 goles: 2.32 / 1.70",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-25 01:01:21"
+      }
     },
     {
       "deporte": "SOCCER",
-      "liga": "UEFA Champions League",
-      "fecha": "2026-11-24",
-      "duelo": "Arsenal vs Borussia Dortmund",
+      "liga": "Serie A",
+      "fecha": "2026-11-25",
+      "duelo": "Atletico-MG vs Corinthians",
       "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.25,
+      "cuota": 1.35,
       "estado": "Pendiente",
       "ganancia": 0.0,
-      "id": "a9c48ecb16b1",
-      "equipo_a": "Arsenal",
-      "equipo_b": "Borussia Dortmund",
+      "id": "660a88c3fd9b",
+      "equipo_a": "Atletico-MG",
+      "equipo_b": "Corinthians",
       "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
       "contexto": [],
       "pick_1": {
         "etiqueta": "Pronóstico Principal",
         "texto": "⚽ Más de 1.5 Goles",
-        "prob": 68.5
+        "prob": 71.8
       },
       "pick_2": {
         "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -14.4%",
+        "texto": "Valor sobre casino: -3.1%",
         "prob": null
       },
       "pick_3": null,
@@ -2311,97 +1956,102 @@
       "props_partido": [
         {
           "deporte": "SOCCER",
-          "partido": "Partido #3: Arsenal vs Borussia Dortmund (4 Picks: 2xEquipo)",
+          "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Arsenal",
+          "jugador": "Atletico-MG",
           "es_equipo": false,
           "foto": "",
-          "pick": "Arsenal OVER 0.5 Goles (Anota Gol)",
+          "pick": "Atletico-MG OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Arsenal Más de 0.5 Goles (Anota Gol)",
+          "pick_amigable": "Atletico-MG Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #3: Arsenal vs Borussia Dortmund (4 Picks: 2xEquipo)",
+          "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Arsenal",
+          "jugador": "Atletico-MG",
           "es_equipo": false,
           "foto": "",
-          "pick": "Arsenal OVER 3.5 Remates a Puerta",
+          "pick": "Atletico-MG OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Arsenal Más de 3.5 Remates a Puerta",
+          "pick_amigable": "Atletico-MG Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #3: Arsenal vs Borussia Dortmund (4 Picks: 2xEquipo)",
+          "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Borussia Dortmund",
+          "jugador": "Corinthians",
           "es_equipo": false,
           "foto": "",
-          "pick": "Borussia Dortmund OVER 0.5 Goles (Anota Gol)",
+          "pick": "Corinthians OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Borussia Dortmund Más de 0.5 Goles (Anota Gol)",
+          "pick_amigable": "Corinthians Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #3: Arsenal vs Borussia Dortmund (4 Picks: 2xEquipo)",
+          "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Borussia Dortmund",
+          "jugador": "Corinthians",
           "es_equipo": false,
           "foto": "",
-          "pick": "Borussia Dortmund UNDER 4.5 Córners del Equipo",
-          "probabilidad": 78.4,
-          "racha_l5": "🟢🟢🔴🟢🟢",
-          "pick_amigable": "Borussia Dortmund Menos de 4.5 Córners del Equipo",
+          "pick": "Corinthians OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Corinthians Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #3: Arsenal vs Borussia Dortmund (4 Picks: 2xEquipo)",
+          "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
           "equipo": "",
           "jugador": "11.22x",
           "es_equipo": false,
           "foto": "",
           "pick": "11.22x",
-          "probabilidad": 59.1,
+          "probabilidad": 68.6,
           "racha_l5": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 2.49 / 3.48 / 3.05",
+        "linea_2": "Altas / Bajas 2.5 goles: 2.06 / 1.83",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-25 01:01:14"
+      }
     },
     {
       "deporte": "SOCCER",
       "liga": "UEFA Champions League",
-      "fecha": "2026-11-24",
-      "duelo": "Galatasaray vs Aston Villa",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.17,
+      "fecha": "2026-11-25",
+      "duelo": "Sporting CP vs Manchester United",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.31,
       "estado": "Pendiente",
       "ganancia": 0.0,
-      "id": "f7e61882465d",
-      "equipo_a": "Galatasaray",
-      "equipo_b": "Aston Villa",
+      "id": "cb4613db75be",
+      "equipo_a": "Sporting CP",
+      "equipo_b": "Manchester United",
       "separador": "vs",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
       "contexto": [],
       "pick_1": {
         "etiqueta": "Pronóstico Principal",
-        "texto": "⚽ Más de 1.5 Goles",
-        "prob": 66.8
+        "texto": "🛡️ 12 (Local o Visita)",
+        "prob": 72.6
       },
       "pick_2": {
         "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -21.9%",
+        "texto": "Valor sobre casino: -4.8%",
         "prob": null
       },
       "pick_3": null,
@@ -2409,97 +2059,205 @@
       "props_partido": [
         {
           "deporte": "SOCCER",
-          "partido": "Partido #2: Galatasaray vs Aston Villa (4 Picks: 2xEquipo)",
+          "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Galatasaray",
+          "jugador": "Sporting CP",
           "es_equipo": false,
           "foto": "",
-          "pick": "Galatasaray OVER 0.5 Goles (Anota Gol)",
+          "pick": "Sporting CP OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Galatasaray Más de 0.5 Goles (Anota Gol)",
+          "pick_amigable": "Sporting CP Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #2: Galatasaray vs Aston Villa (4 Picks: 2xEquipo)",
+          "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Galatasaray",
+          "jugador": "Sporting CP",
           "es_equipo": false,
           "foto": "",
-          "pick": "Galatasaray OVER 4.5 Córners del Equipo",
+          "pick": "Sporting CP OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Galatasaray Más de 4.5 Córners del Equipo",
+          "pick_amigable": "Sporting CP Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #2: Galatasaray vs Aston Villa (4 Picks: 2xEquipo)",
+          "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Aston Villa",
+          "jugador": "Manchester United",
           "es_equipo": false,
           "foto": "",
-          "pick": "Aston Villa OVER 0.5 Goles (Anota Gol)",
+          "pick": "Manchester United OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Aston Villa Más de 0.5 Goles (Anota Gol)",
+          "pick_amigable": "Manchester United Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #2: Galatasaray vs Aston Villa (4 Picks: 2xEquipo)",
+          "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Aston Villa",
+          "jugador": "Manchester United",
           "es_equipo": false,
           "foto": "",
-          "pick": "Aston Villa UNDER 1.5 Goles Recibidos (Muro)",
-          "probabilidad": 81.6,
+          "pick": "Manchester United OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Aston Villa Menos de 1.5 Goles Recibidos (Muro)",
+          "pick_amigable": "Manchester United Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #2: Galatasaray vs Aston Villa (4 Picks: 2xEquipo)",
+          "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
           "equipo": "",
           "jugador": "11.22x",
           "es_equipo": false,
           "foto": "",
           "pick": "11.22x",
-          "probabilidad": 61.5,
+          "probabilidad": 68.6,
           "racha_l5": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 2.65 / 3.84 / 2.70",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.57 / 2.62",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-25 01:01:08"
+      }
     },
     {
       "deporte": "SOCCER",
       "liga": "UEFA Champions League",
-      "fecha": "2026-11-24",
-      "duelo": "Bodo/Glimt vs Lask Linz",
+      "fecha": "2026-11-25",
+      "duelo": "Shakhtar Donetsk vs Fenerbahçe",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.34,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "7cb0476e3bf0",
+      "equipo_a": "Shakhtar Donetsk",
+      "equipo_b": "Fenerbahçe",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "contexto": [],
+      "pick_1": {
+        "etiqueta": "Pronóstico Principal",
+        "texto": "🛡️ 12 (Local o Visita)",
+        "prob": 72.2
+      },
+      "pick_2": {
+        "etiqueta": "Ventaja Detectada",
+        "texto": "Valor sobre casino: -3.2%",
+        "prob": null
+      },
+      "pick_3": null,
+      "rankeado_real": false,
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Shakhtar Donetsk",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Shakhtar Donetsk OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Shakhtar Donetsk Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Shakhtar Donetsk",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Shakhtar Donetsk OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Shakhtar Donetsk Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Fenerbahçe",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Fenerbahçe OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Fenerbahçe Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Fenerbahçe",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Fenerbahçe OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Fenerbahçe Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 3.10 / 3.60 / 2.60",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.84 / 2.16",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-25 01:01:02"
+      }
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Champions League",
+      "fecha": "2026-11-25",
+      "duelo": "Paris Saint Germain vs AS Roma",
       "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.17,
+      "cuota": 1.16,
       "estado": "Pendiente",
       "ganancia": 0.0,
-      "id": "436df88825e5",
-      "equipo_a": "Bodo/Glimt",
-      "equipo_b": "Lask Linz",
+      "id": "b8c4b820e3a3",
+      "equipo_a": "Paris Saint Germain",
+      "equipo_b": "AS Roma",
       "separador": "vs",
-      "logo_a": "",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
       "contexto": [],
       "pick_1": {
         "etiqueta": "Pronóstico Principal",
         "texto": "🛡️ 1X (Local o Empate)",
-        "prob": 78.6
+        "prob": 80.5
       },
       "pick_2": {
         "etiqueta": "Ventaja Detectada",
-        "texto": "Valor sobre casino: -8.1%",
+        "texto": "Valor sobre casino: -6.7%",
         "prob": null
       },
       "pick_3": null,
@@ -2507,72 +2265,489 @@
       "props_partido": [
         {
           "deporte": "SOCCER",
-          "partido": "Partido #1: Bodo/Glimt vs Lask Linz (4 Picks: 2xEquipo)",
+          "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Bodo/Glimt",
+          "jugador": "Paris Saint Germain",
           "es_equipo": false,
           "foto": "",
-          "pick": "Bodo/Glimt OVER 0.5 Goles (Anota Gol)",
+          "pick": "Paris Saint Germain OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Bodo/Glimt Más de 0.5 Goles (Anota Gol)",
+          "pick_amigable": "Paris Saint Germain Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #1: Bodo/Glimt vs Lask Linz (4 Picks: 2xEquipo)",
+          "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Bodo/Glimt",
+          "jugador": "Paris Saint Germain",
           "es_equipo": false,
           "foto": "",
-          "pick": "Bodo/Glimt OVER 4.5 Córners del Equipo",
+          "pick": "Paris Saint Germain OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Bodo/Glimt Más de 4.5 Córners del Equipo",
+          "pick_amigable": "Paris Saint Germain Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #1: Bodo/Glimt vs Lask Linz (4 Picks: 2xEquipo)",
+          "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Lask Linz",
+          "jugador": "AS Roma",
           "es_equipo": false,
           "foto": "",
-          "pick": "Lask Linz OVER 0.5 Goles (Anota Gol)",
+          "pick": "AS Roma OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Lask Linz Más de 0.5 Goles (Anota Gol)",
+          "pick_amigable": "AS Roma Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #1: Bodo/Glimt vs Lask Linz (4 Picks: 2xEquipo)",
+          "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
           "equipo": "",
-          "jugador": "Lask Linz",
+          "jugador": "AS Roma",
           "es_equipo": false,
           "foto": "",
-          "pick": "Lask Linz OVER 2.5 Remates a Puerta",
-          "probabilidad": 85.7,
+          "pick": "AS Roma OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
-          "pick_amigable": "Lask Linz Más de 2.5 Remates a Puerta",
+          "pick_amigable": "AS Roma Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
         {
           "deporte": "SOCCER",
-          "partido": "Partido #1: Bodo/Glimt vs Lask Linz (4 Picks: 2xEquipo)",
+          "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
           "equipo": "",
           "jugador": "11.22x",
           "es_equipo": false,
           "foto": "",
           "pick": "11.22x",
-          "probabilidad": 64.6,
+          "probabilidad": 68.6,
           "racha_l5": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 1.52 / 5.40 / 6.62",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.33 / 3.50",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-25 01:00:55"
+      }
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Champions League",
+      "fecha": "2026-11-25",
+      "duelo": "Lille vs Bayern München",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.27,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "572444593979",
+      "equipo_a": "Lille",
+      "equipo_b": "Bayern München",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+      "logo_b": "",
+      "contexto": [],
+      "pick_1": {
+        "etiqueta": "Pronóstico Principal",
+        "texto": "🛡️ 12 (Local o Visita)",
+        "prob": 73.9
+      },
+      "pick_2": {
+        "etiqueta": "Ventaja Detectada",
+        "texto": "Valor sobre casino: -6.1%",
+        "prob": null
+      },
+      "pick_3": null,
+      "rankeado_real": false,
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Lille",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Lille OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Lille Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Lille",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Lille OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Lille Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Bayern München",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Bayern München OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Bayern München Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Bayern München",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Bayern München OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Bayern München Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 5.50 / 4.40 / 1.69",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.66 / 2.41",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-25 01:00:49"
+      }
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Champions League",
+      "fecha": "2026-11-25",
+      "duelo": "Inter vs VfB Stuttgart",
+      "pick_principal": "🏠 Gana Inter",
+      "cuota": 1.45,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "24f5729a0925",
+      "equipo_a": "Inter",
+      "equipo_b": "VfB Stuttgart",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+      "contexto": [],
+      "pick_1": {
+        "etiqueta": "Pronóstico Principal",
+        "texto": "🏠 Gana Inter",
+        "prob": 56.8
+      },
+      "pick_2": {
+        "etiqueta": "Ventaja Detectada",
+        "texto": "Valor sobre casino: -17.7%",
+        "prob": null
+      },
+      "pick_3": null,
+      "rankeado_real": false,
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Inter",
+          "es_equipo": false,
+          "foto": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895783.png",
+          "pick": "Inter OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Inter Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Inter",
+          "es_equipo": false,
+          "foto": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895783.png",
+          "pick": "Inter OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Inter Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "VfB Stuttgart",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "VfB Stuttgart OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "VfB Stuttgart Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "VfB Stuttgart",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "VfB Stuttgart OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "VfB Stuttgart Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 1.45 / 5.80 / 6.75",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.27 / 4.20",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-25 01:00:43"
+      }
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Champions League",
+      "fecha": "2026-11-25",
+      "duelo": "Club Brugge KV vs Liverpool",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.23,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "725293146424",
+      "equipo_a": "Club Brugge KV",
+      "equipo_b": "Liverpool",
+      "separador": "vs",
+      "logo_a": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+      "contexto": [],
+      "pick_1": {
+        "etiqueta": "Pronóstico Principal",
+        "texto": "🛡️ 12 (Local o Visita)",
+        "prob": 74.6
+      },
+      "pick_2": {
+        "etiqueta": "Ventaja Detectada",
+        "texto": "Valor sobre casino: -8.2%",
+        "prob": null
+      },
+      "pick_3": null,
+      "rankeado_real": false,
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Club Brugge KV",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Club Brugge KV OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Club Brugge KV Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Club Brugge KV",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Club Brugge KV OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Club Brugge KV Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Liverpool",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Liverpool OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Liverpool Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Liverpool",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Liverpool OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Liverpool Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 4.72 / 4.85 / 1.70",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.32 / 3.70",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-25 01:00:37"
+      }
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Champions League",
+      "fecha": "2026-11-25",
+      "duelo": "Slavia Praha vs Villarreal",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.3,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "647be1aa6b19",
+      "equipo_a": "Slavia Praha",
+      "equipo_b": "Villarreal",
+      "separador": "vs",
+      "logo_a": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+      "contexto": [],
+      "pick_1": {
+        "etiqueta": "Pronóstico Principal",
+        "texto": "🛡️ 12 (Local o Visita)",
+        "prob": 72.9
+      },
+      "pick_2": {
+        "etiqueta": "Ventaja Detectada",
+        "texto": "Valor sobre casino: -5.3%",
+        "prob": null
+      },
+      "pick_3": null,
+      "rankeado_real": false,
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Slavia Praha",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Slavia Praha OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Slavia Praha Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Slavia Praha",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Slavia Praha OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Slavia Praha Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Villarreal",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Villarreal OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Villarreal Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Villarreal",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Villarreal OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Villarreal Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 3.10 / 4.09 / 2.23",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.53 / 2.70",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-25 01:00:24"
+      }
     }
   ],
   "aperturas": [
@@ -2895,7 +3070,73 @@
       "linea_2": "Altas / Bajas 2.5 goles: 1.13 / 7.50",
       "casino": "Pinnacle / Consenso",
       "captura": "2026-11-25 01:00:18",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #1: Sabah FA vs Barcelona (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Sabah FA",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Sabah FA OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Sabah FA Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #1: Sabah FA vs Barcelona (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Sabah FA",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Sabah FA OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Sabah FA Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #1: Sabah FA vs Barcelona (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Barcelona",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Barcelona OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Barcelona Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #1: Sabah FA vs Barcelona (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Barcelona",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Barcelona OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Barcelona Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #1: Sabah FA vs Barcelona (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -2914,7 +3155,73 @@
       "linea_2": "Altas / Bajas 2.5 goles: 1.53 / 2.70",
       "casino": "Pinnacle / Consenso",
       "captura": "2026-11-25 01:00:24",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Slavia Praha",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Slavia Praha OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Slavia Praha Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Slavia Praha",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Slavia Praha OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Slavia Praha Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Villarreal",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Villarreal OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Villarreal Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Villarreal",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Villarreal OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Villarreal Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #2: Slavia Praha vs Villarreal (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -2933,7 +3240,73 @@
       "linea_2": "Altas / Bajas 2.5 goles: 1.28 / 4.00",
       "casino": "Pinnacle / Consenso",
       "captura": "2026-11-25 01:00:30",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Atletico Madrid vs Viking (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atletico Madrid",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atletico Madrid OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atletico Madrid Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Atletico Madrid vs Viking (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atletico Madrid",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atletico Madrid OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atletico Madrid Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Atletico Madrid vs Viking (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Viking",
+          "es_equipo": false,
+          "foto": "https://a.espncdn.com/i/headshots/mma/players/full/4226626.png",
+          "pick": "Viking OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Viking Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Atletico Madrid vs Viking (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Viking",
+          "es_equipo": false,
+          "foto": "https://a.espncdn.com/i/headshots/mma/players/full/4226626.png",
+          "pick": "Viking OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Viking Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #3: Atletico Madrid vs Viking (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -2952,7 +3325,73 @@
       "linea_2": "Altas / Bajas 2.5 goles: 1.32 / 3.70",
       "casino": "Pinnacle / Consenso",
       "captura": "2026-11-25 01:00:37",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Club Brugge KV",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Club Brugge KV OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Club Brugge KV Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Club Brugge KV",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Club Brugge KV OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Club Brugge KV Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Liverpool",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Liverpool OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Liverpool Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Liverpool",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Liverpool OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Liverpool Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #4: Club Brugge KV vs Liverpool (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -2971,7 +3410,73 @@
       "linea_2": "Altas / Bajas 2.5 goles: 1.27 / 4.20",
       "casino": "Pinnacle / Consenso",
       "captura": "2026-11-25 01:00:43",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Inter",
+          "es_equipo": false,
+          "foto": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895783.png",
+          "pick": "Inter OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Inter Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Inter",
+          "es_equipo": false,
+          "foto": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895783.png",
+          "pick": "Inter OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Inter Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "VfB Stuttgart",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "VfB Stuttgart OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "VfB Stuttgart Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "VfB Stuttgart",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "VfB Stuttgart OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "VfB Stuttgart Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #5: Inter vs VfB Stuttgart (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -2990,7 +3495,73 @@
       "linea_2": "Altas / Bajas 2.5 goles: 1.66 / 2.41",
       "casino": "Pinnacle / Consenso",
       "captura": "2026-11-25 01:00:49",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Lille",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Lille OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Lille Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Lille",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Lille OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Lille Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Bayern München",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Bayern München OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Bayern München Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Bayern München",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Bayern München OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Bayern München Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #6: Lille vs Bayern München (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -3009,7 +3580,73 @@
       "linea_2": "Altas / Bajas 2.5 goles: 1.33 / 3.50",
       "casino": "Pinnacle / Consenso",
       "captura": "2026-11-25 01:00:55",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Paris Saint Germain",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Paris Saint Germain OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Paris Saint Germain Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Paris Saint Germain",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Paris Saint Germain OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Paris Saint Germain Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "AS Roma",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "AS Roma OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "AS Roma Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "AS Roma",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "AS Roma OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "AS Roma Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #7: Paris Saint Germain vs AS Roma (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -3028,7 +3665,73 @@
       "linea_2": "Altas / Bajas 2.5 goles: 1.84 / 2.16",
       "casino": "Pinnacle / Consenso",
       "captura": "2026-11-25 01:01:02",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Shakhtar Donetsk",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Shakhtar Donetsk OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Shakhtar Donetsk Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Shakhtar Donetsk",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Shakhtar Donetsk OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Shakhtar Donetsk Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Fenerbahçe",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Fenerbahçe OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Fenerbahçe Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Fenerbahçe",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Fenerbahçe OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Fenerbahçe Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #8: Shakhtar Donetsk vs Fenerbahçe (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -3047,7 +3750,73 @@
       "linea_2": "Altas / Bajas 2.5 goles: 1.57 / 2.62",
       "casino": "Pinnacle / Consenso",
       "captura": "2026-11-25 01:01:08",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Sporting CP",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Sporting CP OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Sporting CP Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Sporting CP",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Sporting CP OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Sporting CP Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Manchester United",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Manchester United OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Manchester United Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Manchester United",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Manchester United OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Manchester United Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #9: Sporting CP vs Manchester United (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -3066,7 +3835,73 @@
       "linea_2": "Altas / Bajas 2.5 goles: 2.06 / 1.83",
       "casino": "Pinnacle / Consenso",
       "captura": "2026-11-25 01:01:14",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atletico-MG",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atletico-MG OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atletico-MG Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atletico-MG",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atletico-MG OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atletico-MG Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Corinthians",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Corinthians OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Corinthians Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Corinthians",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Corinthians OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Corinthians Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #10: Atletico-MG vs Corinthians (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -3085,7 +3920,73 @@
       "linea_2": "Altas / Bajas 2.5 goles: 2.32 / 1.70",
       "casino": "Pinnacle / Consenso",
       "captura": "2026-11-25 01:01:21",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Boca Juniors",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Boca Juniors OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Boca Juniors Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Boca Juniors",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Boca Juniors OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Boca Juniors Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Independ. Rivadavia",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Independ. Rivadavia OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Independ. Rivadavia Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Independ. Rivadavia",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Independ. Rivadavia OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Independ. Rivadavia Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #11: Boca Juniors vs Independ. Rivadavia (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -3104,7 +4005,73 @@
       "linea_2": "Altas / Bajas 2.5 goles: 1.50 / 2.65",
       "casino": "Pinnacle / Consenso",
       "captura": "2026-11-25 01:01:27",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Toluca",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Toluca OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Toluca Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Toluca",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Toluca OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Toluca Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atlas",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atlas OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atlas Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Atlas",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Atlas OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Atlas Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #12: Toluca vs Atlas (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -3123,12 +4090,188 @@
       "linea_2": "Altas / Bajas 2.5 goles: 1.93 / 1.97",
       "casino": "Pinnacle / Consenso",
       "captura": "2026-11-25 01:01:33",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Monterrey",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Monterrey OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Monterrey Más de 0.5 Goles (Anota Gol)",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Monterrey",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Monterrey OVER 4.5 Córners del Equipo",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Monterrey Más de 4.5 Córners del Equipo",
+          "lado": "A"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Club America",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Club America OVER 0.5 Goles (Anota Gol)",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Club America Más de 0.5 Goles (Anota Gol)",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "Club America",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "Club America OVER 2.5 Remates a Puerta",
+          "probabilidad": 91.0,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "Club America Más de 2.5 Remates a Puerta",
+          "lado": "B"
+        },
+        {
+          "deporte": "SOCCER",
+          "partido": "Partido #13: Monterrey vs Club America (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "11.22x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "11.22x",
+          "probabilidad": 68.6,
+          "racha_l5": "",
+          "pick_amigable": "11.22x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     }
   ],
   "historial": [
+    {
+      "deporte": "SOCCER",
+      "liga": "Major League Soccer",
+      "fecha": "2026-11-24",
+      "duelo": "San Jose Earthquakes vs Houston Dynamo",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.29,
+      "estado": "Ganado",
+      "ganancia": 0.29
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-24",
+      "duelo": "Chapecoense-sc vs Palmeiras",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.24,
+      "estado": "Ganado",
+      "ganancia": 0.24
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Champions League",
+      "fecha": "2026-11-24",
+      "duelo": "Slovan Bratislava vs Real Betis",
+      "pick_principal": "✈️ Gana Real Betis",
+      "cuota": 1.32,
+      "estado": "Ganado",
+      "ganancia": 0.32
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Champions League",
+      "fecha": "2026-11-24",
+      "duelo": "Real Madrid vs PSV Eindhoven",
+      "pick_principal": "🏠 Gana Real Madrid",
+      "cuota": 1.17,
+      "estado": "Ganado",
+      "ganancia": 0.17
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Champions League",
+      "fecha": "2026-11-24",
+      "duelo": "RB Leipzig vs Lens",
+      "pick_principal": "🏠 Gana RB Leipzig",
+      "cuota": 1.4,
+      "estado": "Ganado",
+      "ganancia": 0.4
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Champions League",
+      "fecha": "2026-11-24",
+      "duelo": "Manchester City vs Napoli",
+      "pick_principal": "🏠 Gana Manchester City",
+      "cuota": 1.33,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Champions League",
+      "fecha": "2026-11-24",
+      "duelo": "Feyenoord vs FC Porto",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.21,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Champions League",
+      "fecha": "2026-11-24",
+      "duelo": "Como vs AEK Athens FC",
+      "pick_principal": "🏠 Gana Como",
+      "cuota": 1.3,
+      "estado": "Ganado",
+      "ganancia": 0.3
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Champions League",
+      "fecha": "2026-11-24",
+      "duelo": "Arsenal vs Borussia Dortmund",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.25,
+      "estado": "Ganado",
+      "ganancia": 0.25
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Champions League",
+      "fecha": "2026-11-24",
+      "duelo": "Galatasaray vs Aston Villa",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.17,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Champions League",
+      "fecha": "2026-11-24",
+      "duelo": "Bodo/Glimt vs Lask Linz",
+      "pick_principal": "🛡️ 1X (Local o Empate)",
+      "cuota": 1.17,
+      "estado": "Ganado",
+      "ganancia": 0.17
+    },
     {
       "deporte": "NBA",
       "liga": "NBA",
@@ -3818,116 +4961,6 @@
       "cuota": 1.25,
       "estado": "Ganado",
       "ganancia": 0.25
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-21",
-      "duelo": "Chapecoense-sc vs Cruzeiro",
-      "pick_principal": "🛡️ 12 (Local o Visita)",
-      "cuota": 1.2,
-      "estado": "Ganado",
-      "ganancia": 0.2
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Major League Soccer",
-      "fecha": "2026-11-21",
-      "duelo": "Inter Miami vs Columbus Crew",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.23,
-      "estado": "Perdido",
-      "ganancia": -1.0
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Liga MX",
-      "fecha": "2026-11-21",
-      "duelo": "Santos Laguna vs Leon",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.2,
-      "estado": "Ganado",
-      "ganancia": 0.2
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Liga MX",
-      "fecha": "2026-11-21",
-      "duelo": "CF Pachuca vs Toluca",
-      "pick_principal": "🛡️ 12 (Local o Visita)",
-      "cuota": 1.25,
-      "estado": "Ganado",
-      "ganancia": 0.25
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Major League Soccer",
-      "fecha": "2026-11-21",
-      "duelo": "FC Dallas vs Portland Timbers",
-      "pick_principal": "🛡️ 12 (Local o Visita)",
-      "cuota": 1.26,
-      "estado": "Ganado",
-      "ganancia": 0.26
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-21",
-      "duelo": "Bahia vs Coritiba",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.17,
-      "estado": "Perdido",
-      "ganancia": -1.0
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Liga Profesional Argentina",
-      "fecha": "2026-11-21",
-      "duelo": "Argentinos JRS vs Independiente",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.53,
-      "estado": "Ganado",
-      "ganancia": 0.53
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "La Liga",
-      "fecha": "2026-11-21",
-      "duelo": "Real Madrid vs Celta Vigo",
-      "pick_principal": "🏠 Gana Real Madrid",
-      "cuota": 1.2,
-      "estado": "Ganado",
-      "ganancia": 0.2
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Ligue 1",
-      "fecha": "2026-11-21",
-      "duelo": "Strasbourg vs Stade Brestois 29",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.4,
-      "estado": "Perdido",
-      "ganancia": -1.0
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Ligue 1",
-      "fecha": "2026-11-21",
-      "duelo": "Monaco vs Auxerre",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.22,
-      "estado": "Ganado",
-      "ganancia": 0.22
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Ligue 1",
-      "fecha": "2026-11-21",
-      "duelo": "Lille vs Lyon",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.39,
-      "estado": "Perdido",
-      "ganancia": -1.0
     }
   ]
 }
