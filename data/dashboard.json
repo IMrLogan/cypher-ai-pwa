@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-26 06:10 CST",
+  "updated_at": "2026-11-26 10:45 CST",
   "fecha_operativa": "2026-11-26",
   "kpis": {
-    "ganados": 523,
+    "ganados": 524,
     "perdidos": 374,
-    "total_auditados": 897,
-    "win_rate": 58.3,
-    "unidades_netas": -208.43,
-    "roi_global": -23.2,
-    "picks_hoy": 31,
+    "total_auditados": 898,
+    "win_rate": 58.4,
+    "unidades_netas": -207.52,
+    "roi_global": -23.1,
+    "picks_hoy": 33,
     "aperturas_activas": 50
   },
   "motores": [
@@ -53,12 +53,12 @@
       "roi": -32.8
     },
     "NFL": {
-      "ganados": 88,
+      "ganados": 89,
       "perdidos": 74,
-      "total": 162,
-      "win_rate": 54.3,
-      "unidades": -2.87,
-      "roi": -1.8
+      "total": 163,
+      "win_rate": 54.6,
+      "unidades": -1.96,
+      "roi": -1.2
     },
     "SOCCER": {
       "ganados": 211,
@@ -204,10 +204,30 @@
     },
     {
       "fecha": "2026-11-25",
-      "unidades": -166.88
+      "unidades": -165.97
     }
   ],
   "diamantes": [
+    {
+      "deporte": "NFL",
+      "titulo": "💎 NFL CYPHER AI: FILTRO MAESTRO 'PICKS DIAMANTE' (2026-11-26)",
+      "descripcion": "Selección institucional de **Francotirador (Cero Relleno)**. Solo aparecen partidos que superaron **EPA Filtrado 60/40 SOS, Clima en Vivo, Árbitro, Candado GTD y Escudo RLM Semanal**.",
+      "es_no_bet": false,
+      "campos": [
+        {
+          "titulo": "💎 BALA DE PLATA ÚNICA: APUESTA DIRECTA BLINDADA (1 SELECCIÓN)",
+          "valor": "**1. CHI @ DET** — `💎💎💎 DIAMANTE PURO (Grado A+)`\n> 🎯 **Pick Diamante:** `Gana DET (ML)` (`62.0%` Prob IA | Cuota: `1.91`)\n> 🛡️ **Auditoría 3 Compuertas:** TD/FG MC `62.0%` | Titulares 100% Sanos + 🔥 RLM a Favor\n> ⭐ **Prop Ancla del Juego:** `CHI: QB C.Williams OVER 227.5 Yds Pase (Proy: 295.6 | Prob: 91.5%)`"
+        },
+        {
+          "titulo": "💰 Matemática del Boleto Diamante",
+          "valor": "> **Cuota Total:** `1.91x`\n> **Probabilidad Conjunta Real:** `62.0%`\n> **Stake Institucional Sugerido:** `3.6%` del Bankroll *(Se recomienda jugar también cada Bala de Plata en derecho)*"
+        },
+        {
+          "titulo": "📌 Radares Especiales de la Jornada (Líderes por Mercado)",
+          "valor": "• **Hándicap Más Sólido:** `PHI @ DAL` ➡️ **DAL -3.0** (`62.8%`)\n• **Total Más Sólido (O/U):** `PHI @ DAL` ➡️ **MENOS DE (Under) 45.0** (`58.2%`)"
+        }
+      ]
+    },
     {
       "deporte": "SOCCER",
       "titulo": "💎 CYPHER AI SOCCER: FILTRO MAESTRO 'PICKS DIAMANTE' (2026-11-26)",
@@ -230,6 +250,30 @@
     }
   ],
   "props": [
+    {
+      "deporte": "NFL",
+      "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "QB C.Williams",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "QB C.Williams OVER 227.5 Yds Pase",
+      "probabilidad": 91.5,
+      "racha_l5": "🟢🟢🟢🟢🔴",
+      "pick_amigable": "QB C.Williams Más de 227.5 Yds Pase"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "WR R.Rice",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "WR R.Rice OVER 4.5 Recepciones",
+      "probabilidad": 91.5,
+      "racha_l5": "🟢🟢🟢🟢🟢",
+      "pick_amigable": "WR R.Rice Más de 4.5 Recepciones"
+    },
     {
       "deporte": "SOCCER",
       "partido": "Partido #1: Beşiktaş vs Hapoel Beer Sheva (4 Picks: 2xEquipo)",
@@ -1251,6 +1295,78 @@
       "pick_amigable": "1410.63x"
     },
     {
+      "deporte": "NFL",
+      "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "WR R.Odunze",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "WR R.Odunze OVER 54.5 Yds Rec",
+      "probabilidad": 74.3,
+      "racha_l5": "🔴🟢🟢🟢🔴",
+      "pick_amigable": "WR R.Odunze Más de 54.5 Yds Rec"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "QB D.Prescott",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "QB D.Prescott OVER 261.5 Yds Pase",
+      "probabilidad": 73.5,
+      "racha_l5": "🔴🔴🟢🟢🟢",
+      "pick_amigable": "QB D.Prescott Más de 261.5 Yds Pase"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "WR M.Lemon",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "WR M.Lemon OVER 3.5 Recepciones",
+      "probabilidad": 70.8,
+      "racha_l5": "🔴🟢🟢🟢🔴",
+      "pick_amigable": "WR M.Lemon Más de 3.5 Recepciones"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "WR D.Goedert",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "WR D.Goedert OVER 38.5 Yds Rec",
+      "probabilidad": 70.7,
+      "racha_l5": "🟢🟢🔴🟢🔴",
+      "pick_amigable": "WR D.Goedert Más de 38.5 Yds Rec"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "QB P.Mahomes",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "QB P.Mahomes OVER 262.5 Yds Pase",
+      "probabilidad": 68.8,
+      "racha_l5": "🔴🟢🔴🟢🟢",
+      "pick_amigable": "QB P.Mahomes Más de 262.5 Yds Pase"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "QB J.Allen",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "QB J.Allen OVER 231.5 Yds Pase",
+      "probabilidad": 68.8,
+      "racha_l5": "🟢🟢🟢🔴🟢",
+      "pick_amigable": "QB J.Allen Más de 231.5 Yds Pase"
+    },
+    {
       "deporte": "SOCCER",
       "partido": "Partido #1: Beşiktaş vs Hapoel Beer Sheva (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -1503,6 +1619,126 @@
       "pick_amigable": "11.22x"
     },
     {
+      "deporte": "NFL",
+      "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "WR D.Moore",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "WR D.Moore UNDER 4.5 Recepciones",
+      "probabilidad": 67.6,
+      "racha_l5": "🟢🟢🟢🟢🔴",
+      "pick_amigable": "WR D.Moore Menos de 4.5 Recepciones"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "QB J.Goff",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "QB J.Goff OVER 230.5 Yds Pase",
+      "probabilidad": 65.6,
+      "racha_l5": "🟢🔴🔴🟢🟢",
+      "pick_amigable": "QB J.Goff Más de 230.5 Yds Pase"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "WR A.St. Brown",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "WR A.St. Brown OVER 5.5 Recepciones",
+      "probabilidad": 65.3,
+      "racha_l5": "🟢🟢🟢🔴🔴",
+      "pick_amigable": "WR A.St. Brown Más de 5.5 Recepciones"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "RB J.Williams",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "RB J.Williams OVER 63.5 Yds Tierra",
+      "probabilidad": 61.4,
+      "racha_l5": "🟢🔴🟢🔴🟢",
+      "pick_amigable": "RB J.Williams Más de 63.5 Yds Tierra"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "12.23x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "12.23x",
+      "probabilidad": 29.3,
+      "racha_l5": "",
+      "pick_amigable": "12.23x"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "12.23x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "12.23x",
+      "probabilidad": 29.1,
+      "racha_l5": "",
+      "pick_amigable": "12.23x"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "12.23x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "12.23x",
+      "probabilidad": 22.6,
+      "racha_l5": "",
+      "pick_amigable": "12.23x"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Resumen Matemático Sábana Completa (12 Player Props NFL)",
+      "equipo": "",
+      "jugador": "2",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "2 por equipo",
+      "probabilidad": 0.0,
+      "racha_l5": "",
+      "pick_amigable": "2 por equipo"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Resumen Matemático Sábana Completa (12 Player Props NFL)",
+      "equipo": "",
+      "jugador": "Titular",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Titular Vigente L3 + Líneas Reales + Clima en Vivo + Exclusión GTD",
+      "probabilidad": 0.0,
+      "racha_l5": "",
+      "pick_amigable": "Titular Vigente L3 + Líneas Reales + Clima en Vivo + Exclusión GTD"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Resumen Matemático Sábana Completa (12 Player Props NFL)",
+      "equipo": "",
+      "jugador": "1828.52x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "1828.52x",
+      "probabilidad": 0.0,
+      "racha_l5": "",
+      "pick_amigable": "1828.52x"
+    },
+    {
       "deporte": "SOCCER",
       "partido": "Resumen Matemático Sábana Completa (84 Props Soccer)",
       "equipo": "",
@@ -1516,6 +1752,10 @@
     }
   ],
   "props_resumenes": [
+    {
+      "deporte": "NFL",
+      "texto": "**1. [KC]** `WR R.Rice OVER 4.5 Recepciones` ➡️ **Prob IA: `91.5%`** (Proy: `5.6` | L5: `100%` 🟢🟢🟢🟢🟢)\n**2. [CHI]** `QB C.Williams OVER 227.5 Yds Pase` ➡️ **Prob IA: `91.5%`** (Proy: `295.6` | L5: `80%` 🟢🟢🟢🟢🔴)\n**3. [BUF]** `QB J.Allen OVER 231.5 Yds Pase` ➡️ **Prob IA: `68.8%`** (Proy: `237.0` | L5: `80%` 🟢🟢🟢🔴🟢)\n**4. [CHI]** `WR R.Odunze OVER 54.5 Yds Rec` ➡️ **Prob IA: `74.3%`** (Proy: `72.0` | L5: `60%` 🔴🟢🟢🟢🔴)\n\n> 💰 **Cuota Combinada (Top 4):** `12.23` | **Prob. Conjunta:** `42.9%` | **Stake:** `5.0%`"
+    },
     {
       "deporte": "SOCCER",
       "texto": "**1. [Beşiktaş vs Hapoel Beer Sheva]** `Beşiktaş OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.4` | L5: `100%` 🟢🟢🟢🟢🟢)\n**2. [Beşiktaş vs Hapoel Beer Sheva]** `Beşiktaş OVER 4.5 Córners del Equipo` ➡️ **Prob IA: `91.0%`** (Proy: `5.8` | L5: `100%` 🟢🟢🟢🟢🟢)\n**3. [Beşiktaş vs Hapoel Beer Sheva]** `Hapoel Beer Sheva OVER 0.5 Goles (Anota Gol)` ➡️ **Prob IA: `91.0%`** (Proy: `1.1` | L5: `100%` 🟢🟢🟢🟢🟢)\n**4. [Beşiktaş vs Hapoel Beer Sheva]** `Hapoel Beer Sheva OVER 2.5 Remates a Puerta` ➡️ **Prob IA: `91.0%`** (Proy: `3.5` | L5: `100%` 🟢🟢🟢🟢🟢)\n\n> 💰 **Cuota Combinada (Top 4):** `11.22` | **Prob. Conjunta:** `68.6%` | **Stake:** `5.0%`"
@@ -1850,38 +2090,338 @@
     {
       "deporte": "NFL",
       "liga": "NFL",
-      "fecha": "2026-11-25",
-      "duelo": "GB @ LA",
-      "pick_principal": "Ganador: LA",
+      "fecha": "2026-11-26",
+      "duelo": "KC @ BUF",
+      "pick_principal": "Ganador: BUF",
       "cuota": 1.91,
       "estado": "Pendiente",
       "ganancia": 0.0,
-      "id": "fa5948d34824",
-      "equipo_a": "GB",
-      "equipo_b": "LA",
+      "id": "af83807830d4",
+      "equipo_a": "KC",
+      "equipo_b": "BUF",
       "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-      "contexto": [],
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+      "contexto": [
+        {
+          "titulo": "📊 Totales (45.0) • EPA Filtrado, Clima Vivo & L5",
+          "valor": "> **Pick Sugerido:** `MÁS DE (Over)` (`57.2%` | Cuota: `1.91`) *(Ap: `50.5`)*\n> **Proyección V10.0:** `49.1` pts (`KC: 23.2` - `BUF: 25.9`)\n> 📈 **Hit Rate Over 45.0 (L5):** `50%` (`KC:` 🔴🟢🟢🟢🔴 | `BUF:` 🟢🟢🔴🔴🔴)"
+        }
+      ],
+      "pick_1": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "MÁS DE (Más de)",
+        "prob": 57.2
+      },
+      "pick_2": {
+        "etiqueta": "Ganador",
+        "texto": "BUF",
+        "prob": 56.5
+      },
+      "pick_3": {
+        "etiqueta": "Hándicap",
+        "texto": "KC +3.0",
+        "prob": 50.3
+      },
+      "rankeado_real": true,
+      "props_partido": [
+        {
+          "deporte": "NFL",
+          "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR R.Rice",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR R.Rice OVER 4.5 Recepciones",
+          "probabilidad": 91.5,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "WR R.Rice Más de 4.5 Recepciones",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB P.Mahomes",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB P.Mahomes OVER 262.5 Yds Pase",
+          "probabilidad": 68.8,
+          "racha_l5": "🔴🟢🔴🟢🟢",
+          "pick_amigable": "QB P.Mahomes Más de 262.5 Yds Pase",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB J.Allen",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB J.Allen OVER 231.5 Yds Pase",
+          "probabilidad": 68.8,
+          "racha_l5": "🟢🟢🟢🔴🟢",
+          "pick_amigable": "QB J.Allen Más de 231.5 Yds Pase",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR D.Moore",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR D.Moore UNDER 4.5 Recepciones",
+          "probabilidad": 67.6,
+          "racha_l5": "🟢🟢🟢🟢🔴",
+          "pick_amigable": "WR D.Moore Menos de 4.5 Recepciones",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "12.23x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "12.23x",
+          "probabilidad": 29.3,
+          "racha_l5": "",
+          "pick_amigable": "12.23x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Hándicap BUF: -3.0 pts",
+        "linea_2": "Altas / Bajas: 50.5 pts",
+        "casino": "LowVig.ag",
+        "captura": "2026-11-19 01:03:56"
+      }
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-26",
+      "duelo": "PHI @ DAL",
+      "pick_principal": "Ganador: DAL",
+      "cuota": 1.91,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "af78b7b02357",
+      "equipo_a": "PHI",
+      "equipo_b": "DAL",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+      "contexto": [
+        {
+          "titulo": "📊 Totales (45.0) • EPA Filtrado, Clima Vivo & L5",
+          "valor": "> **Pick Sugerido:** `MENOS DE (Under)` (`58.2%` | Cuota: `1.91`) *(Ap: `47.5`)*\n> **Proyección V10.0:** `43.1` pts (`PHI: 17.5` - `DAL: 25.6`)\n> 📈 **Hit Rate Over 45.0 (L5):** `60%` (`PHI:` 🔴🟢🔴🔴🔴 | `DAL:` 🟢🟢🟢🟢🟢)"
+        }
+      ],
       "pick_1": {
         "etiqueta": "Ganador",
-        "texto": "LA",
-        "prob": null
+        "texto": "DAL",
+        "prob": 69.4
       },
       "pick_2": {
         "etiqueta": "Hándicap",
-        "texto": "GB +3.0",
-        "prob": null
+        "texto": "DAL -3.0",
+        "prob": 62.8
+      },
+      "pick_3": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "MENOS DE (Menos de)",
+        "prob": 58.2
+      },
+      "rankeado_real": true,
+      "props_partido": [
+        {
+          "deporte": "NFL",
+          "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB D.Prescott",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB D.Prescott OVER 261.5 Yds Pase",
+          "probabilidad": 73.5,
+          "racha_l5": "🔴🔴🟢🟢🟢",
+          "pick_amigable": "QB D.Prescott Más de 261.5 Yds Pase",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR M.Lemon",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR M.Lemon OVER 3.5 Recepciones",
+          "probabilidad": 70.8,
+          "racha_l5": "🔴🟢🟢🟢🔴",
+          "pick_amigable": "WR M.Lemon Más de 3.5 Recepciones",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR D.Goedert",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR D.Goedert OVER 38.5 Yds Rec",
+          "probabilidad": 70.7,
+          "racha_l5": "🟢🟢🔴🟢🔴",
+          "pick_amigable": "WR D.Goedert Más de 38.5 Yds Rec",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "RB J.Williams",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "RB J.Williams OVER 63.5 Yds Tierra",
+          "probabilidad": 61.4,
+          "racha_l5": "🟢🔴🟢🔴🟢",
+          "pick_amigable": "RB J.Williams Más de 63.5 Yds Tierra",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "12.23x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "12.23x",
+          "probabilidad": 22.6,
+          "racha_l5": "",
+          "pick_amigable": "12.23x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Hándicap DAL: -8.0 pts",
+        "linea_2": "Altas / Bajas: 47.5 pts",
+        "casino": "LowVig.ag",
+        "captura": "2026-11-19 01:03:56"
+      }
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-26",
+      "duelo": "CHI @ DET",
+      "pick_principal": "Ganador: DET",
+      "cuota": 1.91,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "ed83f624afd3",
+      "equipo_a": "CHI",
+      "equipo_b": "DET",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+      "contexto": [
+        {
+          "titulo": "📊 Totales (45.0) • EPA Filtrado, Clima Vivo & L5",
+          "valor": "> **Pick Sugerido:** `MÁS DE (Over)` (`54.4%` | Cuota: `1.91`) *(Ap: `54.5`)*\n> **Proyección V10.0:** `47.5` pts (`CHI: 21.1` - `DET: 26.5`)\n> 📈 **Hit Rate Over 45.0 (L5):** `50%` (`CHI:` 🟢🟢🟢🟢🔴 | `DET:` 🔴🔴🔴🔴🟢)"
+        }
+      ],
+      "pick_1": {
+        "etiqueta": "Ganador",
+        "texto": "DET",
+        "prob": 62.0
+      },
+      "pick_2": {
+        "etiqueta": "Hándicap",
+        "texto": "DET -3.0",
+        "prob": 55.2
       },
       "pick_3": {
         "etiqueta": "Altas / Bajas",
         "texto": "MÁS DE (Más de)",
-        "prob": null
+        "prob": 54.4
       },
-      "rankeado_real": false,
-      "props_partido": [],
+      "rankeado_real": true,
+      "props_partido": [
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB C.Williams",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB C.Williams OVER 227.5 Yds Pase",
+          "probabilidad": 91.5,
+          "racha_l5": "🟢🟢🟢🟢🔴",
+          "pick_amigable": "QB C.Williams Más de 227.5 Yds Pase",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR R.Odunze",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR R.Odunze OVER 54.5 Yds Rec",
+          "probabilidad": 74.3,
+          "racha_l5": "🔴🟢🟢🟢🔴",
+          "pick_amigable": "WR R.Odunze Más de 54.5 Yds Rec",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB J.Goff",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB J.Goff OVER 230.5 Yds Pase",
+          "probabilidad": 65.6,
+          "racha_l5": "🟢🔴🔴🟢🟢",
+          "pick_amigable": "QB J.Goff Más de 230.5 Yds Pase",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR A.St. Brown",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR A.St. Brown OVER 5.5 Recepciones",
+          "probabilidad": 65.3,
+          "racha_l5": "🟢🟢🟢🔴🔴",
+          "pick_amigable": "WR A.St. Brown Más de 5.5 Recepciones",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "12.23x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "12.23x",
+          "probabilidad": 29.1,
+          "racha_l5": "",
+          "pick_amigable": "12.23x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": {
+        "linea_1": "Hándicap DET: +2.5 pts",
+        "linea_2": "Altas / Bajas: 54.5 pts",
+        "casino": "LowVig.ag",
+        "captura": "2026-11-19 01:03:56"
+      }
     },
     {
       "deporte": "SOCCER",
@@ -4063,7 +4603,73 @@
       "linea_2": "Altas / Bajas: 54.5 pts",
       "casino": "LowVig.ag",
       "captura": "2026-11-19 01:03:56",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB C.Williams",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB C.Williams OVER 227.5 Yds Pase",
+          "probabilidad": 91.5,
+          "racha_l5": "🟢🟢🟢🟢🔴",
+          "pick_amigable": "QB C.Williams Más de 227.5 Yds Pase",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR R.Odunze",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR R.Odunze OVER 54.5 Yds Rec",
+          "probabilidad": 74.3,
+          "racha_l5": "🔴🟢🟢🟢🔴",
+          "pick_amigable": "WR R.Odunze Más de 54.5 Yds Rec",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB J.Goff",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB J.Goff OVER 230.5 Yds Pase",
+          "probabilidad": 65.6,
+          "racha_l5": "🟢🔴🔴🟢🟢",
+          "pick_amigable": "QB J.Goff Más de 230.5 Yds Pase",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR A.St. Brown",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR A.St. Brown OVER 5.5 Recepciones",
+          "probabilidad": 65.3,
+          "racha_l5": "🟢🟢🟢🔴🔴",
+          "pick_amigable": "WR A.St. Brown Más de 5.5 Recepciones",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: CHI @ DET (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "12.23x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "12.23x",
+          "probabilidad": 29.1,
+          "racha_l5": "",
+          "pick_amigable": "12.23x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -4082,7 +4688,73 @@
       "linea_2": "Altas / Bajas: 47.5 pts",
       "casino": "LowVig.ag",
       "captura": "2026-11-19 01:03:56",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "NFL",
+          "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB D.Prescott",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB D.Prescott OVER 261.5 Yds Pase",
+          "probabilidad": 73.5,
+          "racha_l5": "🔴🔴🟢🟢🟢",
+          "pick_amigable": "QB D.Prescott Más de 261.5 Yds Pase",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR M.Lemon",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR M.Lemon OVER 3.5 Recepciones",
+          "probabilidad": 70.8,
+          "racha_l5": "🔴🟢🟢🟢🔴",
+          "pick_amigable": "WR M.Lemon Más de 3.5 Recepciones",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR D.Goedert",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR D.Goedert OVER 38.5 Yds Rec",
+          "probabilidad": 70.7,
+          "racha_l5": "🟢🟢🔴🟢🔴",
+          "pick_amigable": "WR D.Goedert Más de 38.5 Yds Rec",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "RB J.Williams",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "RB J.Williams OVER 63.5 Yds Tierra",
+          "probabilidad": 61.4,
+          "racha_l5": "🟢🔴🟢🔴🟢",
+          "pick_amigable": "RB J.Williams Más de 63.5 Yds Tierra",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #2: PHI @ DAL (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "12.23x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "12.23x",
+          "probabilidad": 22.6,
+          "racha_l5": "",
+          "pick_amigable": "12.23x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -4101,7 +4773,73 @@
       "linea_2": "Altas / Bajas: 50.5 pts",
       "casino": "LowVig.ag",
       "captura": "2026-11-19 01:03:56",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "NFL",
+          "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR R.Rice",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR R.Rice OVER 4.5 Recepciones",
+          "probabilidad": 91.5,
+          "racha_l5": "🟢🟢🟢🟢🟢",
+          "pick_amigable": "WR R.Rice Más de 4.5 Recepciones",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB P.Mahomes",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB P.Mahomes OVER 262.5 Yds Pase",
+          "probabilidad": 68.8,
+          "racha_l5": "🔴🟢🔴🟢🟢",
+          "pick_amigable": "QB P.Mahomes Más de 262.5 Yds Pase",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB J.Allen",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB J.Allen OVER 231.5 Yds Pase",
+          "probabilidad": 68.8,
+          "racha_l5": "🟢🟢🟢🔴🟢",
+          "pick_amigable": "QB J.Allen Más de 231.5 Yds Pase",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR D.Moore",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR D.Moore UNDER 4.5 Recepciones",
+          "probabilidad": 67.6,
+          "racha_l5": "🟢🟢🟢🟢🔴",
+          "pick_amigable": "WR D.Moore Menos de 4.5 Recepciones",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #3: KC @ BUF (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "12.23x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "12.23x",
+          "probabilidad": 29.3,
+          "racha_l5": "",
+          "pick_amigable": "12.23x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -6387,6 +7125,16 @@
   ],
   "historial": [
     {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-25",
+      "duelo": "GB @ LA",
+      "pick_principal": "Ganador: LA",
+      "cuota": 1.91,
+      "estado": "Ganado",
+      "ganancia": 0.91
+    },
+    {
       "deporte": "SOCCER",
       "liga": "Liga MX",
       "fecha": "2026-11-25",
@@ -7175,16 +7923,6 @@
       "cuota": 1.24,
       "estado": "Ganado",
       "ganancia": 0.24
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Ligue 1",
-      "fecha": "2026-11-22",
-      "duelo": "Lorient vs Rennes",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.34,
-      "estado": "Ganado",
-      "ganancia": 0.34
     }
   ]
 }
