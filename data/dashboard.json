@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-26 10:45 CST",
+  "updated_at": "2026-11-26 17:10 CST",
   "fecha_operativa": "2026-11-26",
   "kpis": {
-    "ganados": 524,
-    "perdidos": 374,
-    "total_auditados": 898,
+    "ganados": 529,
+    "perdidos": 377,
+    "total_auditados": 906,
     "win_rate": 58.4,
-    "unidades_netas": -207.52,
-    "roi_global": -23.1,
-    "picks_hoy": 33,
+    "unidades_netas": -210.44,
+    "roi_global": -23.2,
+    "picks_hoy": 25,
     "aperturas_activas": 50
   },
   "motores": [
@@ -45,12 +45,12 @@
   ],
   "resumen_deportes": {
     "NBA": {
-      "ganados": 175,
-      "perdidos": 89,
-      "total": 264,
-      "win_rate": 66.3,
-      "unidades": -86.54,
-      "roi": -32.8
+      "ganados": 180,
+      "perdidos": 92,
+      "total": 272,
+      "win_rate": 66.2,
+      "unidades": -89.46,
+      "roi": -32.9
     },
     "NFL": {
       "ganados": 89,
@@ -204,7 +204,7 @@
     },
     {
       "fecha": "2026-11-25",
-      "unidades": -165.97
+      "unidades": -168.89
     }
   ],
   "diamantes": [
@@ -1767,114 +1767,6 @@
       "deporte": "NBA",
       "liga": "NBA",
       "fecha": "2026-11-25",
-      "duelo": "San Antonio Spurs @ Portland Trail Blazers",
-      "pick_principal": "Ganador: Portland Trail Blazers",
-      "cuota": 1.02,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "2c84a9dbc5b4",
-      "equipo_a": "San Antonio Spurs",
-      "equipo_b": "Portland Trail Blazers",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "Portland Trail Blazers",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "Portland Trail Blazers +3.5",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-25",
-      "duelo": "Sacramento Kings @ Golden State Warriors",
-      "pick_principal": "Ganador: Golden State Warriors",
-      "cuota": 1.01,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "5d573d80f0ca",
-      "equipo_a": "Sacramento Kings",
-      "equipo_b": "Golden State Warriors",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "Golden State Warriors",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "Sacramento Kings +8.5",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-25",
-      "duelo": "Phoenix Suns @ Houston Rockets",
-      "pick_principal": "Ganador: Houston Rockets",
-      "cuota": 1.01,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "514122861fbd",
-      "equipo_a": "Phoenix Suns",
-      "equipo_b": "Houston Rockets",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "Houston Rockets",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "Phoenix Suns +9.5",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-25",
       "duelo": "Los Angeles Clippers @ Memphis Grizzlies",
       "pick_principal": "Ganador: Memphis Grizzlies",
       "cuota": 1.01,
@@ -1900,186 +1792,6 @@
       "pick_3": {
         "etiqueta": "Altas / Bajas",
         "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-25",
-      "duelo": "Brooklyn Nets @ Milwaukee Bucks",
-      "pick_principal": "Ganador: Milwaukee Bucks",
-      "cuota": 1.02,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "39ed05223be4",
-      "equipo_a": "Brooklyn Nets",
-      "equipo_b": "Milwaukee Bucks",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "Milwaukee Bucks",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "Milwaukee Bucks -1.0",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-25",
-      "duelo": "Minnesota Timberwolves @ Oklahoma City Thunder",
-      "pick_principal": "Ganador: Minnesota Timberwolves",
-      "cuota": 1.02,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "1a73d75a98b4",
-      "equipo_a": "Minnesota Timberwolves",
-      "equipo_b": "Oklahoma City Thunder",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "Minnesota Timberwolves",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "Minnesota Timberwolves +2.0",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-25",
-      "duelo": "Cleveland Cavaliers @ New York Knicks",
-      "pick_principal": "Ganador: New York Knicks",
-      "cuota": 1.02,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "530e486ff2e8",
-      "equipo_a": "Cleveland Cavaliers",
-      "equipo_b": "New York Knicks",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "New York Knicks",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "Cleveland Cavaliers +4.0",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-25",
-      "duelo": "Chicago Bulls @ Charlotte Hornets",
-      "pick_principal": "Ganador: Charlotte Hornets",
-      "cuota": 1.02,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "923d93c3fae5",
-      "equipo_a": "Chicago Bulls",
-      "equipo_b": "Charlotte Hornets",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "Charlotte Hornets",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "Chicago Bulls +4.0",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-25",
-      "duelo": "Miami Heat @ Philadelphia 76ers",
-      "pick_principal": "Ganador: Miami Heat",
-      "cuota": 1.03,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "560c1b2c908c",
-      "equipo_a": "Miami Heat",
-      "equipo_b": "Philadelphia 76ers",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "Miami Heat",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "Miami Heat +3.5",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
         "prob": null
       },
       "rankeado_real": false,
@@ -7125,6 +6837,86 @@
   ],
   "historial": [
     {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-25",
+      "duelo": "San Antonio Spurs @ Portland Trail Blazers",
+      "pick_principal": "Ganador: Portland Trail Blazers",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-25",
+      "duelo": "Sacramento Kings @ Golden State Warriors",
+      "pick_principal": "Ganador: Golden State Warriors",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-25",
+      "duelo": "Phoenix Suns @ Houston Rockets",
+      "pick_principal": "Ganador: Houston Rockets",
+      "cuota": 1.01,
+      "estado": "Ganado",
+      "ganancia": 0.01
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-25",
+      "duelo": "Brooklyn Nets @ Milwaukee Bucks",
+      "pick_principal": "Ganador: Milwaukee Bucks",
+      "cuota": 1.02,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-25",
+      "duelo": "Minnesota Timberwolves @ Oklahoma City Thunder",
+      "pick_principal": "Ganador: Minnesota Timberwolves",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-25",
+      "duelo": "Cleveland Cavaliers @ New York Knicks",
+      "pick_principal": "Ganador: New York Knicks",
+      "cuota": 1.02,
+      "estado": "Ganado",
+      "ganancia": 0.02
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-25",
+      "duelo": "Chicago Bulls @ Charlotte Hornets",
+      "pick_principal": "Ganador: Charlotte Hornets",
+      "cuota": 1.02,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NBA",
+      "liga": "NBA",
+      "fecha": "2026-11-25",
+      "duelo": "Miami Heat @ Philadelphia 76ers",
+      "pick_principal": "Ganador: Miami Heat",
+      "cuota": 1.03,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-25",
@@ -7843,86 +7635,6 @@
       "cuota": 1.27,
       "estado": "Ganado",
       "ganancia": 0.27
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Ligue 1",
-      "fecha": "2026-11-22",
-      "duelo": "Marseille vs Le Mans",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.16,
-      "estado": "Perdido",
-      "ganancia": -1.0
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-22",
-      "duelo": "Atalanta vs Inter",
-      "pick_principal": "🛡️ 12 (Local o Visita)",
-      "cuota": 1.22,
-      "estado": "Perdido",
-      "ganancia": -1.0
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Liga Profesional Argentina",
-      "fecha": "2026-11-22",
-      "duelo": "Rosario Central vs Gimnasia M.",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.26,
-      "estado": "Ganado",
-      "ganancia": 0.26
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-22",
-      "duelo": "Atletico Paranaense vs Remo",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.17,
-      "estado": "Ganado",
-      "ganancia": 0.17
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "La Liga",
-      "fecha": "2026-11-22",
-      "duelo": "Osasuna vs Malaga",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.34,
-      "estado": "Perdido",
-      "ganancia": -1.0
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-22",
-      "duelo": "AC Milan vs Frosinone",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.22,
-      "estado": "Ganado",
-      "ganancia": 0.22
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Bundesliga",
-      "fecha": "2026-11-22",
-      "duelo": "Werder Bremen vs Hamburger SV",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.2,
-      "estado": "Ganado",
-      "ganancia": 0.2
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Premier League",
-      "fecha": "2026-11-22",
-      "duelo": "Liverpool vs Manchester United",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.24,
-      "estado": "Ganado",
-      "ganancia": 0.24
     }
   ]
 }
