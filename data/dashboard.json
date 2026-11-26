@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-25 17:10 CST",
+  "updated_at": "2026-11-25 18:10 CST",
   "fecha_operativa": "2026-11-25",
   "kpis": {
     "ganados": 532,
-    "perdidos": 374,
-    "total_auditados": 906,
+    "perdidos": 375,
+    "total_auditados": 907,
     "win_rate": 58.7,
-    "unidades_netas": -207.3,
-    "roi_global": -22.9,
-    "picks_hoy": 20,
+    "unidades_netas": -208.3,
+    "roi_global": -23.0,
+    "picks_hoy": 21,
     "aperturas_activas": 52
   },
   "motores": [
@@ -54,11 +54,11 @@
     },
     "NFL": {
       "ganados": 88,
-      "perdidos": 73,
-      "total": 161,
-      "win_rate": 54.7,
-      "unidades": -1.87,
-      "roi": -1.2
+      "perdidos": 74,
+      "total": 162,
+      "win_rate": 54.3,
+      "unidades": -2.87,
+      "roi": -1.8
     },
     "SOCCER": {
       "ganados": 220,
@@ -200,11 +200,11 @@
     },
     {
       "fecha": "2026-11-23",
-      "unidades": -173.91
+      "unidades": -174.91
     },
     {
       "fecha": "2026-11-24",
-      "unidades": -176.76
+      "unidades": -177.76
     }
   ],
   "diamantes": [
@@ -225,6 +225,18 @@
         {
           "titulo": "📌 Radares Especiales de la Jornada (Líderes por Mercado)",
           "valor": "• **Hándicap Más Sólido:** `Miami Heat @ Philadelphia 76ers` ➡️ **Miami Heat +3.5** (`75.4%`)\n• **Total Más Sólido (O/U):** `Miami Heat @ Philadelphia 76ers` ➡️ **MÁS DE (Over) 237.5** (`79.3%`)"
+        }
+      ]
+    },
+    {
+      "deporte": "NFL",
+      "titulo": "🛡️ NFL CYPHER AI: JORNADA SIN VALOR DIAMANTE — CAPITAL PROTEGIDO (2026-11-25)",
+      "descripcion": "El **Filtro Maestro de Francotirador V10.0** bloqueó el Boleto Diamante de hoy debido a **QBs en duda (GTD), viento/lluvia severa, dinero Sharp en contra (RLM) o márgenes sin valor**.\n\n> 💰 **Instrucción Institucional:** `0.0% Stake` en Parlay de Equipos hoy. Revisa los **Floor-Lock Props** y los **Guiones de Control de Reloj** abajo.",
+      "es_no_bet": true,
+      "campos": [
+        {
+          "titulo": "📌 Radares Informativos (Solo Referencia)",
+          "valor": "• **Hándicap con mayor cobertura:** `GB @ LA` ➡️ **GB +3.0** (`52.1%`)\n• **Total con mayor proyección:** `GB @ LA` ➡️ **MÁS DE (Over) 45.0** (`55.8%`)"
         }
       ]
     },
@@ -1247,6 +1259,18 @@
       "pick_amigable": "Charles Bassey Más de 17.5 Pts+Reb+Ast (PRA)"
     },
     {
+      "deporte": "NFL",
+      "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "WR K.Mumpfield",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "WR K.Mumpfield UNDER 34.5 Yds Rec",
+      "probabilidad": 69.2,
+      "racha_l5": "🟢🟢🟢🟢🔴",
+      "pick_amigable": "WR K.Mumpfield Menos de 34.5 Yds Rec"
+    },
+    {
       "deporte": "NBA",
       "partido": "Partido #9: San Antonio Spurs @ Portland Trail Blazers (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -1415,6 +1439,18 @@
       "pick_amigable": "11.22x"
     },
     {
+      "deporte": "NFL",
+      "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "QB J.Love",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "QB J.Love OVER 1.5 Pases TD",
+      "probabilidad": 66.9,
+      "racha_l5": "🔴🟢🟢🟢🔴",
+      "pick_amigable": "QB J.Love Más de 1.5 Pases TD"
+    },
+    {
       "deporte": "NBA",
       "partido": "Partido #4: Minnesota Timberwolves @ Oklahoma City Thunder (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -1427,6 +1463,18 @@
       "pick_amigable": "Ajay Mitchell Menos de 4.5 Asistencias"
     },
     {
+      "deporte": "NFL",
+      "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "WR M.Golden",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "WR M.Golden UNDER 6.5 Recepciones",
+      "probabilidad": 65.8,
+      "racha_l5": "🟢🟢🔴🔴🟢",
+      "pick_amigable": "WR M.Golden Menos de 6.5 Recepciones"
+    },
+    {
       "deporte": "NBA",
       "partido": "Partido #4: Minnesota Timberwolves @ Oklahoma City Thunder (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -1437,6 +1485,18 @@
       "probabilidad": 65.7,
       "racha_l5": "🟢🔴🔴🟢🟢",
       "pick_amigable": "Jared McCain Menos de 2.5 Triples (3PM)"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "QB M.Stafford",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "QB M.Stafford OVER 1.5 Pases TD",
+      "probabilidad": 65.5,
+      "racha_l5": "🟢🟢🔴🔴🟢",
+      "pick_amigable": "QB M.Stafford Más de 1.5 Pases TD"
     },
     {
       "deporte": "NBA",
@@ -1571,6 +1631,18 @@
       "pick_amigable": "12.23x"
     },
     {
+      "deporte": "NFL",
+      "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+      "equipo": "",
+      "jugador": "12.23x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "12.23x",
+      "probabilidad": 19.9,
+      "racha_l5": "",
+      "pick_amigable": "12.23x"
+    },
+    {
       "deporte": "NBA",
       "partido": "Partido #9: San Antonio Spurs @ Portland Trail Blazers (4 Picks: 2xEquipo)",
       "equipo": "",
@@ -1619,6 +1691,42 @@
       "pick_amigable": "1828.52x"
     },
     {
+      "deporte": "NFL",
+      "partido": "Resumen Matemático Sábana Completa (4 Player Props NFL)",
+      "equipo": "",
+      "jugador": "2",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "2 por equipo",
+      "probabilidad": 0.0,
+      "racha_l5": "",
+      "pick_amigable": "2 por equipo"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Resumen Matemático Sábana Completa (4 Player Props NFL)",
+      "equipo": "",
+      "jugador": "Titular",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "Titular Vigente L3 + Líneas Reales + Clima en Vivo + Exclusión GTD",
+      "probabilidad": 0.0,
+      "racha_l5": "",
+      "pick_amigable": "Titular Vigente L3 + Líneas Reales + Clima en Vivo + Exclusión GTD"
+    },
+    {
+      "deporte": "NFL",
+      "partido": "Resumen Matemático Sábana Completa (4 Player Props NFL)",
+      "equipo": "",
+      "jugador": "12.23x",
+      "es_equipo": false,
+      "foto": "",
+      "pick": "12.23x",
+      "probabilidad": 0.0,
+      "racha_l5": "",
+      "pick_amigable": "12.23x"
+    },
+    {
       "deporte": "SOCCER",
       "partido": "Resumen Matemático Sábana Completa (52 Props Soccer)",
       "equipo": "",
@@ -1635,6 +1743,10 @@
     {
       "deporte": "NBA",
       "texto": "**1. [Miami Heat]** `Nikola Jovic OVER 23.5 Pts+Reb+Ast (PRA)` ➡️ **Prob IA: `91.5%`** (Proy: `28.8` | L5: `100%` 🟢)\n**2. [Miami Heat]** `Klay Thompson OVER 2.5 Triples (3PM)` ➡️ **Prob IA: `91.5%`** (Proy: `5.6` | L5: `100%` 🟢🟢🟢🟢)\n**3. [Philadelphia 76ers]** `Jaylen Brown OVER 16.5 Puntos` ➡️ **Prob IA: `91.5%`** (Proy: `32.0` | L5: `100%` 🟢🟢🟢)\n**4. [Philadelphia 76ers]** `LeBron James UNDER 8.5 Rebotes` ➡️ **Prob IA: `91.5%`** (Proy: `5.6` | L5: `100%` 🟢🟢🟢🟢)\n\n> 💰 **Cuota Combinada (Top 4):** `12.23` | **Prob. Conjunta:** `70.1%` | **Stake:** `5.0%`"
+    },
+    {
+      "deporte": "NFL",
+      "texto": "**1. [LA]** `WR K.Mumpfield UNDER 34.5 Yds Rec` ➡️ **Prob IA: `69.2%`** (Proy: `30.2` | L5: `80%` 🟢🟢🟢🟢🔴)\n**2. [GB]** `QB J.Love OVER 1.5 Pases TD` ➡️ **Prob IA: `66.9%`** (Proy: `2.0` | L5: `60%` 🔴🟢🟢🟢🔴)\n**3. [GB]** `WR M.Golden UNDER 6.5 Recepciones` ➡️ **Prob IA: `65.8%`** (Proy: `5.7` | L5: `60%` 🟢🟢🔴🔴🟢)\n**4. [LA]** `QB M.Stafford OVER 1.5 Pases TD` ➡️ **Prob IA: `65.5%`** (Proy: `1.9` | L5: `60%` 🟢🟢🔴🔴🟢)\n\n> 💰 **Cuota Combinada (Top 4):** `12.23` | **Prob. Conjunta:** `19.9%` | **Stake:** `1.9%`"
     },
     {
       "deporte": "SOCCER",
@@ -2685,6 +2797,118 @@
         "linea_2": "Altas / Bajas: 237.5 pts",
         "casino": "Pinnacle",
         "captura": "2026-11-25 17:00:11"
+      }
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-25",
+      "duelo": "GB @ LA",
+      "pick_principal": "Ganador: LA",
+      "cuota": 1.91,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "fa5948d34824",
+      "equipo_a": "GB",
+      "equipo_b": "LA",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+      "contexto": [
+        {
+          "titulo": "📊 Totales (45.0) • EPA Filtrado, Clima Vivo & L5",
+          "valor": "> **Pick Sugerido:** `MÁS DE (Over)` (`55.8%` | Cuota: `1.91`) *(Ap: `45.0`)*\n> **Proyección V10.0:** `48.2` pts (`GB: 23.1` - `LA: 25.2`)\n> 📈 **Hit Rate Over 45.0 (L5):** `30%` (`GB:` 🔴🔴🟢🟢🔴 | `LA:` 🔴🟢🔴🔴🔴)"
+        }
+      ],
+      "pick_1": {
+        "etiqueta": "Ganador",
+        "texto": "LA",
+        "prob": 55.9
+      },
+      "pick_2": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "MÁS DE (Más de)",
+        "prob": 55.8
+      },
+      "pick_3": {
+        "etiqueta": "Hándicap",
+        "texto": "GB +3.0",
+        "prob": 52.1
+      },
+      "rankeado_real": true,
+      "props_partido": [
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR K.Mumpfield",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR K.Mumpfield UNDER 34.5 Yds Rec",
+          "probabilidad": 69.2,
+          "racha_l5": "🟢🟢🟢🟢🔴",
+          "pick_amigable": "WR K.Mumpfield Menos de 34.5 Yds Rec",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB J.Love",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB J.Love OVER 1.5 Pases TD",
+          "probabilidad": 66.9,
+          "racha_l5": "🔴🟢🟢🟢🔴",
+          "pick_amigable": "QB J.Love Más de 1.5 Pases TD",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR M.Golden",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR M.Golden UNDER 6.5 Recepciones",
+          "probabilidad": 65.8,
+          "racha_l5": "🟢🟢🔴🔴🟢",
+          "pick_amigable": "WR M.Golden Menos de 6.5 Recepciones",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB M.Stafford",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB M.Stafford OVER 1.5 Pases TD",
+          "probabilidad": 65.5,
+          "racha_l5": "🟢🟢🔴🔴🟢",
+          "pick_amigable": "QB M.Stafford Más de 1.5 Pases TD",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "12.23x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "12.23x",
+          "probabilidad": 19.9,
+          "racha_l5": "",
+          "pick_amigable": "12.23x",
+          "lado": "ALL"
+        }
+      ],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Hándicap LA: -3.5 pts",
+        "linea_2": "Altas / Bajas: 45.0 pts",
+        "casino": "BetOnline.ag",
+        "captura": "2026-11-19 01:03:56"
       }
     },
     {
@@ -4602,7 +4826,73 @@
       "linea_2": "Altas / Bajas: 45.0 pts",
       "casino": "BetOnline.ag",
       "captura": "2026-11-19 01:03:56",
-      "props_partido": [],
+      "props_partido": [
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR K.Mumpfield",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR K.Mumpfield UNDER 34.5 Yds Rec",
+          "probabilidad": 69.2,
+          "racha_l5": "🟢🟢🟢🟢🔴",
+          "pick_amigable": "WR K.Mumpfield Menos de 34.5 Yds Rec",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB J.Love",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB J.Love OVER 1.5 Pases TD",
+          "probabilidad": 66.9,
+          "racha_l5": "🔴🟢🟢🟢🔴",
+          "pick_amigable": "QB J.Love Más de 1.5 Pases TD",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "WR M.Golden",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "WR M.Golden UNDER 6.5 Recepciones",
+          "probabilidad": 65.8,
+          "racha_l5": "🟢🟢🔴🔴🟢",
+          "pick_amigable": "WR M.Golden Menos de 6.5 Recepciones",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "QB M.Stafford",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "QB M.Stafford OVER 1.5 Pases TD",
+          "probabilidad": 65.5,
+          "racha_l5": "🟢🟢🔴🔴🟢",
+          "pick_amigable": "QB M.Stafford Más de 1.5 Pases TD",
+          "lado": "ALL"
+        },
+        {
+          "deporte": "NFL",
+          "partido": "Partido #1: GB @ LA (4 Picks: 2xEquipo)",
+          "equipo": "",
+          "jugador": "12.23x",
+          "es_equipo": false,
+          "foto": "",
+          "pick": "12.23x",
+          "probabilidad": 19.9,
+          "racha_l5": "",
+          "pick_amigable": "12.23x",
+          "lado": "ALL"
+        }
+      ],
       "guiones_partido": [],
       "apertura_ref": null
     },
@@ -6495,6 +6785,16 @@
       "ganancia": 0.02
     },
     {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-23",
+      "duelo": "CIN @ WAS",
+      "pick_principal": "Ganador: CIN",
+      "cuota": 1.01,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
       "deporte": "SOCCER",
       "liga": "Major League Soccer",
       "fecha": "2026-11-23",
@@ -7053,16 +7353,6 @@
       "cuota": 1.01,
       "estado": "Ganado",
       "ganancia": 0.01
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-21",
-      "duelo": "Portland Trail Blazers @ New York Knicks",
-      "pick_principal": "Ganador: New York Knicks",
-      "cuota": 1.02,
-      "estado": "Ganado",
-      "ganancia": 0.02
     }
   ]
 }
