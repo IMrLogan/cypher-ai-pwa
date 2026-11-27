@@ -9,6 +9,7 @@
   <title>Cypher AI — Pronósticos Deportivos</title>
   <link rel="manifest" href="./manifest.json" />
   <link rel="icon" type="image/svg+xml" href="./assets/icon.svg" />
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
   <style>
     :root {
       --bg: #070b14;
@@ -66,6 +67,12 @@
     .btn-ghost {
       background: var(--panel); color: var(--text); border: 1px solid var(--border);
       border-radius: 8px; padding: 5px 9px; font-size: 0.78rem; cursor: pointer;
+    }
+    .btn-ghost.active-filter {
+      background: rgba(0, 229, 255, 0.14);
+      border-color: rgba(0, 229, 255, 0.55);
+      color: var(--cyan);
+      font-weight: 700;
     }
 
     .header-sports {
@@ -126,6 +133,16 @@
       box-shadow: 0 12px 28px rgba(0, 229, 255, 0.10);
     }
     .card-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+    .match-datetime-row {
+      display: flex; align-items: center; justify-content: space-between; gap: 8px;
+      font-family: var(--mono); font-size: 0.71rem; color: #cbd5e1;
+      background: rgba(148, 163, 184, 0.08);
+      border: 1px solid rgba(148, 163, 184, 0.14);
+      border-radius: 9px; padding: 5px 10px;
+    }
+    .match-datetime-row .dt-main { font-weight: 700; color: #e2e8f0; }
+    .match-datetime-row .dt-sub { font-size: 0.66rem; color: var(--muted); }
+
     .badge {
       font-family: var(--mono); font-size: 0.67rem; font-weight: 700;
       padding: 3px 8px; border-radius: 6px; text-transform: uppercase;
@@ -135,6 +152,44 @@
     .badge.red { background: rgba(244, 63, 94, 0.15); color: var(--red); }
     .badge.amber { background: rgba(245, 158, 11, 0.15); color: var(--amber); }
     .badge.purple { background: rgba(168, 85, 247, 0.16); color: #d8b4fe; }
+
+    /* INSIGNIA TRUE FLOOR Y CALIBRACIÓN PROPS NBA */
+    .badge-true-floor {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 2px 8px; border-radius: 999px;
+      font-family: var(--mono); font-size: 0.65rem; font-weight: 800;
+      color: #03131b;
+      background: linear-gradient(135deg, var(--cyan), var(--green));
+      box-shadow: 0 0 10px rgba(0, 229, 255, 0.30);
+    }
+    .badge-solido {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 2px 8px; border-radius: 999px;
+      font-family: var(--mono); font-size: 0.65rem; font-weight: 700;
+      color: #bae6fd; background: rgba(56, 189, 248, 0.14);
+      border: 1px solid rgba(56, 189, 248, 0.32);
+    }
+    .badge-odds {
+      display: inline-flex; align-items: center;
+      padding: 2px 7px; border-radius: 999px;
+      font-family: var(--mono); font-size: 0.65rem; font-weight: 700;
+      color: #fde68a; background: rgba(245, 158, 11, 0.14);
+      border: 1px solid rgba(245, 158, 11, 0.28);
+    }
+    .props-cal-bar {
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px;
+      background: linear-gradient(135deg, rgba(0, 229, 255, 0.08), rgba(16, 185, 129, 0.08));
+      border: 1px solid rgba(0, 229, 255, 0.28);
+      border-radius: 13px; padding: 10px 13px; margin-bottom: 12px;
+      font-size: 0.76rem;
+    }
+    .props-cal-chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .props-cal-chip {
+      font-family: var(--mono); font-size: 0.71rem; font-weight: 700;
+      background: rgba(7, 11, 20, 0.65); border: 1px solid rgba(148, 163, 184, 0.22);
+      border-radius: 999px; padding: 3px 9px; color: #e2e8f0;
+    }
+    .props-cal-chip.tf { border-color: rgba(0, 229, 255, 0.45); color: var(--cyan); }
 
     /* BLOQUE ESCUDO VS ESCUDO (CLIC POR EQUIPO) */
     .matchup-banner {
@@ -212,9 +267,9 @@
       padding: 2px 7px; border-radius: 999px; color: #cbd5e1; font-size: 0.68rem; font-weight: 600;
     }
     .mini-chip.hi { border-color: rgba(168, 85, 247, 0.4); color: #e9d5ff; }
+    .mini-chip.tf { border-color: rgba(0, 229, 255, 0.45); color: var(--cyan); background: rgba(0, 229, 255, 0.10); }
     .cta-link { color: var(--cyan); font-weight: 700; white-space: nowrap; }
 
-    
     /* CAMPANITA DE ALERTAS Y SWITCHES POR MOTOR */
     .btn-bell { position: relative; display: inline-flex; align-items: center; justify-content: center; }
     .bell-dot {
@@ -349,6 +404,11 @@
       border: 1px solid var(--border); border-radius: 14px; padding: 12px 13px;
       display: flex; align-items: center; gap: 12px;
     }
+    .prop-card.is-true-floor {
+      border-color: rgba(0, 229, 255, 0.42);
+      background: linear-gradient(135deg, rgba(0, 229, 255, 0.08) 0%, #0b1222 65%);
+      box-shadow: 0 6px 20px rgba(0, 229, 255, 0.08);
+    }
     .player-avatar {
       width: 52px; height: 52px; border-radius: 50%; flex-shrink: 0;
       object-fit: cover; object-position: top center;
@@ -356,10 +416,15 @@
       border: 2px solid rgba(168, 85, 247, 0.55);
       box-shadow: 0 0 12px rgba(168, 85, 247, 0.22);
     }
+    .prop-card.is-true-floor .player-avatar {
+      border-color: rgba(0, 229, 255, 0.75);
+      box-shadow: 0 0 14px rgba(0, 229, 255, 0.28);
+    }
     .player-avatar.logo-mode { object-fit: contain; padding: 5px; border-color: rgba(0, 229, 255, 0.45); }
     .prop-body { flex: 1; min-width: 0; }
     .prop-head { display: flex; justify-content: space-between; align-items: center; gap: 6px; margin-bottom: 4px; }
     .prop-player { font-size: 0.88rem; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .prop-badges-row { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; margin-bottom: 5px; }
     .prop-pick {
       font-size: 0.81rem; font-weight: 700; color: var(--cyan);
       background: var(--panel-2); padding: 6px 9px; border-radius: 8px; margin-bottom: 5px;
@@ -370,6 +435,7 @@
       display: flex; justify-content: space-between; align-items: center; gap: 10px;
       margin-bottom: 12px; flex-wrap: wrap;
     }
+    .props-bar-actions { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
     .props-bar-title { font-size: 0.85rem; font-weight: 800; color: #e2e8f0; }
 
     /* LÍNEAS INICIALES */
@@ -383,7 +449,7 @@
       background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
       padding: 14px; margin-bottom: 14px; overflow-x: auto;
     }
-    .section-title { font-size: 0.88rem; font-weight: 700; margin-bottom: 10px; display: flex; justify-content: space-between; }
+    .section-title { font-size: 0.88rem; font-weight: 700; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
     table { width: 100%; border-collapse: collapse; font-size: 0.79rem; }
     th, td { text-align: left; padding: 9px 7px; border-bottom: 1px solid var(--border); }
     th { color: var(--muted); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.6px; }
@@ -433,7 +499,6 @@
     .m-btn.active { color: var(--cyan); }
     @media (max-width: 720px) { .mobile-nav { display: grid; } }
   </style>
-  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 </head>
 <body>
   <header>
@@ -484,10 +549,14 @@
 
     <!-- VISTA 2: TOP JUGADORES (PISO SEGURO DEL DÍA) -->
     <section id="view-props" class="view">
+      <div id="propsCalContainer"></div>
       <div id="propsResumenContainer" class="diamond-wrap"></div>
       <div class="props-bar" id="propsBar" style="display:none;">
         <span class="props-bar-title" id="propsBarTitle">🛡️ Top Piso Seguro del Día</span>
-        <button class="btn-ghost" id="btnToggleAllProps">Ver todos</button>
+        <div class="props-bar-actions">
+          <button class="btn-ghost" id="btnFilterTrueFloor" style="display:none;">🔒 Solo True Floor</button>
+          <button class="btn-ghost" id="btnToggleAllProps">Ver todos</button>
+        </div>
       </div>
       <div id="propsContainer" class="cards-grid"></div>
     </section>
@@ -508,6 +577,7 @@
         <div class="section-title"><span>Evolución de Ganancias (Unidades)</span><span class="mono cyan" id="chartMax"></span></div>
         <div id="equityChart"></div>
       </div>
+      <div class="section-box" id="propsCalRoiBox"></div>
       <div class="section-box">
         <div class="section-title"><span>Efectividad por Deporte</span></div>
         <table>
@@ -541,7 +611,6 @@
     </div>
   </div>
 
-  
   <!-- MODAL DE ALERTAS PUSH POR MOTOR -->
   <div class="modal-backdrop" id="notifyModal" role="dialog" aria-modal="true">
     <div class="modal-sheet">
@@ -596,6 +665,7 @@
     let activeSport = 'ALL';
     let searchTerm = '';
     let showAllProps = false;
+    let onlyTrueFloor = false;
     let deferredPrompt = null;
     const MATCH_LOOKUP = new Map();
     let currentModalMatch = null;
@@ -604,6 +674,14 @@
     const icons = { NBA: '🏀', NFL: '🏈', SOCCER: '⚽', TENNIS: '🎾', MLB: '⚾' };
     const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (m) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
     const cleanMd = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/`([^`]+)`/g, '<code style="color:#00e5ff;font-family:var(--mono)">$1</code>');
+
+    function limpiarTextoPick(txt) {
+      return String(txt || '-')
+        .replace(/M[ÁA]S\s+DE\s*\((?:Over|Altas|M[áa]s\s+de)\)/gi, 'Más de')
+        .replace(/MENOS\s+DE\s*\((?:Under|Bajas|Menos\s+de)\)/gi, 'Menos de')
+        .replace(/\s{2,}/g, ' ')
+        .trim();
+    }
 
     function iniciales(nombre) {
       const p = String(nombre || '?').trim().split(/\s+/).filter(Boolean);
@@ -621,6 +699,17 @@
     function imgTag(url, nombre, clase, redondo = false) {
       const fb = fallbackSvg(nombre, redondo);
       return `<img class="${clase}" src="${esc(url || fb)}" alt="${esc(nombre)}" loading="lazy" onerror="this.onerror=null;this.src='${fb}'" />`;
+    }
+
+    function renderFechaHoraRow(item) {
+      const texto = item.fecha_hora || item.fecha || '';
+      if (!texto) return '';
+      const sub = item.hora_partido ? 'Horario oficial' : 'Fecha programada';
+      return `
+        <div class="match-datetime-row">
+          <span class="dt-main">🗓️ ${esc(texto)}</span>
+          <span class="dt-sub">${esc(sub)}</span>
+        </div>`;
     }
 
     if ('serviceWorker' in navigator) {
@@ -661,6 +750,10 @@
       showAllProps = !showAllProps;
       renderAll();
     });
+    document.getElementById('btnFilterTrueFloor').addEventListener('click', () => {
+      onlyTrueFloor = !onlyTrueFloor;
+      renderAll();
+    });
 
     function filtrar(lista) {
       return (lista || []).filter((it) => {
@@ -670,19 +763,91 @@
       });
     }
 
-    function renderPropCard(pr) {
+    function renderCalibracionPropsBar(cal, trueFloorHoy) {
+      if (!cal) return '';
+      if (activeSport !== 'ALL' && activeSport !== 'NBA') return '';
+      if (!cal.auditados && !trueFloorHoy) return '';
+
+      const tf = cal.true_floor || {};
+      const tfChip = tf.auditados
+        ? `<span class="props-cal-chip tf">🔒 True Floor: ${Number(tf.hit_rate_pct).toFixed(1)}% (${tf.ganados}/${tf.auditados})</span>`
+        : (trueFloorHoy ? `<span class="props-cal-chip tf">🔒 ${trueFloorHoy} True Floor hoy</span>` : '');
+      const globChip = cal.auditados
+        ? `<span class="props-cal-chip">📊 Global: ${Number(cal.hit_rate_pct).toFixed(1)}% (${cal.ganados}/${cal.auditados})</span>
+           <span class="props-cal-chip ${cal.unidades >= 0 ? 'pos' : 'neg'}">💰 ${cal.unidades >= 0 ? '+' : ''}${Number(cal.unidades).toFixed(2)} U</span>`
+        : `<span class="props-cal-chip">🎯 Calibración automática activa (boxscore oficial)</span>`;
+
       return `
-        <article class="prop-card">
+        <div class="props-cal-bar">
+          <strong>🏀 Calibración Real Props NBA V14.0</strong>
+          <div class="props-cal-chips">${tfChip}${globChip}</div>
+        </div>`;
+    }
+
+    function renderCalibracionPropsRoiBox(cal) {
+      const box = document.getElementById('propsCalRoiBox');
+      if (!cal || !cal.auditados) {
+        box.innerHTML = `
+          <div class="section-title">
+            <span>🎯 Calibración Real Player Props NBA (V14.0)</span>
+            <span class="badge">BOXSCORE OFICIAL</span>
+          </div>
+          <div class="empty-state">La efectividad real de Player Props y picks <b>🔒 TRUE FLOOR</b> aparecerá aquí automáticamente en cuanto se audite la primera jornada V14.0.</div>`;
+        return;
+      }
+
+      const tf = cal.true_floor || {};
+      const cub = cal.cubetas || {};
+      const filasCubetas = ['70-74%', '75-79%', '80%+'].map((k) => {
+        const c = cub[k] || { ganados: 0, total: 0, pct: 0 };
+        return `
+          <tr>
+            <td><b>Cubeta ${k}</b></td>
+            <td class="mono">${c.ganados} / ${c.total}</td>
+            <td class="mono ${c.pct >= 70 ? 'pos' : ''}">${c.total ? Number(c.pct).toFixed(1) + '%' : '—'}</td>
+          </tr>`;
+      }).join('');
+
+      box.innerHTML = `
+        <div class="section-title">
+          <span>🎯 Calibración Real Player Props NBA (V14.0)</span>
+          <span class="badge-true-floor">🔒 True Floor: ${tf.auditados ? Number(tf.hit_rate_pct).toFixed(1) + '%' : 'Auditando'}</span>
+        </div>
+        <div class="props-cal-chips" style="margin-bottom:10px;">
+          <span class="props-cal-chip">📊 Global: ${cal.ganados}/${cal.auditados} (${Number(cal.hit_rate_pct).toFixed(1)}%)</span>
+          <span class="props-cal-chip tf">🔒 True Floor: ${tf.ganados || 0}/${tf.auditados || 0} (${Number(tf.hit_rate_pct || 0).toFixed(1)}%)</span>
+          <span class="props-cal-chip ${cal.unidades >= 0 ? 'pos' : 'neg'}">💰 ${cal.unidades >= 0 ? '+' : ''}${Number(cal.unidades).toFixed(2)} U (ROI ${cal.roi_pct >= 0 ? '+' : ''}${Number(cal.roi_pct).toFixed(1)}%)</span>
+        </div>
+        <table>
+          <thead><tr><th>Rango de Probabilidad</th><th>Aciertos / Total</th><th>Efectividad Real</th></tr></thead>
+          <tbody>${filasCubetas}</tbody>
+        </table>`;
+    }
+
+    function renderPropCard(pr) {
+      const esTf = Boolean(pr.es_true_floor);
+      const badgeFloor = esTf
+        ? `<span class="badge-true-floor">${esc(pr.badge_floor || '🔒 TRUE FLOOR')}</span>`
+        : (pr.badge_floor ? `<span class="badge-solido">${esc(pr.badge_floor)}</span>` : '');
+      const badgeOdds = pr.cuota_real ? `<span class="badge-odds">@${Number(pr.cuota_real).toFixed(2)}</span>` : '';
+      const badgeProy = pr.proyeccion !== undefined && pr.proyeccion !== null
+        ? `<span class="mini-chip">Proy: ${Number(pr.proyeccion).toFixed(1)}</span>`
+        : '';
+      const hasBadges = badgeFloor || badgeOdds || badgeProy;
+
+      return `
+        <article class="prop-card ${esTf ? 'is-true-floor' : ''}">
           ${imgTag(pr.foto, pr.jugador, pr.es_equipo ? 'player-avatar logo-mode' : 'player-avatar', !pr.es_equipo)}
           <div class="prop-body">
             <div class="prop-head">
               <div class="prop-player">${esc(pr.jugador)}</div>
               <span class="badge purple">${pr.probabilidad ? Number(pr.probabilidad).toFixed(1) + '% prob.' : pr.deporte}</span>
             </div>
-            <div class="prop-pick">${esc(pr.pick_amigable || pr.pick)}</div>
+            ${hasBadges ? `<div class="prop-badges-row">${badgeFloor}${badgeOdds}${badgeProy}</div>` : ''}
+            <div class="prop-pick">${esc(limpiarTextoPick(pr.pick_amigable || pr.pick))}</div>
             <div class="prop-foot">
               <span>${pr.equipo ? esc(pr.equipo) : (icons[pr.deporte] || '') + ' ' + esc(pr.partido)}</span>
-              <span>Últimos 5: ${esc(pr.racha_l5 || '—')}</span>
+              <span>Reciente: ${esc(pr.racha_l5 || '—')}</span>
             </div>
           </div>
         </article>`;
@@ -721,15 +886,18 @@
       const p2 = p.pick_2 || null;
       const prob1 = p1.prob ? `<span class="prob-chip">${Number(p1.prob).toFixed(1)}% prob.</span>` : '';
       const prob2 = p2 && p2.prob ? `<span class="prob-chip">${Number(p2.prob).toFixed(1)}% prob.</span>` : '';
-      const nProps = (p.props_partido || []).length;
+      const propsMatch = p.props_partido || [];
+      const nProps = propsMatch.length;
+      const nTrueFloor = propsMatch.filter((x) => x.es_true_floor).length;
       const nSgp = (p.guiones_partido || []).length;
 
       return `
         <article class="card clickable" data-open-match="${esc(p.id)}" data-team-filter="ALL">
           <div class="card-top">
             <span class="badge">${icons[p.deporte] || ''} ${esc(p.liga)}</span>
-            <span class="badge amber">Cuota ${Number(p.cuota).toFixed(2)}</span>
+            <span class="badge amber">Cuota ${Number(p.cuota || 1.91).toFixed(2)}</span>
           </div>
+          ${renderFechaHoraRow(p)}
           ${matchupHTML(p, true)}
           <div class="picks-stack">
             <div class="pick-tier primary">
@@ -737,7 +905,7 @@
                 <span>🥇 Pick #1 • ${esc(p1.etiqueta)}</span>
                 ${prob1}
               </div>
-              <div class="tier-val">${esc(p1.texto)}</div>
+              <div class="tier-val">${esc(limpiarTextoPick(p1.texto))}</div>
             </div>
             ${p2 ? `
             <div class="pick-tier secondary">
@@ -745,14 +913,15 @@
                 <span>🥈 Pick #2 • ${esc(p2.etiqueta)}</span>
                 ${prob2}
               </div>
-              <div class="tier-val">${esc(p2.texto)}</div>
+              <div class="tier-val">${esc(limpiarTextoPick(p2.texto))}</div>
             </div>` : ''}
           </div>
           <div class="card-cta-bar">
             <div class="cta-chips">
+              ${nTrueFloor ? `<span class="mini-chip tf">🔒 ${nTrueFloor} True Floor</span>` : ''}
               ${nProps ? `<span class="mini-chip hi">🌟 ${nProps} Props</span>` : ''}
               ${nSgp ? `<span class="mini-chip hi">🎬 ${nSgp} SGP</span>` : ''}
-              ${!nProps && !nSgp ? `<span class="mini-chip">${esc(p.fecha)}</span>` : ''}
+              ${!nProps && !nSgp && !nTrueFloor ? `<span class="mini-chip">${esc(p.fecha_corta || p.fecha)}</span>` : ''}
             </div>
             <span class="cta-link">Ver detalle →</span>
           </div>
@@ -780,7 +949,8 @@
       const m = currentModalMatch;
       if (!m) return;
 
-      document.getElementById('modalKicker').textContent = `${icons[m.deporte] || ''} ${m.liga} • Radiografía del Partido`;
+      const horarioKicker = m.fecha_hora ? ` • 🗓️ ${m.fecha_hora}` : (m.fecha ? ` • 🗓️ ${m.fecha}` : '');
+      document.getElementById('modalKicker').textContent = `${icons[m.deporte] || ''} ${m.liga}${horarioKicker}`;
       document.getElementById('modalTitle').textContent = m.duelo;
 
       const propsAll = m.props_partido || [];
@@ -811,17 +981,17 @@
           <div class="picks-stack">
             <div class="pick-tier primary">
               <div class="tier-head"><span>🥇 Pick #1 • ${esc(p1.etiqueta)}</span>${p1.prob ? `<span class="prob-chip">${Number(p1.prob).toFixed(1)}% prob.</span>` : ''}</div>
-              <div class="tier-val">${esc(p1.texto)}</div>
+              <div class="tier-val">${esc(limpiarTextoPick(p1.texto))}</div>
             </div>
             ${p2 ? `
             <div class="pick-tier secondary">
               <div class="tier-head"><span>🥈 Pick #2 • ${esc(p2.etiqueta)}</span>${p2.prob ? `<span class="prob-chip">${Number(p2.prob).toFixed(1)}% prob.</span>` : ''}</div>
-              <div class="tier-val">${esc(p2.texto)}</div>
+              <div class="tier-val">${esc(limpiarTextoPick(p2.texto))}</div>
             </div>` : ''}
             ${p3 ? `
             <div class="pick-tier tertiary">
               <div class="tier-head"><span>🥉 Opción #3 • ${esc(p3.etiqueta)}</span>${p3.prob ? `<span class="prob-chip">${Number(p3.prob).toFixed(1)}% prob.</span>` : ''}</div>
-              <div class="tier-val">${esc(p3.texto)}</div>
+              <div class="tier-val">${esc(limpiarTextoPick(p3.texto))}</div>
             </div>` : ''}
           </div>
         </div>` : '';
@@ -904,7 +1074,6 @@
       `;
     }
 
-    // Delegación limpia de clics (escudos, tarjetas y pestañas del modal)
     document.addEventListener('click', (e) => {
       const tsw = e.target.closest('[data-modal-team]');
       if (tsw) {
@@ -924,7 +1093,10 @@
       if (e.target.id === 'matchModal') cerrarModal();
     });
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') cerrarModal();
+      if (e.key === 'Escape') {
+        cerrarModal();
+        cerrarNotifyModal();
+      }
     });
 
     function renderEquityChart(curva) {
@@ -954,17 +1126,19 @@
     function renderAll() {
       if (!DATA) return;
       MATCH_LOOKUP.clear();
-      const k = DATA.kpis;
+      const k = DATA.kpis || {};
       document.getElementById('updatedAt').textContent = DATA.updated_at || '-';
 
+      const roiVal = Number(k.roi_global || 0);
+      const unitsVal = Number(k.unidades_netas || 0);
       const roiEl = document.getElementById('kpiRoi');
-      roiEl.textContent = `${k.roi_global >= 0 ? '+' : ''}${k.roi_global.toFixed(1)}%`;
-      roiEl.className = `kpi-mini-val ${k.roi_global >= 0 ? 'pos' : 'neg'}`;
+      roiEl.textContent = `${roiVal >= 0 ? '+' : ''}${roiVal.toFixed(1)}%`;
+      roiEl.className = `kpi-mini-val ${roiVal >= 0 ? 'pos' : 'neg'}`;
       const uEl = document.getElementById('kpiUnits');
-      uEl.textContent = `${k.unidades_netas >= 0 ? '+' : ''}${k.unidades_netas.toFixed(2)} U`;
-      uEl.className = `kpi-mini-val ${k.unidades_netas >= 0 ? 'pos' : 'neg'}`;
-      document.getElementById('kpiPicksHoy').textContent = k.picks_hoy;
-      document.getElementById('kpiAperturas').textContent = k.aperturas_activas;
+      uEl.textContent = `${unitsVal >= 0 ? '+' : ''}${unitsVal.toFixed(2)} U`;
+      uEl.className = `kpi-mini-val ${unitsVal >= 0 ? 'pos' : 'neg'}`;
+      document.getElementById('kpiPicksHoy').textContent = k.picks_hoy || 0;
+      document.getElementById('kpiAperturas').textContent = k.aperturas_activas || 0;
 
       // 1. Diamante + Pronósticos
       const diams = filtrar(DATA.diamantes);
@@ -984,7 +1158,12 @@
         ? picks.map(renderPickCard).join('')
         : `<div class="empty-state" style="grid-column:1/-1;">Todavía no se publican los pronósticos finales de este deporte hoy.<br/>Puedes consultar los partidos programados en <b>📸 Líneas Iniciales</b>.</div>`;
 
-      // 2. Top Jugadores (Curado al Top 12 Piso Seguro por defecto)
+      // 2. Top Jugadores + Calibración Props NBA + Filtro True Floor
+      document.getElementById('propsCalContainer').innerHTML = renderCalibracionPropsBar(
+        DATA.props_calibracion_nba,
+        Number(k.props_true_floor_hoy || 0)
+      );
+
       const pRes = filtrar(DATA.props_resumenes);
       document.getElementById('propsResumenContainer').innerHTML = pRes.map((r) => `
         <div class="diamond-card">
@@ -992,14 +1171,30 @@
           <div class="rich-text">${cleanMd(r.texto)}</div>
         </div>`).join('');
 
-      const props = filtrar(DATA.props);
+      const propsAllSport = filtrar(DATA.props);
+      const tfDisponibles = propsAllSport.filter((x) => x.es_true_floor);
+      const btnTf = document.getElementById('btnFilterTrueFloor');
+      if (tfDisponibles.length > 0) {
+        btnTf.style.display = 'inline-block';
+        btnTf.textContent = onlyTrueFloor ? `🔒 True Floor (${tfDisponibles.length}) ✓` : `🔒 Solo True Floor (${tfDisponibles.length})`;
+        btnTf.classList.toggle('active-filter', onlyTrueFloor);
+      } else {
+        onlyTrueFloor = false;
+        btnTf.style.display = 'none';
+      }
+
+      const props = onlyTrueFloor ? tfDisponibles : propsAllSport;
       const pBar = document.getElementById('propsBar');
-      if (props.length > 12) {
+      const btnToggleAll = document.getElementById('btnToggleAllProps');
+      if (props.length > 12 || tfDisponibles.length > 0) {
         pBar.style.display = 'flex';
-        document.getElementById('propsBarTitle').textContent = showAllProps
-          ? `🌟 Todos los Props Piso Seguro (${props.length})`
-          : `🛡️ Top 12 Piso Seguro del Día (de ${props.length})`;
-        document.getElementById('btnToggleAllProps').textContent = showAllProps ? 'Ver solo Top 12' : `Ver los ${props.length}`;
+        document.getElementById('propsBarTitle').textContent = onlyTrueFloor
+          ? `🔒 Selecciones True Floor (${props.length})`
+          : (showAllProps
+            ? `🌟 Todos los Props Piso Seguro (${props.length})`
+            : `🛡️ Top ${Math.min(12, props.length)} Piso Seguro del Día (de ${props.length})`);
+        btnToggleAll.style.display = props.length > 12 ? 'inline-block' : 'none';
+        btnToggleAll.textContent = showAllProps ? 'Ver solo Top 12' : `Ver los ${props.length}`;
       } else {
         pBar.style.display = 'none';
       }
@@ -1020,7 +1215,7 @@
         </article>`).join('') :
         `<div class="empty-state" style="grid-column:1/-1;">Aún no hay combinadas sugeridas para este deporte hoy.</div>`;
 
-      // 4. Líneas Iniciales (también clicables para ver radiografía)
+      // 4. Líneas Iniciales (con fecha/hora y clicables para radiografía)
       const aps = filtrar(DATA.aperturas);
       document.getElementById('aperturasContainer').innerHTML = aps.length ? aps.map((a) => {
         MATCH_LOOKUP.set(a.id, a);
@@ -1030,28 +1225,31 @@
             <span class="badge">${icons[a.deporte] || ''} ${esc(a.liga)}</span>
             <span class="badge green">${esc(a.casino)}</span>
           </div>
+          ${renderFechaHoraRow(a)}
           ${matchupHTML(a, true)}
           <div class="line-box">
             <div>${esc(a.linea_1)}</div>
             <div>${esc(a.linea_2)}</div>
           </div>
           <div class="card-cta-bar">
-            <span style="color:var(--muted);">Registro: ${esc((a.captura || '').slice(0, 16))}</span>
+            <span style="color:var(--muted);">Captura: ${esc((a.captura || '').slice(0, 16))}</span>
             <span class="cta-link">Ver detalle →</span>
           </div>
         </article>`;
       }).join('') :
         `<div class="empty-state" style="grid-column:1/-1;">No hay líneas iniciales registradas para este deporte.</div>`;
 
-      // 5. Resultados y Motores
+      // 5. Resultados, Calibración Props NBA y Motores
       renderEquityChart(DATA.curva_banca);
+      renderCalibracionPropsRoiBox(DATA.props_calibracion_nba);
+
       document.getElementById('sportSummaryBody').innerHTML = Object.entries(DATA.resumen_deportes || {}).map(([dep, v]) => `
         <tr>
           <td><b>${icons[dep] || ''} ${dep}</b></td>
           <td class="mono">${v.ganados} - ${v.perdidos}</td>
-          <td class="mono">${v.win_rate.toFixed(1)}%</td>
-          <td class="mono ${v.unidades >= 0 ? 'pos' : 'neg'}">${v.unidades >= 0 ? '+' : ''}${v.unidades.toFixed(2)} U</td>
-          <td class="mono ${v.roi >= 0 ? 'pos' : 'neg'}">${v.roi >= 0 ? '+' : ''}${v.roi.toFixed(1)}%</td>
+          <td class="mono">${Number(v.win_rate).toFixed(1)}%</td>
+          <td class="mono ${v.unidades >= 0 ? 'pos' : 'neg'}">${v.unidades >= 0 ? '+' : ''}${Number(v.unidades).toFixed(2)} U</td>
+          <td class="mono ${v.roi >= 0 ? 'pos' : 'neg'}">${v.roi >= 0 ? '+' : ''}${Number(v.roi).toFixed(1)}%</td>
         </tr>`).join('');
 
       const hist = filtrar(DATA.historial);
@@ -1084,13 +1282,12 @@
       }
     }
 
-    
     // ==========================================
     // 🔔 DEEP-LINK (?sport=) + NOTIFICACIONES PUSH ONESIGNAL V16
     // ==========================================
     const ONESIGNAL_APP_ID = "d1621b22-f495-4dfa-84ac-df592f2b4280";
     const PUSH_SPORTS = [
-      { id: 'NBA',    tag: 'sport_nba',    label: '🏀 NBA',    sub: 'Partidos, Diamante, Props y SGP' },
+      { id: 'NBA',    tag: 'sport_nba',    label: '🏀 NBA',    sub: 'Partidos, Diamante, True Floor Props y SGP' },
       { id: 'NFL',    tag: 'sport_nfl',    label: '🏈 NFL',    sub: 'Ventanas oficiales y días especiales' },
       { id: 'SOCCER', tag: 'sport_soccer', label: '⚽ Soccer', sub: 'Premier, Serie A, LaLiga y ligas top' },
       { id: 'TENNIS', tag: 'sport_tennis', label: '🎾 Tenis',  sub: 'ATP, WTA y torneos internacionales' },
@@ -1137,10 +1334,7 @@
       const btn = document.getElementById('btnEnablePush');
       dot.classList.toggle('on', PUSH_ENABLED);
 
-      if (!ONESIGNAL_APP_ID || ONESIGNAL_APP_ID.includes('PEGA_AQUI')) {
-        statusEl.textContent = 'Pendiente de configurar el App ID de OneSignal en index.html.';
-        btn.style.display = 'none';
-      } else if (PUSH_ENABLED) {
+      if (PUSH_ENABLED) {
         statusEl.innerHTML = '<b style="color:var(--green);">✅ Alertas activas en este dispositivo.</b> Activa o apaga cada motor abajo.';
         btn.textContent = 'Pausar alertas en este equipo';
         btn.className = 'btn-ghost';
@@ -1224,7 +1418,7 @@
       }
     });
 
-    if (ONESIGNAL_APP_ID && !ONESIGNAL_APP_ID.includes('PEGA_AQUI')) {
+    if (ONESIGNAL_APP_ID) {
       window.OneSignalDeferred = window.OneSignalDeferred || [];
       window.OneSignalDeferred.push(async function(OneSignal) {
         try {
@@ -1255,7 +1449,6 @@
     }
 
     aplicarParametrosURL();
-
     cargarDatos();
   </script>
 </body>
