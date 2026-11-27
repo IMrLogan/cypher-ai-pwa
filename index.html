@@ -153,7 +153,7 @@
     .badge.amber { background: rgba(245, 158, 11, 0.15); color: var(--amber); }
     .badge.purple { background: rgba(168, 85, 247, 0.16); color: #d8b4fe; }
 
-    /* INSIGNIA TRUE FLOOR Y CALIBRACIÓN PROPS (NBA + NFL) */
+    /* INSIGNIA TRUE FLOOR Y CALIBRACIÓN PROPS (NBA + NFL + SOCCER) */
     .badge-true-floor {
       display: inline-flex; align-items: center; gap: 4px;
       padding: 2px 8px; border-radius: 999px;
@@ -177,7 +177,7 @@
       border: 1px solid rgba(245, 158, 11, 0.28);
     }
     .props-cal-grid {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
       gap: 10px; margin-bottom: 12px;
     }
     .props-cal-bar {
@@ -191,6 +191,10 @@
       background: linear-gradient(135deg, rgba(168, 85, 247, 0.10), rgba(0, 229, 255, 0.08));
       border-color: rgba(168, 85, 247, 0.34);
     }
+    .props-cal-bar.soccer-bar {
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.11), rgba(0, 229, 255, 0.08));
+      border-color: rgba(16, 185, 129, 0.36);
+    }
     .props-cal-chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
     .props-cal-chip {
       font-family: var(--mono); font-size: 0.71rem; font-weight: 700;
@@ -199,7 +203,7 @@
     }
     .props-cal-chip.tf { border-color: rgba(0, 229, 255, 0.45); color: var(--cyan); }
     .cal-roi-grid {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
       gap: 14px; margin-bottom: 14px;
     }
     .cal-roi-grid .section-box { margin-bottom: 0; }
@@ -802,6 +806,7 @@
       const allProps = data.props || [];
       const tfNbaHoy = k.props_true_floor_nba_hoy ?? allProps.filter((x) => x.es_true_floor && x.deporte === 'NBA').length;
       const tfNflHoy = k.props_true_floor_nfl_hoy ?? allProps.filter((x) => x.es_true_floor && x.deporte === 'NFL').length;
+      const tfSocHoy = k.props_true_floor_soccer_hoy ?? allProps.filter((x) => x.es_true_floor && x.deporte === 'SOCCER').length;
 
       const bloques = [];
       if (activeSport === 'ALL' || activeSport === 'NBA') {
@@ -812,11 +817,15 @@
         const bNfl = renderUnaBarraCalProps('🏈 Calibración Props NFL V11.0', data.props_calibracion_nfl, tfNflHoy, 'Auditoría Play-by-Play oficial', 'nfl-bar');
         if (bNfl) bloques.push(bNfl);
       }
+      if (activeSport === 'ALL' || activeSport === 'SOCCER') {
+        const bSoc = renderUnaBarraCalProps('⚽ Calibración Props Soccer V11.0', data.props_calibracion_soccer, tfSocHoy, 'Gol • Tiros al Arco • G+A', 'soccer-bar');
+        if (bSoc) bloques.push(bSoc);
+      }
 
       return bloques.length ? `<div class="props-cal-grid">${bloques.join('')}</div>` : '';
     }
 
-    function renderUnaTarjetaCalRoi(titulo, badgeFuente, cal, msgVacio) {
+    function renderUnaTarjetaCalRoi(titulo, badgeFuente, cal, msgVacio, modoMercados = false) {
       if (!cal || !cal.auditados) {
         return `
           <div class="section-box">
@@ -829,16 +838,38 @@
       }
 
       const tf = cal.true_floor || {};
-      const cub = cal.cubetas || {};
-      const filasCubetas = ['70-74%', '75-79%', '80%+'].map((k) => {
-        const c = cub[k] || { ganados: 0, total: 0, pct: 0 };
-        return `
+      let tablaHtml = '';
+
+      if (modoMercados && cal.mercados) {
+        const filasMerc = Object.values(cal.mercados).map((m) => `
           <tr>
-            <td><b>Cubeta ${k}</b></td>
-            <td class="mono">${c.ganados} / ${c.total}</td>
-            <td class="mono ${c.pct >= 70 ? 'pos' : ''}">${c.total ? Number(c.pct).toFixed(1) + '%' : '—'}</td>
-          </tr>`;
-      }).join('');
+            <td><b>${esc(m.label)}</b></td>
+            <td class="mono">${m.ganados} / ${m.total}</td>
+            <td class="mono ${m.pct >= 55 ? 'pos' : ''}">${m.total ? Number(m.pct).toFixed(1) + '%' : '—'}</td>
+            <td class="mono ${m.unidades >= 0 ? 'pos' : 'neg'}">${m.total ? (m.unidades >= 0 ? '+' : '') + Number(m.unidades).toFixed(2) + ' U' : '—'}</td>
+          </tr>`).join('');
+        tablaHtml = `
+          <table>
+            <thead><tr><th>Mercado Futbolista</th><th>Aciertos</th><th>Efectividad</th><th>Neto</th></tr></thead>
+            <tbody>${filasMerc}</tbody>
+          </table>`;
+      } else {
+        const cub = cal.cubetas || {};
+        const filasCubetas = ['70-74%', '75-79%', '80%+'].map((k) => {
+          const c = cub[k] || { ganados: 0, total: 0, pct: 0 };
+          return `
+            <tr>
+              <td><b>Cubeta ${k}</b></td>
+              <td class="mono">${c.ganados} / ${c.total}</td>
+              <td class="mono ${c.pct >= 70 ? 'pos' : ''}">${c.total ? Number(c.pct).toFixed(1) + '%' : '—'}</td>
+            </tr>`;
+        }).join('');
+        tablaHtml = `
+          <table>
+            <thead><tr><th>Rango de Probabilidad</th><th>Aciertos / Total</th><th>Efectividad Real</th></tr></thead>
+            <tbody>${filasCubetas}</tbody>
+          </table>`;
+      }
 
       return `
         <div class="section-box">
@@ -851,18 +882,15 @@
             <span class="props-cal-chip tf">🔒 True Floor: ${tf.ganados || 0}/${tf.auditados || 0} (${Number(tf.hit_rate_pct || 0).toFixed(1)}%)</span>
             <span class="props-cal-chip ${cal.unidades >= 0 ? 'pos' : 'neg'}">💰 ${cal.unidades >= 0 ? '+' : ''}${Number(cal.unidades).toFixed(2)} U (ROI ${cal.roi_pct >= 0 ? '+' : ''}${Number(cal.roi_pct).toFixed(1)}%)</span>
           </div>
-          <table>
-            <thead><tr><th>Rango de Probabilidad</th><th>Aciertos / Total</th><th>Efectividad Real</th></tr></thead>
-            <tbody>${filasCubetas}</tbody>
-          </table>
+          ${tablaHtml}
         </div>`;
     }
 
-    function renderCalibracionPropsRoiBox(calNba, calNfl) {
+    function renderCalibracionPropsRoiBox(calNba, calNfl, calSoccer) {
       const box = document.getElementById('propsCalRoiBox');
       const cards = [];
 
-      if (activeSport !== 'NFL') {
+      if (activeSport === 'ALL' || activeSport === 'NBA') {
         cards.push(renderUnaTarjetaCalRoi(
           '🏀 Calibración Player Props NBA (V14.0)',
           'BOXSCORE OFICIAL',
@@ -870,7 +898,7 @@
           'La efectividad real de Player Props NBA y picks <b>🔒 TRUE FLOOR</b> aparecerá aquí automáticamente al auditar la primera jornada V14.0.'
         ));
       }
-      if (activeSport !== 'NBA') {
+      if (activeSport === 'ALL' || activeSport === 'NFL') {
         cards.push(renderUnaTarjetaCalRoi(
           '🏈 Calibración Player Props NFL (V11.0)',
           'PLAY-BY-PLAY OFICIAL',
@@ -878,8 +906,18 @@
           'La efectividad real de Player Props NFL y picks <b>🔒 TRUE FLOOR</b> aparecerá aquí automáticamente al auditar la primera jornada V11.0.'
         ));
       }
+      if (activeSport === 'ALL' || activeSport === 'SOCCER') {
+        cards.push(renderUnaTarjetaCalRoi(
+          '⚽ Calibración Player Props Soccer (V11.0)',
+          'GOL • SOT • G+A',
+          calSoccer,
+          'La efectividad real de <b>Tiros al Arco</b>, <b>Anota o Asiste</b> y <b>Anota Gol</b> aparecerá aquí automáticamente al auditar la primera jornada V11.0.',
+          true
+        ));
+      }
 
       box.innerHTML = cards.join('');
+      box.style.display = cards.length ? 'grid' : 'none';
     }
 
     function renderPropCard(pr) {
@@ -889,7 +927,7 @@
         : (pr.badge_floor ? `<span class="badge-solido">${esc(pr.badge_floor)}</span>` : '');
       const badgeOdds = pr.cuota_real ? `<span class="badge-odds">@${Number(pr.cuota_real).toFixed(2)}</span>` : '';
       const badgeProy = pr.proyeccion !== undefined && pr.proyeccion !== null
-        ? `<span class="mini-chip">Proy: ${Number(pr.proyeccion).toFixed(1)}</span>`
+        ? `<span class="mini-chip">Proy: ${Number(pr.proyeccion).toFixed(pr.deporte === 'SOCCER' ? 2 : 1)}</span>`
         : '';
       const hasBadges = badgeFloor || badgeOdds || badgeProy;
 
@@ -905,7 +943,7 @@
             <div class="prop-pick">${esc(limpiarTextoPick(pr.pick_amigable || pr.pick))}</div>
             <div class="prop-foot">
               <span>${pr.equipo ? esc(pr.equipo) : (icons[pr.deporte] || '') + ' ' + esc(pr.partido)}</span>
-              <span>Reciente: ${esc(pr.racha_l5 || '—')}</span>
+              <span>${pr.deporte === 'SOCCER' ? 'Stats:' : 'Reciente:'} ${esc(pr.racha_l5 || '—')}</span>
             </div>
           </div>
         </article>`;
@@ -1216,7 +1254,7 @@
         ? picks.map(renderPickCard).join('')
         : `<div class="empty-state" style="grid-column:1/-1;">Todavía no se publican los pronósticos finales de este deporte hoy.<br/>Puedes consultar los partidos programados en <b>📸 Líneas Iniciales</b>.</div>`;
 
-      // 2. Top Jugadores + Calibración Props NBA & NFL + Filtro True Floor
+      // 2. Top Jugadores + Calibración Props NBA, NFL & Soccer + Filtro True Floor
       document.getElementById('propsCalContainer').innerHTML = renderCalibracionPropsBars(DATA);
 
       const pRes = filtrar(DATA.props_resumenes);
@@ -1294,9 +1332,9 @@
       }).join('') :
         `<div class="empty-state" style="grid-column:1/-1;">No hay líneas iniciales registradas para este deporte.</div>`;
 
-      // 5. Resultados, Calibración Props (NBA + NFL) y Motores
+      // 5. Resultados, Calibración Props (NBA + NFL + Soccer) y Motores
       renderEquityChart(DATA.curva_banca);
-      renderCalibracionPropsRoiBox(DATA.props_calibracion_nba, DATA.props_calibracion_nfl);
+      renderCalibracionPropsRoiBox(DATA.props_calibracion_nba, DATA.props_calibracion_nfl, DATA.props_calibracion_soccer);
 
       document.getElementById('sportSummaryBody').innerHTML = Object.entries(DATA.resumen_deportes || {}).map(([dep, v]) => `
         <tr>
@@ -1344,7 +1382,7 @@
     const PUSH_SPORTS = [
       { id: 'NBA',    tag: 'sport_nba',    label: '🏀 NBA',    sub: 'Partidos, Diamante, True Floor Props y SGP' },
       { id: 'NFL',    tag: 'sport_nfl',    label: '🏈 NFL',    sub: 'True Floor Props L8, ventanas oficiales y SGP' },
-      { id: 'SOCCER', tag: 'sport_soccer', label: '⚽ Soccer', sub: 'Premier, Serie A, LaLiga y ligas top' },
+      { id: 'SOCCER', tag: 'sport_soccer', label: '⚽ Soccer', sub: 'Goles, Tiros al Arco, G+A y filtro +EV >=1.60' },
       { id: 'TENNIS', tag: 'sport_tennis', label: '🎾 Tenis',  sub: 'ATP, WTA y torneos internacionales' },
       { id: 'MLB',    tag: 'sport_mlb',    label: '⚾ MLB',    sub: 'Temporada regular y playoffs (Mar–Nov)' }
     ];
