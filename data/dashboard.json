@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 20:44 CST",
+  "updated_at": "2026-11-26 21:14 CST",
   "fecha_operativa": "2026-11-26",
   "kpis": {
     "ganados": 529,
@@ -2188,7 +2188,7 @@
       "equipo_a": "KC",
       "equipo_b": "BUF",
       "separador": "@",
-      "logo_a": "",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
       "contexto": [
         {
@@ -2198,7 +2198,7 @@
       ],
       "pick_1": {
         "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
+        "texto": "Más de 50.5 pts",
         "prob": 57.2
       },
       "pick_2": {
@@ -2300,7 +2300,11 @@
         "linea_2": "Altas / Bajas: 50.5 pts",
         "casino": "LowVig.ag",
         "captura": "2026-11-19 01:03:56"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "7:20 PM CST",
+      "fecha_hora": "26 Nov • 7:20 PM CST",
+      "commence_utc": "2026-11-27T01:20:00Z"
     },
     {
       "deporte": "NFL",
@@ -2335,7 +2339,7 @@
       },
       "pick_3": {
         "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
+        "texto": "Menos de 47.5 pts",
         "prob": 58.2
       },
       "rankeado_real": true,
@@ -2427,7 +2431,11 @@
         "linea_2": "Altas / Bajas: 47.5 pts",
         "casino": "LowVig.ag",
         "captura": "2026-11-19 01:03:56"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "3:30 PM CST",
+      "fecha_hora": "26 Nov • 3:30 PM CST",
+      "commence_utc": "2026-11-26T21:30:00Z"
     },
     {
       "deporte": "NFL",
@@ -2462,7 +2470,7 @@
       },
       "pick_3": {
         "etiqueta": "Altas / Bajas",
-        "texto": "MÁS DE (Más de)",
+        "texto": "Más de 54.5 pts",
         "prob": 54.4
       },
       "rankeado_real": true,
@@ -2554,7 +2562,11 @@
         "linea_2": "Altas / Bajas: 54.5 pts",
         "casino": "LowVig.ag",
         "captura": "2026-11-19 01:03:56"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "26 Nov • 12:00 PM CST",
+      "commence_utc": "2026-11-26T18:00:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -2672,7 +2684,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.76 / 2.15",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:02:23"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "",
+      "fecha_hora": "26 Nov",
+      "commence_utc": ""
     },
     {
       "deporte": "SOCCER",
@@ -2790,7 +2806,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.91 / 2.08",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:02:16"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "7:00 PM CST",
+      "fecha_hora": "26 Nov • 7:00 PM CST",
+      "commence_utc": "2026-11-27T01:00:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -2806,7 +2826,7 @@
       "equipo_b": "Remo",
       "separador": "vs",
       "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-      "logo_b": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
       "contexto": [],
       "pick_1": {
         "etiqueta": "Pronóstico Principal",
@@ -2908,7 +2928,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.72 / 2.21",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:02:10"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "5:00 PM CST",
+      "fecha_hora": "26 Nov • 5:00 PM CST",
+      "commence_utc": "2026-11-26T23:00:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -3026,7 +3050,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.60 / 2.52",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:02:04"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -3144,7 +3172,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.57 / 2.50",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:01:57"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -3262,7 +3294,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.70 / 2.29",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:01:51"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -3380,7 +3416,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.73 / 2.23",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:01:45"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -3498,7 +3538,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.53 / 2.63",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:01:39"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -3616,7 +3660,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.40 / 3.10",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:01:32"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -3734,7 +3782,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.40 / 3.10",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:01:26"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -3852,7 +3904,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.40 / 3.11",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:01:20"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -3970,7 +4026,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.55 / 2.55",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:01:13"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "",
+      "fecha_hora": "26 Nov",
+      "commence_utc": ""
     },
     {
       "deporte": "SOCCER",
@@ -4088,7 +4148,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.61 / 2.55",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:01:07"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -4206,7 +4270,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.32 / 3.57",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:01:01"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "11:45 AM CST",
+      "fecha_hora": "26 Nov • 11:45 AM CST",
+      "commence_utc": "2026-11-26T17:45:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -4324,7 +4392,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.47 / 2.80",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:00:54"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "11:45 AM CST",
+      "fecha_hora": "26 Nov • 11:45 AM CST",
+      "commence_utc": "2026-11-26T17:45:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -4442,7 +4514,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.47 / 2.88",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:00:48"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "11:45 AM CST",
+      "fecha_hora": "26 Nov • 11:45 AM CST",
+      "commence_utc": "2026-11-26T17:45:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -4560,7 +4636,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.88 / 2.03",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:00:42"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "",
+      "fecha_hora": "26 Nov",
+      "commence_utc": ""
     },
     {
       "deporte": "SOCCER",
@@ -4678,7 +4758,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.63 / 2.40",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:00:35"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "11:45 AM CST",
+      "fecha_hora": "26 Nov • 11:45 AM CST",
+      "commence_utc": "2026-11-26T17:45:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -4796,7 +4880,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.50 / 2.67",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:00:29"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "11:45 AM CST",
+      "fecha_hora": "26 Nov • 11:45 AM CST",
+      "commence_utc": "2026-11-26T17:45:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -4914,7 +5002,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.94 / 1.97",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:00:23"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "11:45 AM CST",
+      "fecha_hora": "26 Nov • 11:45 AM CST",
+      "commence_utc": "2026-11-26T17:45:00Z"
     },
     {
       "deporte": "SOCCER",
@@ -5032,7 +5124,11 @@
         "linea_2": "Altas / Bajas 2.5 goles: 1.40 / 3.20",
         "casino": "Pinnacle / Consenso",
         "captura": "2026-11-26 01:00:17"
-      }
+      },
+      "fecha_corta": "26 Nov",
+      "hora_partido": "11:45 AM CST",
+      "fecha_hora": "26 Nov • 11:45 AM CST",
+      "commence_utc": "2026-11-26T17:45:00Z"
     }
   ],
   "aperturas": [
@@ -5134,7 +5230,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "26 Nov • 12:00 PM CST",
+      "commence_utc": "2026-11-26T18:00:00Z"
     },
     {
       "id": "62537ef082ed",
@@ -5234,7 +5334,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "3:30 PM CST",
+      "fecha_hora": "26 Nov • 3:30 PM CST",
+      "commence_utc": "2026-11-26T21:30:00Z"
     },
     {
       "id": "c947c7d0576d",
@@ -5245,7 +5349,7 @@
       "equipo_a": "KC",
       "equipo_b": "BUF",
       "separador": "@",
-      "logo_a": "",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
       "linea_1": "Hándicap BUF: -3.0 pts",
       "linea_2": "Altas / Bajas: 50.5 pts",
@@ -5334,7 +5438,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "7:20 PM CST",
+      "fecha_hora": "26 Nov • 7:20 PM CST",
+      "commence_utc": "2026-11-27T01:20:00Z"
     },
     {
       "id": "5be95507b957",
@@ -5346,14 +5454,18 @@
       "equipo_b": "PIT",
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-      "logo_b": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
       "linea_1": "Hándicap PIT: +1.5 pts",
       "linea_2": "Altas / Bajas: 40.0 pts",
       "casino": "LowVig.ag",
       "captura": "2026-11-19 01:03:56",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "27 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "27 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-27T20:00:00Z"
     },
     {
       "id": "a400405f9d0b",
@@ -5372,7 +5484,11 @@
       "captura": "2026-11-19 01:03:56",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "29 Nov",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "29 Nov • 12:00 PM CST",
+      "commence_utc": "2026-11-29T18:00:00Z"
     },
     {
       "id": "d24a88024a8f",
@@ -5391,7 +5507,11 @@
       "captura": "2026-11-19 01:03:56",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "29 Nov",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "29 Nov • 12:00 PM CST",
+      "commence_utc": "2026-11-29T18:00:00Z"
     },
     {
       "id": "ad2f6afffee1",
@@ -5402,7 +5522,7 @@
       "equipo_a": "NO",
       "equipo_b": "CIN",
       "separador": "@",
-      "logo_a": "",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
       "linea_1": "Hándicap CIN: -10.0 pts",
       "linea_2": "Altas / Bajas: 52.5 pts",
@@ -5410,7 +5530,11 @@
       "captura": "2026-11-19 01:03:56",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "29 Nov",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "29 Nov • 12:00 PM CST",
+      "commence_utc": "2026-11-29T18:00:00Z"
     },
     {
       "id": "d7b0582c23e6",
@@ -5429,7 +5553,11 @@
       "captura": "2026-11-19 01:03:56",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "29 Nov",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "29 Nov • 12:00 PM CST",
+      "commence_utc": "2026-11-29T18:00:00Z"
     },
     {
       "id": "8f14d1bffa7b",
@@ -5448,7 +5576,11 @@
       "captura": "2026-11-19 01:03:56",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "29 Nov",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "29 Nov • 12:00 PM CST",
+      "commence_utc": "2026-11-29T18:00:00Z"
     },
     {
       "id": "ebfc7c2b1257",
@@ -5467,7 +5599,11 @@
       "captura": "2026-11-19 01:03:56",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "29 Nov",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "29 Nov • 12:00 PM CST",
+      "commence_utc": "2026-11-29T18:00:00Z"
     },
     {
       "id": "be6138c8008f",
@@ -5478,7 +5614,7 @@
       "equipo_a": "NE",
       "equipo_b": "LAC",
       "separador": "@",
-      "logo_a": "",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
       "linea_1": "Hándicap LAC: -5.0 pts",
       "linea_2": "Altas / Bajas: 40.0 pts",
@@ -5486,7 +5622,11 @@
       "captura": "2026-11-19 01:03:56",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "29 Nov",
+      "hora_partido": "3:05 PM CST",
+      "fecha_hora": "29 Nov • 3:05 PM CST",
+      "commence_utc": "2026-11-29T21:05:00Z"
     },
     {
       "id": "e091bfe54df6",
@@ -5505,7 +5645,11 @@
       "captura": "2026-11-19 01:03:56",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "29 Nov",
+      "hora_partido": "3:25 PM CST",
+      "fecha_hora": "29 Nov • 3:25 PM CST",
+      "commence_utc": "2026-11-29T21:25:00Z"
     },
     {
       "id": "4b84d289b5e3",
@@ -5517,14 +5661,18 @@
       "equipo_b": "SF",
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-      "logo_b": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
       "linea_1": "Hándicap SF: -2.5 pts",
       "linea_2": "Altas / Bajas: 46.5 pts",
       "casino": "BetOnline.ag",
       "captura": "2026-11-19 01:03:56",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "29 Nov",
+      "hora_partido": "3:25 PM CST",
+      "fecha_hora": "29 Nov • 3:25 PM CST",
+      "commence_utc": "2026-11-29T21:25:00Z"
     },
     {
       "id": "2a576ea2503e",
@@ -5535,7 +5683,7 @@
       "equipo_a": "LV",
       "equipo_b": "CLE",
       "separador": "@",
-      "logo_a": "",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
       "linea_1": "Hándicap CLE: -4.0 pts",
       "linea_2": "Altas / Bajas: 41.0 pts",
@@ -5543,7 +5691,11 @@
       "captura": "2026-11-19 01:03:56",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "29 Nov",
+      "hora_partido": "7:20 PM CST",
+      "fecha_hora": "29 Nov • 7:20 PM CST",
+      "commence_utc": "2026-11-30T01:20:00Z"
     },
     {
       "id": "d330e91ac4ef",
@@ -5554,15 +5706,19 @@
       "equipo_a": "CAR",
       "equipo_b": "TB",
       "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-      "logo_b": "",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
       "linea_1": "Hándicap TB: -2.0 pts",
       "linea_2": "Altas / Bajas: 43.5 pts",
       "casino": "BetOnline.ag",
       "captura": "2026-11-19 01:03:56",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "30 Nov",
+      "hora_partido": "7:15 PM CST",
+      "fecha_hora": "30 Nov • 7:15 PM CST",
+      "commence_utc": "2026-12-01T01:15:00Z"
     },
     {
       "id": "1a87e469db64",
@@ -5573,15 +5729,19 @@
       "equipo_a": "KC",
       "equipo_b": "LA",
       "separador": "@",
-      "logo_a": "",
-      "logo_b": "",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
       "linea_1": "Hándicap LA: +0.0 pts",
       "linea_2": "Altas / Bajas: 45.5 pts",
       "casino": "LowVig.ag",
       "captura": "2026-11-25 10:00:10",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "03 Dic",
+      "hora_partido": "7:15 PM CST",
+      "fecha_hora": "03 Dic • 7:15 PM CST",
+      "commence_utc": "2026-12-04T01:15:00Z"
     },
     {
       "id": "33b67b2055d4",
@@ -5600,7 +5760,11 @@
       "captura": "2026-11-25 10:00:10",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "06 Dic",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "06 Dic • 12:00 PM CST",
+      "commence_utc": "2026-12-06T18:00:00Z"
     },
     {
       "id": "07b52c7ef285",
@@ -5619,7 +5783,11 @@
       "captura": "2026-11-25 10:00:10",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "06 Dic",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "06 Dic • 12:00 PM CST",
+      "commence_utc": "2026-12-06T18:00:00Z"
     },
     {
       "id": "a8414db76f16",
@@ -5638,7 +5806,11 @@
       "captura": "2026-11-25 10:00:10",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "06 Dic",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "06 Dic • 12:00 PM CST",
+      "commence_utc": "2026-12-06T18:00:00Z"
     },
     {
       "id": "921d21794627",
@@ -5657,7 +5829,11 @@
       "captura": "2026-11-25 10:00:10",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "06 Dic",
+      "hora_partido": "3:05 PM CST",
+      "fecha_hora": "06 Dic • 3:05 PM CST",
+      "commence_utc": "2026-12-06T21:05:00Z"
     },
     {
       "id": "6297dc0deecf",
@@ -5668,15 +5844,19 @@
       "equipo_a": "GB",
       "equipo_b": "NO",
       "separador": "@",
-      "logo_a": "",
-      "logo_b": "",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
       "linea_1": "Hándicap NO: +5.5 pts",
       "linea_2": "Altas / Bajas: 46.0 pts",
       "casino": "BetOnline.ag",
       "captura": "2026-11-25 10:00:10",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "06 Dic",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "06 Dic • 12:00 PM CST",
+      "commence_utc": "2026-12-06T18:00:00Z"
     },
     {
       "id": "2891c645cf6a",
@@ -5688,14 +5868,18 @@
       "equipo_b": "TB",
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-      "logo_b": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
       "linea_1": "Hándicap TB: -5.5 pts",
       "linea_2": "Altas / Bajas: 40.5 pts",
       "casino": "BetOnline.ag",
       "captura": "2026-11-25 10:00:10",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "06 Dic",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "06 Dic • 12:00 PM CST",
+      "commence_utc": "2026-12-06T18:00:00Z"
     },
     {
       "id": "7c16bf14695d",
@@ -5706,7 +5890,7 @@
       "equipo_a": "SF",
       "equipo_b": "NYG",
       "separador": "@",
-      "logo_a": "",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
       "linea_1": "Hándicap NYG: +6.5 pts",
       "linea_2": "Altas / Bajas: 47.5 pts",
@@ -5714,7 +5898,11 @@
       "captura": "2026-11-25 10:00:10",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "06 Dic",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "06 Dic • 12:00 PM CST",
+      "commence_utc": "2026-12-06T18:00:00Z"
     },
     {
       "id": "fb3b918d0d77",
@@ -5733,7 +5921,11 @@
       "captura": "2026-11-25 10:00:10",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "06 Dic",
+      "hora_partido": "12:00 PM CST",
+      "fecha_hora": "06 Dic • 12:00 PM CST",
+      "commence_utc": "2026-12-06T18:00:00Z"
     },
     {
       "id": "bc95e522f4ac",
@@ -5752,7 +5944,11 @@
       "captura": "2026-11-25 10:00:10",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "06 Dic",
+      "hora_partido": "3:05 PM CST",
+      "fecha_hora": "06 Dic • 3:05 PM CST",
+      "commence_utc": "2026-12-06T21:05:00Z"
     },
     {
       "id": "9c11a75a640f",
@@ -5764,14 +5960,18 @@
       "equipo_b": "NE",
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-      "logo_b": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
       "linea_1": "Hándicap NE: +13.5 pts",
       "linea_2": "Altas / Bajas: 44.5 pts",
       "casino": "LowVig.ag",
       "captura": "2026-11-25 10:00:10",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "06 Dic",
+      "hora_partido": "3:25 PM CST",
+      "fecha_hora": "06 Dic • 3:25 PM CST",
+      "commence_utc": "2026-12-06T21:25:00Z"
     },
     {
       "id": "3be72a08e2ff",
@@ -5782,7 +5982,7 @@
       "equipo_a": "CAR",
       "equipo_b": "MIN",
       "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
       "linea_1": "Hándicap MIN: -4.5 pts",
       "linea_2": "Altas / Bajas: 42.0 pts",
@@ -5790,7 +5990,11 @@
       "captura": "2026-11-25 10:00:10",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "06 Dic",
+      "hora_partido": "3:25 PM CST",
+      "fecha_hora": "06 Dic • 3:25 PM CST",
+      "commence_utc": "2026-12-06T21:25:00Z"
     },
     {
       "id": "ab07ba0868ac",
@@ -5802,14 +6006,18 @@
       "equipo_b": "PIT",
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-      "logo_b": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
       "linea_1": "Hándicap PIT: +4.5 pts",
       "linea_2": "Altas / Bajas: 43.5 pts",
       "casino": "BetOnline.ag",
       "captura": "2026-11-25 10:00:10",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "06 Dic",
+      "hora_partido": "7:20 PM CST",
+      "fecha_hora": "06 Dic • 7:20 PM CST",
+      "commence_utc": "2026-12-07T01:20:00Z"
     },
     {
       "id": "630d7e58ae59",
@@ -5828,7 +6036,11 @@
       "captura": "2026-11-25 10:00:10",
       "props_partido": [],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "07 Dic",
+      "hora_partido": "7:15 PM CST",
+      "fecha_hora": "07 Dic • 7:15 PM CST",
+      "commence_utc": "2026-12-08T01:15:00Z"
     },
     {
       "id": "2200cc2e3bef",
@@ -5928,7 +6140,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "11:45 AM CST",
+      "fecha_hora": "26 Nov • 11:45 AM CST",
+      "commence_utc": "2026-11-26T17:45:00Z"
     },
     {
       "id": "57dbf6e7026f",
@@ -6028,7 +6244,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "11:45 AM CST",
+      "fecha_hora": "26 Nov • 11:45 AM CST",
+      "commence_utc": "2026-11-26T17:45:00Z"
     },
     {
       "id": "489c67c32670",
@@ -6128,7 +6348,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "11:45 AM CST",
+      "fecha_hora": "26 Nov • 11:45 AM CST",
+      "commence_utc": "2026-11-26T17:45:00Z"
     },
     {
       "id": "eee22ea49b70",
@@ -6228,7 +6452,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "11:45 AM CST",
+      "fecha_hora": "26 Nov • 11:45 AM CST",
+      "commence_utc": "2026-11-26T17:45:00Z"
     },
     {
       "id": "9a39af8fd275",
@@ -6328,7 +6556,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "",
+      "fecha_hora": "26 Nov",
+      "commence_utc": ""
     },
     {
       "id": "711ce6bce8c8",
@@ -6428,7 +6660,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "11:45 AM CST",
+      "fecha_hora": "26 Nov • 11:45 AM CST",
+      "commence_utc": "2026-11-26T17:45:00Z"
     },
     {
       "id": "e471e4ccbf77",
@@ -6528,7 +6764,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "11:45 AM CST",
+      "fecha_hora": "26 Nov • 11:45 AM CST",
+      "commence_utc": "2026-11-26T17:45:00Z"
     },
     {
       "id": "9b8fa29a4cbb",
@@ -6628,7 +6868,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "11:45 AM CST",
+      "fecha_hora": "26 Nov • 11:45 AM CST",
+      "commence_utc": "2026-11-26T17:45:00Z"
     },
     {
       "id": "60a1bf939975",
@@ -6728,7 +6972,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "id": "bff0e0c01a0f",
@@ -6828,7 +7076,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "",
+      "fecha_hora": "26 Nov",
+      "commence_utc": ""
     },
     {
       "id": "ba899d90a164",
@@ -6928,7 +7180,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "id": "d28dd231749f",
@@ -7028,7 +7284,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "id": "d7c1436d677d",
@@ -7128,7 +7388,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "id": "2fc08c1def1f",
@@ -7228,7 +7492,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "id": "45a0ae34e847",
@@ -7328,7 +7596,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "id": "65f4f4f7c13d",
@@ -7428,7 +7700,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "id": "ee41f87dd4ee",
@@ -7528,7 +7804,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "id": "1bb80f4faf1a",
@@ -7628,7 +7908,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "26 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-26T20:00:00Z"
     },
     {
       "id": "f8016c4ae05b",
@@ -7640,7 +7924,7 @@
       "equipo_b": "Remo",
       "separador": "vs",
       "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-      "logo_b": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
       "linea_1": "Ganador (Local / Empate / Visita): 1.40 / 5.20 / 9.50",
       "linea_2": "Altas / Bajas 2.5 goles: 1.72 / 2.21",
       "casino": "Pinnacle / Consenso",
@@ -7728,7 +8012,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "5:00 PM CST",
+      "fecha_hora": "26 Nov • 5:00 PM CST",
+      "commence_utc": "2026-11-26T23:00:00Z"
     },
     {
       "id": "4af31e430c27",
@@ -7828,7 +8116,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "7:00 PM CST",
+      "fecha_hora": "26 Nov • 7:00 PM CST",
+      "commence_utc": "2026-11-27T01:00:00Z"
     },
     {
       "id": "ef9e4949d406",
@@ -7928,7 +8220,11 @@
         }
       ],
       "guiones_partido": [],
-      "apertura_ref": null
+      "apertura_ref": null,
+      "fecha_corta": "26 Nov",
+      "hora_partido": "",
+      "fecha_hora": "26 Nov",
+      "commence_utc": ""
     }
   ],
   "historial": [
