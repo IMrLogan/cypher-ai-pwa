@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-27 04:27 CST",
+  "updated_at": "2026-11-27 04:45 CST",
   "fecha_operativa": "2026-11-27",
   "kpis": {
-    "ganados": 529,
-    "perdidos": 377,
-    "total_auditados": 906,
-    "win_rate": 58.4,
-    "unidades_netas": -126.22,
-    "roi_global": -13.9,
-    "picks_hoy": 0,
-    "aperturas_activas": 35,
+    "ganados": 544,
+    "perdidos": 380,
+    "total_auditados": 924,
+    "win_rate": 58.9,
+    "unidades_netas": -125.24,
+    "roi_global": -13.6,
+    "picks_hoy": 3,
+    "aperturas_activas": 37,
     "props_true_floor_hoy": 0,
     "props_true_floor_nba_hoy": 0,
     "props_true_floor_nfl_hoy": 0,
@@ -203,12 +203,12 @@
       "roi": -1.2
     },
     "SOCCER": {
-      "ganados": 211,
-      "perdidos": 162,
-      "total": 373,
-      "win_rate": 56.6,
-      "unidades": -109.46,
-      "roi": -29.3
+      "ganados": 226,
+      "perdidos": 165,
+      "total": 391,
+      "win_rate": 57.8,
+      "unidades": -108.48,
+      "roi": -27.7
     },
     "TENNIS": {
       "ganados": 1,
@@ -229,131 +229,255 @@
   },
   "curva_banca": [
     {
-      "fecha": "2026-10-26",
-      "unidades": -1.56
-    },
-    {
       "fecha": "2026-10-27",
-      "unidades": -1.12
+      "unidades": 0.44
     },
     {
       "fecha": "2026-10-28",
-      "unidades": -2.52
+      "unidades": -0.96
     },
     {
       "fecha": "2026-10-29",
-      "unidades": -0.74
+      "unidades": 0.82
     },
     {
       "fecha": "2026-10-30",
-      "unidades": -0.43
+      "unidades": 1.13
     },
     {
       "fecha": "2026-10-31",
-      "unidades": 0.06
+      "unidades": 1.62
     },
     {
       "fecha": "2026-11-01",
-      "unidades": 3.26
+      "unidades": 4.82
     },
     {
       "fecha": "2026-11-02",
-      "unidades": 4.74
+      "unidades": 6.3
     },
     {
       "fecha": "2026-11-04",
-      "unidades": 1.15
+      "unidades": 2.71
     },
     {
       "fecha": "2026-11-05",
-      "unidades": 2.06
+      "unidades": 2.96
     },
     {
       "fecha": "2026-11-06",
-      "unidades": 2.28
+      "unidades": 3.18
     },
     {
       "fecha": "2026-11-07",
-      "unidades": 2.26
+      "unidades": 3.16
     },
     {
       "fecha": "2026-11-08",
-      "unidades": 4.85
+      "unidades": 5.75
     },
     {
       "fecha": "2026-11-09",
-      "unidades": 6.2
+      "unidades": 7.1
     },
     {
       "fecha": "2026-11-10",
-      "unidades": 6.03
+      "unidades": 6.93
     },
     {
       "fecha": "2026-11-11",
-      "unidades": 4.89
+      "unidades": 5.79
     },
     {
       "fecha": "2026-11-12",
-      "unidades": 1.93
+      "unidades": 2.83
     },
     {
       "fecha": "2026-11-13",
-      "unidades": 0.08
+      "unidades": 0.98
     },
     {
       "fecha": "2026-11-14",
-      "unidades": -53.19
+      "unidades": -52.29
     },
     {
       "fecha": "2026-11-15",
-      "unidades": -77.51
+      "unidades": -76.61
     },
     {
       "fecha": "2026-11-16",
-      "unidades": -77.85
+      "unidades": -76.95
     },
     {
       "fecha": "2026-11-17",
-      "unidades": -87.93
+      "unidades": -87.03
     },
     {
       "fecha": "2026-11-18",
-      "unidades": -94.22
+      "unidades": -93.32
     },
     {
       "fecha": "2026-11-19",
-      "unidades": -95.44
+      "unidades": -94.54
     },
     {
       "fecha": "2026-11-20",
-      "unidades": -95.19
+      "unidades": -94.29
     },
     {
       "fecha": "2026-11-21",
-      "unidades": -99.13
+      "unidades": -98.23
     },
     {
       "fecha": "2026-11-22",
-      "unidades": -101.81
+      "unidades": -100.91
     },
     {
       "fecha": "2026-11-23",
-      "unidades": -104.82
+      "unidades": -103.92
     },
     {
       "fecha": "2026-11-24",
-      "unidades": -107.42
+      "unidades": -106.52
     },
     {
       "fecha": "2026-11-25",
-      "unidades": -104.9
+      "unidades": -104.0
+    },
+    {
+      "fecha": "2026-11-26",
+      "unidades": -102.36
     }
   ],
   "diamantes": [],
   "props": [],
   "props_resumenes": [],
   "guiones": [],
-  "picks_hoy": [],
+  "picks_hoy": [
+    {
+      "deporte": "SOCCER",
+      "liga": "Major League Soccer",
+      "fecha": "2026-11-27",
+      "duelo": "Columbus Crew vs Inter Miami",
+      "pick_principal": "🏠 Gana Columbus Crew",
+      "cuota": 2.6,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "9c38042341c1",
+      "equipo_a": "Columbus Crew",
+      "equipo_b": "Inter Miami",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+      "contexto": [],
+      "pick_1": {
+        "etiqueta": "Pronóstico Principal",
+        "texto": "🏠 Gana Columbus Crew",
+        "prob": 44.4
+      },
+      "pick_2": {
+        "etiqueta": "Ventaja Detectada",
+        "texto": "Valor sobre casino: +15.6%",
+        "prob": null
+      },
+      "pick_3": null,
+      "rankeado_real": false,
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 2.60 / 4.10 / 2.50",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.38 / 3.40",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-27 01:01:12"
+      },
+      "fecha_corta": "27 Nov",
+      "hora_partido": "7:00 PM CST",
+      "fecha_hora": "27 Nov • 7:00 PM CST",
+      "commence_utc": "2026-11-28T01:00:00Z"
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Ligue 1",
+      "fecha": "2026-11-27",
+      "duelo": "Stade Brestois 29 vs Paris FC",
+      "pick_principal": "🛡️ 1X (Local o Empate)",
+      "cuota": 1.73,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "41e848a9e572",
+      "equipo_a": "Stade Brestois 29",
+      "equipo_b": "Paris FC",
+      "separador": "vs",
+      "logo_a": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+      "contexto": [],
+      "pick_1": {
+        "etiqueta": "Pronóstico Principal",
+        "texto": "🛡️ 1X (Local o Empate)",
+        "prob": 65.2
+      },
+      "pick_2": {
+        "etiqueta": "Ventaja Detectada",
+        "texto": "Valor sobre casino: +12.9%",
+        "prob": null
+      },
+      "pick_3": null,
+      "rankeado_real": false,
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 3.54 / 3.68 / 2.23",
+        "linea_2": "Altas / Bajas 2.5 goles: 1.96 / 1.98",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-27 01:00:47"
+      },
+      "fecha_corta": "27 Nov",
+      "hora_partido": "",
+      "fecha_hora": "27 Nov",
+      "commence_utc": ""
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-27",
+      "duelo": "Venezia vs Bologna",
+      "pick_principal": "🛡️ 1X (Local o Empate)",
+      "cuota": 1.62,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "14c92c50e6a1",
+      "equipo_a": "Venezia",
+      "equipo_b": "Bologna",
+      "separador": "vs",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+      "contexto": [],
+      "pick_1": {
+        "etiqueta": "Pronóstico Principal",
+        "texto": "🛡️ 1X (Local o Empate)",
+        "prob": 65.4
+      },
+      "pick_2": {
+        "etiqueta": "Ventaja Detectada",
+        "texto": "Valor sobre casino: +6.0%",
+        "prob": null
+      },
+      "pick_3": null,
+      "rankeado_real": false,
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Ganador (Local / Empate / Visita): 3.40 / 3.46 / 2.53",
+        "linea_2": "Altas / Bajas 2.5 goles: 2.18 / 1.79",
+        "casino": "Pinnacle / Consenso",
+        "captura": "2026-11-27 01:00:41"
+      },
+      "fecha_corta": "27 Nov",
+      "hora_partido": "1:45 PM CST",
+      "fecha_hora": "27 Nov • 1:45 PM CST",
+      "commence_utc": "2026-11-27T19:45:00Z"
+    }
+  ],
   "aperturas": [
     {
       "id": "5be95507b957",
@@ -1159,9 +1283,265 @@
       "hora_partido": "9:00 PM CST",
       "fecha_hora": "27 Nov • 9:00 PM CST",
       "commence_utc": "2026-11-28T03:00:00Z"
+    },
+    {
+      "id": "b30441d77e70",
+      "deporte": "SOCCER",
+      "liga": "Coupe de France",
+      "fecha": "2026-11-27",
+      "duelo": "Saint-Omer vs Caen",
+      "equipo_a": "Saint-Omer",
+      "equipo_b": "Caen",
+      "separador": "vs",
+      "logo_a": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/2927.png",
+      "linea_1": "Ganador (Local / Empate / Visita): 1.00 / 1.00 / 1.00",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.00 / 1.00",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-27 04:31:58",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null,
+      "fecha_corta": "27 Nov",
+      "hora_partido": "",
+      "fecha_hora": "27 Nov",
+      "commence_utc": ""
+    },
+    {
+      "id": "ef676203d7ef",
+      "deporte": "SOCCER",
+      "liga": "Coupe de France",
+      "fecha": "2026-11-27",
+      "duelo": "Le Pays du Valois vs Valenciennes",
+      "equipo_a": "Le Pays du Valois",
+      "equipo_b": "Valenciennes",
+      "separador": "vs",
+      "logo_a": "",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/soccer/500/6732.png",
+      "linea_1": "Ganador (Local / Empate / Visita): 1.00 / 1.00 / 1.00",
+      "linea_2": "Altas / Bajas 2.5 goles: 1.00 / 1.00",
+      "casino": "Pinnacle / Consenso",
+      "captura": "2026-11-27 04:32:17",
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": null,
+      "fecha_corta": "27 Nov",
+      "hora_partido": "",
+      "fecha_hora": "27 Nov",
+      "commence_utc": ""
     }
   ],
   "historial": [
+    {
+      "deporte": "SOCCER",
+      "liga": "Liga MX",
+      "fecha": "2026-11-26",
+      "duelo": "Leon vs Cruz Azul",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.24,
+      "estado": "Ganado",
+      "ganancia": 0.24
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Liga MX",
+      "fecha": "2026-11-26",
+      "duelo": "CF Pachuca vs Guadalajara Chivas",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.31,
+      "estado": "Ganado",
+      "ganancia": 0.31
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "Serie A",
+      "fecha": "2026-11-26",
+      "duelo": "Sao Paulo vs Remo",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.23,
+      "estado": "Ganado",
+      "ganancia": 0.23
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Torreense vs Celtic",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.23,
+      "estado": "Ganado",
+      "ganancia": 0.23
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Sunderland vs Jagiellonia",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.19,
+      "estado": "Ganado",
+      "ganancia": 0.19
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Sparta Praha vs AZ Alkmaar",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.31,
+      "estado": "Ganado",
+      "ganancia": 0.31
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "OFI vs Anderlecht",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.29,
+      "estado": "Ganado",
+      "ganancia": 0.29
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "NEC Nijmegen vs Rennes",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.28,
+      "estado": "Ganado",
+      "ganancia": 0.28
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Lyon vs Lillestrom",
+      "pick_principal": "🏠 Gana Lyon",
+      "cuota": 1.24,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Juventus vs Omonia Nicosia",
+      "pick_principal": "🏠 Gana Juventus",
+      "cuota": 1.2,
+      "estado": "Ganado",
+      "ganancia": 0.2
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "1899 Hoffenheim vs Sturm Graz",
+      "pick_principal": "🏠 Gana 1899 Hoffenheim",
+      "cuota": 1.35,
+      "estado": "Ganado",
+      "ganancia": 0.35
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Ferencvarosi TC vs Celje",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.18,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Crystal Palace vs Real Sociedad",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.28,
+      "estado": "Ganado",
+      "ganancia": 0.28
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Red Bull Salzburg vs Ararat-Armenia",
+      "pick_principal": "🏠 Gana Red Bull Salzburg",
+      "cuota": 1.19,
+      "estado": "Ganado",
+      "ganancia": 0.19
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Union St. Gilloise vs Lech Poznan",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.16,
+      "estado": "Ganado",
+      "ganancia": 0.16
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Plzen vs Benfica",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.19,
+      "estado": "Ganado",
+      "ganancia": 0.19
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Olympiakos Piraeus vs AC Milan",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.35,
+      "estado": "Ganado",
+      "ganancia": 0.35
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Marseille vs Levski Sofia",
+      "pick_principal": "⚽ Más de 1.5 Goles",
+      "cuota": 1.2,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Dinamo Zagreb vs Bayer Leverkusen",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.24,
+      "estado": "Ganado",
+      "ganancia": 0.24
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Celta Vigo vs Bournemouth",
+      "pick_principal": "🛡️ 12 (Local o Visita)",
+      "cuota": 1.32,
+      "estado": "Ganado",
+      "ganancia": 0.32
+    },
+    {
+      "deporte": "SOCCER",
+      "liga": "UEFA Europa League",
+      "fecha": "2026-11-26",
+      "duelo": "Beşiktaş vs Hapoel Beer Sheva",
+      "pick_principal": "🏠 Gana Beşiktaş",
+      "cuota": 1.28,
+      "estado": "Ganado",
+      "ganancia": 0.28
+    },
     {
       "deporte": "NBA",
       "liga": "NBA",
@@ -1751,216 +2131,6 @@
       "cuota": 2.16,
       "estado": "Ganado",
       "ganancia": 1.16
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "MIN @ SF",
-      "pick_principal": "Ganador: SF",
-      "cuota": 1.02,
-      "estado": "Ganado",
-      "ganancia": 0.02
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "PIT @ PHI",
-      "pick_principal": "Ganador: PIT",
-      "cuota": 1.02,
-      "estado": "Perdido",
-      "ganancia": -1.0
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "LV @ DEN",
-      "pick_principal": "Ganador: DEN",
-      "cuota": 1.01,
-      "estado": "Ganado",
-      "ganancia": 0.01
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "NYJ @ LAC",
-      "pick_principal": "Ganador: NYJ",
-      "cuota": 1.03,
-      "estado": "Ganado",
-      "ganancia": 0.03
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "JAX @ NYG",
-      "pick_principal": "Ganador: JAX",
-      "cuota": 1.01,
-      "estado": "Perdido",
-      "ganancia": -1.0
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "ARI @ KC",
-      "pick_principal": "Ganador: KC",
-      "cuota": 1.01,
-      "estado": "Ganado",
-      "ganancia": 0.01
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "TB @ DET",
-      "pick_principal": "Ganador: DET",
-      "cuota": 1.02,
-      "estado": "Ganado",
-      "ganancia": 0.02
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "TEN @ DAL",
-      "pick_principal": "Ganador: DAL",
-      "cuota": 1.01,
-      "estado": "Ganado",
-      "ganancia": 0.01
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "NO @ CHI",
-      "pick_principal": "Ganador: CHI",
-      "cuota": 1.01,
-      "estado": "Ganado",
-      "ganancia": 0.01
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "BAL @ CAR",
-      "pick_principal": "Ganador: CAR",
-      "cuota": 1.02,
-      "estado": "Ganado",
-      "ganancia": 0.02
-    },
-    {
-      "deporte": "NFL",
-      "liga": "NFL",
-      "fecha": "2026-11-22",
-      "duelo": "MIA @ BUF",
-      "pick_principal": "Ganador: BUF",
-      "cuota": 1.01,
-      "estado": "Ganado",
-      "ganancia": 0.01
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Major League Soccer",
-      "fecha": "2026-11-22",
-      "duelo": "Vancouver Whitecaps vs Real Salt Lake",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.17,
-      "estado": "Ganado",
-      "ganancia": 0.17
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Liga MX",
-      "fecha": "2026-11-22",
-      "duelo": "Club Queretaro vs Necaxa",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.38,
-      "estado": "Ganado",
-      "ganancia": 0.38
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Liga Profesional Argentina",
-      "fecha": "2026-11-22",
-      "duelo": "Instituto Cordoba vs Huracan",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.6,
-      "estado": "Ganado",
-      "ganancia": 0.6
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Major League Soccer",
-      "fecha": "2026-11-22",
-      "duelo": "Chicago Fire vs Charlotte",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.22,
-      "estado": "Perdido",
-      "ganancia": -1.0
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Liga MX",
-      "fecha": "2026-11-22",
-      "duelo": "Guadalajara Chivas vs Cruz Azul",
-      "pick_principal": "🛡️ 12 (Local o Visita)",
-      "cuota": 1.26,
-      "estado": "Ganado",
-      "ganancia": 0.26
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-22",
-      "duelo": "RB Bragantino vs Vasco DA Gama",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.23,
-      "estado": "Perdido",
-      "ganancia": -1.0
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Liga Profesional Argentina",
-      "fecha": "2026-11-22",
-      "duelo": "River Plate vs Lanus",
-      "pick_principal": "⚽ Más de 1.5 Goles",
-      "cuota": 1.45,
-      "estado": "Ganado",
-      "ganancia": 0.45
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Serie A",
-      "fecha": "2026-11-22",
-      "duelo": "Fluminense vs Mirassol",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.18,
-      "estado": "Ganado",
-      "ganancia": 0.18
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "Major League Soccer",
-      "fecha": "2026-11-22",
-      "duelo": "Nashville SC vs FC Cincinnati",
-      "pick_principal": "🛡️ 1X (Local o Empate)",
-      "cuota": 1.17,
-      "estado": "Perdido",
-      "ganancia": -1.0
-    },
-    {
-      "deporte": "SOCCER",
-      "liga": "La Liga",
-      "fecha": "2026-11-22",
-      "duelo": "Getafe vs Atletico Madrid",
-      "pick_principal": "🛡️ 12 (Local o Visita)",
-      "cuota": 1.27,
-      "estado": "Ganado",
-      "ganancia": 0.27
     }
   ]
 }
