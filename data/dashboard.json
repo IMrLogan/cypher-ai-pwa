@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-27 04:45 CST",
+  "updated_at": "2026-11-27 10:45 CST",
   "fecha_operativa": "2026-11-27",
   "kpis": {
-    "ganados": 544,
-    "perdidos": 380,
-    "total_auditados": 924,
-    "win_rate": 58.9,
-    "unidades_netas": -125.24,
+    "ganados": 545,
+    "perdidos": 382,
+    "total_auditados": 927,
+    "win_rate": 58.8,
+    "unidades_netas": -126.33,
     "roi_global": -13.6,
-    "picks_hoy": 3,
+    "picks_hoy": 4,
     "aperturas_activas": 37,
     "props_true_floor_hoy": 0,
     "props_true_floor_nba_hoy": 0,
@@ -195,12 +195,12 @@
       "roi": -2.3
     },
     "NFL": {
-      "ganados": 89,
-      "perdidos": 74,
-      "total": 163,
-      "win_rate": 54.6,
-      "unidades": -1.96,
-      "roi": -1.2
+      "ganados": 90,
+      "perdidos": 76,
+      "total": 166,
+      "win_rate": 54.2,
+      "unidades": -3.05,
+      "roi": -1.8
     },
     "SOCCER": {
       "ganados": 226,
@@ -346,7 +346,7 @@
     },
     {
       "fecha": "2026-11-26",
-      "unidades": -102.36
+      "unidades": -103.45
     }
   ],
   "diamantes": [],
@@ -354,6 +354,51 @@
   "props_resumenes": [],
   "guiones": [],
   "picks_hoy": [
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-27",
+      "duelo": "DEN @ PIT",
+      "pick_principal": "Ganador: PIT",
+      "cuota": 1.91,
+      "estado": "Pendiente",
+      "ganancia": 0.0,
+      "id": "83d72ce45434",
+      "equipo_a": "DEN",
+      "equipo_b": "PIT",
+      "separador": "@",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+      "contexto": [],
+      "pick_1": {
+        "etiqueta": "Ganador",
+        "texto": "PIT",
+        "prob": null
+      },
+      "pick_2": {
+        "etiqueta": "Hándicap",
+        "texto": "DEN +3.0",
+        "prob": null
+      },
+      "pick_3": {
+        "etiqueta": "Altas / Bajas",
+        "texto": "Menos de 40.0 pts",
+        "prob": null
+      },
+      "rankeado_real": false,
+      "props_partido": [],
+      "guiones_partido": [],
+      "apertura_ref": {
+        "linea_1": "Hándicap PIT: +1.5 pts",
+        "linea_2": "Altas / Bajas: 40.0 pts",
+        "casino": "LowVig.ag",
+        "captura": "2026-11-19 01:03:56"
+      },
+      "fecha_corta": "27 Nov",
+      "hora_partido": "2:00 PM CST",
+      "fecha_hora": "27 Nov • 2:00 PM CST",
+      "commence_utc": "2026-11-27T20:00:00Z"
+    },
     {
       "deporte": "SOCCER",
       "liga": "Major League Soccer",
@@ -1333,6 +1378,36 @@
   ],
   "historial": [
     {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-26",
+      "duelo": "KC @ BUF",
+      "pick_principal": "Ganador: BUF",
+      "cuota": 1.91,
+      "estado": "Ganado",
+      "ganancia": 0.91
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-26",
+      "duelo": "PHI @ DAL",
+      "pick_principal": "Ganador: DAL",
+      "cuota": 1.91,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
+      "deporte": "NFL",
+      "liga": "NFL",
+      "fecha": "2026-11-26",
+      "duelo": "CHI @ DET",
+      "pick_principal": "Ganador: DET",
+      "cuota": 1.91,
+      "estado": "Perdido",
+      "ganancia": -1.0
+    },
+    {
       "deporte": "SOCCER",
       "liga": "Liga MX",
       "fecha": "2026-11-26",
@@ -2101,36 +2176,6 @@
       "cuota": 1.98,
       "estado": "Perdido",
       "ganancia": -1.0
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-22",
-      "duelo": "Denver Nuggets @ Chicago Bulls",
-      "pick_principal": "Ganador: Denver Nuggets",
-      "cuota": 1.26,
-      "estado": "Ganado",
-      "ganancia": 0.26
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-22",
-      "duelo": "Oklahoma City Thunder @ Miami Heat",
-      "pick_principal": "Ganador: Miami Heat",
-      "cuota": 1.64,
-      "estado": "Ganado",
-      "ganancia": 0.64
-    },
-    {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-22",
-      "duelo": "Detroit Pistons @ Atlanta Hawks",
-      "pick_principal": "Ganador: Atlanta Hawks",
-      "cuota": 2.16,
-      "estado": "Ganado",
-      "ganancia": 1.16
     }
   ]
 }
