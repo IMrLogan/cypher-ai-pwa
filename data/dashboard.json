@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 17:10 CST",
+  "updated_at": "2026-11-26 20:44 CST",
   "fecha_operativa": "2026-11-26",
   "kpis": {
     "ganados": 529,
@@ -8,15 +8,52 @@
     "win_rate": 58.4,
     "unidades_netas": -210.44,
     "roi_global": -23.2,
-    "picks_hoy": 25,
-    "aperturas_activas": 50
+    "picks_hoy": 24,
+    "aperturas_activas": 50,
+    "props_true_floor_hoy": 0,
+    "props_nba_hit_rate": 0.0,
+    "props_true_floor_hit_rate": 0.0
+  },
+  "props_calibracion_nba": {
+    "auditados": 0,
+    "ganados": 0,
+    "perdidos": 0,
+    "push": 0,
+    "hit_rate_pct": 0.0,
+    "unidades": 0.0,
+    "roi_pct": 0.0,
+    "true_floor": {
+      "auditados": 0,
+      "ganados": 0,
+      "perdidos": 0,
+      "hit_rate_pct": 0.0,
+      "unidades": 0.0,
+      "roi_pct": 0.0
+    },
+    "cubetas": {
+      "70-74%": {
+        "ganados": 0,
+        "total": 0,
+        "pct": 0.0
+      },
+      "75-79%": {
+        "ganados": 0,
+        "total": 0,
+        "pct": 0.0
+      },
+      "80%+": {
+        "ganados": 0,
+        "total": 0,
+        "pct": 0.0
+      }
+    }
   },
   "motores": [
     {
       "deporte": "NBA",
-      "version": "V13.0",
+      "version": "V14.0",
       "horario": "09:30 Líneas • 17:00 Pronósticos",
-      "modulo": "Forma reciente, eficiencia ofensiva, zonas de tiro y árbitros"
+      "modulo": "True Floor-Lock L10, Monte Carlo bivariado, Poisson/No-Vig y árbitros"
     },
     {
       "deporte": "NFL",
@@ -260,6 +297,9 @@
       "pick": "QB C.Williams OVER 227.5 Yds Pase",
       "probabilidad": 91.5,
       "racha_l5": "🟢🟢🟢🟢🔴",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "QB C.Williams Más de 227.5 Yds Pase"
     },
     {
@@ -272,6 +312,9 @@
       "pick": "WR R.Rice OVER 4.5 Recepciones",
       "probabilidad": 91.5,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "WR R.Rice Más de 4.5 Recepciones"
     },
     {
@@ -284,6 +327,9 @@
       "pick": "Beşiktaş OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Beşiktaş Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -296,6 +342,9 @@
       "pick": "Beşiktaş OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Beşiktaş Más de 4.5 Córners del Equipo"
     },
     {
@@ -308,6 +357,9 @@
       "pick": "Hapoel Beer Sheva OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Hapoel Beer Sheva Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -320,6 +372,9 @@
       "pick": "Hapoel Beer Sheva OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Hapoel Beer Sheva Más de 2.5 Remates a Puerta"
     },
     {
@@ -332,6 +387,9 @@
       "pick": "Celta Vigo OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Celta Vigo Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -344,6 +402,9 @@
       "pick": "Celta Vigo OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Celta Vigo Más de 4.5 Córners del Equipo"
     },
     {
@@ -356,6 +417,9 @@
       "pick": "Bournemouth OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Bournemouth Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -368,6 +432,9 @@
       "pick": "Bournemouth OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Bournemouth Más de 2.5 Remates a Puerta"
     },
     {
@@ -380,6 +447,9 @@
       "pick": "Dinamo Zagreb OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Dinamo Zagreb Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -392,6 +462,9 @@
       "pick": "Dinamo Zagreb OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Dinamo Zagreb Más de 4.5 Córners del Equipo"
     },
     {
@@ -404,6 +477,9 @@
       "pick": "Bayer Leverkusen OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Bayer Leverkusen Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -416,6 +492,9 @@
       "pick": "Bayer Leverkusen OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Bayer Leverkusen Más de 2.5 Remates a Puerta"
     },
     {
@@ -428,6 +507,9 @@
       "pick": "Marseille OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Marseille Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -440,6 +522,9 @@
       "pick": "Marseille OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Marseille Más de 4.5 Córners del Equipo"
     },
     {
@@ -452,6 +537,9 @@
       "pick": "Levski Sofia OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Levski Sofia Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -464,6 +552,9 @@
       "pick": "Levski Sofia OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Levski Sofia Más de 2.5 Remates a Puerta"
     },
     {
@@ -476,6 +567,9 @@
       "pick": "Olympiakos Piraeus OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Olympiakos Piraeus Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -488,6 +582,9 @@
       "pick": "Olympiakos Piraeus OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Olympiakos Piraeus Más de 4.5 Córners del Equipo"
     },
     {
@@ -500,6 +597,9 @@
       "pick": "AC Milan OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "AC Milan Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -512,6 +612,9 @@
       "pick": "AC Milan OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "AC Milan Más de 2.5 Remates a Puerta"
     },
     {
@@ -524,6 +627,9 @@
       "pick": "Plzen OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Plzen Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -536,6 +642,9 @@
       "pick": "Plzen OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Plzen Más de 4.5 Córners del Equipo"
     },
     {
@@ -548,6 +657,9 @@
       "pick": "Benfica OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Benfica Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -560,6 +672,9 @@
       "pick": "Benfica OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Benfica Más de 2.5 Remates a Puerta"
     },
     {
@@ -572,6 +687,9 @@
       "pick": "Union St. Gilloise OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Union St. Gilloise Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -584,6 +702,9 @@
       "pick": "Union St. Gilloise OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Union St. Gilloise Más de 4.5 Córners del Equipo"
     },
     {
@@ -596,6 +717,9 @@
       "pick": "Lech Poznan OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Lech Poznan Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -608,6 +732,9 @@
       "pick": "Lech Poznan OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Lech Poznan Más de 2.5 Remates a Puerta"
     },
     {
@@ -620,6 +747,9 @@
       "pick": "Red Bull Salzburg OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Red Bull Salzburg Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -632,6 +762,9 @@
       "pick": "Red Bull Salzburg OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Red Bull Salzburg Más de 4.5 Córners del Equipo"
     },
     {
@@ -644,6 +777,9 @@
       "pick": "Ararat-Armenia OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Ararat-Armenia Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -656,6 +792,9 @@
       "pick": "Ararat-Armenia OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Ararat-Armenia Más de 2.5 Remates a Puerta"
     },
     {
@@ -668,6 +807,9 @@
       "pick": "Crystal Palace OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Crystal Palace Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -680,6 +822,9 @@
       "pick": "Crystal Palace OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Crystal Palace Más de 4.5 Córners del Equipo"
     },
     {
@@ -692,6 +837,9 @@
       "pick": "Real Sociedad OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Real Sociedad Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -704,6 +852,9 @@
       "pick": "Real Sociedad OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Real Sociedad Más de 2.5 Remates a Puerta"
     },
     {
@@ -716,6 +867,9 @@
       "pick": "Ferencvarosi TC OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Ferencvarosi TC Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -728,6 +882,9 @@
       "pick": "Ferencvarosi TC OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Ferencvarosi TC Más de 4.5 Córners del Equipo"
     },
     {
@@ -740,6 +897,9 @@
       "pick": "Celje OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Celje Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -752,6 +912,9 @@
       "pick": "Celje OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Celje Más de 2.5 Remates a Puerta"
     },
     {
@@ -764,6 +927,9 @@
       "pick": "1899 Hoffenheim OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "1899 Hoffenheim Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -776,6 +942,9 @@
       "pick": "1899 Hoffenheim OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "1899 Hoffenheim Más de 4.5 Córners del Equipo"
     },
     {
@@ -788,6 +957,9 @@
       "pick": "Sturm Graz OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Sturm Graz Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -800,6 +972,9 @@
       "pick": "Sturm Graz OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Sturm Graz Más de 2.5 Remates a Puerta"
     },
     {
@@ -812,6 +987,9 @@
       "pick": "Juventus OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Juventus Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -824,6 +1002,9 @@
       "pick": "Juventus OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Juventus Más de 4.5 Córners del Equipo"
     },
     {
@@ -836,6 +1017,9 @@
       "pick": "Omonia Nicosia OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Omonia Nicosia Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -848,6 +1032,9 @@
       "pick": "Omonia Nicosia OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Omonia Nicosia Más de 2.5 Remates a Puerta"
     },
     {
@@ -860,6 +1047,9 @@
       "pick": "Lyon OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Lyon Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -872,6 +1062,9 @@
       "pick": "Lyon OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Lyon Más de 4.5 Córners del Equipo"
     },
     {
@@ -884,6 +1077,9 @@
       "pick": "Lillestrom OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Lillestrom Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -896,6 +1092,9 @@
       "pick": "Lillestrom OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Lillestrom Más de 2.5 Remates a Puerta"
     },
     {
@@ -908,6 +1107,9 @@
       "pick": "NEC Nijmegen OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "NEC Nijmegen Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -920,6 +1122,9 @@
       "pick": "NEC Nijmegen OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "NEC Nijmegen Más de 4.5 Córners del Equipo"
     },
     {
@@ -932,6 +1137,9 @@
       "pick": "Rennes OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Rennes Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -944,6 +1152,9 @@
       "pick": "Rennes OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Rennes Más de 2.5 Remates a Puerta"
     },
     {
@@ -956,6 +1167,9 @@
       "pick": "OFI OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "OFI Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -968,6 +1182,9 @@
       "pick": "OFI OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "OFI Más de 4.5 Córners del Equipo"
     },
     {
@@ -980,6 +1197,9 @@
       "pick": "Anderlecht OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Anderlecht Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -992,6 +1212,9 @@
       "pick": "Anderlecht OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Anderlecht Más de 2.5 Remates a Puerta"
     },
     {
@@ -1004,6 +1227,9 @@
       "pick": "Sparta Praha OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Sparta Praha Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -1016,6 +1242,9 @@
       "pick": "Sparta Praha OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Sparta Praha Más de 4.5 Córners del Equipo"
     },
     {
@@ -1028,6 +1257,9 @@
       "pick": "AZ Alkmaar OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "AZ Alkmaar Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -1040,6 +1272,9 @@
       "pick": "AZ Alkmaar OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "AZ Alkmaar Más de 2.5 Remates a Puerta"
     },
     {
@@ -1052,6 +1287,9 @@
       "pick": "Sunderland OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Sunderland Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -1064,6 +1302,9 @@
       "pick": "Sunderland OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Sunderland Más de 4.5 Córners del Equipo"
     },
     {
@@ -1076,6 +1317,9 @@
       "pick": "Jagiellonia OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Jagiellonia Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -1088,6 +1332,9 @@
       "pick": "Jagiellonia OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Jagiellonia Más de 2.5 Remates a Puerta"
     },
     {
@@ -1100,6 +1347,9 @@
       "pick": "Torreense OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Torreense Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -1112,6 +1362,9 @@
       "pick": "Torreense OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Torreense Más de 4.5 Córners del Equipo"
     },
     {
@@ -1124,6 +1377,9 @@
       "pick": "Celtic OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Celtic Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -1136,6 +1392,9 @@
       "pick": "Celtic OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Celtic Más de 2.5 Remates a Puerta"
     },
     {
@@ -1148,6 +1407,9 @@
       "pick": "Sao Paulo OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Sao Paulo Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -1160,6 +1422,9 @@
       "pick": "Sao Paulo OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Sao Paulo Más de 4.5 Córners del Equipo"
     },
     {
@@ -1172,6 +1437,9 @@
       "pick": "Remo OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Remo Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -1184,6 +1452,9 @@
       "pick": "Remo OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Remo Más de 2.5 Remates a Puerta"
     },
     {
@@ -1196,6 +1467,9 @@
       "pick": "CF Pachuca OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "CF Pachuca Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -1208,6 +1482,9 @@
       "pick": "CF Pachuca OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "CF Pachuca Más de 4.5 Córners del Equipo"
     },
     {
@@ -1220,6 +1497,9 @@
       "pick": "Guadalajara Chivas OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Guadalajara Chivas Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -1232,6 +1512,9 @@
       "pick": "Guadalajara Chivas OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Guadalajara Chivas Más de 2.5 Remates a Puerta"
     },
     {
@@ -1244,6 +1527,9 @@
       "pick": "Leon OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Leon Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -1256,6 +1542,9 @@
       "pick": "Leon OVER 4.5 Córners del Equipo",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Leon Más de 4.5 Córners del Equipo"
     },
     {
@@ -1268,6 +1557,9 @@
       "pick": "Cruz Azul OVER 0.5 Goles (Anota Gol)",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Cruz Azul Más de 0.5 Goles (Anota Gol)"
     },
     {
@@ -1280,6 +1572,9 @@
       "pick": "Cruz Azul OVER 2.5 Remates a Puerta",
       "probabilidad": 91.0,
       "racha_l5": "🟢🟢🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Cruz Azul Más de 2.5 Remates a Puerta"
     },
     {
@@ -1292,6 +1587,9 @@
       "pick": "1410.63x",
       "probabilidad": 91.0,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "1410.63x"
     },
     {
@@ -1304,6 +1602,9 @@
       "pick": "WR R.Odunze OVER 54.5 Yds Rec",
       "probabilidad": 74.3,
       "racha_l5": "🔴🟢🟢🟢🔴",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "WR R.Odunze Más de 54.5 Yds Rec"
     },
     {
@@ -1316,6 +1617,9 @@
       "pick": "QB D.Prescott OVER 261.5 Yds Pase",
       "probabilidad": 73.5,
       "racha_l5": "🔴🔴🟢🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "QB D.Prescott Más de 261.5 Yds Pase"
     },
     {
@@ -1328,6 +1632,9 @@
       "pick": "WR M.Lemon OVER 3.5 Recepciones",
       "probabilidad": 70.8,
       "racha_l5": "🔴🟢🟢🟢🔴",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "WR M.Lemon Más de 3.5 Recepciones"
     },
     {
@@ -1340,6 +1647,9 @@
       "pick": "WR D.Goedert OVER 38.5 Yds Rec",
       "probabilidad": 70.7,
       "racha_l5": "🟢🟢🔴🟢🔴",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "WR D.Goedert Más de 38.5 Yds Rec"
     },
     {
@@ -1352,6 +1662,9 @@
       "pick": "QB P.Mahomes OVER 262.5 Yds Pase",
       "probabilidad": 68.8,
       "racha_l5": "🔴🟢🔴🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "QB P.Mahomes Más de 262.5 Yds Pase"
     },
     {
@@ -1364,6 +1677,9 @@
       "pick": "QB J.Allen OVER 231.5 Yds Pase",
       "probabilidad": 68.8,
       "racha_l5": "🟢🟢🟢🔴🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "QB J.Allen Más de 231.5 Yds Pase"
     },
     {
@@ -1376,6 +1692,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1388,6 +1707,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1400,6 +1722,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1412,6 +1737,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1424,6 +1752,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1436,6 +1767,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1448,6 +1782,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1460,6 +1797,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1472,6 +1812,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1484,6 +1827,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1496,6 +1842,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1508,6 +1857,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1520,6 +1872,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1532,6 +1887,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1544,6 +1902,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1556,6 +1917,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1568,6 +1932,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1580,6 +1947,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1592,6 +1962,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1604,6 +1977,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1616,6 +1992,9 @@
       "pick": "11.22x",
       "probabilidad": 68.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "11.22x"
     },
     {
@@ -1628,6 +2007,9 @@
       "pick": "WR D.Moore UNDER 4.5 Recepciones",
       "probabilidad": 67.6,
       "racha_l5": "🟢🟢🟢🟢🔴",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "WR D.Moore Menos de 4.5 Recepciones"
     },
     {
@@ -1640,6 +2022,9 @@
       "pick": "QB J.Goff OVER 230.5 Yds Pase",
       "probabilidad": 65.6,
       "racha_l5": "🟢🔴🔴🟢🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "QB J.Goff Más de 230.5 Yds Pase"
     },
     {
@@ -1652,6 +2037,9 @@
       "pick": "WR A.St. Brown OVER 5.5 Recepciones",
       "probabilidad": 65.3,
       "racha_l5": "🟢🟢🟢🔴🔴",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "WR A.St. Brown Más de 5.5 Recepciones"
     },
     {
@@ -1664,6 +2052,9 @@
       "pick": "RB J.Williams OVER 63.5 Yds Tierra",
       "probabilidad": 61.4,
       "racha_l5": "🟢🔴🟢🔴🟢",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "RB J.Williams Más de 63.5 Yds Tierra"
     },
     {
@@ -1676,6 +2067,9 @@
       "pick": "12.23x",
       "probabilidad": 29.3,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "12.23x"
     },
     {
@@ -1688,6 +2082,9 @@
       "pick": "12.23x",
       "probabilidad": 29.1,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "12.23x"
     },
     {
@@ -1700,6 +2097,9 @@
       "pick": "12.23x",
       "probabilidad": 22.6,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "12.23x"
     },
     {
@@ -1712,6 +2112,9 @@
       "pick": "2 por equipo",
       "probabilidad": 0.0,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "2 por equipo"
     },
     {
@@ -1724,6 +2127,9 @@
       "pick": "Titular Vigente L3 + Líneas Reales + Clima en Vivo + Exclusión GTD",
       "probabilidad": 0.0,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "Titular Vigente L3 + Líneas Reales + Clima en Vivo + Exclusión GTD"
     },
     {
@@ -1736,6 +2142,9 @@
       "pick": "1828.52x",
       "probabilidad": 0.0,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "1828.52x"
     },
     {
@@ -1748,6 +2157,9 @@
       "pick": "2 por equipo",
       "probabilidad": 0.0,
       "racha_l5": "",
+      "es_true_floor": false,
+      "cuota_real": 1.87,
+      "badge_floor": "",
       "pick_amigable": "2 por equipo"
     }
   ],
@@ -1764,42 +2176,6 @@
   "guiones": [],
   "picks_hoy": [
     {
-      "deporte": "NBA",
-      "liga": "NBA",
-      "fecha": "2026-11-25",
-      "duelo": "Los Angeles Clippers @ Memphis Grizzlies",
-      "pick_principal": "Ganador: Memphis Grizzlies",
-      "cuota": 1.01,
-      "estado": "Pendiente",
-      "ganancia": 0.0,
-      "id": "dcab2d2d70b8",
-      "equipo_a": "Los Angeles Clippers",
-      "equipo_b": "Memphis Grizzlies",
-      "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
-      "contexto": [],
-      "pick_1": {
-        "etiqueta": "Ganador",
-        "texto": "Memphis Grizzlies",
-        "prob": null
-      },
-      "pick_2": {
-        "etiqueta": "Hándicap",
-        "texto": "Memphis Grizzlies -7.0",
-        "prob": null
-      },
-      "pick_3": {
-        "etiqueta": "Altas / Bajas",
-        "texto": "MENOS DE (Menos de)",
-        "prob": null
-      },
-      "rankeado_real": false,
-      "props_partido": [],
-      "guiones_partido": [],
-      "apertura_ref": null
-    },
-    {
       "deporte": "NFL",
       "liga": "NFL",
       "fecha": "2026-11-26",
@@ -1812,7 +2188,7 @@
       "equipo_a": "KC",
       "equipo_b": "BUF",
       "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+      "logo_a": "",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
       "contexto": [
         {
@@ -1847,6 +2223,9 @@
           "pick": "WR R.Rice OVER 4.5 Recepciones",
           "probabilidad": 91.5,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "WR R.Rice Más de 4.5 Recepciones",
           "lado": "ALL"
         },
@@ -1860,6 +2239,9 @@
           "pick": "QB P.Mahomes OVER 262.5 Yds Pase",
           "probabilidad": 68.8,
           "racha_l5": "🔴🟢🔴🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "QB P.Mahomes Más de 262.5 Yds Pase",
           "lado": "ALL"
         },
@@ -1873,6 +2255,9 @@
           "pick": "QB J.Allen OVER 231.5 Yds Pase",
           "probabilidad": 68.8,
           "racha_l5": "🟢🟢🟢🔴🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "QB J.Allen Más de 231.5 Yds Pase",
           "lado": "ALL"
         },
@@ -1886,6 +2271,9 @@
           "pick": "WR D.Moore UNDER 4.5 Recepciones",
           "probabilidad": 67.6,
           "racha_l5": "🟢🟢🟢🟢🔴",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "WR D.Moore Menos de 4.5 Recepciones",
           "lado": "ALL"
         },
@@ -1899,6 +2287,9 @@
           "pick": "12.23x",
           "probabilidad": 29.3,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "12.23x",
           "lado": "ALL"
         }
@@ -1959,6 +2350,9 @@
           "pick": "QB D.Prescott OVER 261.5 Yds Pase",
           "probabilidad": 73.5,
           "racha_l5": "🔴🔴🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "QB D.Prescott Más de 261.5 Yds Pase",
           "lado": "ALL"
         },
@@ -1972,6 +2366,9 @@
           "pick": "WR M.Lemon OVER 3.5 Recepciones",
           "probabilidad": 70.8,
           "racha_l5": "🔴🟢🟢🟢🔴",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "WR M.Lemon Más de 3.5 Recepciones",
           "lado": "ALL"
         },
@@ -1985,6 +2382,9 @@
           "pick": "WR D.Goedert OVER 38.5 Yds Rec",
           "probabilidad": 70.7,
           "racha_l5": "🟢🟢🔴🟢🔴",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "WR D.Goedert Más de 38.5 Yds Rec",
           "lado": "ALL"
         },
@@ -1998,6 +2398,9 @@
           "pick": "RB J.Williams OVER 63.5 Yds Tierra",
           "probabilidad": 61.4,
           "racha_l5": "🟢🔴🟢🔴🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "RB J.Williams Más de 63.5 Yds Tierra",
           "lado": "ALL"
         },
@@ -2011,6 +2414,9 @@
           "pick": "12.23x",
           "probabilidad": 22.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "12.23x",
           "lado": "ALL"
         }
@@ -2071,6 +2477,9 @@
           "pick": "QB C.Williams OVER 227.5 Yds Pase",
           "probabilidad": 91.5,
           "racha_l5": "🟢🟢🟢🟢🔴",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "QB C.Williams Más de 227.5 Yds Pase",
           "lado": "ALL"
         },
@@ -2084,6 +2493,9 @@
           "pick": "WR R.Odunze OVER 54.5 Yds Rec",
           "probabilidad": 74.3,
           "racha_l5": "🔴🟢🟢🟢🔴",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "WR R.Odunze Más de 54.5 Yds Rec",
           "lado": "ALL"
         },
@@ -2097,6 +2509,9 @@
           "pick": "QB J.Goff OVER 230.5 Yds Pase",
           "probabilidad": 65.6,
           "racha_l5": "🟢🔴🔴🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "QB J.Goff Más de 230.5 Yds Pase",
           "lado": "ALL"
         },
@@ -2110,6 +2525,9 @@
           "pick": "WR A.St. Brown OVER 5.5 Recepciones",
           "probabilidad": 65.3,
           "racha_l5": "🟢🟢🟢🔴🔴",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "WR A.St. Brown Más de 5.5 Recepciones",
           "lado": "ALL"
         },
@@ -2123,6 +2541,9 @@
           "pick": "12.23x",
           "probabilidad": 29.1,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "12.23x",
           "lado": "ALL"
         }
@@ -2174,6 +2595,9 @@
           "pick": "Leon OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Leon Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -2187,6 +2611,9 @@
           "pick": "Leon OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Leon Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -2200,6 +2627,9 @@
           "pick": "Cruz Azul OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Cruz Azul Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -2213,6 +2643,9 @@
           "pick": "Cruz Azul OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Cruz Azul Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -2226,6 +2659,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -2277,6 +2713,9 @@
           "pick": "CF Pachuca OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "CF Pachuca Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -2290,6 +2729,9 @@
           "pick": "CF Pachuca OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "CF Pachuca Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -2303,6 +2745,9 @@
           "pick": "Guadalajara Chivas OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Guadalajara Chivas Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -2316,6 +2761,9 @@
           "pick": "Guadalajara Chivas OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Guadalajara Chivas Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -2329,6 +2777,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -2380,6 +2831,9 @@
           "pick": "Sao Paulo OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sao Paulo Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -2393,6 +2847,9 @@
           "pick": "Sao Paulo OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sao Paulo Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -2406,6 +2863,9 @@
           "pick": "Remo OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Remo Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -2419,6 +2879,9 @@
           "pick": "Remo OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Remo Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -2432,6 +2895,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -2483,6 +2949,9 @@
           "pick": "Torreense OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Torreense Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -2496,6 +2965,9 @@
           "pick": "Torreense OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Torreense Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -2509,6 +2981,9 @@
           "pick": "Celtic OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Celtic Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -2522,6 +2997,9 @@
           "pick": "Celtic OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Celtic Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -2535,6 +3013,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -2586,6 +3067,9 @@
           "pick": "Sunderland OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sunderland Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -2599,6 +3083,9 @@
           "pick": "Sunderland OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sunderland Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -2612,6 +3099,9 @@
           "pick": "Jagiellonia OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Jagiellonia Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -2625,6 +3115,9 @@
           "pick": "Jagiellonia OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Jagiellonia Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -2638,6 +3131,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -2689,6 +3185,9 @@
           "pick": "Sparta Praha OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sparta Praha Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -2702,6 +3201,9 @@
           "pick": "Sparta Praha OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sparta Praha Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -2715,6 +3217,9 @@
           "pick": "AZ Alkmaar OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "AZ Alkmaar Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -2728,6 +3233,9 @@
           "pick": "AZ Alkmaar OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "AZ Alkmaar Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -2741,6 +3249,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -2792,6 +3303,9 @@
           "pick": "OFI OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "OFI Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -2805,6 +3319,9 @@
           "pick": "OFI OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "OFI Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -2818,6 +3335,9 @@
           "pick": "Anderlecht OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Anderlecht Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -2831,6 +3351,9 @@
           "pick": "Anderlecht OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Anderlecht Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -2844,6 +3367,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -2895,6 +3421,9 @@
           "pick": "NEC Nijmegen OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "NEC Nijmegen Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -2908,6 +3437,9 @@
           "pick": "NEC Nijmegen OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "NEC Nijmegen Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -2921,6 +3453,9 @@
           "pick": "Rennes OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Rennes Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -2934,6 +3469,9 @@
           "pick": "Rennes OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Rennes Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -2947,6 +3485,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -2998,6 +3539,9 @@
           "pick": "Lyon OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Lyon Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -3011,6 +3555,9 @@
           "pick": "Lyon OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Lyon Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -3024,6 +3571,9 @@
           "pick": "Lillestrom OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Lillestrom Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -3037,6 +3587,9 @@
           "pick": "Lillestrom OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Lillestrom Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -3050,6 +3603,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -3101,6 +3657,9 @@
           "pick": "Juventus OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Juventus Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -3114,6 +3673,9 @@
           "pick": "Juventus OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Juventus Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -3127,6 +3689,9 @@
           "pick": "Omonia Nicosia OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Omonia Nicosia Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -3140,6 +3705,9 @@
           "pick": "Omonia Nicosia OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Omonia Nicosia Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -3153,6 +3721,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -3204,6 +3775,9 @@
           "pick": "1899 Hoffenheim OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "1899 Hoffenheim Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -3217,6 +3791,9 @@
           "pick": "1899 Hoffenheim OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "1899 Hoffenheim Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -3230,6 +3807,9 @@
           "pick": "Sturm Graz OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sturm Graz Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -3243,6 +3823,9 @@
           "pick": "Sturm Graz OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sturm Graz Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -3256,6 +3839,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -3307,6 +3893,9 @@
           "pick": "Ferencvarosi TC OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Ferencvarosi TC Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -3320,6 +3909,9 @@
           "pick": "Ferencvarosi TC OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Ferencvarosi TC Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -3333,6 +3925,9 @@
           "pick": "Celje OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Celje Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -3346,6 +3941,9 @@
           "pick": "Celje OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Celje Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -3359,6 +3957,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -3410,6 +4011,9 @@
           "pick": "Crystal Palace OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Crystal Palace Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -3423,6 +4027,9 @@
           "pick": "Crystal Palace OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Crystal Palace Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -3436,6 +4043,9 @@
           "pick": "Real Sociedad OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Real Sociedad Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -3449,6 +4059,9 @@
           "pick": "Real Sociedad OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Real Sociedad Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -3462,6 +4075,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -3513,6 +4129,9 @@
           "pick": "Red Bull Salzburg OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Red Bull Salzburg Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -3526,6 +4145,9 @@
           "pick": "Red Bull Salzburg OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Red Bull Salzburg Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -3539,6 +4161,9 @@
           "pick": "Ararat-Armenia OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Ararat-Armenia Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -3552,6 +4177,9 @@
           "pick": "Ararat-Armenia OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Ararat-Armenia Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -3565,6 +4193,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -3616,6 +4247,9 @@
           "pick": "Union St. Gilloise OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Union St. Gilloise Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -3629,6 +4263,9 @@
           "pick": "Union St. Gilloise OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Union St. Gilloise Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -3642,6 +4279,9 @@
           "pick": "Lech Poznan OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Lech Poznan Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -3655,6 +4295,9 @@
           "pick": "Lech Poznan OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Lech Poznan Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -3668,6 +4311,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -3719,6 +4365,9 @@
           "pick": "Plzen OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Plzen Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -3732,6 +4381,9 @@
           "pick": "Plzen OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Plzen Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -3745,6 +4397,9 @@
           "pick": "Benfica OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Benfica Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -3758,6 +4413,9 @@
           "pick": "Benfica OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Benfica Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -3771,6 +4429,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -3822,6 +4483,9 @@
           "pick": "Olympiakos Piraeus OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Olympiakos Piraeus Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -3835,6 +4499,9 @@
           "pick": "Olympiakos Piraeus OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Olympiakos Piraeus Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -3848,6 +4515,9 @@
           "pick": "AC Milan OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "AC Milan Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -3861,6 +4531,9 @@
           "pick": "AC Milan OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "AC Milan Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -3874,6 +4547,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -3925,6 +4601,9 @@
           "pick": "Marseille OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Marseille Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -3938,6 +4617,9 @@
           "pick": "Marseille OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Marseille Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -3951,6 +4633,9 @@
           "pick": "Levski Sofia OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Levski Sofia Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -3964,6 +4649,9 @@
           "pick": "Levski Sofia OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Levski Sofia Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -3977,6 +4665,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -4028,6 +4719,9 @@
           "pick": "Dinamo Zagreb OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Dinamo Zagreb Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -4041,6 +4735,9 @@
           "pick": "Dinamo Zagreb OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Dinamo Zagreb Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -4054,6 +4751,9 @@
           "pick": "Bayer Leverkusen OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Bayer Leverkusen Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -4067,6 +4767,9 @@
           "pick": "Bayer Leverkusen OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Bayer Leverkusen Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -4080,6 +4783,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -4131,6 +4837,9 @@
           "pick": "Celta Vigo OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Celta Vigo Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -4144,6 +4853,9 @@
           "pick": "Celta Vigo OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Celta Vigo Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -4157,6 +4869,9 @@
           "pick": "Bournemouth OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Bournemouth Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -4170,6 +4885,9 @@
           "pick": "Bournemouth OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Bournemouth Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -4183,6 +4901,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -4234,6 +4955,9 @@
           "pick": "Beşiktaş OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Beşiktaş Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -4247,6 +4971,9 @@
           "pick": "Beşiktaş OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Beşiktaş Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -4260,6 +4987,9 @@
           "pick": "Hapoel Beer Sheva OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Hapoel Beer Sheva Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -4273,6 +5003,9 @@
           "pick": "Hapoel Beer Sheva OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Hapoel Beer Sheva Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -4286,6 +5019,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -4326,6 +5062,9 @@
           "pick": "QB C.Williams OVER 227.5 Yds Pase",
           "probabilidad": 91.5,
           "racha_l5": "🟢🟢🟢🟢🔴",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "QB C.Williams Más de 227.5 Yds Pase",
           "lado": "ALL"
         },
@@ -4339,6 +5078,9 @@
           "pick": "WR R.Odunze OVER 54.5 Yds Rec",
           "probabilidad": 74.3,
           "racha_l5": "🔴🟢🟢🟢🔴",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "WR R.Odunze Más de 54.5 Yds Rec",
           "lado": "ALL"
         },
@@ -4352,6 +5094,9 @@
           "pick": "QB J.Goff OVER 230.5 Yds Pase",
           "probabilidad": 65.6,
           "racha_l5": "🟢🔴🔴🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "QB J.Goff Más de 230.5 Yds Pase",
           "lado": "ALL"
         },
@@ -4365,6 +5110,9 @@
           "pick": "WR A.St. Brown OVER 5.5 Recepciones",
           "probabilidad": 65.3,
           "racha_l5": "🟢🟢🟢🔴🔴",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "WR A.St. Brown Más de 5.5 Recepciones",
           "lado": "ALL"
         },
@@ -4378,6 +5126,9 @@
           "pick": "12.23x",
           "probabilidad": 29.1,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "12.23x",
           "lado": "ALL"
         }
@@ -4411,6 +5162,9 @@
           "pick": "QB D.Prescott OVER 261.5 Yds Pase",
           "probabilidad": 73.5,
           "racha_l5": "🔴🔴🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "QB D.Prescott Más de 261.5 Yds Pase",
           "lado": "ALL"
         },
@@ -4424,6 +5178,9 @@
           "pick": "WR M.Lemon OVER 3.5 Recepciones",
           "probabilidad": 70.8,
           "racha_l5": "🔴🟢🟢🟢🔴",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "WR M.Lemon Más de 3.5 Recepciones",
           "lado": "ALL"
         },
@@ -4437,6 +5194,9 @@
           "pick": "WR D.Goedert OVER 38.5 Yds Rec",
           "probabilidad": 70.7,
           "racha_l5": "🟢🟢🔴🟢🔴",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "WR D.Goedert Más de 38.5 Yds Rec",
           "lado": "ALL"
         },
@@ -4450,6 +5210,9 @@
           "pick": "RB J.Williams OVER 63.5 Yds Tierra",
           "probabilidad": 61.4,
           "racha_l5": "🟢🔴🟢🔴🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "RB J.Williams Más de 63.5 Yds Tierra",
           "lado": "ALL"
         },
@@ -4463,6 +5226,9 @@
           "pick": "12.23x",
           "probabilidad": 22.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "12.23x",
           "lado": "ALL"
         }
@@ -4479,7 +5245,7 @@
       "equipo_a": "KC",
       "equipo_b": "BUF",
       "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+      "logo_a": "",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
       "linea_1": "Hándicap BUF: -3.0 pts",
       "linea_2": "Altas / Bajas: 50.5 pts",
@@ -4496,6 +5262,9 @@
           "pick": "WR R.Rice OVER 4.5 Recepciones",
           "probabilidad": 91.5,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "WR R.Rice Más de 4.5 Recepciones",
           "lado": "ALL"
         },
@@ -4509,6 +5278,9 @@
           "pick": "QB P.Mahomes OVER 262.5 Yds Pase",
           "probabilidad": 68.8,
           "racha_l5": "🔴🟢🔴🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "QB P.Mahomes Más de 262.5 Yds Pase",
           "lado": "ALL"
         },
@@ -4522,6 +5294,9 @@
           "pick": "QB J.Allen OVER 231.5 Yds Pase",
           "probabilidad": 68.8,
           "racha_l5": "🟢🟢🟢🔴🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "QB J.Allen Más de 231.5 Yds Pase",
           "lado": "ALL"
         },
@@ -4535,6 +5310,9 @@
           "pick": "WR D.Moore UNDER 4.5 Recepciones",
           "probabilidad": 67.6,
           "racha_l5": "🟢🟢🟢🟢🔴",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "WR D.Moore Menos de 4.5 Recepciones",
           "lado": "ALL"
         },
@@ -4548,6 +5326,9 @@
           "pick": "12.23x",
           "probabilidad": 29.3,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "12.23x",
           "lado": "ALL"
         }
@@ -4565,7 +5346,7 @@
       "equipo_b": "PIT",
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+      "logo_b": "",
       "linea_1": "Hándicap PIT: +1.5 pts",
       "linea_2": "Altas / Bajas: 40.0 pts",
       "casino": "LowVig.ag",
@@ -4621,7 +5402,7 @@
       "equipo_a": "NO",
       "equipo_b": "CIN",
       "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+      "logo_a": "",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
       "linea_1": "Hándicap CIN: -10.0 pts",
       "linea_2": "Altas / Bajas: 52.5 pts",
@@ -4697,7 +5478,7 @@
       "equipo_a": "NE",
       "equipo_b": "LAC",
       "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+      "logo_a": "",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
       "linea_1": "Hándicap LAC: -5.0 pts",
       "linea_2": "Altas / Bajas: 40.0 pts",
@@ -4736,7 +5517,7 @@
       "equipo_b": "SF",
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+      "logo_b": "",
       "linea_1": "Hándicap SF: -2.5 pts",
       "linea_2": "Altas / Bajas: 46.5 pts",
       "casino": "BetOnline.ag",
@@ -4754,7 +5535,7 @@
       "equipo_a": "LV",
       "equipo_b": "CLE",
       "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+      "logo_a": "",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
       "linea_1": "Hándicap CLE: -4.0 pts",
       "linea_2": "Altas / Bajas: 41.0 pts",
@@ -4773,8 +5554,8 @@
       "equipo_a": "CAR",
       "equipo_b": "TB",
       "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+      "logo_b": "",
       "linea_1": "Hándicap TB: -2.0 pts",
       "linea_2": "Altas / Bajas: 43.5 pts",
       "casino": "BetOnline.ag",
@@ -4792,8 +5573,8 @@
       "equipo_a": "KC",
       "equipo_b": "LA",
       "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+      "logo_a": "",
+      "logo_b": "",
       "linea_1": "Hándicap LA: +0.0 pts",
       "linea_2": "Altas / Bajas: 45.5 pts",
       "casino": "LowVig.ag",
@@ -4887,8 +5668,8 @@
       "equipo_a": "GB",
       "equipo_b": "NO",
       "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+      "logo_a": "",
+      "logo_b": "",
       "linea_1": "Hándicap NO: +5.5 pts",
       "linea_2": "Altas / Bajas: 46.0 pts",
       "casino": "BetOnline.ag",
@@ -4907,7 +5688,7 @@
       "equipo_b": "TB",
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+      "logo_b": "",
       "linea_1": "Hándicap TB: -5.5 pts",
       "linea_2": "Altas / Bajas: 40.5 pts",
       "casino": "BetOnline.ag",
@@ -4925,7 +5706,7 @@
       "equipo_a": "SF",
       "equipo_b": "NYG",
       "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+      "logo_a": "",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
       "linea_1": "Hándicap NYG: +6.5 pts",
       "linea_2": "Altas / Bajas: 47.5 pts",
@@ -4983,7 +5764,7 @@
       "equipo_b": "NE",
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+      "logo_b": "",
       "linea_1": "Hándicap NE: +13.5 pts",
       "linea_2": "Altas / Bajas: 44.5 pts",
       "casino": "LowVig.ag",
@@ -5001,7 +5782,7 @@
       "equipo_a": "CAR",
       "equipo_b": "MIN",
       "separador": "@",
-      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+      "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
       "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
       "linea_1": "Hándicap MIN: -4.5 pts",
       "linea_2": "Altas / Bajas: 42.0 pts",
@@ -5021,7 +5802,7 @@
       "equipo_b": "PIT",
       "separador": "@",
       "logo_a": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-      "logo_b": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+      "logo_b": "",
       "linea_1": "Hándicap PIT: +4.5 pts",
       "linea_2": "Altas / Bajas: 43.5 pts",
       "casino": "BetOnline.ag",
@@ -5075,6 +5856,9 @@
           "pick": "Beşiktaş OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Beşiktaş Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -5088,6 +5872,9 @@
           "pick": "Beşiktaş OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Beşiktaş Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -5101,6 +5888,9 @@
           "pick": "Hapoel Beer Sheva OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Hapoel Beer Sheva Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -5114,6 +5904,9 @@
           "pick": "Hapoel Beer Sheva OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Hapoel Beer Sheva Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -5127,6 +5920,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -5160,6 +5956,9 @@
           "pick": "Celta Vigo OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Celta Vigo Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -5173,6 +5972,9 @@
           "pick": "Celta Vigo OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Celta Vigo Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -5186,6 +5988,9 @@
           "pick": "Bournemouth OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Bournemouth Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -5199,6 +6004,9 @@
           "pick": "Bournemouth OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Bournemouth Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -5212,6 +6020,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -5245,6 +6056,9 @@
           "pick": "Dinamo Zagreb OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Dinamo Zagreb Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -5258,6 +6072,9 @@
           "pick": "Dinamo Zagreb OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Dinamo Zagreb Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -5271,6 +6088,9 @@
           "pick": "Bayer Leverkusen OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Bayer Leverkusen Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -5284,6 +6104,9 @@
           "pick": "Bayer Leverkusen OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Bayer Leverkusen Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -5297,6 +6120,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -5330,6 +6156,9 @@
           "pick": "Marseille OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Marseille Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -5343,6 +6172,9 @@
           "pick": "Marseille OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Marseille Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -5356,6 +6188,9 @@
           "pick": "Levski Sofia OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Levski Sofia Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -5369,6 +6204,9 @@
           "pick": "Levski Sofia OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Levski Sofia Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -5382,6 +6220,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -5415,6 +6256,9 @@
           "pick": "Olympiakos Piraeus OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Olympiakos Piraeus Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -5428,6 +6272,9 @@
           "pick": "Olympiakos Piraeus OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Olympiakos Piraeus Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -5441,6 +6288,9 @@
           "pick": "AC Milan OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "AC Milan Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -5454,6 +6304,9 @@
           "pick": "AC Milan OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "AC Milan Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -5467,6 +6320,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -5500,6 +6356,9 @@
           "pick": "Plzen OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Plzen Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -5513,6 +6372,9 @@
           "pick": "Plzen OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Plzen Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -5526,6 +6388,9 @@
           "pick": "Benfica OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Benfica Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -5539,6 +6404,9 @@
           "pick": "Benfica OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Benfica Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -5552,6 +6420,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -5585,6 +6456,9 @@
           "pick": "Union St. Gilloise OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Union St. Gilloise Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -5598,6 +6472,9 @@
           "pick": "Union St. Gilloise OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Union St. Gilloise Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -5611,6 +6488,9 @@
           "pick": "Lech Poznan OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Lech Poznan Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -5624,6 +6504,9 @@
           "pick": "Lech Poznan OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Lech Poznan Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -5637,6 +6520,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -5670,6 +6556,9 @@
           "pick": "Red Bull Salzburg OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Red Bull Salzburg Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -5683,6 +6572,9 @@
           "pick": "Red Bull Salzburg OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Red Bull Salzburg Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -5696,6 +6588,9 @@
           "pick": "Ararat-Armenia OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Ararat-Armenia Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -5709,6 +6604,9 @@
           "pick": "Ararat-Armenia OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Ararat-Armenia Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -5722,6 +6620,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -5755,6 +6656,9 @@
           "pick": "Crystal Palace OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Crystal Palace Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -5768,6 +6672,9 @@
           "pick": "Crystal Palace OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Crystal Palace Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -5781,6 +6688,9 @@
           "pick": "Real Sociedad OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Real Sociedad Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -5794,6 +6704,9 @@
           "pick": "Real Sociedad OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Real Sociedad Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -5807,6 +6720,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -5840,6 +6756,9 @@
           "pick": "Ferencvarosi TC OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Ferencvarosi TC Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -5853,6 +6772,9 @@
           "pick": "Ferencvarosi TC OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Ferencvarosi TC Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -5866,6 +6788,9 @@
           "pick": "Celje OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Celje Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -5879,6 +6804,9 @@
           "pick": "Celje OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Celje Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -5892,6 +6820,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -5925,6 +6856,9 @@
           "pick": "1899 Hoffenheim OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "1899 Hoffenheim Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -5938,6 +6872,9 @@
           "pick": "1899 Hoffenheim OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "1899 Hoffenheim Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -5951,6 +6888,9 @@
           "pick": "Sturm Graz OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sturm Graz Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -5964,6 +6904,9 @@
           "pick": "Sturm Graz OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sturm Graz Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -5977,6 +6920,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -6010,6 +6956,9 @@
           "pick": "Juventus OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Juventus Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -6023,6 +6972,9 @@
           "pick": "Juventus OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Juventus Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -6036,6 +6988,9 @@
           "pick": "Omonia Nicosia OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Omonia Nicosia Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -6049,6 +7004,9 @@
           "pick": "Omonia Nicosia OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Omonia Nicosia Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -6062,6 +7020,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -6095,6 +7056,9 @@
           "pick": "Lyon OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Lyon Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -6108,6 +7072,9 @@
           "pick": "Lyon OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Lyon Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -6121,6 +7088,9 @@
           "pick": "Lillestrom OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Lillestrom Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -6134,6 +7104,9 @@
           "pick": "Lillestrom OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Lillestrom Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -6147,6 +7120,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -6180,6 +7156,9 @@
           "pick": "NEC Nijmegen OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "NEC Nijmegen Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -6193,6 +7172,9 @@
           "pick": "NEC Nijmegen OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "NEC Nijmegen Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -6206,6 +7188,9 @@
           "pick": "Rennes OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Rennes Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -6219,6 +7204,9 @@
           "pick": "Rennes OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Rennes Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -6232,6 +7220,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -6265,6 +7256,9 @@
           "pick": "OFI OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "OFI Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -6278,6 +7272,9 @@
           "pick": "OFI OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "OFI Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -6291,6 +7288,9 @@
           "pick": "Anderlecht OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Anderlecht Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -6304,6 +7304,9 @@
           "pick": "Anderlecht OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Anderlecht Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -6317,6 +7320,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -6350,6 +7356,9 @@
           "pick": "Sparta Praha OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sparta Praha Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -6363,6 +7372,9 @@
           "pick": "Sparta Praha OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sparta Praha Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -6376,6 +7388,9 @@
           "pick": "AZ Alkmaar OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "AZ Alkmaar Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -6389,6 +7404,9 @@
           "pick": "AZ Alkmaar OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "AZ Alkmaar Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -6402,6 +7420,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -6435,6 +7456,9 @@
           "pick": "Sunderland OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sunderland Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -6448,6 +7472,9 @@
           "pick": "Sunderland OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sunderland Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -6461,6 +7488,9 @@
           "pick": "Jagiellonia OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Jagiellonia Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -6474,6 +7504,9 @@
           "pick": "Jagiellonia OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Jagiellonia Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -6487,6 +7520,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -6520,6 +7556,9 @@
           "pick": "Torreense OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Torreense Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -6533,6 +7572,9 @@
           "pick": "Torreense OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Torreense Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -6546,6 +7588,9 @@
           "pick": "Celtic OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Celtic Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -6559,6 +7604,9 @@
           "pick": "Celtic OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Celtic Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -6572,6 +7620,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -6605,6 +7656,9 @@
           "pick": "Sao Paulo OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sao Paulo Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -6618,6 +7672,9 @@
           "pick": "Sao Paulo OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Sao Paulo Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -6631,6 +7688,9 @@
           "pick": "Remo OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Remo Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -6644,6 +7704,9 @@
           "pick": "Remo OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Remo Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -6657,6 +7720,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -6690,6 +7756,9 @@
           "pick": "CF Pachuca OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "CF Pachuca Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -6703,6 +7772,9 @@
           "pick": "CF Pachuca OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "CF Pachuca Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -6716,6 +7788,9 @@
           "pick": "Guadalajara Chivas OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Guadalajara Chivas Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -6729,6 +7804,9 @@
           "pick": "Guadalajara Chivas OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Guadalajara Chivas Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -6742,6 +7820,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
@@ -6775,6 +7856,9 @@
           "pick": "Leon OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Leon Más de 0.5 Goles (Anota Gol)",
           "lado": "A"
         },
@@ -6788,6 +7872,9 @@
           "pick": "Leon OVER 4.5 Córners del Equipo",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Leon Más de 4.5 Córners del Equipo",
           "lado": "A"
         },
@@ -6801,6 +7888,9 @@
           "pick": "Cruz Azul OVER 0.5 Goles (Anota Gol)",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Cruz Azul Más de 0.5 Goles (Anota Gol)",
           "lado": "B"
         },
@@ -6814,6 +7904,9 @@
           "pick": "Cruz Azul OVER 2.5 Remates a Puerta",
           "probabilidad": 91.0,
           "racha_l5": "🟢🟢🟢🟢🟢",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "Cruz Azul Más de 2.5 Remates a Puerta",
           "lado": "B"
         },
@@ -6827,6 +7920,9 @@
           "pick": "11.22x",
           "probabilidad": 68.6,
           "racha_l5": "",
+          "es_true_floor": false,
+          "cuota_real": 1.87,
+          "badge_floor": "",
           "pick_amigable": "11.22x",
           "lado": "ALL"
         }
