@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-26 21:14 CST",
+  "updated_at": "2026-11-26 21:33 CST",
   "fecha_operativa": "2026-11-26",
   "kpis": {
     "ganados": 529,
     "perdidos": 377,
     "total_auditados": 906,
     "win_rate": 58.4,
-    "unidades_netas": -210.44,
-    "roi_global": -23.2,
+    "unidades_netas": -126.22,
+    "roi_global": -13.9,
     "picks_hoy": 24,
     "aperturas_activas": 50,
     "props_true_floor_hoy": 0,
@@ -86,8 +86,8 @@
       "perdidos": 92,
       "total": 272,
       "win_rate": 66.2,
-      "unidades": -89.46,
-      "roi": -32.9
+      "unidades": -6.22,
+      "roi": -2.3
     },
     "NFL": {
       "ganados": 89,
@@ -110,8 +110,8 @@
       "perdidos": 0,
       "total": 1,
       "win_rate": 100.0,
-      "unidades": 0.02,
-      "roi": 2.0
+      "unidades": 1.0,
+      "roi": 100.0
     },
     "MLB": {
       "ganados": 48,
@@ -125,123 +125,123 @@
   "curva_banca": [
     {
       "fecha": "2026-10-26",
-      "unidades": -4.02
+      "unidades": -1.56
     },
     {
       "fecha": "2026-10-27",
-      "unidades": -4.98
+      "unidades": -1.12
     },
     {
       "fecha": "2026-10-28",
-      "unidades": -8.89
+      "unidades": -2.52
     },
     {
       "fecha": "2026-10-29",
-      "unidades": -8.93
+      "unidades": -0.74
     },
     {
       "fecha": "2026-10-30",
-      "unidades": -11.84
+      "unidades": -0.43
     },
     {
       "fecha": "2026-10-31",
-      "unidades": -13.76
+      "unidades": 0.06
     },
     {
       "fecha": "2026-11-01",
-      "unidades": -11.45
+      "unidades": 3.26
     },
     {
       "fecha": "2026-11-02",
-      "unidades": -14.38
+      "unidades": 4.74
     },
     {
       "fecha": "2026-11-04",
-      "unidades": -20.29
+      "unidades": 1.15
     },
     {
       "fecha": "2026-11-05",
-      "unidades": -20.6
+      "unidades": 2.06
     },
     {
       "fecha": "2026-11-06",
-      "unidades": -23.03
+      "unidades": 2.28
     },
     {
       "fecha": "2026-11-07",
-      "unidades": -25.39
+      "unidades": 2.26
     },
     {
       "fecha": "2026-11-08",
-      "unidades": -23.84
+      "unidades": 4.85
     },
     {
       "fecha": "2026-11-09",
-      "unidades": -24.85
+      "unidades": 6.2
     },
     {
       "fecha": "2026-11-10",
-      "unidades": -26.55
+      "unidades": 6.03
     },
     {
       "fecha": "2026-11-11",
-      "unidades": -31.35
+      "unidades": 4.89
     },
     {
       "fecha": "2026-11-12",
-      "unidades": -35.62
+      "unidades": 1.93
     },
     {
       "fecha": "2026-11-13",
-      "unidades": -38.68
+      "unidades": 0.08
     },
     {
       "fecha": "2026-11-14",
-      "unidades": -92.89
+      "unidades": -53.19
     },
     {
       "fecha": "2026-11-15",
-      "unidades": -119.61
+      "unidades": -77.51
     },
     {
       "fecha": "2026-11-16",
-      "unidades": -123.91
+      "unidades": -77.85
     },
     {
       "fecha": "2026-11-17",
-      "unidades": -135.6
+      "unidades": -87.93
     },
     {
       "fecha": "2026-11-18",
-      "unidades": -143.71
+      "unidades": -94.22
     },
     {
       "fecha": "2026-11-19",
-      "unidades": -145.63
+      "unidades": -95.44
     },
     {
       "fecha": "2026-11-20",
-      "unidades": -148.39
+      "unidades": -95.19
     },
     {
       "fecha": "2026-11-21",
-      "unidades": -154.75
+      "unidades": -99.13
     },
     {
       "fecha": "2026-11-22",
-      "unidades": -159.75
+      "unidades": -101.81
     },
     {
       "fecha": "2026-11-23",
-      "unidades": -164.71
+      "unidades": -104.82
     },
     {
       "fecha": "2026-11-24",
-      "unidades": -167.56
+      "unidades": -107.42
     },
     {
       "fecha": "2026-11-25",
-      "unidades": -168.89
+      "unidades": -104.9
     }
   ],
   "diamantes": [
@@ -8234,9 +8234,9 @@
       "fecha": "2026-11-25",
       "duelo": "San Antonio Spurs @ Portland Trail Blazers",
       "pick_principal": "Ganador: Portland Trail Blazers",
-      "cuota": 1.02,
+      "cuota": 2.43,
       "estado": "Ganado",
-      "ganancia": 0.02
+      "ganancia": 1.43
     },
     {
       "deporte": "NBA",
@@ -8244,9 +8244,9 @@
       "fecha": "2026-11-25",
       "duelo": "Sacramento Kings @ Golden State Warriors",
       "pick_principal": "Ganador: Golden State Warriors",
-      "cuota": 1.01,
+      "cuota": 1.35,
       "estado": "Ganado",
-      "ganancia": 0.01
+      "ganancia": 0.35
     },
     {
       "deporte": "NBA",
@@ -8254,9 +8254,9 @@
       "fecha": "2026-11-25",
       "duelo": "Phoenix Suns @ Houston Rockets",
       "pick_principal": "Ganador: Houston Rockets",
-      "cuota": 1.01,
+      "cuota": 1.3,
       "estado": "Ganado",
-      "ganancia": 0.01
+      "ganancia": 0.3
     },
     {
       "deporte": "NBA",
@@ -8264,7 +8264,7 @@
       "fecha": "2026-11-25",
       "duelo": "Brooklyn Nets @ Milwaukee Bucks",
       "pick_principal": "Ganador: Milwaukee Bucks",
-      "cuota": 1.02,
+      "cuota": 1.95,
       "estado": "Perdido",
       "ganancia": -1.0
     },
@@ -8274,9 +8274,9 @@
       "fecha": "2026-11-25",
       "duelo": "Minnesota Timberwolves @ Oklahoma City Thunder",
       "pick_principal": "Ganador: Minnesota Timberwolves",
-      "cuota": 1.02,
+      "cuota": 2.22,
       "estado": "Ganado",
-      "ganancia": 0.02
+      "ganancia": 1.22
     },
     {
       "deporte": "NBA",
@@ -8284,9 +8284,9 @@
       "fecha": "2026-11-25",
       "duelo": "Cleveland Cavaliers @ New York Knicks",
       "pick_principal": "Ganador: New York Knicks",
-      "cuota": 1.02,
+      "cuota": 1.63,
       "estado": "Ganado",
-      "ganancia": 0.02
+      "ganancia": 0.63
     },
     {
       "deporte": "NBA",
@@ -8294,7 +8294,7 @@
       "fecha": "2026-11-25",
       "duelo": "Chicago Bulls @ Charlotte Hornets",
       "pick_principal": "Ganador: Charlotte Hornets",
-      "cuota": 1.02,
+      "cuota": 1.6,
       "estado": "Perdido",
       "ganancia": -1.0
     },
@@ -8304,7 +8304,7 @@
       "fecha": "2026-11-25",
       "duelo": "Miami Heat @ Philadelphia 76ers",
       "pick_principal": "Ganador: Miami Heat",
-      "cuota": 1.03,
+      "cuota": 3.0,
       "estado": "Perdido",
       "ganancia": -1.0
     },
@@ -8434,7 +8434,7 @@
       "fecha": "2026-11-24",
       "duelo": "Dallas Mavericks @ Denver Nuggets",
       "pick_principal": "Ganador: Denver Nuggets",
-      "cuota": 1.01,
+      "cuota": 1.38,
       "estado": "Perdido",
       "ganancia": -1.0
     },
@@ -8444,9 +8444,9 @@
       "fecha": "2026-11-24",
       "duelo": "Boston Celtics @ Washington Wizards",
       "pick_principal": "Ganador: Boston Celtics",
-      "cuota": 1.01,
+      "cuota": 1.26,
       "estado": "Ganado",
-      "ganancia": 0.01
+      "ganancia": 0.26
     },
     {
       "deporte": "NBA",
@@ -8454,7 +8454,7 @@
       "fecha": "2026-11-24",
       "duelo": "Detroit Pistons @ Orlando Magic",
       "pick_principal": "Ganador: Orlando Magic",
-      "cuota": 1.02,
+      "cuota": 2.16,
       "estado": "Perdido",
       "ganancia": -1.0
     },
@@ -8574,9 +8574,9 @@
       "fecha": "2026-11-23",
       "duelo": "San Antonio Spurs @ Sacramento Kings",
       "pick_principal": "Ganador: San Antonio Spurs",
-      "cuota": 1.01,
+      "cuota": 1.18,
       "estado": "Ganado",
-      "ganancia": 0.01
+      "ganancia": 0.18
     },
     {
       "deporte": "NBA",
@@ -8584,9 +8584,9 @@
       "fecha": "2026-11-23",
       "duelo": "Utah Jazz @ Los Angeles Lakers",
       "pick_principal": "Ganador: Los Angeles Lakers",
-      "cuota": 1.01,
+      "cuota": 1.16,
       "estado": "Ganado",
-      "ganancia": 0.01
+      "ganancia": 0.16
     },
     {
       "deporte": "NBA",
@@ -8594,9 +8594,9 @@
       "fecha": "2026-11-23",
       "duelo": "Phoenix Suns @ New Orleans Pelicans",
       "pick_principal": "Ganador: Phoenix Suns",
-      "cuota": 1.02,
+      "cuota": 1.72,
       "estado": "Ganado",
-      "ganancia": 0.02
+      "ganancia": 0.72
     },
     {
       "deporte": "NBA",
@@ -8604,7 +8604,7 @@
       "fecha": "2026-11-23",
       "duelo": "Cleveland Cavaliers @ Chicago Bulls",
       "pick_principal": "Ganador: Cleveland Cavaliers",
-      "cuota": 1.01,
+      "cuota": 1.32,
       "estado": "Perdido",
       "ganancia": -1.0
     },
@@ -8614,7 +8614,7 @@
       "fecha": "2026-11-23",
       "duelo": "Milwaukee Bucks @ Toronto Raptors",
       "pick_principal": "Ganador: Toronto Raptors",
-      "cuota": 1.01,
+      "cuota": 1.25,
       "estado": "Perdido",
       "ganancia": -1.0
     },
@@ -8624,7 +8624,7 @@
       "fecha": "2026-11-23",
       "duelo": "Oklahoma City Thunder @ Indiana Pacers",
       "pick_principal": "Ganador: Oklahoma City Thunder",
-      "cuota": 1.02,
+      "cuota": 1.57,
       "estado": "Perdido",
       "ganancia": -1.0
     },
@@ -8634,9 +8634,9 @@
       "fecha": "2026-11-23",
       "duelo": "Brooklyn Nets @ Minnesota Timberwolves",
       "pick_principal": "Ganador: Minnesota Timberwolves",
-      "cuota": 1.01,
+      "cuota": 1.21,
       "estado": "Ganado",
-      "ganancia": 0.01
+      "ganancia": 0.21
     },
     {
       "deporte": "NBA",
@@ -8644,7 +8644,7 @@
       "fecha": "2026-11-23",
       "duelo": "Portland Trail Blazers @ Philadelphia 76ers",
       "pick_principal": "Ganador: Philadelphia 76ers",
-      "cuota": 1.02,
+      "cuota": 1.94,
       "estado": "Perdido",
       "ganancia": -1.0
     },
@@ -8654,9 +8654,9 @@
       "fecha": "2026-11-23",
       "duelo": "Memphis Grizzlies @ Charlotte Hornets",
       "pick_principal": "Ganador: Memphis Grizzlies",
-      "cuota": 1.02,
+      "cuota": 1.75,
       "estado": "Ganado",
-      "ganancia": 0.02
+      "ganancia": 0.75
     },
     {
       "deporte": "NFL",
@@ -8754,7 +8754,7 @@
       "fecha": "2026-11-22",
       "duelo": "Boston Celtics @ Golden State Warriors",
       "pick_principal": "Ganador: Boston Celtics",
-      "cuota": 1.01,
+      "cuota": 1.33,
       "estado": "Perdido",
       "ganancia": -1.0
     },
@@ -8764,9 +8764,9 @@
       "fecha": "2026-11-22",
       "duelo": "Indiana Pacers @ New York Knicks",
       "pick_principal": "Ganador: New York Knicks",
-      "cuota": 1.01,
+      "cuota": 1.32,
       "estado": "Ganado",
-      "ganancia": 0.01
+      "ganancia": 0.32
     },
     {
       "deporte": "NBA",
@@ -8774,7 +8774,7 @@
       "fecha": "2026-11-22",
       "duelo": "Orlando Magic @ Washington Wizards",
       "pick_principal": "Ganador: Orlando Magic",
-      "cuota": 1.02,
+      "cuota": 1.53,
       "estado": "Perdido",
       "ganancia": -1.0
     },
@@ -8784,7 +8784,7 @@
       "fecha": "2026-11-22",
       "duelo": "Dallas Mavericks @ Utah Jazz",
       "pick_principal": "Ganador: Utah Jazz",
-      "cuota": 1.02,
+      "cuota": 1.98,
       "estado": "Perdido",
       "ganancia": -1.0
     },
@@ -8794,9 +8794,9 @@
       "fecha": "2026-11-22",
       "duelo": "Denver Nuggets @ Chicago Bulls",
       "pick_principal": "Ganador: Denver Nuggets",
-      "cuota": 1.01,
+      "cuota": 1.26,
       "estado": "Ganado",
-      "ganancia": 0.01
+      "ganancia": 0.26
     },
     {
       "deporte": "NBA",
@@ -8804,9 +8804,9 @@
       "fecha": "2026-11-22",
       "duelo": "Oklahoma City Thunder @ Miami Heat",
       "pick_principal": "Ganador: Miami Heat",
-      "cuota": 1.02,
+      "cuota": 1.64,
       "estado": "Ganado",
-      "ganancia": 0.02
+      "ganancia": 0.64
     },
     {
       "deporte": "NBA",
@@ -8814,9 +8814,9 @@
       "fecha": "2026-11-22",
       "duelo": "Detroit Pistons @ Atlanta Hawks",
       "pick_principal": "Ganador: Atlanta Hawks",
-      "cuota": 1.02,
+      "cuota": 2.16,
       "estado": "Ganado",
-      "ganancia": 0.02
+      "ganancia": 1.16
     },
     {
       "deporte": "NFL",
