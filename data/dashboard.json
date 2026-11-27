@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27 01:10 CST",
+  "updated_at": "2026-11-27 04:27 CST",
   "fecha_operativa": "2026-11-27",
   "kpis": {
     "ganados": 529,
@@ -13,10 +13,13 @@
     "props_true_floor_hoy": 0,
     "props_true_floor_nba_hoy": 0,
     "props_true_floor_nfl_hoy": 0,
+    "props_true_floor_soccer_hoy": 0,
     "props_nba_hit_rate": 0.0,
     "props_true_floor_hit_rate": 0.0,
     "props_nfl_hit_rate": 0.0,
-    "props_nfl_true_floor_hit_rate": 0.0
+    "props_nfl_true_floor_hit_rate": 0.0,
+    "props_soccer_hit_rate": 0.0,
+    "props_soccer_true_floor_hit_rate": 0.0
   },
   "props_calibracion_nba": {
     "auditados": 0,
@@ -86,11 +89,75 @@
       }
     }
   },
+  "props_calibracion_soccer": {
+    "auditados": 0,
+    "ganados": 0,
+    "perdidos": 0,
+    "push": 0,
+    "hit_rate_pct": 0.0,
+    "unidades": 0.0,
+    "roi_pct": 0.0,
+    "true_floor": {
+      "auditados": 0,
+      "ganados": 0,
+      "perdidos": 0,
+      "hit_rate_pct": 0.0,
+      "unidades": 0.0,
+      "roi_pct": 0.0
+    },
+    "mercados": {
+      "sot_05": {
+        "label": "🎯 Tiros al Arco 0.5+",
+        "ganados": 0,
+        "total": 0,
+        "pct": 0.0,
+        "unidades": 0.0
+      },
+      "sot_15": {
+        "label": "🎯 Tiros al Arco 1.5+",
+        "ganados": 0,
+        "total": 0,
+        "pct": 0.0,
+        "unidades": 0.0
+      },
+      "goal_or_assist": {
+        "label": "🤝 Anota o Asiste",
+        "ganados": 0,
+        "total": 0,
+        "pct": 0.0,
+        "unidades": 0.0
+      },
+      "anytime_goal": {
+        "label": "⚽ Anota Gol",
+        "ganados": 0,
+        "total": 0,
+        "pct": 0.0,
+        "unidades": 0.0
+      }
+    },
+    "cubetas": {
+      "70-74%": {
+        "ganados": 0,
+        "total": 0,
+        "pct": 0.0
+      },
+      "75-79%": {
+        "ganados": 0,
+        "total": 0,
+        "pct": 0.0
+      },
+      "80%+": {
+        "ganados": 0,
+        "total": 0,
+        "pct": 0.0
+      }
+    }
+  },
   "motores": [
     {
       "deporte": "NBA",
       "version": "V14.0",
-      "horario": "09:30 Líneas • 17:00 Pronósticos",
+      "horario": "08:00 Líneas • 17:00 Pronósticos",
       "modulo": "True Floor-Lock L10, Monte Carlo bivariado, Poisson/No-Vig y árbitros"
     },
     {
@@ -101,9 +168,9 @@
     },
     {
       "deporte": "SOCCER",
-      "version": "V10.0",
-      "horario": "06:00 Líneas • 07:30 Pronósticos",
-      "modulo": "Modelo de goles Dixon-Coles, Machine Learning y cuotas Pinnacle"
+      "version": "V11.0",
+      "horario": "01:00 Líneas • 04:30 Pronósticos",
+      "modulo": "Dixon-Coles, XGBoost V2, filtro >=1.60 +EV y Player Props (Gol / Tiros al Arco / G+A)"
     },
     {
       "deporte": "TENNIS",
