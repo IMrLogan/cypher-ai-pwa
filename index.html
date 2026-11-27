@@ -153,7 +153,7 @@
     .badge.amber { background: rgba(245, 158, 11, 0.15); color: var(--amber); }
     .badge.purple { background: rgba(168, 85, 247, 0.16); color: #d8b4fe; }
 
-    /* INSIGNIA TRUE FLOOR Y CALIBRACIÓN PROPS NBA */
+    /* INSIGNIA TRUE FLOOR Y CALIBRACIÓN PROPS (NBA + NFL) */
     .badge-true-floor {
       display: inline-flex; align-items: center; gap: 4px;
       padding: 2px 8px; border-radius: 999px;
@@ -176,12 +176,20 @@
       color: #fde68a; background: rgba(245, 158, 11, 0.14);
       border: 1px solid rgba(245, 158, 11, 0.28);
     }
+    .props-cal-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 10px; margin-bottom: 12px;
+    }
     .props-cal-bar {
       display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px;
       background: linear-gradient(135deg, rgba(0, 229, 255, 0.08), rgba(16, 185, 129, 0.08));
       border: 1px solid rgba(0, 229, 255, 0.28);
-      border-radius: 13px; padding: 10px 13px; margin-bottom: 12px;
+      border-radius: 13px; padding: 10px 13px;
       font-size: 0.76rem;
+    }
+    .props-cal-bar.nfl-bar {
+      background: linear-gradient(135deg, rgba(168, 85, 247, 0.10), rgba(0, 229, 255, 0.08));
+      border-color: rgba(168, 85, 247, 0.34);
     }
     .props-cal-chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
     .props-cal-chip {
@@ -190,6 +198,11 @@
       border-radius: 999px; padding: 3px 9px; color: #e2e8f0;
     }
     .props-cal-chip.tf { border-color: rgba(0, 229, 255, 0.45); color: var(--cyan); }
+    .cal-roi-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 14px; margin-bottom: 14px;
+    }
+    .cal-roi-grid .section-box { margin-bottom: 0; }
 
     /* BLOQUE ESCUDO VS ESCUDO (CLIC POR EQUIPO) */
     .matchup-banner {
@@ -577,7 +590,7 @@
         <div class="section-title"><span>Evolución de Ganancias (Unidades)</span><span class="mono cyan" id="chartMax"></span></div>
         <div id="equityChart"></div>
       </div>
-      <div class="section-box" id="propsCalRoiBox"></div>
+      <div id="propsCalRoiBox" class="cal-roi-grid"></div>
       <div class="section-box">
         <div class="section-title"><span>Efectividad por Deporte</span></div>
         <table>
@@ -763,37 +776,56 @@
       });
     }
 
-    function renderCalibracionPropsBar(cal, trueFloorHoy) {
-      if (!cal) return '';
-      if (activeSport !== 'ALL' && activeSport !== 'NBA') return '';
-      if (!cal.auditados && !trueFloorHoy) return '';
+    function renderUnaBarraCalProps(titulo, cal, trueFloorHoy, fuenteNota, extraClass = '') {
+      if (!cal && !trueFloorHoy) return '';
+      const aud = Number(cal?.auditados || 0);
+      if (!aud && !trueFloorHoy) return '';
 
-      const tf = cal.true_floor || {};
+      const tf = cal?.true_floor || {};
       const tfChip = tf.auditados
         ? `<span class="props-cal-chip tf">🔒 True Floor: ${Number(tf.hit_rate_pct).toFixed(1)}% (${tf.ganados}/${tf.auditados})</span>`
         : (trueFloorHoy ? `<span class="props-cal-chip tf">🔒 ${trueFloorHoy} True Floor hoy</span>` : '');
-      const globChip = cal.auditados
-        ? `<span class="props-cal-chip">📊 Global: ${Number(cal.hit_rate_pct).toFixed(1)}% (${cal.ganados}/${cal.auditados})</span>
+      const globChip = aud
+        ? `<span class="props-cal-chip">📊 Global: ${Number(cal.hit_rate_pct).toFixed(1)}% (${cal.ganados}/${aud})</span>
            <span class="props-cal-chip ${cal.unidades >= 0 ? 'pos' : 'neg'}">💰 ${cal.unidades >= 0 ? '+' : ''}${Number(cal.unidades).toFixed(2)} U</span>`
-        : `<span class="props-cal-chip">🎯 Calibración automática activa (boxscore oficial)</span>`;
+        : `<span class="props-cal-chip">🎯 ${esc(fuenteNota)}</span>`;
 
       return `
-        <div class="props-cal-bar">
-          <strong>🏀 Calibración Real Props NBA V14.0</strong>
+        <div class="props-cal-bar ${extraClass}">
+          <strong>${titulo}</strong>
           <div class="props-cal-chips">${tfChip}${globChip}</div>
         </div>`;
     }
 
-    function renderCalibracionPropsRoiBox(cal) {
-      const box = document.getElementById('propsCalRoiBox');
+    function renderCalibracionPropsBars(data) {
+      const k = data.kpis || {};
+      const allProps = data.props || [];
+      const tfNbaHoy = k.props_true_floor_nba_hoy ?? allProps.filter((x) => x.es_true_floor && x.deporte === 'NBA').length;
+      const tfNflHoy = k.props_true_floor_nfl_hoy ?? allProps.filter((x) => x.es_true_floor && x.deporte === 'NFL').length;
+
+      const bloques = [];
+      if (activeSport === 'ALL' || activeSport === 'NBA') {
+        const bNba = renderUnaBarraCalProps('🏀 Calibración Props NBA V14.0', data.props_calibracion_nba, tfNbaHoy, 'Auditoría boxscore oficial');
+        if (bNba) bloques.push(bNba);
+      }
+      if (activeSport === 'ALL' || activeSport === 'NFL') {
+        const bNfl = renderUnaBarraCalProps('🏈 Calibración Props NFL V11.0', data.props_calibracion_nfl, tfNflHoy, 'Auditoría Play-by-Play oficial', 'nfl-bar');
+        if (bNfl) bloques.push(bNfl);
+      }
+
+      return bloques.length ? `<div class="props-cal-grid">${bloques.join('')}</div>` : '';
+    }
+
+    function renderUnaTarjetaCalRoi(titulo, badgeFuente, cal, msgVacio) {
       if (!cal || !cal.auditados) {
-        box.innerHTML = `
-          <div class="section-title">
-            <span>🎯 Calibración Real Player Props NBA (V14.0)</span>
-            <span class="badge">BOXSCORE OFICIAL</span>
-          </div>
-          <div class="empty-state">La efectividad real de Player Props y picks <b>🔒 TRUE FLOOR</b> aparecerá aquí automáticamente en cuanto se audite la primera jornada V14.0.</div>`;
-        return;
+        return `
+          <div class="section-box">
+            <div class="section-title">
+              <span>${titulo}</span>
+              <span class="badge">${esc(badgeFuente)}</span>
+            </div>
+            <div class="empty-state">${msgVacio}</div>
+          </div>`;
       }
 
       const tf = cal.true_floor || {};
@@ -808,20 +840,46 @@
           </tr>`;
       }).join('');
 
-      box.innerHTML = `
-        <div class="section-title">
-          <span>🎯 Calibración Real Player Props NBA (V14.0)</span>
-          <span class="badge-true-floor">🔒 True Floor: ${tf.auditados ? Number(tf.hit_rate_pct).toFixed(1) + '%' : 'Auditando'}</span>
-        </div>
-        <div class="props-cal-chips" style="margin-bottom:10px;">
-          <span class="props-cal-chip">📊 Global: ${cal.ganados}/${cal.auditados} (${Number(cal.hit_rate_pct).toFixed(1)}%)</span>
-          <span class="props-cal-chip tf">🔒 True Floor: ${tf.ganados || 0}/${tf.auditados || 0} (${Number(tf.hit_rate_pct || 0).toFixed(1)}%)</span>
-          <span class="props-cal-chip ${cal.unidades >= 0 ? 'pos' : 'neg'}">💰 ${cal.unidades >= 0 ? '+' : ''}${Number(cal.unidades).toFixed(2)} U (ROI ${cal.roi_pct >= 0 ? '+' : ''}${Number(cal.roi_pct).toFixed(1)}%)</span>
-        </div>
-        <table>
-          <thead><tr><th>Rango de Probabilidad</th><th>Aciertos / Total</th><th>Efectividad Real</th></tr></thead>
-          <tbody>${filasCubetas}</tbody>
-        </table>`;
+      return `
+        <div class="section-box">
+          <div class="section-title">
+            <span>${titulo}</span>
+            <span class="badge-true-floor">🔒 True Floor: ${tf.auditados ? Number(tf.hit_rate_pct).toFixed(1) + '%' : 'Auditando'}</span>
+          </div>
+          <div class="props-cal-chips" style="margin-bottom:10px;">
+            <span class="props-cal-chip">📊 Global: ${cal.ganados}/${cal.auditados} (${Number(cal.hit_rate_pct).toFixed(1)}%)</span>
+            <span class="props-cal-chip tf">🔒 True Floor: ${tf.ganados || 0}/${tf.auditados || 0} (${Number(tf.hit_rate_pct || 0).toFixed(1)}%)</span>
+            <span class="props-cal-chip ${cal.unidades >= 0 ? 'pos' : 'neg'}">💰 ${cal.unidades >= 0 ? '+' : ''}${Number(cal.unidades).toFixed(2)} U (ROI ${cal.roi_pct >= 0 ? '+' : ''}${Number(cal.roi_pct).toFixed(1)}%)</span>
+          </div>
+          <table>
+            <thead><tr><th>Rango de Probabilidad</th><th>Aciertos / Total</th><th>Efectividad Real</th></tr></thead>
+            <tbody>${filasCubetas}</tbody>
+          </table>
+        </div>`;
+    }
+
+    function renderCalibracionPropsRoiBox(calNba, calNfl) {
+      const box = document.getElementById('propsCalRoiBox');
+      const cards = [];
+
+      if (activeSport !== 'NFL') {
+        cards.push(renderUnaTarjetaCalRoi(
+          '🏀 Calibración Player Props NBA (V14.0)',
+          'BOXSCORE OFICIAL',
+          calNba,
+          'La efectividad real de Player Props NBA y picks <b>🔒 TRUE FLOOR</b> aparecerá aquí automáticamente al auditar la primera jornada V14.0.'
+        ));
+      }
+      if (activeSport !== 'NBA') {
+        cards.push(renderUnaTarjetaCalRoi(
+          '🏈 Calibración Player Props NFL (V11.0)',
+          'PLAY-BY-PLAY OFICIAL',
+          calNfl,
+          'La efectividad real de Player Props NFL y picks <b>🔒 TRUE FLOOR</b> aparecerá aquí automáticamente al auditar la primera jornada V11.0.'
+        ));
+      }
+
+      box.innerHTML = cards.join('');
     }
 
     function renderPropCard(pr) {
@@ -1158,11 +1216,8 @@
         ? picks.map(renderPickCard).join('')
         : `<div class="empty-state" style="grid-column:1/-1;">Todavía no se publican los pronósticos finales de este deporte hoy.<br/>Puedes consultar los partidos programados en <b>📸 Líneas Iniciales</b>.</div>`;
 
-      // 2. Top Jugadores + Calibración Props NBA + Filtro True Floor
-      document.getElementById('propsCalContainer').innerHTML = renderCalibracionPropsBar(
-        DATA.props_calibracion_nba,
-        Number(k.props_true_floor_hoy || 0)
-      );
+      // 2. Top Jugadores + Calibración Props NBA & NFL + Filtro True Floor
+      document.getElementById('propsCalContainer').innerHTML = renderCalibracionPropsBars(DATA);
 
       const pRes = filtrar(DATA.props_resumenes);
       document.getElementById('propsResumenContainer').innerHTML = pRes.map((r) => `
@@ -1215,7 +1270,7 @@
         </article>`).join('') :
         `<div class="empty-state" style="grid-column:1/-1;">Aún no hay combinadas sugeridas para este deporte hoy.</div>`;
 
-      // 4. Líneas Iniciales (con fecha/hora y clicables para radiografía)
+      // 4. Líneas Iniciales
       const aps = filtrar(DATA.aperturas);
       document.getElementById('aperturasContainer').innerHTML = aps.length ? aps.map((a) => {
         MATCH_LOOKUP.set(a.id, a);
@@ -1239,9 +1294,9 @@
       }).join('') :
         `<div class="empty-state" style="grid-column:1/-1;">No hay líneas iniciales registradas para este deporte.</div>`;
 
-      // 5. Resultados, Calibración Props NBA y Motores
+      // 5. Resultados, Calibración Props (NBA + NFL) y Motores
       renderEquityChart(DATA.curva_banca);
-      renderCalibracionPropsRoiBox(DATA.props_calibracion_nba);
+      renderCalibracionPropsRoiBox(DATA.props_calibracion_nba, DATA.props_calibracion_nfl);
 
       document.getElementById('sportSummaryBody').innerHTML = Object.entries(DATA.resumen_deportes || {}).map(([dep, v]) => `
         <tr>
@@ -1288,7 +1343,7 @@
     const ONESIGNAL_APP_ID = "d1621b22-f495-4dfa-84ac-df592f2b4280";
     const PUSH_SPORTS = [
       { id: 'NBA',    tag: 'sport_nba',    label: '🏀 NBA',    sub: 'Partidos, Diamante, True Floor Props y SGP' },
-      { id: 'NFL',    tag: 'sport_nfl',    label: '🏈 NFL',    sub: 'Ventanas oficiales y días especiales' },
+      { id: 'NFL',    tag: 'sport_nfl',    label: '🏈 NFL',    sub: 'True Floor Props L8, ventanas oficiales y SGP' },
       { id: 'SOCCER', tag: 'sport_soccer', label: '⚽ Soccer', sub: 'Premier, Serie A, LaLiga y ligas top' },
       { id: 'TENNIS', tag: 'sport_tennis', label: '🎾 Tenis',  sub: 'ATP, WTA y torneos internacionales' },
       { id: 'MLB',    tag: 'sport_mlb',    label: '⚾ MLB',    sub: 'Temporada regular y playoffs (Mar–Nov)' }

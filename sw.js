@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cypher-ai-pwa-v6';
+const CACHE_NAME = 'cypher-ai-pwa-v7';
 const SHELL_ASSETS = ['./', './index.html', './manifest.json', './assets/icon.svg'];
 
 self.addEventListener('install', (e) => {
